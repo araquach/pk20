@@ -1,24 +1,58 @@
-import Home from './components/home'
-import About from './components/About'
-import Login from './components/auth/Login'
-import Register from  './components/auth/Register'
-import Protected from './components/Protected'
-import {store} from "./store/store";
+import Home from "./components/home"
+import Blog from "./components/Blog"
+import Men from "./components/Men"
+import Offers from "./components/Offers"
+import Recruitment from "./components/Recruitment"
+import Reviews from "./components/Reviews"
+import Salon from "./components/Salon"
+import Team from "./components/Team"
+import Contact from "./components/Contact"
 
 export const routes = [
-    { path: '', component: Home },
-    { path: '/login', component: Login },
-    { path: '/about', component: About },
-    { path: '/register', component: Register },
     {
-        path: '/protected',
-        component: Protected,
-        beforeEnter: (to, from, next) => {
-            if (store.getters.isLoggedIn) {
-                next()
-                return
-            }
-            next('/')
-        }}
+        path: "",
+        component: Home,
+        name: "home"
+    },
+    {
+        path: "/blog",
+        component: Blog,
+        name: "blog"
+    },
+    {
+        path: "/men",
+        component: Men,
+        name: "men"
+    },
+    {
+        path: "/offers",
+        component: Offers,
+        name: "offers"
+    },
+    {
+        path: "/recruitment",
+        component: Recruitment,
+        name: "recruitment"
+    },
+    {
+        path: "/reviews",
+        component: Reviews,
+        name: "reviews"
+    },
+    {
+        path: "/salon",
+        component: Salon,
+        name: "salon"
+    },
+    {
+        path: "/team",
+        component: Team,
+        name: "team"
+    },
+    {
+        path: "/contact",
+        component: Contact,
+        name: "contact"
+    }
 ]
 
