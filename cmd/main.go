@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
@@ -12,27 +13,8 @@ import (
 )
 
 var (
-	tplIndex *template.Template
+	tpl *template.Template
 )
-
-type Error struct {
-	Message string `json:"message"`
-}
-
-type User struct {
-	ID        	uint       	`json:"id" gorm:"primary_key"`
-	Name 		string 		`json:"name"`
-	Email 		string 		`json:"email" gorm:"unique_index"`
-	Password 	string 		`json:"password"`
-	IsAdmin		bool 		`json:"is_admin"`
-	Token		string 		`json:"token" gorm:"-"`
-}
-
-type Test struct {
-	Id			uint 	`json:"id" gorm: "primary_key"`
-	FirstName 	string 	`json:"first_name"`
-	LastName	string 	`json:"last_name"`
-}
 
 func dbConn() (db *gorm.DB) {
 	db, err := gorm.Open("postgres", os.Getenv("DATABASE_URL"))
@@ -51,6 +33,8 @@ func init() {
 
 func main() {
 	var err error
+	var dir string
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		log.Fatal("$PORT must be set")
@@ -58,30 +42,33 @@ func main() {
 
 	db := dbConn()
 	db.LogMode(true)
-	db.AutoMigrate(&User{}, &Test{})
+	db.AutoMigrate(&TeamMember{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &MetaInfo{}, &Booking{})
 	db.Close()
 
-	tplIndex = template.Must(template.ParseFiles(
-		"views/layouts/main.gohtml",
-		"views/pages/index.gohtml"))
+	tpl = template.Must(template.ParseFiles(
+		"views/index.gohtml"))
 	if err != nil {
 		panic(err)
 	}
 
 
+	flag.StringVar(&dir, "dir", "dist", "the directory to serve files from")
+	flag.Parse()
 	r := mux.NewRouter()
-	r.HandleFunc("/", index).Methods("GET")
-	r.HandleFunc(`/{[a-zA-Z0-9=\-\/]+}`, index).Methods("GET")
 
-	// api
-	r.HandleFunc("/api/register", apiRegister).Methods("POST")
-	r.HandleFunc("/api/login", apiLogin).Methods("POST")
-	r.HandleFunc("/api/test", TokenVerifyMiddleWare(apiTest)).Methods("GET")
-
-	// Styles
-	assetHandler := http.FileServer(http.Dir("./dist/"))
-	assetHandler = http.StripPrefix("/dist/", assetHandler)
-	r.PathPrefix("/dist/").Handler(assetHandler)
+	r.PathPrefix("/dist/").Handler(http.StripPrefix("/dist/", http.FileServer(http.Dir(dir))))
+	r.HandleFunc("/api/team", apiTeam)
+	r.HandleFunc("/api/team/{slug}", apiTeamMember)
+	r.HandleFunc("/api/sendMessage", apiSendMessage)
+	r.HandleFunc("/api/joinus", apiJoinus)
+	r.HandleFunc("/api/models", apiModel)
+	r.HandleFunc("/api/reviews/{tm}", apiReviews)
+	r.HandleFunc("/api/bookings", apiBookings)
+	r.HandleFunc("/api/blogpost/{slug}", apiBlogPost).Methods("GET")
+	r.HandleFunc("/api/blogposts", apiBlogPosts).Methods("GET")
+	r.HandleFunc("/{category}/{name}", home)
+	r.HandleFunc("/{name}", home)
+	r.HandleFunc("/", home)
 
 	log.Printf("Starting server on %s", port)
 
