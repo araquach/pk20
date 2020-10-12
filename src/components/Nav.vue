@@ -1,5 +1,5 @@
 <template>
-  <b-navbar class="is-fixed-top is-spaced">
+  <b-navbar class="is-spaced">
     <template slot="start">
       <b-navbar-item tag="router-link" :to="{ name: 'home' }">
         Home
