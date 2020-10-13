@@ -333,3 +333,37 @@ func apiBlogPosts(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Write(json)
 }
+
+func apiNewsItems(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	blogs := []Blog{}
+
+	f, _ := os.Open("./blog")
+	fis, _ := f.Readdir(-1)
+	f.Close()
+
+	fis = fis[0:4]
+
+	for _, fi := range fis {
+		data, err := ioutil.ReadFile("./blog/" + fi.Name())
+		if err != nil {
+			fmt.Println("File reading error", err)
+			return
+		}
+		slug := strings.Split(fi.Name(), ".")
+		lines := strings.Split(string(data), "\n")
+		title := string(lines[0])
+		image := string(lines[3])
+		date := string(lines[1])
+		text := string(lines[5])
+		body := strings.Split(text, ".")
+
+		blogs = append(blogs, Blog{Slug: slug[0], Date: date, Title: title, Image: image, Body: body[0]})
+	}
+	json, err := json.Marshal(blogs)
+	if err != nil {
+		log.Panic(err)
+	}
+	w.Write(json)
+}

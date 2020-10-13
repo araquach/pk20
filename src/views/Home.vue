@@ -20,9 +20,28 @@
         </section>
       </div>
     </div>
-
-    <div v-for="newsItem in NewsItems" class="section columns">
-      <NewsItem :news-item="newsItem"/>
+    <div class="columns">
+      <div v-for="(newsItem, id) in newsItems" class="section column">
+        <router-link :to="{ name: 'blog-post', params: { slug: newsItem.slug } }">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img :src="newsItem.image" :alt="newsItem.alt">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-6 is-size-4-mobile has-text-white">{{ newsItem.title }}Test</p>
+                </div>
+              </div>
+              <div class="content is-size-7 is-size-5-mobile">
+                <p class="is-size-7 is-size-4-mobile has-text-white" v-html="$options.filters.textLimit(newsItem.body, 120) + '...'">Hello!</p>
+              </div>
+            </div>
+          </div>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>

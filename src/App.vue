@@ -1,14 +1,18 @@
 <template>
-    <div class="container">
-        <Nav/>
-        <router-view/>
+  <div id="main">
+    <div class="main container">
+      <Header/>
+      <router-view/>
+      <Footer/>
     </div>
+  </div>
 </template>
 
 <script>
-  import Nav from "./components/Nav"
+  import Header from "./components/Header"
+  import Footer from "./components/Footer";
 
   export default {
-    components: { Nav }
+    components: {Footer, Header }
   }
 </script>
