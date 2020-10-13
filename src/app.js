@@ -12,6 +12,10 @@ Vue.use(VueRouter)
 
 window.axios = require('axios')
 
+Vue.filter('textLimit', function (text, length) {
+    return text.substring(0, length)
+})
+
 const router = new VueRouter({
     mode: 'history',
     routes
