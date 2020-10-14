@@ -137,19 +137,22 @@ func apiReviews(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	reviews := []Review{}
-
 	vars := mux.Vars(r)
-
 	param := vars["tm"]
+
+	if param == "brad" {
+		param = "bradley"
+	}
+
 	param = strings.Title(param)
 
 	if param == "All" {
 		db := dbConn()
-		db.Where("salon = ?", 3).Find(&reviews)
+		db.Where("salon = ?", 2).Find(&reviews)
 		db.Close()
 	} else {
 		db := dbConn()
-		db.Where("salon = ?", "3").Where("staff LIKE ?", "Staff: "+param+" %").Find(&reviews)
+		db.Where("salon = ?", "2").Where("stylist LIKE ?", "Staff: " + param +" %").Find(&reviews)
 		db.Close()
 	}
 

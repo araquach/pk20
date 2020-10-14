@@ -17567,6 +17567,16 @@ p {
   }
 }
 
+.review-feed p {
+  font-size: 0.6rem;
+  margin-bottom: 0;
+}
+
+.review-feed p:first-of-type {
+  font-size: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+
 /* Home Page */
 
 #home {

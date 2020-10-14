@@ -6,7 +6,7 @@
           <img :src="teamMember.image" :alt="teamMember.first_name">
         </figure>
         <div id="feedback_feed_ind" class="box is-shadowless">
-          <ReviewFeedInd/>
+          <ReviewFeed/>
         </div>
       </div>
       <div class="column section is-size-6 is-size-5-mobile">
@@ -33,10 +33,10 @@
   </div>
 </template>
 <script>
-  import ReviewFeedInd from "../components/ReviewFeedInd"
+  import ReviewFeed from "../components/ReviewFeed"
 
   export default {
-    components: {ReviewFeedInd },
+    components: { ReviewFeed },
 
     data() {
       return {

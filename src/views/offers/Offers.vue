@@ -6,11 +6,11 @@
           <h1 class="title is-2 has-text-primary">Latest Special Offers</h1>
         </div>
       </div>
-      <a href="{{ URL::to('offers/abi') }}">
+      <router-link :to="{  name: 'abi-offer' }">
         <div class="box">
           <div class="columns">
             <div class="column">
-              <img src="{{ asset('images/offer/individual/abi.png') }}" alt="Abi">
+              <img src="/dist/img/offer/abi.png" alt="Abi Clarke">
             </div>
             <section class="column is-8">
               <h2 class="title is-3">25% off your first visit to Abi</h2>
@@ -21,12 +21,12 @@
             </section>
           </div>
         </div>
-      </a>
-      <a href="{{ URL::to('offers/david') }}">
+      </router-link>
+      <router-link :to="{ name: 'david-offer' }">
         <div class="box">
           <div class="columns">
             <div class="column">
-              <img src="{{ asset('images/offer/david.png') }}" alt="David Randles">
+              <img src="/dist/img/offer/david.png" alt="David Randles">
             </div>
             <section class="column is-8">
               <h2 class="title is-3">Special Limited offer with David</h2>
@@ -38,7 +38,7 @@
             </section>
           </div>
         </div>
-      </a>
+      </router-link>
       <a href="https://phorest.com/book/salons/paulkemp" class="button is-primary">Book Now</a>
       <br><br>
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>

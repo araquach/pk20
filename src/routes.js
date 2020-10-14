@@ -1,7 +1,11 @@
 import Home from "./views/Home"
 // import Blog from "./views/Blog"
 import Men from "./views/Men"
-// import Offers from "./views/Offers"
+import Offers from "./views/offers/Offers"
+import BradOffer from "./views/offers/Brad"
+import AbiOffer from "./views/offers/Abi"
+import DavidOffer from "./views/offers/David"
+import JoOffer from "./views/offers/Jo"
 // import Recruitment from "./views/Recruitment"
 // import Reviews from "./views/Reviews"
 import Salon from "./views/Salon"
@@ -25,11 +29,32 @@ export const routes = [
         component: Men,
         name: "men"
     },
-    // {
-    //     path: "/offers",
-    //     component: Offers,
-    //     name: "offers"
-    // },
+    {
+        path: "/offers",
+        component: Offers,
+        name: "offers"
+    },
+    {
+        path: "/offers/david",
+        component: DavidOffer,
+        name: "david-offer"
+    },
+    {
+        path: "/offers/abi",
+        component: AbiOffer,
+        name: "abi-offer"
+    },
+    {
+        path: "/offers/brad",
+        component: BradOffer,
+        name: "brad-offer"
+    },
+    {
+        path: "/offers/jo",
+        component: JoOffer,
+        name: "jo-offer"
+    },
+
     // {
     //     path: "/recruitment",
     //     component: Recruitment,

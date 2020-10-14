@@ -122,6 +122,18 @@ p {
   }
 }
 
+.review-feed {
+  p {
+    font-size: .6rem;
+    margin-bottom: 0;
+  }
+
+  p:first-of-type {
+    font-size: .8rem;
+    margin-bottom: .7rem;
+  }
+}
+
 /* Home Page */
 
 #home {
