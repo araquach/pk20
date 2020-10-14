@@ -17,12 +17,11 @@
         </a>
       </div>
       <div class="column">
-        <a href="https://www.pinterest.co.uk/PKHairdressing/"></a>
+        <a href="https://www.pinterest.co.uk/PKHairdressing/">
           <img src="/dist/img/footer/social/pinterest.png">
         </a>
       </div>
     </div>
-    <p class="is-size-7 has-text-centered">Find us in the directory of <a href='http://www.warrington.co.uk/hairdressers/' class="directory-link">Warrington Hairdressers</a></p>
   </footer>
 </template>
 

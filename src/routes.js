@@ -1,11 +1,12 @@
 import Home from "./views/Home"
 // import Blog from "./views/Blog"
-// import Men from "./views/Men"
+import Men from "./views/Men"
 // import Offers from "./views/Offers"
 // import Recruitment from "./views/Recruitment"
 // import Reviews from "./views/Reviews"
-// import Salon from "./views/Salon"
-// import Team from "./views/Team"
+import Salon from "./views/Salon"
+import Team from "./views/Team"
+import TeamDetail from "./views/TeamDetail"
 // import Contact from "./views/Contact"
 
 export const routes = [
@@ -19,11 +20,11 @@ export const routes = [
     //     component: Blog,
     //     name: "blog"
     // },
-    // {
-    //     path: "/men",
-    //     component: Men,
-    //     name: "men"
-    // },
+    {
+        path: "/men",
+        component: Men,
+        name: "men"
+    },
     // {
     //     path: "/offers",
     //     component: Offers,
@@ -39,16 +40,22 @@ export const routes = [
     //     component: Reviews,
     //     name: "reviews"
     // },
-    // {
-    //     path: "/salon",
-    //     component: Salon,
-    //     name: "salon"
-    // },
-    // {
-    //     path: "/team",
-    //     component: Team,
-    //     name: "team"
-    // },
+    {
+        path: "/salon",
+        component: Salon,
+        name: "salon"
+    },
+    {
+        path: "/team",
+        component: Team,
+        name: "team"
+    },
+    {
+        path: '/team/:slug',
+        name: 'team-detail',
+        component: TeamDetail,
+        props: true
+    },
     // {
     //     path: "/contact",
     //     component: Contact,

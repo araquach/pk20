@@ -39,45 +39,8 @@
           </div>
         </div>
       </a>
-
-
-      <!-- <a href="{{ URL::to('offers/sarah') }}">
-        <div class="box">
-          <div class="columns">
-            <div class="column">
-              <img src="{{ asset('images/offer/individual/sarah.png') }}" alt="Sarah">
-            </div>
-            <section class="column is-8">
-              <h2 class="title is-3">25% off your first visit with Sarah</h2>
-              <p>Our seriously talented Senior Stylist Sarah has over 12 years experience and is a big name in the salon!</p>
-              <p class="is-size-4"><strong>A Colour & Cut from just £80</strong></p>
-              <p>Click for more info</p>
-              <small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
-            </section>
-          </div>
-        </div>
-      </a> -->
-      <!-- <a href="{{ URL::to('offers/jo') }}">
-        <div class="box">
-          <div class="columns">
-            <div class="column">
-              <img src="{{ asset('images/offer/individual/jo.png') }}" alt="Jo">
-            </div>
-            <section class="column is-8">
-              <h2 class="title is-3">25% off your first visit with Jo</h2>
-              <p>Jo is one of the longest standing members of th PK team and is a sought after hairdreser.</p>
-              <p class="is-size-4"><strong>A Colour & Cut from just £80</strong></p>
-              <p>Click for more info</p>
-              <small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
-            </section>
-          </div>
-        </div>
-      </a> -->
-
-      {!! link_to('booking', "Book now", array('class'=>'button')) !!}
-
+      <a href="https://phorest.com/book/salons/paulkemp" class="button is-primary">Book Now</a>
       <br><br>
-
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
     </section>
   </div> <!--end #offers-->

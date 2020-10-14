@@ -4,7 +4,6 @@
       <div class="hero-body">
       </div>
     </section>
-
     <div class="section tile is-ancestor is-size-5-mobile">
       <div class="tile is-parent is-5">
         <div class="tile is-child">
@@ -18,24 +17,24 @@
       <div class="tile is-parent is-vertical">
         <div class="tile is-child">
           <figure class="image is-240x270">
-            {{ Html::image('images/men/men1.jpg') }}
+            <img src="/dist/img/men/men1.jpg" alt="Mens Hair 1">
           </figure>
         </div>
         <div class="tile is-child">
           <figure class="image is-240x270">
-            {{ Html::image('images/men/men2.jpg') }}
+            <img src="/dist/img/men/men2.jpg" alt="Mens Hair 2">
           </figure>
         </div>
       </div>
       <div class="tile is-parent is-vertical">
         <div class="tile is-child">
           <figure class="image is-240x270">
-            {{ Html::image('images/men/men3.jpg') }}
-            <figure class="image is-240x160">
+            <img src="/dist/img/men/men3.jpg" alt="Mens Hair 3">
+          </figure>
         </div>
         <div class="tile is-child">
           <figure class="image is-240x270">
-            {{ Html::image('images/men/men4.jpg') }}
+            <img src="/dist/img/men/men4.jpg" alt="Mens Hair 4">
           </figure>
         </div>
       </div>
