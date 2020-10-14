@@ -8,7 +8,7 @@ import AbiOffer from "./views/offers/Abi"
 import DavidOffer from "./views/offers/David"
 import JoOffer from "./views/offers/Jo"
 // import Recruitment from "./views/Recruitment"
-// import Reviews from "./views/Reviews"
+import Reviews from "./views/Reviews"
 import Salon from "./views/Salon"
 import Team from "./views/Team"
 import TeamDetail from "./views/TeamDetail"
@@ -67,11 +67,11 @@ export const routes = [
     //     component: Recruitment,
     //     name: "recruitment"
     // },
-    // {
-    //     path: "/reviews",
-    //     component: Reviews,
-    //     name: "reviews"
-    // },
+    {
+        path: "/reviews",
+        component: Reviews,
+        name: "reviews"
+    },
     {
         path: "/salon",
         component: Salon,
