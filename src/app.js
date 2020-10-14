@@ -3,12 +3,14 @@ import VueRouter from 'vue-router'
 import Vuelidate from 'vuelidate'
 import App from './App.vue'
 import { routes } from "./routes"
+import VueMoment from "vue-moment"
 
 import Buefy from 'buefy'
 
 Vue.use(Buefy)
 Vue.use(Vuelidate)
 Vue.use(VueRouter)
+Vue.use(VueMoment)
 
 window.axios = require('axios')
 

@@ -1,5 +1,6 @@
 import Home from "./views/Home"
-// import Blog from "./views/Blog"
+import Blog from "./views/Blog"
+import BlogPost from "./views/BlogPost"
 import Men from "./views/Men"
 import Offers from "./views/offers/Offers"
 import BradOffer from "./views/offers/Brad"
@@ -19,11 +20,17 @@ export const routes = [
         component: Home,
         name: "home"
     },
-    // {
-    //     path: "/blog",
-    //     component: Blog,
-    //     name: "blog"
-    // },
+    {
+        path: "/blog",
+        component: Blog,
+        name: "blog"
+    },
+    {
+        path: '/blog/:slug',
+        name: 'blog-post',
+        component: BlogPost,
+        props: true
+    },
     {
         path: "/men",
         component: Men,
