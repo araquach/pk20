@@ -44,14 +44,6 @@
       }
     },
 
-    mounted() {
-      axios.get(`/api/team/${this.$route.params.slug}`)
-          .then(response => this.teamMember = response.data)
-          .catch(error => {
-            console.log(error)
-          })
-    },
-
     computed: {
       staffMember() {
         return this.teamMember.first_name + " " + this.teamMember.last_name
@@ -60,6 +52,14 @@
       fbLink() {
         return  "http://www.paulkemphairdressing.com/" + this.teamMember.slug
       }
+    },
+
+    mounted() {
+      axios.get(`/api/team/${this.$route.params.slug}`)
+          .then(response => this.teamMember = response.data)
+          .catch(error => {
+            console.log(error)
+          })
     }
   }
 </script>

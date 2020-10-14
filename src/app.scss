@@ -312,7 +312,7 @@ p {
 /* Recruitment Page */
 
 #recruitment {
-  background: url('/dist/img/recruitment/') no-repeat right top;
+  background: url('/dist/img/recruitment/recruitment.jpg') no-repeat right top;
   background-size: cover;
 
   @include until($tablet) {
@@ -321,7 +321,7 @@ p {
 }
 
 #application {
-  background: url('/dist/img/recruitment/') no-repeat right top;
+  background: url('/dist/img/recruitment/recruitment.jpg') no-repeat right top;
   background-size: contain;
 
   @include until($tablet) {
@@ -356,13 +356,7 @@ p {
 /* Reviews Page */
 
 #reviews {
-  background: #FFF url('/dist/img/reviews/reviews-background.jpg') no-repeat right top;
-  background-size: cover;
-
-  @include until($tablet) {
-    background-image: none;
-    background-color: $beige-lighter;
-  }
+  background-color: $beige-lighter;
 
   .content {
     padding-left: .3rem;

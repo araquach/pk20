@@ -14,7 +14,7 @@
           <section id="feedback-feed-container">
             <div id="feedback_feed" class="box">
               <ReviewFeed :staffMember="staffMember"/>
-              <router-link :to="{ name: 'reviews' }">More reviews here</router-link>
+              <router-link :to="{ name: 'reviews', params: { slug: 'all' } }">More reviews here</router-link>
             </div>
           </section>
         </section>
@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="content is-size-7 is-size-5-mobile">
-                <p class="is-size-7 is-size-4-mobile has-text-white" v-html="$options.filters.textLimit(newsItem.body, 120) + '...'">Hello!</p>
+                <p class="is-size-7 is-size-4-mobile has-text-white" v-html="$options.filters.textLimit(newsItem.body, 120) + '...'"></p>
               </div>
             </div>
           </div>

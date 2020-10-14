@@ -7,12 +7,12 @@ import BradOffer from "./views/offers/Brad"
 import AbiOffer from "./views/offers/Abi"
 import DavidOffer from "./views/offers/David"
 import JoOffer from "./views/offers/Jo"
-// import Recruitment from "./views/Recruitment"
+import Recruitment from "./views/Recruitment"
 import Reviews from "./views/Reviews"
 import Salon from "./views/Salon"
 import Team from "./views/Team"
 import TeamDetail from "./views/TeamDetail"
-// import Contact from "./views/Contact"
+import Contact from "./views/Contact"
 
 export const routes = [
     {
@@ -62,15 +62,16 @@ export const routes = [
         name: "jo-offer"
     },
 
-    // {
-    //     path: "/recruitment",
-    //     component: Recruitment,
-    //     name: "recruitment"
-    // },
     {
-        path: "/reviews",
+        path: "/recruitment",
+        component: Recruitment,
+        name: "recruitment"
+    },
+    {
+        path: "/reviews/:slug",
         component: Reviews,
-        name: "reviews"
+        name: "reviews",
+        props: true
     },
     {
         path: "/salon",
@@ -88,10 +89,10 @@ export const routes = [
         component: TeamDetail,
         props: true
     },
-    // {
-    //     path: "/contact",
-    //     component: Contact,
-    //     name: "contact"
-    // }
+    {
+        path: "/contact",
+        component: Contact,
+        name: "contact"
+    }
 ]
 
