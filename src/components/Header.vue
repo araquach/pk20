@@ -28,7 +28,6 @@
             <b-navbar-item tag="router-link" :to="{ name: 'men' }">
               Men
             </b-navbar-item>
-            <hr class="navbar-divider">
             <b-navbar-item tag="router-link" :to="{ name: 'reviews', params: { slug: 'all' } }">
               Reviews
             </b-navbar-item>
