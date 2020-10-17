@@ -73,5 +73,5 @@ func main() {
 
 	log.Printf("Starting server on %s", port)
 
-	http.ListenAndServe(":" + port, r)
+	http.ListenAndServe(":" + port, forceSsl(r))
 }
