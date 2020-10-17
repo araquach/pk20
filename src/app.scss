@@ -316,7 +316,8 @@ p {
   background-size: cover;
 
   @include until($tablet) {
-    background-image: none;
+    background: url('/dist/img/recruitment/recruitment_mob.jpg') no-repeat right top;
+    background-size: cover;
   }
 }
 

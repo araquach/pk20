@@ -16,7 +16,10 @@ type JoinusApplicant struct {
 	Salon    uint   `json:"salon"`
 	Name     string `json:"name"`
 	Mobile   string `json:"mobile"`
+	Email    string `json:"email"`
 	Position string `json:"position"`
+	About    string `json:"about"`
+	WhyHair  string `json:"why_hair"`
 	WhyUs    string `json:"why_us"`
 	Info     string `gorm:"-" json:"info"`
 }

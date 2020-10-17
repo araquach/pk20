@@ -7,7 +7,9 @@ import BradOffer from "./views/offers/Brad"
 import AbiOffer from "./views/offers/Abi"
 import DavidOffer from "./views/offers/David"
 import JoOffer from "./views/offers/Jo"
-import Recruitment from "./views/Recruitment"
+import Recruitment from "./views/recruitment/Recruitment"
+import RecruitmentStylist from "./views/recruitment/Stylist"
+import RecruitmentApprentice from "./views/recruitment/Apprentice"
 import Reviews from "./views/Reviews"
 import Salon from "./views/Salon"
 import Team from "./views/Team"
@@ -66,6 +68,16 @@ export const routes = [
         path: "/recruitment",
         component: Recruitment,
         name: "recruitment"
+    },
+    {
+        path: "/recruitment/stylist",
+        component: RecruitmentStylist,
+        name: "recruitment-stylist"
+    },
+    {
+        path: "/recruitment/apprentice",
+        component: RecruitmentApprentice,
+        name: "recruitment-apprentice"
     },
     {
         path: "/reviews/:slug",
