@@ -364,6 +364,8 @@ func apiNewsItems(w http.ResponseWriter, r *http.Request) {
 
 		blogs = append(blogs, Blog{Slug: slug[0], Date: date, Title: title, Image: image, Body: body[0]})
 	}
+	sort.SliceStable(blogs, func(i, j int) bool {return blogs[i].Date > blogs[j].Date})
+
 	json, err := json.Marshal(blogs)
 	if err != nil {
 		log.Panic(err)
