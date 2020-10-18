@@ -4,7 +4,7 @@
 -- https://tableplus.com/
 --
 -- Database: postgres
--- Generation Time: 2020-10-17 13:44:06.1560
+-- Generation Time: 2020-10-18 21:17:25.8230
 -- -------------------------------------------------------------
 
 
@@ -42,6 +42,9 @@ CREATE TABLE "public"."joinus_applicants" (
     "position" text,
     "why_us" text,
     "salon" int4,
+    "email" text,
+    "about" text,
+    "why_hair" text,
     PRIMARY KEY ("id")
 );
 
@@ -123,6 +126,12 @@ CREATE TABLE "public"."team_members" (
     PRIMARY KEY ("id")
 );
 
+INSERT INTO "public"."joinus_applicants" ("id", "created_at", "updated_at", "deleted_at", "name", "mobile", "position", "why_us", "salon", "email", "about", "why_hair") VALUES
+('1', '2020-10-17 14:57:29.077477+01', '2020-10-17 14:57:29.077477+01', NULL, 'Adam Carter', '07921806884', 'other', 'kwlelwrjk', '3', 'adam@jakatasalon.co.uk', 'slkdjsdlfk', 'lskfjlkfjls'),
+('2', '2020-10-17 15:01:38.094984+01', '2020-10-17 15:01:38.094984+01', NULL, 'Adam Carter', '07921806884', 'new to hairdressing', 'It''s a great team', '2', 'adam@jakatasalon.co.uk', 'I love hairdressing', 'I''ve always wanted to do it'),
+('3', '2020-10-17 15:08:13.178848+01', '2020-10-17 15:08:13.178848+01', NULL, 'Mr A Carter', '07921806884', 'new to hairdressing', 'sggsd', '2', 'araquach@gmail.com', 'gsdgdg', 'gsgsd'),
+('4', '2020-10-17 15:31:00.382691+01', '2020-10-17 15:31:00.382691+01', NULL, 'Adam Carter', '07921806884', '1 - 3 years', 'lkjlk', '2', 'adam@jakatasalon.co.uk', 'hkjhkj', 'lkjlkj');
+
 INSERT INTO "public"."meta_infos" ("id", "page", "title", "text", "image", "salon") VALUES
 ('1', 'home', 'Academy for the next generation of super-skilled stylists', 'The Base Team comprises Apprentices, Junior Stylists and Graduates all offering cutting edge services at a fraction of the cost, in an amazing creative space based in Warrington town center', 'home', '3'),
 ('2', 'about', 'It''s All about the Base', 'Training and developing our team to the highest possible standard has always been a major priority for us. Through Jakata & Paul Kemp Hairdressing we''ve produced some incredible talent from scratch and helped existing stylists push their skills to the next level.', 'about', '3'),
@@ -153,7 +162,16 @@ If you live close to Warrington and  would like to volunteer simply add your nam
 ('22', 'lauren-profile', 'Meet Lauren', 'Hi, I''m Lauren. I''ve been hairdressing for almost 3 years now. I always considered doing hairdressing as a career since being a child as I have always found interest in experimenting with styling friends and family members hair! I knew hairdressing would be the right thing for me to Dao as a career as I enjoyed it so much.', 'lauren-profile', '3'),
 ('23', 'beth-profile', 'Meet Beth', 'Hiya, I’m Beth.  I''ve been hairdressing for almost 2 years now and have been working in the hair industry for nearly 3 years. Originally I didn’t consider becoming a hair stylist, that was until I got a Saturday job in a hair salon and since that day there’s nothing I’ve wanted to do more...', 'beth-profile', '3'),
 ('24', 'sophie-profile', 'Meet Sophie', 'Hi, I''m Sophie and I''ve been hairdressing for around 3 years now. I started when I had just left school back in 2016, up until 2 years later when I decided I wanted to try something different. I never knew what it was I really wanted to do with my life. After college, 2 jobs, nothing was the same. I knew that I needed something more. Hairdressing is the only thing that has made me feel satisfied that I am actually making a difference in peoples lives. I love the feeling of making someone smile as hair is such a big thing in everyone''s lives. I saw Base''s advert during my job search and I knew it was the place for me.. somewhere that was willing to assess where we are at already within our careers and taking the time to push us to be the best we can be. I just love how confident they are in us, as soon as I walked in for my interview I got a good vibe.', 'sophie-profile', '3'),
-('25', 'ruby-profile', 'Meet Ruby', 'Hi, I am Ruby and I began hairdressing in November 2019 - so I still have much more to learn on my journey to becoming a stylist yet I have loved every moment along the way. As a child I always had a passion for hair and beauty, beginning with styling my two older sisters hair with plaiting and braiding, not to mention chopping off the hair of my Barbie dolls with the kitchen scissors!', 'ruby-profile', '3');
+('25', 'ruby-profile', 'Meet Ruby', 'Hi, I am Ruby and I began hairdressing in November 2019 - so I still have much more to learn on my journey to becoming a stylist yet I have loved every moment along the way. As a child I always had a passion for hair and beauty, beginning with styling my two older sisters hair with plaiting and braiding, not to mention chopping off the hair of my Barbie dolls with the kitchen scissors!', 'ruby-profile', '3'),
+('26', 'home', 'A New Standard of Hairdressing', 'Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre. Sister salon to the award winning Jakata Hair and Beauty team, the stunning Salon opened back in June 2011 with the aim to offer an ultra relaxing atmosphere, first class customer service, alongside the highest level of hairdressing expertise. The salon''s talented hairdressers are all trained to the highest level in cutting, colouring and styling hair, with specialists in technical colour, hair straightening, wedding hair and hair extensions. The team has a wealth of experience in all aspects of hairdressing', 'home', '2'),
+('27', 'salon', 'The PK Salon', 'With a prime position right on the corner of Sankey Street and Springfield street the salon premises is an early 1900''s building that was once home to the Picturedrome and Cameo cinemas! It''s taken on many guises since, but when we got hold of it we knew we wanted it to be the warmest, friendliest most relaxing salon in the area.', 'salon', '2'),
+('28', 'team', 'Meet the PK Team', 'The PK Team is a hotbed of creative talent. Seven amazing stylists with a vast array of knowledge and skills are here to give you a style that will make you look amazing!', 'team', '2'),
+('29', 'offers', 'Latest Offers', 'Take advantage of our special offers with selected stylists this month', 'offers', '2'),
+('30', 'blog', 'All the latest PK News', 'Find out all the latest news and stories in our blog', 'blog', '2'),
+('31', 'recruitment', 'Join the PK Team', 'The Paul Kemp Hairdressing team is growing fast. We''re always looking for new talent to expand our already diverse team of hairdressers. We have positions for stylists of all levels with ongoing internal and external training to help you push the boundaries in your career.', 'recruitment', '2'),
+('32', 'men', 'Men''s Hairdressing', 'At Paul Kemp Hairdressing we have a team of experts in men''s hairdressing on hand. Whatever your fashion tastes and style, we''ll work your hair exactly how you want it. The team constantly stay up to date with latest cutting &amp; styling techniques through Tigi and Schwarzkopf''s innovative training courses and inspiration sessions.', 'men', '2'),
+('33', 'reviews', 'Latest Reviews', 'The PK team consistantly recieve incredible reviews from our clients. Check them out her and filter by stylist', 'reviews', '2'),
+('34', 'contact', 'Location & Contact Info', 'Paul Kemp Hairdressing is located on the corner of Sankey Street and Springfield Street in Warrington Town Centre (opposite the Golden Gates)', 'contact', '2');
 
 INSERT INTO "public"."reviews" ("id", "date", "salon", "review", "client", "stylist", "staff") VALUES
 ('1', '2020-10-01 01:00:00+01', '1', 'Lovely to see you and thanks so much for my amazing hair..totally revamped and I''ve had 100% feedback .. love it xx', 'Client: carol crowe', 'Staff: Matthew Lane', NULL),
