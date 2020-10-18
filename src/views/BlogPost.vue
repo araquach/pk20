@@ -8,7 +8,7 @@
       </div>
       <div class="column section">
         <h2 class="title is-2">{{ blogpost.title }}</h2>
-        <div v-html="blogpost.body" class="is-size-5">
+        <div v-html="blogpost.body" class="is-size-6">
           {{blogpost.body}}
         </div>
         <router-link :to="{ name: 'blog' }" class="button is-primary">Back to all the blogs</router-link>

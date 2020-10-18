@@ -359,7 +359,7 @@ func apiNewsItems(w http.ResponseWriter, r *http.Request) {
 		title := string(lines[0])
 		image := string(lines[3])
 		date := string(lines[1])
-		text := string(lines[5])
+		text := string(lines[6])
 		body := strings.Split(text, ".")
 
 		blogs = append(blogs, Blog{Slug: slug[0], Date: date, Title: title, Image: image, Body: body[0]})
