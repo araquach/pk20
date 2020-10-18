@@ -5,7 +5,7 @@
         <div>
           <h2 class="title is-2 has-text-white">Join the team</h2>
           <h3 class="subtitle is-4 has-text-white">Stylist Position</h3>
-          <p><strong class="has-text-white is-size-5">Paul Kemp Hairdressing is a hotbed of hairdressing talent</strong></p>
+          <p><strong class="has-text-white is-size-5">Paul Kemp Hairdressing is a hotbed of hair talent.</strong></p>
           <p>If you're looking to join a friendly, innovative team and think you have what it takes then apply below.</p>
           <p>Please complete ALL sections of the form before submitting your application.</p>
           <p>We will contact you as soon as a position becomes available.</p>
