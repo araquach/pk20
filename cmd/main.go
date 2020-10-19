@@ -42,8 +42,10 @@ func main() {
 
 	db := dbConn()
 	db.LogMode(true)
-	db.AutoMigrate(&TeamMember{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &MetaInfo{}, &Booking{})
+	db.AutoMigrate(&TeamMember{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &Booking{})
 	db.Close()
+
+	loadMetaData()
 
 	tpl = template.Must(template.ParseFiles(
 		"views/index.gohtml"))

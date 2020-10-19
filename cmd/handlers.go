@@ -54,7 +54,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 		t = m.FirstName + " " + m.LastName
 		d = m.Para1 + " " + m.Para2
-		i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/" + m.Image + ".png"
+		i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/" + m.Slug + ".png"
 
 	} else if dir == "reviews" {
 		if name == "all" {
