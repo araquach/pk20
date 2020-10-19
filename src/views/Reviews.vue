@@ -21,6 +21,9 @@
           </router-link>
         </div>
       </div>
+
+      <h2 class="title is-4" >{{ stylist }} Reviews</h2>
+
       <div v-for="review in reviews" class="box">
         <p class="is-size-5">"{{ review.review }}"</p>
         <small>{{ review.client }}</small><br>
@@ -58,6 +61,17 @@
             .catch(error => {
               console.log(error)
             })
+      }
+    },
+
+    computed: {
+      stylist() {
+        name = this.$route.params.slug
+        if (name !== "all") {
+          return name.charAt(0).toUpperCase() + name.slice(1) + "'s"
+        } else {
+          return "All"
+        }
       }
     },
 
