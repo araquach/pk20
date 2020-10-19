@@ -11,7 +11,7 @@
         <div v-html="blogpost.body" class="is-size-6">
           {{blogpost.body}}
         </div>
-        <router-link :to="{ name: 'blog' }" class="button is-primary">Back to all the blogs</router-link>
+        <router-link :to="{ name: 'blog', hash: '#' + blogpost.slug }" class="button is-primary">Back to all the blogs</router-link>
         <br><br>
         <p class="is-size-7">Published by {{ blogpost.author }}<br>{{ blogpost.date }}</p>
 

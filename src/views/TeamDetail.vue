@@ -18,7 +18,7 @@
         <div class="team-ind-bottom">
           <router-link class="button is-primary" :to="{ name: 'reviews', params: 'slug' }">More of {{ teamMember.first_name }}'s reviews here</router-link>
           <br><br>
-          <router-link class="button is-primary" :to="{ name: 'team' }">Back to the full team</router-link>
+          <router-link class="button is-primary" :to="{ name: 'team', hash: '#' + teamMember.slug }">Back to the full team</router-link>
           <br><br>
           <div id="fb-like">
             <div class="fb-like" :data-href="fbLink" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>

@@ -20,6 +20,16 @@ Vue.filter('textLimit', function (text, length) {
 
 const router = new VueRouter({
     mode: 'history',
+    scrollBehavior (to, from, savedPosition) {
+        if (to.hash) {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve({ selector: to.hash, offset: { x: 0, y: 0 }})
+                }, 500)
+            })
+        }
+        return { x: 0, y: 0 }
+    },
     routes
 })
 

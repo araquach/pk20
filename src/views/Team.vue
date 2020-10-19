@@ -3,7 +3,7 @@
     <div class="section columns is-multiline">
       <div v-for="(tm, id) in teamMembers" class="column is-4">
         <router-link :to="{ name: 'team-detail', params: { slug: tm.slug} }">
-          <div class="card">
+          <div :id="tm.slug" class="card">
             <div class="card-image">
               <figure class="image">
                 <img :src="tm.image" :alt="tm.first_name">
