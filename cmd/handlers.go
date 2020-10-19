@@ -42,11 +42,11 @@ func home(w http.ResponseWriter, r *http.Request) {
 	dir := vars["category"]
 	name := vars["name"]
 
-	if name == "" {
+	if dir == "" && name == "" {
 		name = "home"
 	}
 
-	if dir == "team" && len(name)  > 0 {
+	if dir == "team" && len(name) > 0 {
 		db := dbConn()
 		m := TeamMember{}
 		db.Where("slug = ?", name).First(&m)
@@ -55,6 +55,29 @@ func home(w http.ResponseWriter, r *http.Request) {
 		t = m.FirstName + " " + m.LastName
 		d = m.Para1 + " " + m.Para2
 		i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/" + m.Image + ".png"
+
+	} else if dir == "reviews" {
+		if name == "all" {
+			t = "Recent Reviews from our happy customers"
+			d = "The PK team recieve consistently great reviews. Check them out here. You can filter by stylist too"
+			i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/reviews.png"
+
+		} else {
+			if name == "brad" {
+				name = "bradley"
+			}
+
+			db := dbConn()
+			r := Review{}
+			param := strings.Title(name)
+			db.Where("salon = ?", "2").Where("stylist LIKE ?", "Staff: "+param+" %").First(&r)
+			db.Close()
+
+			t = param + " recently received this great review!"
+			d = r.Review
+			i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/" + name + ".png"
+		}
+
 	} else if dir == "blog" {
 		path := path.Join(dir, name)
 
@@ -69,9 +92,11 @@ func home(w http.ResponseWriter, r *http.Request) {
 		d = string(lines[6])
 
 	} else {
+		page := path.Join(dir, name)
+
 		db := dbConn()
 		m := MetaInfo{}
-		db.Where("salon = ?", 2).Where("page = ?", name).First(&m)
+		db.Where("salon = ?", 2).Where("page = ?", page).First(&m)
 		db.Close()
 
 		t = m.Title
@@ -152,7 +177,7 @@ func apiReviews(w http.ResponseWriter, r *http.Request) {
 		db.Close()
 	} else {
 		db := dbConn()
-		db.Where("salon = ?", "2").Where("stylist LIKE ?", "Staff: " + param +" %").Find(&reviews)
+		db.Where("salon = ?", "2").Where("stylist LIKE ?", "Staff: "+param+" %").Find(&reviews)
 		db.Close()
 	}
 
@@ -328,7 +353,7 @@ func apiBlogPosts(w http.ResponseWriter, r *http.Request) {
 
 		blogs = append(blogs, Blog{Slug: slug[0], Date: date, Title: title, Image: image, Intro: intro, Author: author, Body: string(body)})
 	}
-	sort.SliceStable(blogs, func(i, j int) bool {return blogs[i].Date > blogs[j].Date})
+	sort.SliceStable(blogs, func(i, j int) bool { return blogs[i].Date > blogs[j].Date })
 
 	json, err := json.Marshal(blogs)
 	if err != nil {
@@ -364,7 +389,7 @@ func apiNewsItems(w http.ResponseWriter, r *http.Request) {
 
 		blogs = append(blogs, Blog{Slug: slug[0], Date: date, Title: title, Image: image, Body: body[0]})
 	}
-	sort.SliceStable(blogs, func(i, j int) bool {return blogs[i].Date > blogs[j].Date})
+	sort.SliceStable(blogs, func(i, j int) bool { return blogs[i].Date > blogs[j].Date })
 
 	json, err := json.Marshal(blogs)
 	if err != nil {

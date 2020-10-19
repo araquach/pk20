@@ -105,6 +105,9 @@ export const routes = [
         path: "/contact",
         component: Contact,
         name: "contact"
+    },
+    {
+        path: '/:notFound(.*)', redirect: '/'
     }
 ]
 
