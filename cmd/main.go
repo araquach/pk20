@@ -3,8 +3,6 @@ package main
 import (
 	"flag"
 	"github.com/gorilla/mux"
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/joho/godotenv"
 	"html/template"
 	"log"
@@ -15,14 +13,6 @@ import (
 var (
 	tpl *template.Template
 )
-
-func dbConn() (db *gorm.DB) {
-	db, err := gorm.Open("postgres", os.Getenv("DATABASE_URL"))
-	if err != nil {
-		panic(err)
-	}
-	return db
-}
 
 func init() {
 	// loads values from .env into the system
@@ -35,18 +25,12 @@ func main() {
 	var err error
 	var dir string
 
+	migrate()
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		log.Fatal("$PORT must be set")
 	}
-
-	db := dbConn()
-	db.LogMode(true)
-	db.AutoMigrate(&TeamMember{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &Booking{})
-	db.Close()
-
-	db.DropTableIfExists(&MetaInfo{})
-	loadMetaInfo()
 
 	tpl = template.Must(template.ParseFiles(
 		"views/index.gohtml"))

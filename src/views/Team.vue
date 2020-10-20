@@ -13,7 +13,7 @@
               <div class="media">
                 <div class="media-content">
                   <p class="title is-3 has-text-primary">{{ tm.first_name }} {{tm.last_name}}</p>
-                  <p class="subtitle has-text-primary">{{ tm.level }}</p>
+                  <p class="subtitle has-text-primary">{{ tm.level_name }}</p>
                 </div>
               </div>
               <div class="content is-size-5-mobile">

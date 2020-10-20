@@ -45,7 +45,7 @@ type TeamMember struct {
 	Para3       string `json:"para_3"`
 	FavStyle    string `json:"fav_style"`
 	Product     string `json:"product"`
-	Price       float32 `json:"price"`
+	Price       float64 `json:"price"`
 	Position    uint   `json:"position"`
 	Slug        string `json:"slug"`
 }
@@ -60,7 +60,7 @@ type Review struct {
 }
 
 type MetaInfo struct {
-	ID    uint   `json:"id" gorm: "primary_key"`
+	ID    uint   `json:"id" gorm:"primary_key"`
 	Salon uint   `json:"salon"`
 	Page  string `json:"page"`
 	Title string `json:"title"`

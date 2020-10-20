@@ -11,6 +11,7 @@
       </div>
       <div class="column section is-size-6 is-size-5-mobile">
         <h2 class="title is-3 has-text-primary">{{ staffMember }}</h2>
+        <h2 class="subtitle">{{ teamMember.level_name }}</h2>
         <p>{{ teamMember.para_1 }}</p>
         <p>{{ teamMember.para_2 }}</p>
         <p>{{ teamMember.para_3 }}</p>

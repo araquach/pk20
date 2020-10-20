@@ -3,6 +3,8 @@ package main
 import (
 	"bufio"
 	"encoding/csv"
+	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"io"
 	"log"
 	"os"
@@ -10,13 +12,32 @@ import (
 	"strconv"
 )
 
+func dbConn() (db *gorm.DB) {
+	db, err := gorm.Open("postgres", os.Getenv("DATABASE_URL"))
+	if err != nil {
+		panic(err)
+	}
+	return db
+}
+
+func migrate() {
+	db := dbConn()
+	defer db.Close()
+	db.LogMode(true)
+
+	db.DropTableIfExists(&TeamMember{}, &MetaInfo{})
+	db.AutoMigrate(&TeamMember{}, &MetaInfo{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &Booking{})
+
+	loadTeamMembers()
+	loadMetaInfo()
+}
+
 func loadTeamMembers() {
 	var err error
 	var teamMembers []TeamMember
 
 	db := dbConn()
 	db.LogMode(true)
-	db.AutoMigrate(&TeamMember{})
 	db.Close()
 
 	var files []string
@@ -44,12 +65,16 @@ func loadTeamMembers() {
 			} else if error != nil {
 				log.Fatal(error)
 			}
+			salon, _ := strconv.Atoi(line[0])
+			level, _ := strconv.Atoi(line[3])
+			price, _ := strconv.ParseFloat(line[12], 8)
+			position, _ := strconv.Atoi(line[13])
 
 			teamMembers = append(teamMembers, TeamMember{
-				Salon: line[0],
+				Salon: uint(salon),
 				FirstName: line[1],
 				LastName: line[2],
-				Level: line[3],
+				Level: uint(level),
 				LevelName: line[4],
 				Image: line[5],
 				RemoteImage: line[6],
@@ -58,8 +83,8 @@ func loadTeamMembers() {
 				Para3: line[9],
 				FavStyle: line[10],
 				Product: line[11],
-				Price: line[12],
-				Position: line[13],
+				Price: price,
+				Position: uint(position),
 				Slug: line[14],
 			})
 		}
@@ -82,7 +107,6 @@ func loadMetaInfo() {
 
 	db := dbConn()
 	db.LogMode(true)
-	db.AutoMigrate(&MetaInfo{})
 	db.Close()
 
 	var files []string
