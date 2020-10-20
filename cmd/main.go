@@ -45,7 +45,8 @@ func main() {
 	db.AutoMigrate(&TeamMember{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &Booking{})
 	db.Close()
 
-	loadMetaData()
+	db.DropTableIfExists(&MetaInfo{})
+	loadMetaInfo()
 
 	tpl = template.Must(template.ParseFiles(
 		"views/index.gohtml"))

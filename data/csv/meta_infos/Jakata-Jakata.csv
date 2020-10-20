@@ -1,10 +1,9 @@
-id,page,title,text,image,salon
-12,home,Home Page,Home Text,home,1
-13,about,About Page,Abous Jakata,about,1
-14,team,Jakata Team,This is the team page,team,1
-15,offers,Special Offers,Jakata Offers,offers,1
-16,joinus,Join Jakata,Join the Jakata Team,joinus,1
-17,models,Models Required,Apply to be a model,models,1
-18,contact,Contact,Contact and location info,contact,1
-19,bookings,Bookings,Book an appointments,bookings,1
-20,blog,Jakata Blog,Read all the latest news,blog,1
+home,Home Page,Home Text,home,1
+about,About Page,Abous Jakata,about,1
+team,Jakata Team,This is the team page,team,1
+offers,Special Offers,Jakata Offers,offers,1
+joinus,Join Jakata,Join the Jakata Team,joinus,1
+models,Models Required,Apply to be a model,models,1
+contact,Contact,Contact and location info,contact,1
+bookings,Bookings,Book an appointments,bookings,1
+blog,Jakata Blog,Read all the latest news,blog,1

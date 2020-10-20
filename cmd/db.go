@@ -10,7 +10,7 @@ import (
 	"strconv"
 )
 
-func loadMetaData() {
+func loadMetaInfo() {
 	var err error
 	var metaInfos []MetaInfo
 
@@ -29,6 +29,7 @@ func loadMetaData() {
 		files = append(files, path)
 		return nil
 	})
+
 	if err != nil {
 		panic(err)
 	}
@@ -46,21 +47,22 @@ func loadMetaData() {
 
 			salon, _ := strconv.Atoi(line[4])
 			metaInfos = append(metaInfos, MetaInfo{
-				Salon:        uint(salon),
-				Page:        line[0],
+				Salon: uint(salon),
+				Page:  line[0],
 				Title: line[1],
-				Text: line[2],
+				Text:  line[2],
 				Image: line[3],
 			})
 		}
 	}
 
-	db = dbConn()
-	db.LogMode(true)
-	db.Create(&metaInfos)
-	if err != nil {
-		log.Panic(err)
+	for _, m := range metaInfos {
+		db = dbConn()
+		db.LogMode(true)
+		db.Create(&m)
+		if err != nil {
+			log.Println(err)
+		}
+		db.Close()
 	}
-	db.Close()
-
 }
