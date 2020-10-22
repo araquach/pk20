@@ -13,7 +13,7 @@
         </div>
         <router-link :to="{ name: 'blog', hash: '#' + blogpost.slug }" class="button is-primary">Back to all the blogs</router-link>
         <br><br>
-        <p class="is-size-7">Published by {{ blogpost.author }}<br>{{ blogpost.date }}</p>
+        <p class="is-size-7">Published by {{ blogpost.author }}<br>{{ blogpost.date | moment("MMMM Do YYYY") }}</p>
 
         <div id="fb-like" class="section">
           <div class="fb-like" :data-href="fbLike" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
