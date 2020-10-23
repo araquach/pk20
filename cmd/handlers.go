@@ -99,9 +99,23 @@ func home(w http.ResponseWriter, r *http.Request) {
 		db.Where("salon = ?", 2).Where("page = ?", page).First(&m)
 		db.Close()
 
-		t = m.Title
-		d = m.Text
-		i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/" + m.Image + ".png"
+		if m.Title != "" {
+			t = m.Title
+		} else {
+			t = "A New Standard of Hairdressing"
+		}
+
+		if m.Text != "" {
+			d = m.Text
+		} else {
+			d = "Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre. Sister salon to the award winning Jakata Hair and Beauty team, the stunning Salon opened back in June 2011 with the aim to offer an ultra relaxing atmosphere, first class customer service, alongside the highest level of hairdressing expertise. The salon's talented hairdressers are all trained to the highest level in cutting, colouring and styling hair, with specialists in technical colour, hair straightening, wedding hair and hair extensions. The team has a wealth of experience in all aspects of hairdressing"
+		}
+
+		if m.Title != "" {
+			i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/" + m.Image + ".png"
+		} else {
+			i = "https://www.paulkemphairdressing.com/dist/img/fb_meta/home.png"
+		}
 	}
 
 	path := path.Join(dir, name)
