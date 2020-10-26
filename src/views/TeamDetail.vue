@@ -15,7 +15,7 @@
         <p>{{ teamMember.para_1 }}</p>
         <p>{{ teamMember.para_2 }}</p>
         <p>{{ teamMember.para_3 }}</p>
-        <p class="has-text-weight-bold is-size-5 is-bold">Average Cut &amp; Colour price with {{ teamMember.first_name }} : &pound;{{ teamMember.price }}*</p>
+        <p class="has-text-weight-bold is-size-5 is-bold">Average Cut &amp; Colour price with {{ teamMember.first_name }}: &pound;{{ teamMember.price }}*</p>
         <div class="team-ind-bottom">
           <router-link class="button is-primary" :to="{ name: 'reviews', params: 'slug' }">More of {{ teamMember.first_name }}'s reviews here</router-link>
           <br><br>

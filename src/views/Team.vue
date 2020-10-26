@@ -1,6 +1,8 @@
 <template>
-  <div id="team">
-    <div class="section columns is-multiline">
+  <div id="team" class="section">
+    <h1 class="title is-3">The PK Team</h1>
+    <p>Click on a team member to read their profile</p>
+    <div class="columns is-multiline">
       <div v-for="(tm, id) in teamMembers" class="column is-4">
         <router-link :to="{ name: 'team-detail', params: { slug: tm.slug} }">
           <div :id="tm.slug" class="card">
@@ -17,10 +19,7 @@
                 </div>
               </div>
               <div class="content is-size-5-mobile">
-                <p>{{ tm.para_1 }}</p>
-                <p>{{ tm.para_2 }}</p>
-                <p>{{ tm.para_3 }}</p>
-                <p class="price">Average Cut &amp; Colour price with {{ tm.first_name }} : &pound;{{ tm.price }}*</p>
+                <p class="price">Average Cut &amp; Colour price with {{ tm.first_name }}: &pound;{{ tm.price }}*</p>
               </div>
             </div>
           </div>

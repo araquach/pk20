@@ -41,8 +41,7 @@ html {
 
   .hero-body {
     @include until($tablet) {
-      padding: 0;
-      padding-bottom: .5rem;
+      padding: 0 0 .5rem;
     }
   }
 }
@@ -129,7 +128,7 @@ p {
   }
 
   p:first-of-type {
-    font-size: .8rem;
+    font-size: 1rem;
     margin-bottom: .7rem;
   }
 }
@@ -357,25 +356,14 @@ p {
   }
 }
 
-/* Reviews Page */
-
 #reviews {
   background-color: $beige-lighter;
-
   .content {
-    padding-left: .3rem;
-  }
-
-  @include until($tablet) {
-    .section {
-      margin-top: 5rem;
-    }
+    text-align: center;
   }
 }
 
 /* Offers Page */
-
-
 
 #offers {
   background-color: #e7e3df;

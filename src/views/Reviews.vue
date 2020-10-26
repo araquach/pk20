@@ -1,5 +1,5 @@
 <template>
-  <div id="reviews" class="columns section">
+  <div id="reviews" class="section columns">
     <div class="column is-8">
       <h2 class="title is-3 has-text-primary">Some of our recent client reviews</h2>
       <h3 class="subtitle is-5 has-text-primary">Filter by stylist</h3>
