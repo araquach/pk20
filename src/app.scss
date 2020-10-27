@@ -320,6 +320,8 @@ p {
   @include until($tablet) {
     background: url('/dist/img/recruitment/recruitment_mob.jpg') no-repeat right top;
     background-size: cover;
+    padding: 1rem;
+    margin-right: -.75rem;
   }
 }
 
@@ -360,6 +362,10 @@ p {
   background-color: $beige-lighter;
   .content {
     text-align: center;
+  }
+
+  @include until($tablet) {
+    margin-right: -.75rem;
   }
 }
 
