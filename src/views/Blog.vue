@@ -1,6 +1,6 @@
 <template>
   <div id="blog" class="section is-size-5-mobile">
-    <div v-for="blog in blogPosts" class="columns box has-margin-3">
+    <div v-for="blog in blogPosts" class="section columns has-margin-3">
         <div :id="blog.slug" class="column is-5">
           <figure class="image">
             <img :src="blog.image">

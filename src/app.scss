@@ -30,6 +30,10 @@ html {
   background-color: #FFF;
 }
 
+hr {
+  border-top: 2px solid $primary;
+}
+
 #main .container {
   @include from($tablet) {
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
@@ -235,6 +239,13 @@ p {
 
 #blog {
   position: relative;
+
+  .section {
+    border-bottom: 2px solid rgba(55,34,24,.3);
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
 
   .column.section {
     padding-top: 1rem;
