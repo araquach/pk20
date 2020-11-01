@@ -78,7 +78,7 @@
             <br>
             <div class="field">
               <div class="control">
-                <button class="button is-primary" type="submit" :disabled="submitStatus === 'PENDING'">Send</button>
+                <button class="button is-white" type="submit" :disabled="submitStatus === 'PENDING'">Send</button>
               </div>
             </div>
           </form>
