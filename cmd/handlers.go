@@ -379,15 +379,14 @@ func apiBlogPosts(w http.ResponseWriter, r *http.Request) {
 func apiNewsItems(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
-	blogs := []Blog{}
+	var blogs []Blog
 
-	f, _ := os.Open("./blog")
-	fis, _ := f.Readdir(-1)
-	f.Close()
+	files, err := ioutil.ReadDir("./blog")
+	if err != nil {
+		log.Fatal(err)
+	}
 
-	fis = fis[0:4]
-
-	for _, fi := range fis {
+	for _, fi := range files {
 		data, err := ioutil.ReadFile("./blog/" + fi.Name())
 		if err != nil {
 			fmt.Println("File reading error", err)
@@ -405,7 +404,7 @@ func apiNewsItems(w http.ResponseWriter, r *http.Request) {
 	}
 	sort.SliceStable(blogs, func(i, j int) bool { return blogs[i].Date > blogs[j].Date })
 
-	json, err := json.Marshal(blogs)
+	json, err := json.Marshal(blogs[0:4])
 	if err != nil {
 		log.Panic(err)
 	}
