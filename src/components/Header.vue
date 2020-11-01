@@ -39,12 +39,15 @@
         <template slot="end">
           <b-navbar-item tag="div">
             <div class="buttons">
-              <b-navbar-item tag="router-link" class="button is-primary" :to="{ name: 'contact' }">
+              <router-link class="button is-primary" :to="{ name: 'contact' }">
                 Contact Us
-              </b-navbar-item>
-              <a href="https://phorest.com/book/salons/paulkemp" class="button is-light">
-                <strong>Book Now</strong>
-              </a>
+              </router-link>
+              <router-link class="button is-light" :to="{ name: 'bookings' }">
+                Bookings
+              </router-link>
+<!--              <a href="https://phorest.com/book/salons/paulkemp" class="button is-light">-->
+<!--                <strong>Book Now</strong>-->
+<!--              </a>-->
             </div>
           </b-navbar-item>
         </template>

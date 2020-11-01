@@ -15,6 +15,7 @@ import Salon from "./views/Salon"
 import Team from "./views/Team"
 import TeamDetail from "./views/TeamDetail"
 import Contact from "./views/Contact"
+import Bookings from "./views/Bookings";
 
 export const routes = [
     {
@@ -105,6 +106,11 @@ export const routes = [
         path: "/contact",
         component: Contact,
         name: "contact"
+    },
+    {
+        path: "/bookings",
+        component: Bookings,
+        name: "bookings"
     },
     {
         path: '/:notFound(.*)', redirect: '/'

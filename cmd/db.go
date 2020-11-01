@@ -26,7 +26,7 @@ func migrate() {
 	db.LogMode(true)
 
 	db.DropTableIfExists(&TeamMember{}, &MetaInfo{})
-	db.AutoMigrate(&TeamMember{}, &MetaInfo{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &Booking{})
+	db.AutoMigrate(&TeamMember{}, &MetaInfo{}, &JoinusApplicant{}, &ModelApplicant{}, &Review{}, &BookingRequest{})
 
 	loadTeamMembers()
 	loadMetaInfo()

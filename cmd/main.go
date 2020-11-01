@@ -50,7 +50,7 @@ func main() {
 	r.HandleFunc("/api/joinus", apiJoinus)
 	r.HandleFunc("/api/models", apiModel)
 	r.HandleFunc("/api/reviews/{tm}", apiReviews)
-	r.HandleFunc("/api/bookings", apiBookings)
+	r.HandleFunc("/api/booking-request", apiBookingRequest)
 	r.HandleFunc("/api/blog-post/{slug}", apiBlogPost).Methods("GET")
 	r.HandleFunc("/api/blog-posts", apiBlogPosts).Methods("GET")
 	r.HandleFunc("/api/news-items", apiNewsItems).Methods("GET")
