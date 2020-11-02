@@ -83,7 +83,7 @@
             </div>
           </form>
           <div v-if="submitStatus === 'OK'" class="box">
-            <p class="is-size-4 has-text-primary">Thanks for registering! Your stylist will be in touch just before we reopen. Please only register once. See you soon</p>
+            <p class="is-size-4 has-text-primary">Thanks for registering! Your stylist will be in touch before we reopen. Please only register once. See you in December!</p>
           </div>
         </div>
       </div>
