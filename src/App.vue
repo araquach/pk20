@@ -2,7 +2,9 @@
   <div id="main">
     <div class="main container">
       <Header/>
-      <router-view/>
+      <transition name="fade" mode="out-in">
+        <RouterView/>
+      </transition>
       <Footer/>
     </div>
   </div>

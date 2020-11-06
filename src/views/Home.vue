@@ -4,7 +4,7 @@
       <div class="hero-body">
       </div>
     </div>
-    <div class="columns">
+    <div class="columns is-marginless">
       <div class="column is-5 is-offset-7">
         <section class="section is-size-5-mobile">
           <h2 class="title 2 has-text-primary has-text-centered">A New Standard of Hairdressing</h2>

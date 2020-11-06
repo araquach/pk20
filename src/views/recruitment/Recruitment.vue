@@ -1,6 +1,6 @@
 <template>
   <div id="recruitment">
-    <div class="columns">
+    <div class="columns is-marginless">
       <div class="column is-6">
         <section class="section has-text-white">
           <h1 class="title is-2 has-text-white">Join the Team</h1>
