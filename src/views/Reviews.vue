@@ -1,6 +1,6 @@
 <template>
   <div id="reviews">
-    <div class="section columns is-marginless">
+    <div v-if="reviews" class="section columns is-marginless">
       <div class="column is-8">
         <h2 class="title is-3 has-text-primary">Some of our recent client reviews</h2>
         <h3 class="subtitle is-5 has-text-primary">Filter by stylist</h3>

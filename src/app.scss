@@ -196,6 +196,8 @@ p {
 /* Team Page */
 
 #team {
+  min-height: 100rem;
+
   .hero {
     @include until($tablet) {
       padding: 5rem 0;
@@ -216,20 +218,12 @@ p {
 /* Team Ind Page */
 
 #team_ind {
+  min-height: 50rem;
   position: relative;
 
   #fb-like {
     margin-bottom: 2rem;
     padding-left: 0;
-  }
-
-  .team-ind-bottom {
-    position: absolute;
-    bottom: 3rem;
-    @include until($tablet) {
-      position: relative;
-      bottom: 0;
-    }
   }
 }
 
@@ -241,6 +235,7 @@ p {
 
 #blog {
   position: relative;
+  min-height: 60rem;
 
   h1 {
     font-size: 1.5rem;
@@ -384,6 +379,8 @@ p {
 }
 
 #reviews {
+  min-height: 100rem;
+
   background-color: $beige-lighter;
   .content {
     text-align: center;
