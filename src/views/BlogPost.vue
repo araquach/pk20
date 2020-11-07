@@ -1,6 +1,6 @@
 <template>
   <div id="blog" class="section is-size-5-mobile">
-    <article  v-if="blogpost" class="columns has-background-white">
+    <article v-if="blogpost" class="columns has-background-white">
       <div class="column is-4">
         <figure class="image has-margin-5">
           <img :src="blogpost.image">
@@ -11,7 +11,7 @@
         <div v-html="blogpost.body" class="is-size-6">
           {{blogpost.body}}
         </div>
-        <router-link :to="{ name: 'blog', hash: '#' + blogpost.slug }" class="button is-primary">Back to all the blogs</router-link>
+        <router-link v-if="blogpost" :to="{ name: 'blog', hash: '#' + blogpost.slug }" class="button is-primary">Back to all the blogs</router-link>
         <br><br>
         <p class="is-size-7">Published by {{ blogpost.author }}<br>{{ blogpost.date | moment("MMMM Do YYYY") }}</p>
 
