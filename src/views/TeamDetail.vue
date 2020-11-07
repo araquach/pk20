@@ -1,6 +1,6 @@
 <template>
   <div id="team_ind">
-    <div class="columns">
+    <div v-if="teamMember" class="columns">
       <div class="column section">
         <figure class="image">
           <img :src="teamMember.image" :alt="teamMember.first_name">
