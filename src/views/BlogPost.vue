@@ -7,7 +7,7 @@
         </figure>
       </div>
       <div class="column section">
-        <h2 class="title is-2">{{ blogpost.title }}</h2>
+        <h1 class="title is-2">{{ blogpost.title }}</h1>
         <div v-html="blogpost.body" class="is-size-6">
           {{blogpost.body}}
         </div>
