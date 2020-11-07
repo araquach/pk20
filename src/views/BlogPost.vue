@@ -1,6 +1,6 @@
 <template>
   <div id="blog" class="section is-size-5-mobile">
-    <article class="columns has-background-white">
+    <article  v-if="blogpost" class="columns has-background-white">
       <div class="column is-4">
         <figure class="image has-margin-5">
           <img :src="blogpost.image">
