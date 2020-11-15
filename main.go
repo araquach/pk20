@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	salonserver.Serve()
+	salonserver.Serve(2)
 }
