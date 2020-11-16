@@ -327,10 +327,6 @@ p {
   background-size: cover;
 }
 
-.contact-form {
-  background-color: $beige-lighter;
-}
-
 /* Recruitment Page */
 
 #recruitment {
@@ -419,70 +415,6 @@ p {
 
   .top p:last-of-type {
     margin-bottom: 0;
-  }
-}
-
-/* Base Page */
-
-#base {
-  img {
-    margin-bottom: 1.3rem;
-  }
-}
-
-#base-team {
-  .columns {
-    border-bottom: 1px solid $primary;
-    padding: 2rem 0 2rem 0;
-  }
-
-  .columns:last-of-type {
-    margin-bottom: 3rem;
-  }
-}
-
-#base-offer {
-  margin: 3rem 0 3rem 0;
-  background-color: $primary;
-  padding: 20px;
-  color: #FFF;
-  border-radius: 10px;
-  width: 50%;
-  @include until($tablet) {
-    width: 80%;
-  }
-
-  p, h2 {
-    color: #FFF;
-    font-size: 1.4rem;
-  }
-
-  p:first-of-type {
-    font-size: 3em;
-    margin: 0;
-  }
-}
-
-#base-social {
-  background-color: $primary;
-  border-radius: 20px;
-  padding: 2rem;
-  width: 40%;
-  @include until($tablet) {
-    width: 80%;
-  }
-}
-/* Hair Model Page */
-
-#hair-models {
-  ul {
-    margin: 2rem 0;
-  }
-
-  li {
-    color: $primary;
-    list-style: disc;
-    margin-left: 1rem;
   }
 }
 

@@ -34,7 +34,7 @@
   </div>
 </template>
 <script>
-  import ReviewFeed from "../components/ReviewFeed"
+  import ReviewFeed from "../components/reviewFeed/ReviewFeed"
 
   export default {
     components: { ReviewFeed },

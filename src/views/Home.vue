@@ -48,7 +48,7 @@
 
 <script>
   import NewsItem from "../components/NewsItem"
-  import ReviewFeed from "../components/ReviewFeed"
+  import ReviewFeed from "../components/reviewFeed/ReviewFeed"
 
   export default {
     components: { NewsItem, ReviewFeed },
