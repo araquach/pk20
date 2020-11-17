@@ -14,6 +14,10 @@ github.com/araquach/salonserver v0.0.8 h1:myqpJ/EBhlBkgjYl8SomDFFAoQR+eL0KRrswjx
 github.com/araquach/salonserver v0.0.8/go.mod h1:Nl/Lk/INLkX3kmHcUM7Yxt3+VoFGZCpnxzmOIlr2ofM=
 github.com/araquach/salonserver v0.0.9 h1:HLBWoxJb3N2nRw9dPEhlBpK8aig7Mlmp2lE9ddfD9dA=
 github.com/araquach/salonserver v0.0.9/go.mod h1:Nl/Lk/INLkX3kmHcUM7Yxt3+VoFGZCpnxzmOIlr2ofM=
+github.com/araquach/salonserver v0.0.11 h1:jEXHOPRjQfpUC6JqPUG0PUBF8hkCnjUmDVxjSsMl2eE=
+github.com/araquach/salonserver v0.0.11/go.mod h1:Nl/Lk/INLkX3kmHcUM7Yxt3+VoFGZCpnxzmOIlr2ofM=
+github.com/araquach/salonserver v0.0.12 h1:hEmtenlLDRbIJKVOT528XcSGOoSwZed7MZtf6xErmIg=
+github.com/araquach/salonserver v0.0.12/go.mod h1:Nl/Lk/INLkX3kmHcUM7Yxt3+VoFGZCpnxzmOIlr2ofM=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/denisenkom/go-mssqldb v0.0.0-20191124224453-732737034ffd h1:83Wprp6ROGeiHFAP8WJdI2RoxALQYgdllERc3N5N2DM=
