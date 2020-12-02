@@ -117,6 +117,7 @@ export default {
       why_hair: '',
       why_us: '',
       salon: 2,
+      role: "Stylist",
       submitStatus: null
     }
   },
@@ -134,6 +135,7 @@ export default {
   methods:{
     info() {
       return `Name: ${this.name}
+                  Role: ${this.role}
                   Mobile: ${this.mobile}
                   Email: ${this.email}
                   Position: ${this.position}
@@ -158,6 +160,7 @@ export default {
           why_hair: this.why_hair,
           why_us: this.why_us,
           salon: this.salon,
+          role: this.role,
           info: this.info()
         })
             .then(response => {
