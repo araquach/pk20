@@ -2139,6 +2139,1893 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/Main.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/Main.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _views_Selector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./views/Selector */ "./src/priceCalc/views/Selector.vue");
+/* harmony import */ var _views_Calculator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./views/Calculator */ "./src/priceCalc/views/Calculator.vue");
+/* harmony import */ var _components_calculators_Colour__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/calculators/Colour */ "./src/priceCalc/components/calculators/Colour.vue");
+/* harmony import */ var _components_calculators_CuttingStyling__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/calculators/CuttingStyling */ "./src/priceCalc/components/calculators/CuttingStyling.vue");
+/* harmony import */ var _components_calculators_Men__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/calculators/Men */ "./src/priceCalc/components/calculators/Men.vue");
+/* harmony import */ var _components_calculators_Technical__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/calculators/Technical */ "./src/priceCalc/components/calculators/Technical.vue");
+/* harmony import */ var _views_Intro__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/Intro */ "./src/priceCalc/views/Intro.vue");
+/* harmony import */ var _views_endpoint_TotalsByLevel__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/endpoint/TotalsByLevel */ "./src/priceCalc/views/endpoint/TotalsByLevel.vue");
+/* harmony import */ var _views_endpoint_TotalsByStylist__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/endpoint/TotalsByStylist */ "./src/priceCalc/views/endpoint/TotalsByStylist.vue");
+/* harmony import */ var _views_endpoint_TotalsByPrice__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./views/endpoint/TotalsByPrice */ "./src/priceCalc/views/endpoint/TotalsByPrice.vue");
+/* harmony import */ var _components_selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/selectors/LevelSelector */ "./src/priceCalc/components/selectors/LevelSelector.vue");
+/* harmony import */ var _components_selectors_PriceSelector__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/selectors/PriceSelector */ "./src/priceCalc/components/selectors/PriceSelector.vue");
+/* harmony import */ var _components_selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/selectors/StylistSelector */ "./src/priceCalc/components/selectors/StylistSelector.vue");
+/* harmony import */ var _components_services_ColourSelector__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/services/ColourSelector */ "./src/priceCalc/components/services/ColourSelector.vue");
+/* harmony import */ var _components_services_ColourAddOnSelector__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/services/ColourAddOnSelector */ "./src/priceCalc/components/services/ColourAddOnSelector.vue");
+/* harmony import */ var _components_services_TreatmentSelector__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/services/TreatmentSelector */ "./src/priceCalc/components/services/TreatmentSelector.vue");
+/* harmony import */ var _components_services_FinishSelector__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/services/FinishSelector */ "./src/priceCalc/components/services/FinishSelector.vue");
+/* harmony import */ var _components_services_FinishAddOnSelector__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/services/FinishAddOnSelector */ "./src/priceCalc/components/services/FinishAddOnSelector.vue");
+/* harmony import */ var _components_totals_LevelTotal__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/totals/LevelTotal */ "./src/priceCalc/components/totals/LevelTotal.vue");
+/* harmony import */ var _components_totals_StylistTotal__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/totals/StylistTotal */ "./src/priceCalc/components/totals/StylistTotal.vue");
+/* harmony import */ var _components_totals_PriceTotal__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/totals/PriceTotal */ "./src/priceCalc/components/totals/PriceTotal.vue");
+/* harmony import */ var _views_Finish__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./views/Finish */ "./src/priceCalc/views/Finish.vue");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Start: _views_Selector__WEBPACK_IMPORTED_MODULE_1__["default"],
+    Selector: _views_Selector__WEBPACK_IMPORTED_MODULE_1__["default"],
+    Calculator: _views_Calculator__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Colour: _components_calculators_Colour__WEBPACK_IMPORTED_MODULE_3__["default"],
+    CuttingStyling: _components_calculators_CuttingStyling__WEBPACK_IMPORTED_MODULE_4__["default"],
+    Men: _components_calculators_Men__WEBPACK_IMPORTED_MODULE_5__["default"],
+    Technical: _components_calculators_Technical__WEBPACK_IMPORTED_MODULE_6__["default"],
+    Intro: _views_Intro__WEBPACK_IMPORTED_MODULE_7__["default"],
+    TotalsByLevel: _views_endpoint_TotalsByLevel__WEBPACK_IMPORTED_MODULE_8__["default"],
+    TotalsByStylist: _views_endpoint_TotalsByStylist__WEBPACK_IMPORTED_MODULE_9__["default"],
+    TotalsByPrice: _views_endpoint_TotalsByPrice__WEBPACK_IMPORTED_MODULE_10__["default"],
+    LevelSelector: _components_selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_11__["default"],
+    PriceSelector: _components_selectors_PriceSelector__WEBPACK_IMPORTED_MODULE_12__["default"],
+    StylistSelector: _components_selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_13__["default"],
+    ColourSelector: _components_services_ColourSelector__WEBPACK_IMPORTED_MODULE_14__["default"],
+    ColourAddOnSelector: _components_services_ColourAddOnSelector__WEBPACK_IMPORTED_MODULE_15__["default"],
+    TreatmentSelector: _components_services_TreatmentSelector__WEBPACK_IMPORTED_MODULE_16__["default"],
+    FinishSelector: _components_services_FinishSelector__WEBPACK_IMPORTED_MODULE_17__["default"],
+    FinishAddOnSelector: _components_services_FinishAddOnSelector__WEBPACK_IMPORTED_MODULE_18__["default"],
+    LevelTotal: _components_totals_LevelTotal__WEBPACK_IMPORTED_MODULE_19__["default"],
+    PriceTotal: _components_totals_PriceTotal__WEBPACK_IMPORTED_MODULE_21__["default"],
+    StylistTotal: _components_totals_StylistTotal__WEBPACK_IMPORTED_MODULE_20__["default"],
+    Finish: _views_Finish__WEBPACK_IMPORTED_MODULE_22__["default"]
+  },
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['view'])),
+  created: function created() {
+    this.$store.dispatch('loadSalons');
+    this.$store.dispatch('loadStylists');
+    this.$store.dispatch('loadServices');
+    this.$store.dispatch('loadLevels');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/Modal.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/Modal.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['staff'],
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['SELECT_VIEW', 'SELECT_STYLIST'])),
+  computed: {
+    fullName: function fullName() {
+      return this.staff.first_name + " " + this.staff.last_name;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Colour.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/calculators/Colour.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../selectors/LevelSelector */ "./src/priceCalc/components/selectors/LevelSelector.vue");
+/* harmony import */ var _selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../selectors/StylistSelector */ "./src/priceCalc/components/selectors/StylistSelector.vue");
+/* harmony import */ var _services_ColourSelector__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/ColourSelector */ "./src/priceCalc/components/services/ColourSelector.vue");
+/* harmony import */ var _services_ColourAddOnSelector__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/ColourAddOnSelector */ "./src/priceCalc/components/services/ColourAddOnSelector.vue");
+/* harmony import */ var _services_TreatmentSelector__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../services/TreatmentSelector */ "./src/priceCalc/components/services/TreatmentSelector.vue");
+/* harmony import */ var _services_FinishSelector__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../services/FinishSelector */ "./src/priceCalc/components/services/FinishSelector.vue");
+/* harmony import */ var _services_FinishAddOnSelector__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../services/FinishAddOnSelector */ "./src/priceCalc/components/services/FinishAddOnSelector.vue");
+/* harmony import */ var _views_Selector__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../views/Selector */ "./src/priceCalc/views/Selector.vue");
+/* harmony import */ var _totals_LevelTotal__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../totals/LevelTotal */ "./src/priceCalc/components/totals/LevelTotal.vue");
+/* harmony import */ var _totals_StylistTotal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../totals/StylistTotal */ "./src/priceCalc/components/totals/StylistTotal.vue");
+/* harmony import */ var _totals_PriceTotal__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../totals/PriceTotal */ "./src/priceCalc/components/totals/PriceTotal.vue");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Start: _views_Selector__WEBPACK_IMPORTED_MODULE_8__["default"],
+    LevelSelector: _selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_1__["default"],
+    StylistSelector: _selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_2__["default"],
+    ColourSelector: _services_ColourSelector__WEBPACK_IMPORTED_MODULE_3__["default"],
+    ColourAddOnSelector: _services_ColourAddOnSelector__WEBPACK_IMPORTED_MODULE_4__["default"],
+    TreatmentSelector: _services_TreatmentSelector__WEBPACK_IMPORTED_MODULE_5__["default"],
+    FinishSelector: _services_FinishSelector__WEBPACK_IMPORTED_MODULE_6__["default"],
+    FinishAddOnSelector: _services_FinishAddOnSelector__WEBPACK_IMPORTED_MODULE_7__["default"],
+    LevelTotal: _totals_LevelTotal__WEBPACK_IMPORTED_MODULE_9__["default"],
+    StylistTotal: _totals_StylistTotal__WEBPACK_IMPORTED_MODULE_10__["default"],
+    PriceTotal: _totals_PriceTotal__WEBPACK_IMPORTED_MODULE_11__["default"]
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selector', 'level', 'selectedColour', 'isColourCorrection', 'selectedColourAddOn', 'selectedTreatment', 'selectedFinish'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['totalsView']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../selectors/LevelSelector */ "./src/priceCalc/components/selectors/LevelSelector.vue");
+/* harmony import */ var _selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../selectors/StylistSelector */ "./src/priceCalc/components/selectors/StylistSelector.vue");
+/* harmony import */ var _services_TreatmentSelector__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/TreatmentSelector */ "./src/priceCalc/components/services/TreatmentSelector.vue");
+/* harmony import */ var _services_FinishSelector__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/FinishSelector */ "./src/priceCalc/components/services/FinishSelector.vue");
+/* harmony import */ var _services_FinishAddOnSelector__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../services/FinishAddOnSelector */ "./src/priceCalc/components/services/FinishAddOnSelector.vue");
+/* harmony import */ var _views_Selector__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../views/Selector */ "./src/priceCalc/views/Selector.vue");
+/* harmony import */ var _totals_LevelTotal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../totals/LevelTotal */ "./src/priceCalc/components/totals/LevelTotal.vue");
+/* harmony import */ var _totals_StylistTotal__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../totals/StylistTotal */ "./src/priceCalc/components/totals/StylistTotal.vue");
+/* harmony import */ var _totals_PriceTotal__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../totals/PriceTotal */ "./src/priceCalc/components/totals/PriceTotal.vue");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Start: _views_Selector__WEBPACK_IMPORTED_MODULE_6__["default"],
+    LevelSelector: _selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_1__["default"],
+    StylistSelector: _selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_2__["default"],
+    TreatmentSelector: _services_TreatmentSelector__WEBPACK_IMPORTED_MODULE_3__["default"],
+    FinishSelector: _services_FinishSelector__WEBPACK_IMPORTED_MODULE_4__["default"],
+    FinishAddOnSelector: _services_FinishAddOnSelector__WEBPACK_IMPORTED_MODULE_5__["default"],
+    LevelTotal: _totals_LevelTotal__WEBPACK_IMPORTED_MODULE_7__["default"],
+    StylistTotal: _totals_StylistTotal__WEBPACK_IMPORTED_MODULE_8__["default"],
+    PriceTotal: _totals_PriceTotal__WEBPACK_IMPORTED_MODULE_9__["default"]
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selector', 'level', 'selectedTreatment', 'selectedFinish', 'selectedFinishAddOn'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['totalsView'])),
+  created: function created() {
+    this.$store.dispatch('loadSalons');
+    this.$store.dispatch('loadStylists');
+    this.$store.dispatch('loadServices');
+    this.$store.dispatch('loadLevels');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Men.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/calculators/Men.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../selectors/LevelSelector */ "./src/priceCalc/components/selectors/LevelSelector.vue");
+/* harmony import */ var _selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../selectors/StylistSelector */ "./src/priceCalc/components/selectors/StylistSelector.vue");
+/* harmony import */ var _services_MensColourSelector__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/MensColourSelector */ "./src/priceCalc/components/services/MensColourSelector.vue");
+/* harmony import */ var _services_MensCutSelector__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/MensCutSelector */ "./src/priceCalc/components/services/MensCutSelector.vue");
+/* harmony import */ var _views_Selector__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../views/Selector */ "./src/priceCalc/views/Selector.vue");
+/* harmony import */ var _totals_LevelTotal__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../totals/LevelTotal */ "./src/priceCalc/components/totals/LevelTotal.vue");
+/* harmony import */ var _totals_StylistTotal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../totals/StylistTotal */ "./src/priceCalc/components/totals/StylistTotal.vue");
+/* harmony import */ var _totals_PriceTotal__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../totals/PriceTotal */ "./src/priceCalc/components/totals/PriceTotal.vue");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Start: _views_Selector__WEBPACK_IMPORTED_MODULE_5__["default"],
+    LevelSelector: _selectors_LevelSelector__WEBPACK_IMPORTED_MODULE_1__["default"],
+    StylistSelector: _selectors_StylistSelector__WEBPACK_IMPORTED_MODULE_2__["default"],
+    MensColourSelector: _services_MensColourSelector__WEBPACK_IMPORTED_MODULE_3__["default"],
+    MensCutSelector: _services_MensCutSelector__WEBPACK_IMPORTED_MODULE_4__["default"],
+    LevelTotal: _totals_LevelTotal__WEBPACK_IMPORTED_MODULE_6__["default"],
+    StylistTotal: _totals_StylistTotal__WEBPACK_IMPORTED_MODULE_7__["default"],
+    PriceTotal: _totals_PriceTotal__WEBPACK_IMPORTED_MODULE_8__["default"]
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selector', 'level', 'selectedMensColour', 'selectedMensCut'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['totalsView'])),
+  created: function created() {
+    this.$store.dispatch('loadSalons');
+    this.$store.dispatch('loadStylists');
+    this.$store.dispatch('loadServices');
+    this.$store.dispatch('loadLevels');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['SELECT_LEVEL'])), {}, {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  }),
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['level', 'levels']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['salons', 'salon', 'stylists', 'stylist', 'levels'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['salonStylists'])),
+  methods: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['UPDATE_SALON', 'SELECT_STYLIST', 'SELECT_LEVEL'])), {}, {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  })
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selectedColourAddOn'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['colourAddOnPrices', 'selectedColourAddOnPrice']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourSelector.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/ColourSelector.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  },
+  computed: _objectSpread(_objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['colourCat', 'isColourCorrection', 'selectedColour', 'levels', 'level'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['colourPrices', 'selectedColourPrice'])), {}, {
+    filteredColourPrices: function filteredColourPrices() {
+      var _this = this;
+
+      return this.colourPrices.filter(function (c) {
+        return c.cat2 === _this.colourCat;
+      });
+    }
+  })
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: [],
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selectedFinishAddOn'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['finishAddOnPrices', 'selectedFinishAddOnPrice']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishSelector.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/FinishSelector.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selectedFinish'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['finishPrices', 'selectedFinishPrice']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensColourSelector.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/MensColourSelector.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selectedMensColour', 'levels', 'level'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['mensColourPrices', 'selectedMensColourPrice']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensCutSelector.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/MensCutSelector.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selectedMensCut', 'levels', 'level'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['mensCutPrices', 'selectedMensCutPrice']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      isOpen: true,
+      activeItem: null
+    };
+  },
+  methods: {
+    selectItem: function selectItem(i) {
+      this.activeItem = i;
+    }
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['selectedTreatment'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['treatmentPrices', 'selectedTreatmentPrice']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/LevelTotal.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/totals/LevelTotal.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['level'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['allSelected', 'totalCost'])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['SELECT_VIEW', 'INCREASE_LEVEL', 'DECREASE_LEVEL']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/PriceTotal.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/totals/PriceTotal.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['allSelected', 'totalCost', 'levelName', 'stylistName'],
+  methods: {
+    onClickButton: function onClickButton(event) {
+      this.$emit('switchPage', 'TotalsByPrice');
+      this.$emit('selectLevel', this.level);
+      this.$emit('totalPrice', this.totalCost);
+    },
+    increaseLevel: function increaseLevel() {
+      if (this.level > 1) {
+        this.level--;
+      }
+    },
+    decreaseLevel: function decreaseLevel() {
+      if (this.level > 0 && this.level < 7) {
+        this.level++;
+      }
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/StylistTotal.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/totals/StylistTotal.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['level', 'stylist'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['allSelected', 'totalCost'])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['SELECT_VIEW', 'UPDATE_SELECTOR']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Calculator.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Calculator.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_calculators_Colour__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/calculators/Colour */ "./src/priceCalc/components/calculators/Colour.vue");
+/* harmony import */ var _components_calculators_CuttingStyling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/calculators/CuttingStyling */ "./src/priceCalc/components/calculators/CuttingStyling.vue");
+/* harmony import */ var _components_calculators_Men__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/calculators/Men */ "./src/priceCalc/components/calculators/Men.vue");
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Colour: _components_calculators_Colour__WEBPACK_IMPORTED_MODULE_0__["default"],
+    CuttingStyling: _components_calculators_CuttingStyling__WEBPACK_IMPORTED_MODULE_1__["default"],
+    Men: _components_calculators_Men__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_3__["mapState"])(['calculator']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Finish.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Finish.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuelidate/lib/validators */ "./node_modules/vuelidate/lib/validators/index.js");
+/* harmony import */ var vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__);
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      showInfo: false,
+      name: '',
+      mobile: '',
+      email: '',
+      submitStatus: null
+    };
+  },
+  validations: {
+    name: {
+      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"]
+    },
+    mobile: {
+      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"],
+      numeric: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["numeric"]
+    },
+    email: {
+      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"],
+      email: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["email"]
+    }
+  },
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['regular'])),
+  methods: {
+    info: function info() {
+      return "From: ".concat(this.name, "\n              Email Address: ").concat(this.email, "\n              Mobile: ").concat(this.mobile, "\n              ");
+    },
+    submit: function submit() {
+      var _this = this;
+
+      console.log('submit!');
+      this.$v.$touch();
+
+      if (this.$v.$invalid) {
+        this.submitStatus = 'ERROR';
+      } else {
+        axios.post('api/send-quote-details', {
+          name: this.name,
+          mobile: this.mobile,
+          email: this.email,
+          info: this.info()
+        }).then(function (response) {
+          _this.submitStatus = 'OK';
+        })["catch"](function (e) {
+          console.error(e);
+        });
+      }
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Intro.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Intro.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['view', 'calculator', 'selector', 'salon', 'regular'])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['UPDATE_REGULAR', 'UPDATE_CALCULATOR', 'SELECT_VIEW']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Selector.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Selector.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['calculator'])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['SELECT_VIEW', 'UPDATE_SELECTOR']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _components_Modal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Modal */ "./src/priceCalc/components/Modal.vue");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['staff', 's'],
+  components: {
+    Modal: _components_Modal__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  data: function data() {
+    return {
+      isComponentModalActive: false,
+      selectedStaff: {}
+    };
+  },
+  methods: {
+    cardModal: function cardModal(index) {
+      this.selectedStaff = this.staff[index];
+      this.$buefy.modal.open({
+        parent: this,
+        props: {
+          staff: this.selectedStaff
+        },
+        component: _components_Modal__WEBPACK_IMPORTED_MODULE_1__["default"],
+        hasModalCard: true,
+        customClass: 'custom-class custom-class-2',
+        trapFocus: true
+      });
+    }
+  },
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['salon']))
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _StaffSelection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StaffSelection */ "./src/priceCalc/views/endpoint/StaffSelection.vue");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    StaffSelection: _StaffSelection__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  computed: _objectSpread(_objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['salon', 'salons', 'stylists', 'selectedColour', 'selectedColourAddOn', 'selectedTreatment', 'selectedFinish', 'selectedFinishAddOn', 'selectedMensColour', 'selectedMensCut', 'calculator'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['stylistsByLevel', 'totalCost', 'selectedColourPrice', 'selectedColourAddOnPrice', 'selectedTreatmentPrice', 'selectedFinishPrice', 'selectedFinishAddOnPrice', 'selectedMensColourPrice', 'selectedMensCutPrice'])), {}, {
+    thisStaff: function thisStaff() {
+      var _this = this;
+
+      return this.stylistsByLevel.filter(function (s) {
+        return s.salon === _this.salon.id;
+      });
+    },
+    hasStaff: function hasStaff() {
+      if (this.thisStaff.length) {
+        return true;
+      }
+    },
+    hasOtherStaff: function hasOtherStaff() {
+      var _this2 = this;
+
+      var other = this.stylistsByLevel.filter(function (s) {
+        return s.salon !== _this2.salon.id;
+      });
+
+      if (other.length) {
+        return true;
+      }
+    }
+  }),
+  methods: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['SELECT_VIEW'])), {}, {
+    otherStaff: function otherStaff(id) {
+      var _this3 = this;
+
+      return this.stylistsByLevel.filter(function (s) {
+        return s.salon === id && _this3.salon.id !== id;
+      });
+    }
+  })
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(['stylist', 'selectedColour', 'selectedColourAddOn', 'selectedTreatment', 'selectedFinish', 'selectedFinishAddOn', 'selectedMensCut', 'selectedMensColour', 'calculator', 'view'])), Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['stylistsByLevel', 'totalCost', 'selectedColourPrice', 'selectedColourAddOnPrice', 'selectedTreatmentPrice', 'selectedFinishPrice', 'selectedFinishAddOnPrice', 'selectedMensCutPrice', 'selectedMensColourPrice'])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(['SELECT_VIEW']))
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Blog.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Blog.vue?vue&type=script&lang=js& ***!
@@ -19437,6 +21324,3160 @@ var render = function() {
         ])
       ])
     : _vm._e()
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/Main.vue?vue&type=template&id=c5e105ba&":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/Main.vue?vue&type=template&id=c5e105ba& ***!
+  \*********************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c(
+        "transition",
+        { attrs: { name: "fade", mode: "out-in" } },
+        [_c("keep-alive", [_c(_vm.view, { tag: "component" })], 1)],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/Modal.vue?vue&type=template&id=465785c4&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/Modal.vue?vue&type=template&id=465785c4& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "modal-card", staticStyle: { width: "auto" } },
+    [
+      _c("header", { staticClass: "modal-card-head" }, [
+        _c("p", { staticClass: "modal-card-title" }, [
+          _vm._v("Your chosen stylist")
+        ]),
+        _vm._v(" "),
+        _c("button", {
+          staticClass: "delete",
+          attrs: { type: "button" },
+          on: {
+            click: function($event) {
+              return _vm.$emit("close")
+            }
+          }
+        })
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "modal-card-body" }, [
+        _c("div", { staticClass: "columns" }, [
+          _c("div", { staticClass: "column is-4" }, [
+            _c("figure", { staticClass: "image" }, [
+              _c("img", {
+                attrs: {
+                  src: _vm.staff.remote_image,
+                  alt: _vm.staff.first_name
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column" }, [
+            _c("h2", { staticClass: "title is-4" }, [
+              _vm._v(_vm._s(_vm.fullName))
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "is-size-4 is-size-5-mobile" }, [
+              _vm._v(_vm._s(_vm.staff.para_1))
+            ]),
+            _vm._v(" "),
+            _c("p", [_vm._v(_vm._s(_vm.staff.para_2))]),
+            _vm._v(" "),
+            _vm.staff.para_3
+              ? _c("p", [_vm._v(_vm._s(_vm.staff.para_3))])
+              : _vm._e()
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("footer", { staticClass: "modal-card-foot" }, [
+        _c(
+          "button",
+          {
+            staticClass: "button is-small is-primary",
+            attrs: { type: "button" },
+            on: {
+              click: function($event) {
+                _vm.SELECT_VIEW("TotalsByStylist")
+                _vm.SELECT_STYLIST(_vm.staff)
+                _vm.$emit("close")
+              }
+            }
+          },
+          [
+            _vm._v(
+              "Choose " + _vm._s(_vm.staff.first_name) + " as your stylist"
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "button is-small",
+            attrs: { type: "button" },
+            on: {
+              click: function($event) {
+                return _vm.$emit("close")
+              }
+            }
+          },
+          [_vm._v("Choose a different stylist")]
+        )
+      ])
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Colour.vue?vue&type=template&id=4d99d06e&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/calculators/Colour.vue?vue&type=template&id=4d99d06e& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "section" },
+    [
+      _c(_vm.selector, { tag: "component" }),
+      _vm._v(" "),
+      _vm.level.id ? _c("ColourSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedColour.id && !_vm.isColourCorrection
+        ? _c("ColourAddOnSelector")
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedColourAddOn.id ? _c("TreatmentSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedTreatment.id ||
+      (_vm.isColourCorrection && _vm.selectedColour.id)
+        ? _c("FinishSelector")
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedFinish.id ? _c("FinishAddOnSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedColour.id
+        ? _c(_vm.totalsView, { tag: "component" })
+        : _vm._e()
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=template&id=2a85fbdb&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=template&id=2a85fbdb& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "section" },
+    [
+      _c(_vm.selector, { tag: "component" }),
+      _vm._v(" "),
+      _vm.level.id ? _c("FinishSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedFinish.id ? _c("FinishAddOnSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedFinishAddOn.id ? _c("TreatmentSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedFinish.id
+        ? _c(_vm.totalsView, { tag: "component" })
+        : _vm._e()
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Men.vue?vue&type=template&id=30c89229&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/calculators/Men.vue?vue&type=template&id=30c89229& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "section" },
+    [
+      _c(_vm.selector, { tag: "component" }),
+      _vm._v(" "),
+      _vm.level.id ? _c("MensCutSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedMensCut.id ? _c("MensColourSelector") : _vm._e(),
+      _vm._v(" "),
+      _vm.selectedMensCut.id
+        ? _c(_vm.totalsView, { tag: "component" })
+        : _vm._e()
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Technical.vue?vue&type=template&id=7ae857f0&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/calculators/Technical.vue?vue&type=template&id=7ae857f0& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("h1", { staticClass: "title is-4" }, [_vm._v("Technical")])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=template&id=42e441d9&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=template&id=42e441d9& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-level",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select Level of your stylist\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.level
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " + _vm._s(_vm.level.name) + "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          !_vm.level.id
+            ? _c("div", { staticClass: "section" }, [
+                _c("p", [
+                  _vm._v("At Paul Kemp Hairdressing we have stylists from "),
+                  _c("strong", [_vm._v("Graduate Stylist")]),
+                  _vm._v(" level up to "),
+                  _c("strong", [_vm._v("Advanced Senior")]),
+                  _vm._v(
+                    ". The cost with each level reflects how much experience they have.\n        A Graduate stylist has 2-3 years experience, a Stylist 3-5 years experience, a Senior Stylist 5+ years experience."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("Our "),
+                  _c("strong", [_vm._v("Junior stylists")]),
+                  _vm._v(" are based at our training Academy "),
+                  _c("strong", [_vm._v("Base Hairdressing")]),
+                  _vm._v(" if you're looking for our most affordable option.")
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("All of our Senior Stylists have the "),
+                  _c("strong", [_vm._v("Schwarzkopf Colour Masters")]),
+                  _vm._v(
+                    " qualification.\n          Our Advanced Seniors are the most in-demand stylists with a wealth of experience and also oversee the running of the salon."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "has-text-level is-size-5" }, [
+                  _c("strong", [
+                    _vm._v(
+                      "Please select a stylist level below - you can change this at any time to see the price difference"
+                    )
+                  ])
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "section columns is-multiline is-mobile" },
+            _vm._l(_vm.levels, function(l, i) {
+              return _c("div", { key: i, staticClass: "column" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "button is-small is-level is-outlined",
+                    class: { activeLevel: i === _vm.level.id - 1 },
+                    on: {
+                      click: function($event) {
+                        _vm.SELECT_LEVEL(l)
+                        _vm.selectItem(i)
+                      }
+                    }
+                  },
+                  [_vm._v("\n          " + _vm._s(l.name) + "\n        ")]
+                )
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/PriceSelector.vue?vue&type=template&id=207ed81e&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/selectors/PriceSelector.vue?vue&type=template&id=207ed81e& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "title is-4" }, [
+        _vm._v("Select By a price/budget")
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=template&id=b82d12aa&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=template&id=b82d12aa& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-level",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select your stylist\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.stylist.name
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " + _vm._s(_vm.stylist.name) + "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          !_vm.salon.id
+            ? _c("div", { staticClass: "section" }, [
+                _c("p", { staticClass: "is-size-5" }, [
+                  _vm._v("Please select your salon")
+                ]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "columns is-multiline is-mobile" },
+                  _vm._l(_vm.salons, function(salon, index) {
+                    return _c("div", { staticClass: "column" }, [
+                      _c(
+                        "figure",
+                        {
+                          staticClass: "image salonSelect",
+                          on: {
+                            click: function($event) {
+                              return _vm.UPDATE_SALON(salon)
+                            }
+                          }
+                        },
+                        [
+                          _c("img", {
+                            attrs: { src: salon.image, alt: salon.name }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  0
+                )
+              ])
+            : _c("div", { staticClass: "section" }, [
+                !_vm.stylist.id
+                  ? _c("div", [
+                      _c("p", { staticClass: "is-size-5" }, [
+                        _vm._v("Now select your stylist")
+                      ]),
+                      _vm._v(" "),
+                      _c("br")
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "columns is-multiline is-mobile" },
+                  _vm._l(_vm.salonStylists, function(stylist, i) {
+                    return _c("div", { staticClass: "column" }, [
+                      _c(
+                        "button",
+                        {
+                          key: i,
+                          staticClass: "button is-small is-level is-outlined",
+                          class: { activeStylist: i === _vm.activeItem },
+                          on: {
+                            click: function($event) {
+                              _vm.SELECT_LEVEL(
+                                _vm.levels.filter(function(l) {
+                                  return l.id === stylist.level
+                                })[0]
+                              )
+                              _vm.SELECT_STYLIST(stylist)
+                              _vm.selectItem(i)
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n            " +
+                              _vm._s(stylist.first_name) +
+                              "\n          "
+                          )
+                        ]
+                      )
+                    ])
+                  }),
+                  0
+                )
+              ])
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=template&id=053537a1&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=template&id=053537a1& ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-colour-add-on",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select A Colour Add-on\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.selectedColourAddOn.id
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(_vm.selectedColourAddOn.service) +
+                          ": " +
+                          _vm._s(
+                            _vm._f("toCurrency")(_vm.selectedColourAddOnPrice)
+                          ) +
+                          "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          !_vm.selectedColourAddOn.id
+            ? _c("div", { staticClass: "section" }, [
+                _c("p", { staticClass: "is-size-4" }, [
+                  _vm._v("If you're going lighter you'll probably need a "),
+                  _c("strong", [_vm._v("Toner")]),
+                  _vm._v(" to achieve a beautiful colour.")
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "If you want fashion toning (silver/lilac/pink etc) Select "
+                  ),
+                  _c("strong", [_vm._v("Complex Toner")])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("For vibrant fashion colours select "),
+                  _c("strong", [_vm._v("Crazy Colour")])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("If you're having foils and need a "),
+                  _c("strong", [_vm._v("Colour in-between")]),
+                  _vm._v(" (to cover grey, etc) select this option")
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "section columns is-mobile is-multiline" },
+            _vm._l(_vm.colourAddOnPrices, function(service, i) {
+              return _c("div", { staticClass: "column" }, [
+                _c("div", {
+                  staticClass: "button is-small is-colour-add-on is-outlined",
+                  class: { activeSelectedColourAddOn: i === _vm.activeItem },
+                  domProps: { textContent: _vm._s(service.service) },
+                  on: {
+                    click: function($event) {
+                      _vm.$store.commit(
+                        "UPDATE_SELECTED_COLOUR_ADD_ON",
+                        service
+                      )
+                      _vm.isOpen = false
+                      _vm.selectItem(i)
+                    }
+                  }
+                })
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourSelector.vue?vue&type=template&id=7c59f68d&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/ColourSelector.vue?vue&type=template&id=7c59f68d& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-colour",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select A colour Service\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.selectedColour.id
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(_vm.selectedColour.service) +
+                          " " +
+                          _vm._s(
+                            _vm._f("toCurrency")(_vm.selectedColourPrice)
+                          ) +
+                          "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          !_vm.colourCat && !_vm.selectedColour.id
+            ? _c("div", { staticClass: "section" }, [
+                _c("p", { staticClass: "is-size-4" }, [
+                  _vm._v("We pride ourselves in our creative colouring work")
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("From Classic "),
+                  _c("strong", [_vm._v("foiling techniques")]),
+                  _vm._v(" to full head colours, beautiful seamless "),
+                  _c("strong", [_vm._v("Balayage's")]),
+                  _vm._v(" to bold striking "),
+                  _c("strong", [_vm._v("Ombre's")])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("Our team love to create statement looks too! "),
+                  _c("strong", [_vm._v("Full head bleaching")]),
+                  _vm._v(" with "),
+                  _c("strong", [_vm._v("pastel tones")]),
+                  _vm._v(" and "),
+                  _c("strong", [_vm._v("crazy colours")]),
+                  _vm._v(" for those Instagram ready looks!")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "has-text-colour" }, [
+                  _c("strong", [
+                    _vm._v(
+                      "Select the most appropriate colour service category from the list below. You can always come back and edit it later"
+                    )
+                  ])
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.colourCat
+            ? _c("div", { staticClass: "section" }, [
+                _vm.colourCat === 5
+                  ? _c("div", [
+                      _c("p", { staticClass: "is-size-5 has-text-danger" }, [
+                        _vm._v(
+                          "Pricing for a colour correction requires a full, in depth consultation as there are so many factors to consider, dependant on how much corrective work is required."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "We've based these colour correction prices on an average typical cost as a guideline to help you select the best stylist for your budget. Please be aware the price could be more expensive or potentially cheaper - get booked in for a consultation for an accurate price."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("br"),
+                      _c("br")
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                !_vm.selectedColour.id
+                  ? _c("p", { staticClass: "has-text-colour" }, [
+                      _c("strong", [_vm._v("Now choose a colour service")])
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("If you can't see the service you want "),
+                  _c(
+                    "strong",
+                    {
+                      staticClass: "back-link has-text-colour",
+                      on: {
+                        click: function($event) {
+                          return _vm.$store.commit(
+                            "CHANGE_COLOUR_CAT",
+                            (_vm.colourCat = null)
+                          )
+                        }
+                      }
+                    },
+                    [_vm._v("click to go back to the categories >")]
+                  )
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c("div", { staticClass: "section" }, [
+            !_vm.colourCat
+              ? _c("div", { staticClass: "columns is-multiline is-mobile" }, [
+                  _c("div", { staticClass: "column" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "button is-small",
+                        class: { activeColour: _vm.colourCat === 1 },
+                        on: {
+                          click: function($event) {
+                            _vm.$store.commit("CHANGE_COLOUR_CAT", 1),
+                              _vm.$store.commit(
+                                "UPDATE_IS_COLOUR_CORRECTION",
+                                false
+                              )
+                          }
+                        }
+                      },
+                      [_vm._v("\n            Classic Colours\n          ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "column" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "button is-small",
+                        class: { activeColour: _vm.colourCat === 2 },
+                        on: {
+                          click: function($event) {
+                            _vm.$store.commit("CHANGE_COLOUR_CAT", 2),
+                              _vm.$store.commit(
+                                "UPDATE_IS_COLOUR_CORRECTION",
+                                false
+                              )
+                          }
+                        }
+                      },
+                      [_vm._v("\n            Foiling Techniques\n          ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "column" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "button is-small",
+                        class: { activeColour: _vm.colourCat === 3 },
+                        on: {
+                          click: function($event) {
+                            _vm.$store.commit("CHANGE_COLOUR_CAT", 3),
+                              _vm.$store.commit(
+                                "UPDATE_IS_COLOUR_CORRECTION",
+                                false
+                              )
+                          }
+                        }
+                      },
+                      [_vm._v("\n            Creative Colouring\n          ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "column" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "button is-small",
+                        class: { activeColour: _vm.colourCat === 4 },
+                        on: {
+                          click: function($event) {
+                            _vm.$store.commit("CHANGE_COLOUR_CAT", 4),
+                              _vm.$store.commit(
+                                "UPDATE_IS_COLOUR_CORRECTION",
+                                false
+                              )
+                          }
+                        }
+                      },
+                      [_vm._v("\n            Full Head Bleaching\n          ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "column" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "button is-small",
+                        class: { activeColour: _vm.colourCat === 5 },
+                        on: {
+                          click: function($event) {
+                            _vm.$store.commit("CHANGE_COLOUR_CAT", 5),
+                              _vm.$store.commit(
+                                "UPDATE_IS_COLOUR_CORRECTION",
+                                true
+                              )
+                          }
+                        }
+                      },
+                      [_vm._v("\n            Corrective Colouring\n          ")]
+                    )
+                  ])
+                ])
+              : _c("div", [
+                  _c(
+                    "div",
+                    { staticClass: "columns is-multiline is-mobile" },
+                    _vm._l(_vm.filteredColourPrices, function(service, i) {
+                      return _c("div", { key: i, staticClass: "column" }, [
+                        _c("button", {
+                          staticClass: "button is-small is-outlined is-colour",
+                          class: { activeSelectedColour: i === _vm.activeItem },
+                          domProps: { textContent: _vm._s(service.service) },
+                          on: {
+                            click: function($event) {
+                              _vm.$store.commit(
+                                "UPDATE_SELECTED_COLOUR",
+                                service
+                              )
+                              _vm.isOpen = false
+                              _vm.selectItem(i)
+                            }
+                          }
+                        })
+                      ])
+                    }),
+                    0
+                  )
+                ])
+          ])
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=template&id=1f06efba&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=template&id=1f06efba& ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-finish-add-on",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select A Finish Add-on\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.selectedFinishAddOn.id
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(_vm.selectedFinishAddOn.service) +
+                          ": " +
+                          _vm._s(
+                            _vm._f("toCurrency")(_vm.selectedFinishAddOnPrice)
+                          ) +
+                          "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          !_vm.selectedFinishAddOn.id
+            ? _c("div", { staticClass: "section" }, [
+                _c("p", { staticClass: "is-size-5" }, [
+                  _vm._v("A perfect finish is a given with all our work. "),
+                  _c("strong", [_vm._v("Straightening")]),
+                  _vm._v(", "),
+                  _c("strong", [_vm._v("waving")]),
+                  _vm._v(" and certain\n        "),
+                  _c("strong", [_vm._v("curl techniques")]),
+                  _vm._v(
+                    " come as standard but sometimes you just want that little bit more…"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("If you want a volumous "),
+                  _c("strong", [_vm._v("curly blow")]),
+                  _vm._v(" or "),
+                  _c("strong", [_vm._v("vintage pincurls")]),
+                  _vm._v(
+                    " to set off your new look it all takes extra time and skill so click the add-on."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("Going on a "),
+                  _c("strong", [_vm._v("special night out")]),
+                  _vm._v(" or to a "),
+                  _c("strong", [_vm._v("festival")]),
+                  _vm._v("? Select the extra styling or up-do option.")
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("em", [
+                    _vm._v(
+                      "If you're happy with our standard exceptional styling then go ahead and click 'none'"
+                    )
+                  ])
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "section columns is-multiline is-mobile" },
+            _vm._l(_vm.finishAddOnPrices, function(service, i) {
+              return _c("div", { key: i, staticClass: "column" }, [
+                _c("div", {
+                  staticClass: "button is-small is-finish-add-on is-outlined",
+                  class: { activeSelectedFinishAddOn: i === _vm.activeItem },
+                  domProps: { textContent: _vm._s(service.service) },
+                  on: {
+                    click: function($event) {
+                      _vm.$store.commit(
+                        "UPDATE_SELECTED_FINISH_ADD_ON",
+                        service
+                      )
+                      _vm.isOpen = false
+                      _vm.selectItem(i)
+                    }
+                  }
+                })
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishSelector.vue?vue&type=template&id=7939d2d4&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/FinishSelector.vue?vue&type=template&id=7939d2d4& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-finish",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select A Cut or Finish service\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.selectedFinish.id
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(_vm.selectedFinish.service) +
+                          ": " +
+                          _vm._s(
+                            _vm._f("toCurrency")(_vm.selectedFinishPrice)
+                          ) +
+                          "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          !_vm.selectedFinish.id
+            ? _c("div", { staticClass: "section" }, [
+                _c("p", { staticClass: "is-size-5" }, [
+                  _vm._v(
+                    "Our team are trained to the highest level in cutting & styling hair."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "From classic, bold looks to choppy, textured styles - we'll be able to create a look perfectly suited to you."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("em", [
+                    _vm._v(
+                      "If you're wanting that little bit more to your styling then choose an add-on in the next section"
+                    )
+                  ])
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "section columns is-multiline is-mobile" },
+            _vm._l(_vm.finishPrices, function(service, i) {
+              return _c("div", { key: i, staticClass: "column" }, [
+                _c("div", {
+                  staticClass: "button is-small is-finish is-outlined",
+                  class: { activeSelectedFinish: i === _vm.activeItem },
+                  domProps: { textContent: _vm._s(service.service) },
+                  on: {
+                    click: function($event) {
+                      _vm.$store.commit("UPDATE_SELECTED_FINISH", service)
+                      _vm.isOpen = false
+                      _vm.selectItem(i)
+                    }
+                  }
+                })
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensColourSelector.vue?vue&type=template&id=8c99b46c&":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/MensColourSelector.vue?vue&type=template&id=8c99b46c& ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-finish",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select Your Colour Service\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.selectedMensColour.id
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(_vm.selectedMensColour.service) +
+                          ": " +
+                          _vm._s(
+                            _vm._f("toCurrency")(_vm.selectedMensColourPrice)
+                          ) +
+                          "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "section columns is-multiline is-mobile" },
+            _vm._l(_vm.mensColourPrices, function(service, i) {
+              return _c("div", { key: i, staticClass: "column" }, [
+                _c("div", {
+                  staticClass: "button is-small is-finish is-outlined",
+                  class: { activeSelectedFinish: i === _vm.activeItem },
+                  domProps: { textContent: _vm._s(service.service) },
+                  on: {
+                    click: function($event) {
+                      _vm.$store.commit("UPDATE_SELECTED_MENS_COLOUR", service)
+                      _vm.isOpen = false
+                      _vm.selectItem(i)
+                    }
+                  }
+                })
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensCutSelector.vue?vue&type=template&id=7823c65c&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/MensCutSelector.vue?vue&type=template&id=7823c65c& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-colour",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v(
+                    "\n          Select your Men's Cutting and styling service\n        "
+                  )
+                ]),
+                _vm._v(" "),
+                _vm.selectedMensCut.id
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(_vm.selectedMensCut.service) +
+                          ": " +
+                          _vm._s(
+                            _vm._f("toCurrency")(_vm.selectedMensCutPrice)
+                          ) +
+                          "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "section columns is-multiline is-mobile" },
+            _vm._l(_vm.mensCutPrices, function(service, i) {
+              return _c("div", { key: i, staticClass: "column" }, [
+                _c("div", {
+                  staticClass: "button is-small is-finish is-outlined",
+                  class: { activeSelectedFinish: i === _vm.activeItem },
+                  domProps: { textContent: _vm._s(service.service) },
+                  on: {
+                    click: function($event) {
+                      _vm.$store.commit("UPDATE_SELECTED_MENS_CUT", service)
+                      _vm.isOpen = false
+                      _vm.selectItem(i)
+                    }
+                  }
+                })
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=template&id=c99270b6&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=template&id=c99270b6& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "b-collapse",
+        {
+          staticClass: "panel is-treatment",
+          attrs: {
+            "aria-id": "contentIdForA11y2",
+            animation: "slide",
+            open: _vm.isOpen
+          },
+          on: {
+            "update:open": function($event) {
+              _vm.isOpen = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "panel-heading",
+              attrs: {
+                slot: "trigger",
+                role: "button",
+                "aria-controls": "contentIdForA11y2"
+              },
+              slot: "trigger"
+            },
+            [
+              _c("div", { staticClass: "level" }, [
+                _c("div", { staticClass: "level-left" }, [
+                  _vm._v("\n          Select A Hair Treatment\n        ")
+                ]),
+                _vm._v(" "),
+                _vm.selectedTreatment.id
+                  ? _c("div", { staticClass: "level-right" }, [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(_vm.selectedTreatment.service) +
+                          ": " +
+                          _vm._s(
+                            _vm._f("toCurrency")(_vm.selectedTreatmentPrice)
+                          ) +
+                          "\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          !_vm.selectedTreatment.id
+            ? _c("div", { staticClass: "section" }, [
+                _c("p", { staticClass: "is-size-4" }, [
+                  _vm._v(
+                    "If you want to keep your hair in perfect condition we recommend having one of our intensive treatments."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("Our "),
+                  _c("strong", [_vm._v("Schwarzkopf BC")]),
+                  _vm._v(
+                    " treatments are the most affordable option with a treatment selected to match your hair type."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "If you're looking for a more luxurious option then our "
+                  ),
+                  _c("strong", [_vm._v("Kevin Murphy TREAT.ME")]),
+                  _vm._v(
+                    " range will tantalise your senses and restore your hairs condition to it's former glory."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("For any heavy bleaching services we recommend "),
+                  _c("strong", [_vm._v("Olaplex")]),
+                  _vm._v(" and for already damaged hair Schwarzkopf BC "),
+                  _c("strong", [_vm._v("Fibre Clinix")]),
+                  _vm._v(" for a customised treatment suited to your hair type")
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "section columns is-mobile is-multiline" },
+            _vm._l(_vm.treatmentPrices, function(service, i) {
+              return _c("div", { staticClass: "column" }, [
+                _c("div", {
+                  staticClass: "button is-small is-treatment is-outlined",
+                  class: { activeSelectedTreatment: i === _vm.activeItem },
+                  domProps: { textContent: _vm._s(service.service) },
+                  on: {
+                    click: function($event) {
+                      _vm.$store.commit("UPDATE_SELECTED_TREATMENT", service)
+                      _vm.isOpen = false
+                      _vm.selectItem(i)
+                    }
+                  }
+                })
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/LevelTotal.vue?vue&type=template&id=da9e1b9e&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/totals/LevelTotal.vue?vue&type=template&id=da9e1b9e& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section box" }, [
+    _c("div", { staticClass: "columns" }, [
+      _c("div", { staticClass: "column is-8" }, [
+        !_vm.allSelected
+          ? _c("div", [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("p", { staticClass: "is-size-7" }, [
+                _vm._v(
+                  "Feel free to experiment with your other selections too!"
+                )
+              ])
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.allSelected
+          ? _c("div", [
+              _c("p", { staticClass: "is-size-4" }, [
+                _vm._v("Are you happy with this price?")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "If it's pushing your budget select a different stylist level or see how much it would cost to upgrade to a more experienced stylist"
+                )
+              ])
+            ])
+          : _vm._e()
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "column has-text-right" }, [
+        _c("div", { staticClass: "section price" }, [
+          _vm.allSelected
+            ? _c("p", { staticClass: "is-size-3 has-text-right" }, [
+                _vm._v("Total: " + _vm._s(_vm._f("toCurrency")(_vm.totalCost)))
+              ])
+            : _c("p", { staticClass: "is-size-6 has-text-right" }, [
+                _vm._v(
+                  "Running Total: " +
+                    _vm._s(_vm._f("toCurrency")(_vm.totalCost))
+                )
+              ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "is-size-6 has-text-right" }, [
+            _vm._v("with " + _vm._s(_vm.level.name))
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _vm.allSelected
+            ? _c("div", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "button is-warning is-small",
+                    class: [_vm.level.id > 1 ? "" : "disabled"],
+                    on: { click: _vm.INCREASE_LEVEL }
+                  },
+                  [_vm._v("\n            < Down a level\n          ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "button is-warning is-small",
+                    class: [
+                      _vm.level.id > 0 && _vm.level.id < 7 ? "" : "disabled"
+                    ],
+                    on: { click: _vm.DECREASE_LEVEL }
+                  },
+                  [_vm._v("\n            Up a level >\n          ")]
+                )
+              ])
+            : _vm._e()
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm.allSelected
+      ? _c("div", [
+          _c("div", { staticClass: "columns" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _c("div", { staticClass: "column has-text-right" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "button is-primary",
+                  on: {
+                    click: function($event) {
+                      return _vm.SELECT_VIEW("TotalsByLevel")
+                    }
+                  }
+                },
+                [_vm._v("Show Stylists")]
+              )
+            ])
+          ])
+        ])
+      : _vm._e()
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "is-size-7" }, [
+      _c("strong", [_vm._v("Try the price with different stylist levels")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column is-7" }, [
+      _c("p", [
+        _vm._v(
+          "Once you're happy with everything click the 'Show Stylist' button"
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/PriceTotal.vue?vue&type=template&id=0a02ebe8&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/totals/PriceTotal.vue?vue&type=template&id=0a02ebe8& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section box" }, [
+    _c("div", { staticClass: "level" }, [
+      _c("div", { staticClass: "level-left" }, [
+        _c("div", [
+          _c("p", { class: [_vm.allSelected ? "is-size-5" : "is-size-7"] }, [
+            _c("strong", [
+              _vm._v("Try the price with different stylist levels")
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v("use the buttons at the top")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "is-size-7" }, [
+            _vm._v("Feel free to experiment with your other selections too!")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "level-right" }, [
+        _c("div", { staticClass: "section price" }, [
+          _vm.allSelected
+            ? _c("p", { staticClass: "is-size-3 has-text-right" }, [
+                _vm._v("Total: " + _vm._s(_vm._f("toCurrency")(_vm.totalCost)))
+              ])
+            : _c("p", { staticClass: "is-size-6 has-text-right" }, [
+                _vm._v(
+                  "Running Total: " +
+                    _vm._s(_vm._f("toCurrency")(_vm.totalCost))
+                )
+              ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "is-size-6 has-text-right" }, [
+            _vm._v("with " + _vm._s(_vm.stylistName))
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm.allSelected
+      ? _c("div", { staticClass: "level" }, [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column is-10" }, [
+              _c("p", { staticClass: "is-size-4" }, [
+                _vm._v("Are you happy with this price?")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "If it's pushing your budget select a different stylist level or see how much it would cost to upgrade to a more experienced sylist"
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "button is-danger is-small",
+                  class: [_vm.level > 0 && _vm.level < 7 ? "" : "disabled"],
+                  on: { click: _vm.decreaseLevel }
+                },
+                [_vm._v("< Down a level")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "button is-primary is-small",
+                  class: [this.level > 1 ? "" : "disabled"],
+                  on: { click: _vm.increaseLevel }
+                },
+                [_vm._v("Up a level >")]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _c("br"),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Once you're happy with everything click the 'Show Stylist' button"
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column has-text-right" }, [
+            _c(
+              "button",
+              {
+                staticClass: "button is-primary",
+                on: { click: _vm.onClickButton }
+              },
+              [_vm._v("Show Stylists")]
+            )
+          ])
+        ])
+      : _vm._e()
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/StylistTotal.vue?vue&type=template&id=1d9e9cdf&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/components/totals/StylistTotal.vue?vue&type=template&id=1d9e9cdf& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section box" }, [
+    _c("div", { staticClass: "columns" }, [
+      _c("div", { staticClass: "column is-8" }, [
+        !_vm.allSelected
+          ? _c("div", [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("p", { staticClass: "is-size-7" }, [
+                _vm._v(
+                  "Feel free to experiment with your other selections too!"
+                )
+              ])
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.allSelected
+          ? _c("div", [
+              _c("p", { staticClass: "is-size-4" }, [
+                _vm._v("Are you happy with this price?")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "is-size-5" }, [
+                _vm._v(
+                  "Experiment with the different stylists and change your service selections."
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "is-size-5",
+                  on: {
+                    click: function($event) {
+                      return _vm.UPDATE_SELECTOR("LevelSelector")
+                    }
+                  }
+                },
+                [
+                  _c("strong", [
+                    _vm._v(
+                      "Alternatively, If you'd like to try different stylist levels\n          across all our sites click here >"
+                    )
+                  ])
+                ]
+              )
+            ])
+          : _vm._e()
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "column has-text-right" }, [
+        _c("div", { staticClass: "section price" }, [
+          _vm.allSelected
+            ? _c("p", { staticClass: "is-size-3 has-text-right" }, [
+                _vm._v("Total: " + _vm._s(_vm._f("toCurrency")(_vm.totalCost)))
+              ])
+            : _c("p", { staticClass: "is-size-6 has-text-right" }, [
+                _vm._v(
+                  "Running Total: " +
+                    _vm._s(_vm._f("toCurrency")(_vm.totalCost))
+                )
+              ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "is-size-6 has-text-right" }, [
+            _vm._v(
+              "with " +
+                _vm._s(_vm.stylist.first_name) +
+                " " +
+                _vm._s(_vm.stylist.last_name)
+            )
+          ]),
+          _vm._v(" "),
+          _c("br")
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm.allSelected
+      ? _c("div", [
+          _c("div", { staticClass: "columns" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _c("div", { staticClass: "column has-text-right" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "button is-primary is-small",
+                  on: {
+                    click: function($event) {
+                      return _vm.SELECT_VIEW("TotalsByStylist")
+                    }
+                  }
+                },
+                [_vm._v("Next")]
+              )
+            ])
+          ])
+        ])
+      : _vm._e()
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "is-size-7" }, [
+      _c("strong", [_vm._v("Try the price with different stylists")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column is-7" }, [
+      _c("p", [_vm._v("Once you're happy with everything click 'next'")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Calculator.vue?vue&type=template&id=f4267ea6&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Calculator.vue?vue&type=template&id=f4267ea6& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [_c("keep-alive", [_c(_vm.calculator, { tag: "component" })], 1)],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Finish.vue?vue&type=template&id=137e9984&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Finish.vue?vue&type=template&id=137e9984& ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section" }, [
+    _c("p", { staticClass: "is-size-4" }, [
+      _vm._v("We'll save you're quote and send it to you!")
+    ]),
+    _vm._v(" "),
+    _c("p", [
+      _vm._v(
+        "Just fill in your details below and we'll email it over and send a text message link too."
+      )
+    ]),
+    _vm._v(" "),
+    _vm.submitStatus != "OK"
+      ? _c(
+          "form",
+          {
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.submit($event)
+              }
+            }
+          },
+          [
+            _c("div", { staticClass: "field" }, [
+              _c("label", { staticClass: "label has-text-white" }, [
+                _vm._v("Full Name")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "control" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model.trim",
+                      value: _vm.$v.name.$model,
+                      expression: "$v.name.$model",
+                      modifiers: { trim: true }
+                    }
+                  ],
+                  staticClass: "input",
+                  class: { "is-danger": _vm.$v.name.$error },
+                  attrs: { placeholder: "Your Full Name" },
+                  domProps: { value: _vm.$v.name.$model },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(
+                        _vm.$v.name,
+                        "$model",
+                        $event.target.value.trim()
+                      )
+                    },
+                    blur: function($event) {
+                      return _vm.$forceUpdate()
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _vm.submitStatus === "ERROR" && !_vm.$v.name.required
+                ? _c("div", { staticClass: "help is-danger" }, [
+                    _vm._v("\n        Your name is required\n      ")
+                  ])
+                : _vm._e()
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "field" }, [
+              _c("label", { staticClass: "label has-text-white" }, [
+                _vm._v("Mobile Number")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "control" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model.trim",
+                      value: _vm.$v.mobile.$model,
+                      expression: "$v.mobile.$model",
+                      modifiers: { trim: true }
+                    }
+                  ],
+                  staticClass: "input",
+                  class: { "is-danger": _vm.$v.mobile.$error },
+                  attrs: { placeholder: "Your Mobile Number" },
+                  domProps: { value: _vm.$v.mobile.$model },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(
+                        _vm.$v.mobile,
+                        "$model",
+                        $event.target.value.trim()
+                      )
+                    },
+                    blur: function($event) {
+                      return _vm.$forceUpdate()
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _vm.submitStatus === "ERROR" && !_vm.$v.mobile.required
+                  ? _c("div", { staticClass: "help is-danger" }, [
+                      _vm._v(
+                        "\n          Your mobile number is required\n        "
+                      )
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                _vm.submitStatus === "ERROR" && !_vm.$v.email.numeric
+                  ? _c("div", { staticClass: "help is-danger" }, [
+                      _vm._v(
+                        "\n          A valid mobile number is required\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "field" }, [
+              _c("label", { staticClass: "label has-text-white" }, [
+                _vm._v("Email Address")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "control" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model.trim",
+                      value: _vm.$v.email.$model,
+                      expression: "$v.email.$model",
+                      modifiers: { trim: true }
+                    }
+                  ],
+                  staticClass: "input",
+                  class: { "is-danger": _vm.$v.email.$error },
+                  attrs: { placeholder: "Your Email Address" },
+                  domProps: { value: _vm.$v.email.$model },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(
+                        _vm.$v.email,
+                        "$model",
+                        $event.target.value.trim()
+                      )
+                    },
+                    blur: function($event) {
+                      return _vm.$forceUpdate()
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _vm.submitStatus === "ERROR" && !_vm.$v.email.required
+                  ? _c("div", { staticClass: "help is-danger" }, [
+                      _vm._v("\n          Email Address is required\n        ")
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                _vm.submitStatus === "ERROR" && !_vm.$v.email.email
+                  ? _c("div", { staticClass: "help is-danger" }, [
+                      _vm._v(
+                        "\n          Valid Email Address is required\n        "
+                      )
+                    ])
+                  : _vm._e()
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "field" }, [
+              _c("div", { staticClass: "control" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "button is-primary",
+                    attrs: {
+                      type: "submit",
+                      disabled: _vm.submitStatus === "PENDING"
+                    }
+                  },
+                  [_vm._v("Send")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _c("br")
+            ])
+          ]
+        )
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.submitStatus === "OK"
+      ? _c("div", [
+          _c("p", { staticClass: "is-size-4 has-text-primary" }, [
+            _vm._v(
+              "Great! You'll receive your estimated quote via email and text message very soon!"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "In the meantime we recommend booking in for a consultation with your chosen stylist. Call " +
+                _vm._s(_vm.salon.phone) +
+                " to book or use the online booking " +
+                _vm._s(_vm.salon.bookings)
+            )
+          ])
+        ])
+      : _vm._e()
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Intro.vue?vue&type=template&id=52f8e1de&":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Intro.vue?vue&type=template&id=52f8e1de& ***!
+  \****************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section columns is-centered" }, [
+    _c("div", { staticClass: "section column is-8" }, [
+      _c("h1", { staticClass: "title is-3" }, [
+        _vm._v("Let us match the best stylist for your budget")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-4" }, [
+        _vm._v(
+          "The vast array of services we offer along with our wide range of stylist levels makes quoting for our services\n      less than straight forward!"
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _c("strong", [
+          _vm._v("Have you been to " + _vm._s(_vm.salon.name) + " before?")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "button",
+          class: [_vm.regular ? "is-primary" : ""],
+          on: {
+            click: function($event) {
+              return _vm.UPDATE_REGULAR(true)
+            }
+          }
+        },
+        [_vm._v("Yes")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "button",
+          class: [!_vm.regular ? "is-primary" : ""],
+          on: {
+            click: function($event) {
+              return _vm.UPDATE_REGULAR(false)
+            }
+          }
+        },
+        [_vm._v("No")]
+      ),
+      _vm._v(" "),
+      _c("br"),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", [
+        _vm._m(1),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "section columns is-multiline service-selector" },
+          [
+            _c("div", { staticClass: "column" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "service-link colour",
+                  on: {
+                    click: function($event) {
+                      _vm.UPDATE_CALCULATOR("Colour")
+                      _vm.SELECT_VIEW("selector")
+                    }
+                  }
+                },
+                [_c("p", [_vm._v("Colour, Cutting & Styling")])]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "service-link cutting",
+                  on: {
+                    click: function($event) {
+                      _vm.UPDATE_CALCULATOR("CuttingStyling")
+                      _vm.SELECT_VIEW("selector")
+                    }
+                  }
+                },
+                [_c("p", [_vm._v("Cutting/Styling only")])]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "service-link men",
+                  on: {
+                    click: function($event) {
+                      _vm.UPDATE_CALCULATOR("Men")
+                      _vm.SELECT_VIEW("selector")
+                    }
+                  }
+                },
+                [_c("p", [_vm._v("Men's Hairdressing")])]
+              )
+            ])
+          ]
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("That's why we created our comprehensive "),
+      _c("strong", [_vm._v("price calculator")]),
+      _vm._v(
+        ", a simple way for you to get a bespoke quote for the\n      services you want us to do, with the ability to experiment with different services and change the stylist level\n      until you find a price and stylist that suits you!"
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h3", { staticClass: "title is-5" }, [
+      _c("strong", [
+        _vm._v(
+          "To get started select the type of service you require from the options below..."
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Selector.vue?vue&type=template&id=aa0d086c&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/Selector.vue?vue&type=template&id=aa0d086c& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section columns is-centered" }, [
+    _c("div", { staticClass: "section column is-8" }, [
+      _c("h1", { staticClass: "title is-4" }, [
+        _vm._v("How do you want us to create your quote?")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Are you looking for a quote for a specific stylist or do you want us give you pricing based on stylist level?"
+        )
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "level" }, [
+        _c("div", { staticClass: "level-left" }, [
+          _c("div", { staticClass: "level-item" }, [
+            _c(
+              "button",
+              {
+                staticClass: "button is-colour",
+                on: {
+                  click: function($event) {
+                    _vm.UPDATE_SELECTOR("StylistSelector")
+                    _vm.SELECT_VIEW("calculator")
+                  }
+                }
+              },
+              [_vm._v("\n            Quote for a specific stylist\n          ")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "level-right" }, [
+          _c("div", { staticClass: "level-item" }, [
+            _c(
+              "button",
+              {
+                staticClass: "button is-colour",
+                on: {
+                  click: function($event) {
+                    _vm.UPDATE_SELECTOR("LevelSelector")
+                    _vm.SELECT_VIEW("calculator")
+                  }
+                }
+              },
+              [
+                _vm._v(
+                  "\n            Quote based on a stylist level\n          "
+                )
+              ]
+            )
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=template&id=f2592e2a&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=template&id=f2592e2a& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm.staff.length
+    ? _c("div", { staticClass: "staff-selection" }, [
+        _vm.s.id !== _vm.salon.id
+          ? _c("img", {
+              attrs: { src: _vm.s.logo, alt: _vm.s.name, width: 200 }
+            })
+          : _vm._e(),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "columns is-multiline is-mobile" },
+          _vm._l(_vm.staff, function(stylist, index) {
+            return _c(
+              "div",
+              {
+                staticClass: "section column is-4",
+                on: {
+                  click: function($event) {
+                    return _vm.cardModal(index)
+                  }
+                }
+              },
+              [
+                _c("div", { staticClass: "card has-background-colour" }, [
+                  _c("div", { staticClass: "card-image" }, [
+                    _c("figure", { staticClass: "image is-square" }, [
+                      _c("img", {
+                        attrs: {
+                          src: stylist.remote_image,
+                          alt: stylist.first_name + stylist.last_name
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "card-content" }, [
+                      _c("div", { staticClass: "media" }, [
+                        _c("div", { staticClass: "media-content" }, [
+                          _c(
+                            "p",
+                            {
+                              staticClass:
+                                "title is-6 has-text-white has-text-centered"
+                            },
+                            [
+                              _vm._v(
+                                _vm._s(stylist.first_name) +
+                                  " " +
+                                  _vm._s(stylist.last_name)
+                              )
+                            ]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ])
+              ]
+            )
+          }),
+          0
+        )
+      ])
+    : _vm._e()
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=template&id=04c251af&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=template&id=04c251af& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section columns is-centered" }, [
+    _c(
+      "div",
+      { staticClass: "section column is-8" },
+      [
+        _c("h1", { staticClass: "title is-2" }, [_vm._v("Your Selections")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "is-size-4" }, [
+          _vm._v("You've chosen the following services:")
+        ]),
+        _vm._v(" "),
+        _c("table", { staticClass: "table" }, [
+          _vm.selectedColourPrice
+            ? _c("tr", [
+                _c("td", [_vm._v(_vm._s(_vm.selectedColour.service))]),
+                _vm._v(" "),
+                _c("td", [
+                  _vm._v(_vm._s(_vm._f("toCurrency")(_vm.selectedColourPrice)))
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.selectedColourAddOnPrice
+            ? _c("tr", [
+                _c("td", [_vm._v(_vm._s(_vm.selectedColourAddOn.service))]),
+                _vm._v(" "),
+                _c("td", [
+                  _vm._v(
+                    _vm._s(_vm._f("toCurrency")(_vm.selectedColourAddOnPrice))
+                  )
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.selectedTreatmentPrice
+            ? _c("tr", [
+                _c("td", [_vm._v(_vm._s(_vm.selectedTreatment.service))]),
+                _vm._v(" "),
+                _c("td", [
+                  _vm._v(
+                    _vm._s(_vm._f("toCurrency")(_vm.selectedTreatmentPrice))
+                  )
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.selectedFinishPrice
+            ? _c("tr", [
+                _c("td", [_vm._v(_vm._s(_vm.selectedFinish.service))]),
+                _vm._v(" "),
+                _c("td", [
+                  _vm._v(_vm._s(_vm._f("toCurrency")(_vm.selectedFinishPrice)))
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.selectedFinishAddOnPrice
+            ? _c("tr", [
+                _c("td", [_vm._v(_vm._s(_vm.selectedFinishAddOn.service))]),
+                _vm._v(" "),
+                _c("td", [
+                  _vm._v(
+                    _vm._s(_vm._f("toCurrency")(_vm.selectedFinishAddOnPrice))
+                  )
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.selectedMensColourPrice
+            ? _c("tr", [
+                _c("td", [_vm._v(_vm._s(_vm.selectedMensColour.service))]),
+                _vm._v(" "),
+                _c("td", [
+                  _vm._v(
+                    _vm._s(_vm._f("toCurrency")(_vm.selectedMensColourPrice))
+                  )
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.selectedMensCutPrice
+            ? _c("tr", [
+                _c("td", [_vm._v(_vm._s(_vm.selectedMensCut.service))]),
+                _vm._v(" "),
+                _c("td", [
+                  _vm._v(_vm._s(_vm._f("toCurrency")(_vm.selectedMensCutPrice)))
+                ])
+              ])
+            : _vm._e()
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "is-size-4" }, [
+          _vm._v(
+            "The total estimated cost is: " +
+              _vm._s(_vm._f("toCurrency")(_vm.totalCost))
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "is-size-7" }, [
+          _vm._v(
+            "Please note: a full consultation is required to determine the exact price - a skin test is required 48hrs before any colour service"
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _vm.hasStaff
+          ? _c("h2", { staticClass: "is-size-4" }, [
+              _vm._v(
+                "Here are the " +
+                  _vm._s(_vm.salon.name) +
+                  " stylists that fit your budget:"
+              )
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.hasStaff
+          ? _c("StaffSelection", {
+              attrs: { staff: _vm.thisStaff, s: _vm.salon }
+            })
+          : _c("div", [
+              _c("p", { staticClass: "is-size-4" }, [
+                _c("strong", { staticClass: "has-text-danger" }, [
+                  _vm._v(
+                    "Unfortunately there are no staff at your chosen level at " +
+                      _vm._s(_vm.salon.name)
+                  )
+                ])
+              ])
+            ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _vm.hasOtherStaff
+          ? _c(
+              "div",
+              [
+                _vm.hasStaff
+                  ? _c("p", { staticClass: "is-size-4" }, [
+                      _vm._v(
+                        "We also have these stylists at a similar price in our other salon"
+                      )
+                    ])
+                  : _c("p", { staticClass: "is-size-5" }, [
+                      _vm._v(
+                        "These are the other stylists from our other salons within your price range..."
+                      )
+                    ]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _vm._l(_vm.salons, function(s) {
+                  return _c(
+                    "div",
+                    [
+                      _c("StaffSelection", {
+                        attrs: { staff: _vm.otherStaff(s.id), s: s }
+                      })
+                    ],
+                    1
+                  )
+                })
+              ],
+              2
+            )
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.hasStaff || _vm.hasOtherStaff
+          ? _c("div", [
+              _c("p", { staticClass: "is-size-5" }, [
+                _vm._v("Click on a stylist to find out more about them")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "is-size-4" }, [
+                _vm._v(
+                  "Are you happy with your selection or do you want to adapt your options?"
+                )
+              ])
+            ])
+          : _c("div", [
+              _c("p", { staticClass: "is-size-4" }, [
+                _vm._v("Please click below to adapt your choice")
+              ])
+            ]),
+        _vm._v(" "),
+        _c("br"),
+        _c("br"),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "button is-primary",
+            on: {
+              click: function($event) {
+                return _vm.SELECT_VIEW("calculator")
+              }
+            }
+          },
+          [_vm._v("Change Choices")]
+        )
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=template&id=2e740618&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=template&id=2e740618& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section columns is-centered" }, [
+    _c("div", { staticClass: "section column is-8" }, [
+      _c("h1", { staticClass: "title is-2" }, [_vm._v("Your Stylists")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-4" }, [
+        _vm._v("Here are the stylists that fit your budget")
+      ]),
+      _vm._v(" "),
+      _c(
+        "ul",
+        _vm._l(_vm.selectedStylists, function(stylist) {
+          return _c("li", [
+            _vm._v("\n        " + _vm._s(stylist.name) + "\n      ")
+          ])
+        }),
+        0
+      ),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-4" }, [
+        _vm._v(
+          "The total estimated cost is: " +
+            _vm._s(_vm._f("toCurrency")(_vm.price))
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-4" }, [
+        _vm._v(
+          "Are you happy with your selection or do you want to adapt your options?"
+        )
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "button is-primary",
+          on: { click: function($event) {} }
+        },
+        [_vm._v("Change Choices")]
+      )
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=template&id=aa6f917e&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=template&id=aa6f917e& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "section columns is-centered" }, [
+    _c("div", { staticClass: "section column is-8" }, [
+      _c("h1", { staticClass: "title is-2" }, [_vm._v("Your Selection")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "columns is-mobile" }, [
+        _c("div", { staticClass: "column is-7" }, [
+          _c("p", { staticClass: "is-size-4" }, [
+            _vm._v(
+              "You've chosen the following services with " +
+                _vm._s(_vm.stylist.first_name) +
+                " " +
+                _vm._s(_vm.stylist.last_name)
+            )
+          ]),
+          _vm._v(" "),
+          _c("table", { staticClass: "table" }, [
+            _vm.selectedColour && _vm.selectedColour.price > 0
+              ? _c("tr", [
+                  _c("td", [_vm._v(_vm._s(_vm.selectedColour.service))]),
+                  _vm._v(" "),
+                  _c("td", [
+                    _vm._v(
+                      _vm._s(_vm._f("toCurrency")(_vm.selectedColourPrice))
+                    )
+                  ])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.selectedColourAddOn && _vm.selectedColourAddOn.price > 0
+              ? _c("tr", [
+                  _c("td", [_vm._v(_vm._s(_vm.selectedColourAddOn.service))]),
+                  _vm._v(" "),
+                  _c("td", [
+                    _vm._v(
+                      _vm._s(_vm._f("toCurrency")(_vm.selectedColourAddOnPrice))
+                    )
+                  ])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.selectedTreatment && _vm.selectedTreatment.price > 0
+              ? _c("tr", [
+                  _c("td", [_vm._v(_vm._s(_vm.selectedTreatment.service))]),
+                  _vm._v(" "),
+                  _c("td", [
+                    _vm._v(
+                      _vm._s(_vm._f("toCurrency")(_vm.selectedTreatmentPrice))
+                    )
+                  ])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.selectedFinish && _vm.selectedFinish.price > 0
+              ? _c("tr", [
+                  _c("td", [_vm._v(_vm._s(_vm.selectedFinish.service))]),
+                  _vm._v(" "),
+                  _c("td", [
+                    _vm._v(
+                      _vm._s(_vm._f("toCurrency")(_vm.selectedFinishPrice))
+                    )
+                  ])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.selectedFinishAddOn && _vm.selectedFinishAddOn.price > 0
+              ? _c("tr", [
+                  _c("td", [_vm._v(_vm._s(_vm.selectedFinishAddOn.service))]),
+                  _vm._v(" "),
+                  _c("td", [
+                    _vm._v(
+                      _vm._s(_vm._f("toCurrency")(_vm.selectedFinishAddOnPrice))
+                    )
+                  ])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.selectedMensCut && _vm.selectedMensCut.price > 0
+              ? _c("tr", [
+                  _c("td", [_vm._v(_vm._s(_vm.selectedMensCut.service))]),
+                  _vm._v(" "),
+                  _c("td", [
+                    _vm._v(
+                      _vm._s(_vm._f("toCurrency")(_vm.selectedMensCutPrice))
+                    )
+                  ])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.selectedMensColour && _vm.selectedMensColour.price > 0
+              ? _c("tr", [
+                  _c("td", [_vm._v(_vm._s(_vm.selectedMensColour.service))]),
+                  _vm._v(" "),
+                  _c("td", [
+                    _vm._v(
+                      _vm._s(_vm._f("toCurrency")(_vm.selectedMensColourPrice))
+                    )
+                  ])
+                ])
+              : _vm._e()
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "is-size-4" }, [
+            _vm._v(
+              "The total estimated cost is: " +
+                _vm._s(_vm._f("toCurrency")(_vm.totalCost))
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "column" }, [
+          _c("figure", { staticClass: "image" }, [
+            _c("img", {
+              attrs: {
+                src: _vm.stylist.remote_image,
+                alt: _vm.stylist.first_name + _vm.stylist.last_name
+              }
+            })
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-7" }, [
+        _vm._v(
+          "Please note: a full consultation is required to determine the exact price - a skin test is required 48hrs before any colour service"
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-4" }, [
+        _vm._v(
+          "Are you happy with your selection or do you want to adapt your options?"
+        )
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "button is-primary",
+          on: {
+            click: function($event) {
+              return _vm.SELECT_VIEW("finish")
+            }
+          }
+        },
+        [_vm._v("I'm Happy!")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "button is-primary",
+          on: {
+            click: function($event) {
+              return _vm.SELECT_VIEW("calculator")
+            }
+          }
+        },
+        [_vm._v("Change Choices")]
+      )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -46887,6 +51928,1837 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/priceCalc/Main.vue":
+/*!********************************!*\
+  !*** ./src/priceCalc/Main.vue ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Main_vue_vue_type_template_id_c5e105ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Main.vue?vue&type=template&id=c5e105ba& */ "./src/priceCalc/Main.vue?vue&type=template&id=c5e105ba&");
+/* harmony import */ var _Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Main.vue?vue&type=script&lang=js& */ "./src/priceCalc/Main.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Main_vue_vue_type_template_id_c5e105ba___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Main_vue_vue_type_template_id_c5e105ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/Main.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/Main.vue?vue&type=script&lang=js&":
+/*!*********************************************************!*\
+  !*** ./src/priceCalc/Main.vue?vue&type=script&lang=js& ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib??ref--4-0!../../node_modules/vue-loader/lib??vue-loader-options!./Main.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/Main.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/Main.vue?vue&type=template&id=c5e105ba&":
+/*!***************************************************************!*\
+  !*** ./src/priceCalc/Main.vue?vue&type=template&id=c5e105ba& ***!
+  \***************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_template_id_c5e105ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./Main.vue?vue&type=template&id=c5e105ba& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/Main.vue?vue&type=template&id=c5e105ba&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_template_id_c5e105ba___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_template_id_c5e105ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/Modal.vue":
+/*!********************************************!*\
+  !*** ./src/priceCalc/components/Modal.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Modal_vue_vue_type_template_id_465785c4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modal.vue?vue&type=template&id=465785c4& */ "./src/priceCalc/components/Modal.vue?vue&type=template&id=465785c4&");
+/* harmony import */ var _Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modal.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/Modal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Modal_vue_vue_type_template_id_465785c4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Modal_vue_vue_type_template_id_465785c4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/Modal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/Modal.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./src/priceCalc/components/Modal.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/Modal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/Modal.vue?vue&type=template&id=465785c4&":
+/*!***************************************************************************!*\
+  !*** ./src/priceCalc/components/Modal.vue?vue&type=template&id=465785c4& ***!
+  \***************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_465785c4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=template&id=465785c4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/Modal.vue?vue&type=template&id=465785c4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_465785c4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_465785c4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Colour.vue":
+/*!*********************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Colour.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Colour_vue_vue_type_template_id_4d99d06e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Colour.vue?vue&type=template&id=4d99d06e& */ "./src/priceCalc/components/calculators/Colour.vue?vue&type=template&id=4d99d06e&");
+/* harmony import */ var _Colour_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Colour.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/calculators/Colour.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Colour_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Colour_vue_vue_type_template_id_4d99d06e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Colour_vue_vue_type_template_id_4d99d06e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/calculators/Colour.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Colour.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Colour.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Colour_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Colour.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Colour.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Colour_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Colour.vue?vue&type=template&id=4d99d06e&":
+/*!****************************************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Colour.vue?vue&type=template&id=4d99d06e& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Colour_vue_vue_type_template_id_4d99d06e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Colour.vue?vue&type=template&id=4d99d06e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Colour.vue?vue&type=template&id=4d99d06e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Colour_vue_vue_type_template_id_4d99d06e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Colour_vue_vue_type_template_id_4d99d06e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/CuttingStyling.vue":
+/*!*****************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/CuttingStyling.vue ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CuttingStyling_vue_vue_type_template_id_2a85fbdb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CuttingStyling.vue?vue&type=template&id=2a85fbdb& */ "./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=template&id=2a85fbdb&");
+/* harmony import */ var _CuttingStyling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CuttingStyling.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CuttingStyling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CuttingStyling_vue_vue_type_template_id_2a85fbdb___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CuttingStyling_vue_vue_type_template_id_2a85fbdb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/calculators/CuttingStyling.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CuttingStyling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./CuttingStyling.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CuttingStyling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=template&id=2a85fbdb&":
+/*!************************************************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=template&id=2a85fbdb& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CuttingStyling_vue_vue_type_template_id_2a85fbdb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CuttingStyling.vue?vue&type=template&id=2a85fbdb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/CuttingStyling.vue?vue&type=template&id=2a85fbdb&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CuttingStyling_vue_vue_type_template_id_2a85fbdb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CuttingStyling_vue_vue_type_template_id_2a85fbdb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Men.vue":
+/*!******************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Men.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Men_vue_vue_type_template_id_30c89229___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Men.vue?vue&type=template&id=30c89229& */ "./src/priceCalc/components/calculators/Men.vue?vue&type=template&id=30c89229&");
+/* harmony import */ var _Men_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Men.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/calculators/Men.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Men_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Men_vue_vue_type_template_id_30c89229___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Men_vue_vue_type_template_id_30c89229___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/calculators/Men.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Men.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Men.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Men_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Men.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Men.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Men_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Men.vue?vue&type=template&id=30c89229&":
+/*!*************************************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Men.vue?vue&type=template&id=30c89229& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Men_vue_vue_type_template_id_30c89229___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Men.vue?vue&type=template&id=30c89229& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Men.vue?vue&type=template&id=30c89229&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Men_vue_vue_type_template_id_30c89229___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Men_vue_vue_type_template_id_30c89229___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Technical.vue":
+/*!************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Technical.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Technical_vue_vue_type_template_id_7ae857f0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Technical.vue?vue&type=template&id=7ae857f0& */ "./src/priceCalc/components/calculators/Technical.vue?vue&type=template&id=7ae857f0&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Technical_vue_vue_type_template_id_7ae857f0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Technical_vue_vue_type_template_id_7ae857f0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/calculators/Technical.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/calculators/Technical.vue?vue&type=template&id=7ae857f0&":
+/*!*******************************************************************************************!*\
+  !*** ./src/priceCalc/components/calculators/Technical.vue?vue&type=template&id=7ae857f0& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Technical_vue_vue_type_template_id_7ae857f0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Technical.vue?vue&type=template&id=7ae857f0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/calculators/Technical.vue?vue&type=template&id=7ae857f0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Technical_vue_vue_type_template_id_7ae857f0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Technical_vue_vue_type_template_id_7ae857f0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/LevelSelector.vue":
+/*!**************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/LevelSelector.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _LevelSelector_vue_vue_type_template_id_42e441d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LevelSelector.vue?vue&type=template&id=42e441d9& */ "./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=template&id=42e441d9&");
+/* harmony import */ var _LevelSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LevelSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _LevelSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _LevelSelector_vue_vue_type_template_id_42e441d9___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _LevelSelector_vue_vue_type_template_id_42e441d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/selectors/LevelSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./LevelSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=template&id=42e441d9&":
+/*!*********************************************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=template&id=42e441d9& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelSelector_vue_vue_type_template_id_42e441d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./LevelSelector.vue?vue&type=template&id=42e441d9& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/LevelSelector.vue?vue&type=template&id=42e441d9&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelSelector_vue_vue_type_template_id_42e441d9___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelSelector_vue_vue_type_template_id_42e441d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/PriceSelector.vue":
+/*!**************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/PriceSelector.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PriceSelector_vue_vue_type_template_id_207ed81e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PriceSelector.vue?vue&type=template&id=207ed81e& */ "./src/priceCalc/components/selectors/PriceSelector.vue?vue&type=template&id=207ed81e&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _PriceSelector_vue_vue_type_template_id_207ed81e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _PriceSelector_vue_vue_type_template_id_207ed81e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/selectors/PriceSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/PriceSelector.vue?vue&type=template&id=207ed81e&":
+/*!*********************************************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/PriceSelector.vue?vue&type=template&id=207ed81e& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceSelector_vue_vue_type_template_id_207ed81e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./PriceSelector.vue?vue&type=template&id=207ed81e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/PriceSelector.vue?vue&type=template&id=207ed81e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceSelector_vue_vue_type_template_id_207ed81e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceSelector_vue_vue_type_template_id_207ed81e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/StylistSelector.vue":
+/*!****************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/StylistSelector.vue ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _StylistSelector_vue_vue_type_template_id_b82d12aa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StylistSelector.vue?vue&type=template&id=b82d12aa& */ "./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=template&id=b82d12aa&");
+/* harmony import */ var _StylistSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StylistSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _StylistSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _StylistSelector_vue_vue_type_template_id_b82d12aa___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _StylistSelector_vue_vue_type_template_id_b82d12aa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/selectors/StylistSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./StylistSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=template&id=b82d12aa&":
+/*!***********************************************************************************************!*\
+  !*** ./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=template&id=b82d12aa& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistSelector_vue_vue_type_template_id_b82d12aa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./StylistSelector.vue?vue&type=template&id=b82d12aa& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/selectors/StylistSelector.vue?vue&type=template&id=b82d12aa&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistSelector_vue_vue_type_template_id_b82d12aa___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistSelector_vue_vue_type_template_id_b82d12aa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/ColourAddOnSelector.vue":
+/*!*******************************************************************!*\
+  !*** ./src/priceCalc/components/services/ColourAddOnSelector.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ColourAddOnSelector_vue_vue_type_template_id_053537a1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ColourAddOnSelector.vue?vue&type=template&id=053537a1& */ "./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=template&id=053537a1&");
+/* harmony import */ var _ColourAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ColourAddOnSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ColourAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ColourAddOnSelector_vue_vue_type_template_id_053537a1___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ColourAddOnSelector_vue_vue_type_template_id_053537a1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/services/ColourAddOnSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColourAddOnSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=template&id=053537a1&":
+/*!**************************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=template&id=053537a1& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourAddOnSelector_vue_vue_type_template_id_053537a1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColourAddOnSelector.vue?vue&type=template&id=053537a1& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourAddOnSelector.vue?vue&type=template&id=053537a1&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourAddOnSelector_vue_vue_type_template_id_053537a1___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourAddOnSelector_vue_vue_type_template_id_053537a1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/ColourSelector.vue":
+/*!**************************************************************!*\
+  !*** ./src/priceCalc/components/services/ColourSelector.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ColourSelector_vue_vue_type_template_id_7c59f68d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ColourSelector.vue?vue&type=template&id=7c59f68d& */ "./src/priceCalc/components/services/ColourSelector.vue?vue&type=template&id=7c59f68d&");
+/* harmony import */ var _ColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ColourSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/services/ColourSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ColourSelector_vue_vue_type_template_id_7c59f68d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ColourSelector_vue_vue_type_template_id_7c59f68d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/services/ColourSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/ColourSelector.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/ColourSelector.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColourSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/ColourSelector.vue?vue&type=template&id=7c59f68d&":
+/*!*********************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/ColourSelector.vue?vue&type=template&id=7c59f68d& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourSelector_vue_vue_type_template_id_7c59f68d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColourSelector.vue?vue&type=template&id=7c59f68d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/ColourSelector.vue?vue&type=template&id=7c59f68d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourSelector_vue_vue_type_template_id_7c59f68d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColourSelector_vue_vue_type_template_id_7c59f68d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/FinishAddOnSelector.vue":
+/*!*******************************************************************!*\
+  !*** ./src/priceCalc/components/services/FinishAddOnSelector.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FinishAddOnSelector_vue_vue_type_template_id_1f06efba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FinishAddOnSelector.vue?vue&type=template&id=1f06efba& */ "./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=template&id=1f06efba&");
+/* harmony import */ var _FinishAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FinishAddOnSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FinishAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FinishAddOnSelector_vue_vue_type_template_id_1f06efba___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FinishAddOnSelector_vue_vue_type_template_id_1f06efba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/services/FinishAddOnSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./FinishAddOnSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishAddOnSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=template&id=1f06efba&":
+/*!**************************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=template&id=1f06efba& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishAddOnSelector_vue_vue_type_template_id_1f06efba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./FinishAddOnSelector.vue?vue&type=template&id=1f06efba& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishAddOnSelector.vue?vue&type=template&id=1f06efba&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishAddOnSelector_vue_vue_type_template_id_1f06efba___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishAddOnSelector_vue_vue_type_template_id_1f06efba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/FinishSelector.vue":
+/*!**************************************************************!*\
+  !*** ./src/priceCalc/components/services/FinishSelector.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FinishSelector_vue_vue_type_template_id_7939d2d4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FinishSelector.vue?vue&type=template&id=7939d2d4& */ "./src/priceCalc/components/services/FinishSelector.vue?vue&type=template&id=7939d2d4&");
+/* harmony import */ var _FinishSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FinishSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/services/FinishSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FinishSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FinishSelector_vue_vue_type_template_id_7939d2d4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FinishSelector_vue_vue_type_template_id_7939d2d4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/services/FinishSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/FinishSelector.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/FinishSelector.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./FinishSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/FinishSelector.vue?vue&type=template&id=7939d2d4&":
+/*!*********************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/FinishSelector.vue?vue&type=template&id=7939d2d4& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishSelector_vue_vue_type_template_id_7939d2d4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./FinishSelector.vue?vue&type=template&id=7939d2d4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/FinishSelector.vue?vue&type=template&id=7939d2d4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishSelector_vue_vue_type_template_id_7939d2d4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FinishSelector_vue_vue_type_template_id_7939d2d4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/MensColourSelector.vue":
+/*!******************************************************************!*\
+  !*** ./src/priceCalc/components/services/MensColourSelector.vue ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _MensColourSelector_vue_vue_type_template_id_8c99b46c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MensColourSelector.vue?vue&type=template&id=8c99b46c& */ "./src/priceCalc/components/services/MensColourSelector.vue?vue&type=template&id=8c99b46c&");
+/* harmony import */ var _MensColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MensColourSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/services/MensColourSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _MensColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _MensColourSelector_vue_vue_type_template_id_8c99b46c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _MensColourSelector_vue_vue_type_template_id_8c99b46c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/services/MensColourSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/MensColourSelector.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/MensColourSelector.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MensColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./MensColourSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensColourSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MensColourSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/MensColourSelector.vue?vue&type=template&id=8c99b46c&":
+/*!*************************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/MensColourSelector.vue?vue&type=template&id=8c99b46c& ***!
+  \*************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MensColourSelector_vue_vue_type_template_id_8c99b46c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./MensColourSelector.vue?vue&type=template&id=8c99b46c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensColourSelector.vue?vue&type=template&id=8c99b46c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MensColourSelector_vue_vue_type_template_id_8c99b46c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MensColourSelector_vue_vue_type_template_id_8c99b46c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/MensCutSelector.vue":
+/*!***************************************************************!*\
+  !*** ./src/priceCalc/components/services/MensCutSelector.vue ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _MensCutSelector_vue_vue_type_template_id_7823c65c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MensCutSelector.vue?vue&type=template&id=7823c65c& */ "./src/priceCalc/components/services/MensCutSelector.vue?vue&type=template&id=7823c65c&");
+/* harmony import */ var _MensCutSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MensCutSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/services/MensCutSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _MensCutSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _MensCutSelector_vue_vue_type_template_id_7823c65c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _MensCutSelector_vue_vue_type_template_id_7823c65c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/services/MensCutSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/MensCutSelector.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/MensCutSelector.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MensCutSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./MensCutSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensCutSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MensCutSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/MensCutSelector.vue?vue&type=template&id=7823c65c&":
+/*!**********************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/MensCutSelector.vue?vue&type=template&id=7823c65c& ***!
+  \**********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MensCutSelector_vue_vue_type_template_id_7823c65c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./MensCutSelector.vue?vue&type=template&id=7823c65c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/MensCutSelector.vue?vue&type=template&id=7823c65c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MensCutSelector_vue_vue_type_template_id_7823c65c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MensCutSelector_vue_vue_type_template_id_7823c65c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/TreatmentSelector.vue":
+/*!*****************************************************************!*\
+  !*** ./src/priceCalc/components/services/TreatmentSelector.vue ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TreatmentSelector_vue_vue_type_template_id_c99270b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TreatmentSelector.vue?vue&type=template&id=c99270b6& */ "./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=template&id=c99270b6&");
+/* harmony import */ var _TreatmentSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TreatmentSelector.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TreatmentSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TreatmentSelector_vue_vue_type_template_id_c99270b6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TreatmentSelector_vue_vue_type_template_id_c99270b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/services/TreatmentSelector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TreatmentSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TreatmentSelector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TreatmentSelector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=template&id=c99270b6&":
+/*!************************************************************************************************!*\
+  !*** ./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=template&id=c99270b6& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TreatmentSelector_vue_vue_type_template_id_c99270b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TreatmentSelector.vue?vue&type=template&id=c99270b6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/services/TreatmentSelector.vue?vue&type=template&id=c99270b6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TreatmentSelector_vue_vue_type_template_id_c99270b6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TreatmentSelector_vue_vue_type_template_id_c99270b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/LevelTotal.vue":
+/*!********************************************************!*\
+  !*** ./src/priceCalc/components/totals/LevelTotal.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _LevelTotal_vue_vue_type_template_id_da9e1b9e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LevelTotal.vue?vue&type=template&id=da9e1b9e& */ "./src/priceCalc/components/totals/LevelTotal.vue?vue&type=template&id=da9e1b9e&");
+/* harmony import */ var _LevelTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LevelTotal.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/totals/LevelTotal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _LevelTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _LevelTotal_vue_vue_type_template_id_da9e1b9e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _LevelTotal_vue_vue_type_template_id_da9e1b9e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/totals/LevelTotal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/LevelTotal.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./src/priceCalc/components/totals/LevelTotal.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./LevelTotal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/LevelTotal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/LevelTotal.vue?vue&type=template&id=da9e1b9e&":
+/*!***************************************************************************************!*\
+  !*** ./src/priceCalc/components/totals/LevelTotal.vue?vue&type=template&id=da9e1b9e& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelTotal_vue_vue_type_template_id_da9e1b9e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./LevelTotal.vue?vue&type=template&id=da9e1b9e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/LevelTotal.vue?vue&type=template&id=da9e1b9e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelTotal_vue_vue_type_template_id_da9e1b9e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LevelTotal_vue_vue_type_template_id_da9e1b9e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/PriceTotal.vue":
+/*!********************************************************!*\
+  !*** ./src/priceCalc/components/totals/PriceTotal.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PriceTotal_vue_vue_type_template_id_0a02ebe8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PriceTotal.vue?vue&type=template&id=0a02ebe8& */ "./src/priceCalc/components/totals/PriceTotal.vue?vue&type=template&id=0a02ebe8&");
+/* harmony import */ var _PriceTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PriceTotal.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/totals/PriceTotal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _PriceTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _PriceTotal_vue_vue_type_template_id_0a02ebe8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _PriceTotal_vue_vue_type_template_id_0a02ebe8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/totals/PriceTotal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/PriceTotal.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./src/priceCalc/components/totals/PriceTotal.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./PriceTotal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/PriceTotal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/PriceTotal.vue?vue&type=template&id=0a02ebe8&":
+/*!***************************************************************************************!*\
+  !*** ./src/priceCalc/components/totals/PriceTotal.vue?vue&type=template&id=0a02ebe8& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceTotal_vue_vue_type_template_id_0a02ebe8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./PriceTotal.vue?vue&type=template&id=0a02ebe8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/PriceTotal.vue?vue&type=template&id=0a02ebe8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceTotal_vue_vue_type_template_id_0a02ebe8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceTotal_vue_vue_type_template_id_0a02ebe8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/StylistTotal.vue":
+/*!**********************************************************!*\
+  !*** ./src/priceCalc/components/totals/StylistTotal.vue ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _StylistTotal_vue_vue_type_template_id_1d9e9cdf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StylistTotal.vue?vue&type=template&id=1d9e9cdf& */ "./src/priceCalc/components/totals/StylistTotal.vue?vue&type=template&id=1d9e9cdf&");
+/* harmony import */ var _StylistTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StylistTotal.vue?vue&type=script&lang=js& */ "./src/priceCalc/components/totals/StylistTotal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _StylistTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _StylistTotal_vue_vue_type_template_id_1d9e9cdf___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _StylistTotal_vue_vue_type_template_id_1d9e9cdf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/components/totals/StylistTotal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/StylistTotal.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./src/priceCalc/components/totals/StylistTotal.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./StylistTotal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/StylistTotal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistTotal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/components/totals/StylistTotal.vue?vue&type=template&id=1d9e9cdf&":
+/*!*****************************************************************************************!*\
+  !*** ./src/priceCalc/components/totals/StylistTotal.vue?vue&type=template&id=1d9e9cdf& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistTotal_vue_vue_type_template_id_1d9e9cdf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./StylistTotal.vue?vue&type=template&id=1d9e9cdf& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/components/totals/StylistTotal.vue?vue&type=template&id=1d9e9cdf&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistTotal_vue_vue_type_template_id_1d9e9cdf___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StylistTotal_vue_vue_type_template_id_1d9e9cdf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Calculator.vue":
+/*!********************************************!*\
+  !*** ./src/priceCalc/views/Calculator.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Calculator_vue_vue_type_template_id_f4267ea6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Calculator.vue?vue&type=template&id=f4267ea6& */ "./src/priceCalc/views/Calculator.vue?vue&type=template&id=f4267ea6&");
+/* harmony import */ var _Calculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Calculator.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/Calculator.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Calculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Calculator_vue_vue_type_template_id_f4267ea6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Calculator_vue_vue_type_template_id_f4267ea6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/Calculator.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Calculator.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./src/priceCalc/views/Calculator.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Calculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Calculator.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Calculator.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Calculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Calculator.vue?vue&type=template&id=f4267ea6&":
+/*!***************************************************************************!*\
+  !*** ./src/priceCalc/views/Calculator.vue?vue&type=template&id=f4267ea6& ***!
+  \***************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calculator_vue_vue_type_template_id_f4267ea6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Calculator.vue?vue&type=template&id=f4267ea6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Calculator.vue?vue&type=template&id=f4267ea6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calculator_vue_vue_type_template_id_f4267ea6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calculator_vue_vue_type_template_id_f4267ea6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Finish.vue":
+/*!****************************************!*\
+  !*** ./src/priceCalc/views/Finish.vue ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Finish_vue_vue_type_template_id_137e9984___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Finish.vue?vue&type=template&id=137e9984& */ "./src/priceCalc/views/Finish.vue?vue&type=template&id=137e9984&");
+/* harmony import */ var _Finish_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Finish.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/Finish.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Finish_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Finish_vue_vue_type_template_id_137e9984___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Finish_vue_vue_type_template_id_137e9984___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/Finish.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Finish.vue?vue&type=script&lang=js&":
+/*!*****************************************************************!*\
+  !*** ./src/priceCalc/views/Finish.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Finish_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Finish.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Finish.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Finish_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Finish.vue?vue&type=template&id=137e9984&":
+/*!***********************************************************************!*\
+  !*** ./src/priceCalc/views/Finish.vue?vue&type=template&id=137e9984& ***!
+  \***********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Finish_vue_vue_type_template_id_137e9984___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Finish.vue?vue&type=template&id=137e9984& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Finish.vue?vue&type=template&id=137e9984&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Finish_vue_vue_type_template_id_137e9984___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Finish_vue_vue_type_template_id_137e9984___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Intro.vue":
+/*!***************************************!*\
+  !*** ./src/priceCalc/views/Intro.vue ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Intro_vue_vue_type_template_id_52f8e1de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Intro.vue?vue&type=template&id=52f8e1de& */ "./src/priceCalc/views/Intro.vue?vue&type=template&id=52f8e1de&");
+/* harmony import */ var _Intro_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Intro.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/Intro.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Intro_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Intro_vue_vue_type_template_id_52f8e1de___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Intro_vue_vue_type_template_id_52f8e1de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/Intro.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Intro.vue?vue&type=script&lang=js&":
+/*!****************************************************************!*\
+  !*** ./src/priceCalc/views/Intro.vue?vue&type=script&lang=js& ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Intro_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Intro.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Intro.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Intro_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Intro.vue?vue&type=template&id=52f8e1de&":
+/*!**********************************************************************!*\
+  !*** ./src/priceCalc/views/Intro.vue?vue&type=template&id=52f8e1de& ***!
+  \**********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Intro_vue_vue_type_template_id_52f8e1de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Intro.vue?vue&type=template&id=52f8e1de& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Intro.vue?vue&type=template&id=52f8e1de&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Intro_vue_vue_type_template_id_52f8e1de___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Intro_vue_vue_type_template_id_52f8e1de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Selector.vue":
+/*!******************************************!*\
+  !*** ./src/priceCalc/views/Selector.vue ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Selector_vue_vue_type_template_id_aa0d086c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Selector.vue?vue&type=template&id=aa0d086c& */ "./src/priceCalc/views/Selector.vue?vue&type=template&id=aa0d086c&");
+/* harmony import */ var _Selector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Selector.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/Selector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Selector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Selector_vue_vue_type_template_id_aa0d086c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Selector_vue_vue_type_template_id_aa0d086c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/Selector.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Selector.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./src/priceCalc/views/Selector.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Selector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Selector.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Selector.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Selector_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/Selector.vue?vue&type=template&id=aa0d086c&":
+/*!*************************************************************************!*\
+  !*** ./src/priceCalc/views/Selector.vue?vue&type=template&id=aa0d086c& ***!
+  \*************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Selector_vue_vue_type_template_id_aa0d086c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Selector.vue?vue&type=template&id=aa0d086c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/Selector.vue?vue&type=template&id=aa0d086c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Selector_vue_vue_type_template_id_aa0d086c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Selector_vue_vue_type_template_id_aa0d086c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/StaffSelection.vue":
+/*!*********************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/StaffSelection.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _StaffSelection_vue_vue_type_template_id_f2592e2a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StaffSelection.vue?vue&type=template&id=f2592e2a& */ "./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=template&id=f2592e2a&");
+/* harmony import */ var _StaffSelection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StaffSelection.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _StaffSelection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _StaffSelection_vue_vue_type_template_id_f2592e2a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _StaffSelection_vue_vue_type_template_id_f2592e2a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/endpoint/StaffSelection.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StaffSelection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./StaffSelection.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StaffSelection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=template&id=f2592e2a&":
+/*!****************************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=template&id=f2592e2a& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StaffSelection_vue_vue_type_template_id_f2592e2a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./StaffSelection.vue?vue&type=template&id=f2592e2a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/StaffSelection.vue?vue&type=template&id=f2592e2a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StaffSelection_vue_vue_type_template_id_f2592e2a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StaffSelection_vue_vue_type_template_id_f2592e2a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByLevel.vue":
+/*!********************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByLevel.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TotalsByLevel_vue_vue_type_template_id_04c251af___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TotalsByLevel.vue?vue&type=template&id=04c251af& */ "./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=template&id=04c251af&");
+/* harmony import */ var _TotalsByLevel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TotalsByLevel.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TotalsByLevel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TotalsByLevel_vue_vue_type_template_id_04c251af___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TotalsByLevel_vue_vue_type_template_id_04c251af___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/endpoint/TotalsByLevel.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByLevel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TotalsByLevel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByLevel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=template&id=04c251af&":
+/*!***************************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=template&id=04c251af& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByLevel_vue_vue_type_template_id_04c251af___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TotalsByLevel.vue?vue&type=template&id=04c251af& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByLevel.vue?vue&type=template&id=04c251af&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByLevel_vue_vue_type_template_id_04c251af___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByLevel_vue_vue_type_template_id_04c251af___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByPrice.vue":
+/*!********************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByPrice.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TotalsByPrice_vue_vue_type_template_id_2e740618___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TotalsByPrice.vue?vue&type=template&id=2e740618& */ "./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=template&id=2e740618&");
+/* harmony import */ var _TotalsByPrice_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TotalsByPrice.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TotalsByPrice_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TotalsByPrice_vue_vue_type_template_id_2e740618___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TotalsByPrice_vue_vue_type_template_id_2e740618___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/endpoint/TotalsByPrice.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByPrice_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TotalsByPrice.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByPrice_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=template&id=2e740618&":
+/*!***************************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=template&id=2e740618& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByPrice_vue_vue_type_template_id_2e740618___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TotalsByPrice.vue?vue&type=template&id=2e740618& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByPrice.vue?vue&type=template&id=2e740618&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByPrice_vue_vue_type_template_id_2e740618___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByPrice_vue_vue_type_template_id_2e740618___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByStylist.vue":
+/*!**********************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByStylist.vue ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TotalsByStylist_vue_vue_type_template_id_aa6f917e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TotalsByStylist.vue?vue&type=template&id=aa6f917e& */ "./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=template&id=aa6f917e&");
+/* harmony import */ var _TotalsByStylist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TotalsByStylist.vue?vue&type=script&lang=js& */ "./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TotalsByStylist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TotalsByStylist_vue_vue_type_template_id_aa6f917e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TotalsByStylist_vue_vue_type_template_id_aa6f917e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/priceCalc/views/endpoint/TotalsByStylist.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByStylist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TotalsByStylist.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByStylist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=template&id=aa6f917e&":
+/*!*****************************************************************************************!*\
+  !*** ./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=template&id=aa6f917e& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByStylist_vue_vue_type_template_id_aa6f917e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TotalsByStylist.vue?vue&type=template&id=aa6f917e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/priceCalc/views/endpoint/TotalsByStylist.vue?vue&type=template&id=aa6f917e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByStylist_vue_vue_type_template_id_aa6f917e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TotalsByStylist_vue_vue_type_template_id_aa6f917e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./src/routes.js":
 /*!***********************!*\
   !*** ./src/routes.js ***!
@@ -46916,6 +53788,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _views_Contact__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./views/Contact */ "./src/views/Contact.vue");
 /* harmony import */ var _views_Bookings__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/Bookings */ "./src/views/Bookings.vue");
 /* harmony import */ var _views_Corona__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/Corona */ "./src/views/Corona.vue");
+/* harmony import */ var _priceCalc_Main__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./priceCalc/Main */ "./src/priceCalc/Main.vue");
+
 
 
 
@@ -47014,6 +53888,10 @@ var routes = [{
   path: "/corona",
   component: _views_Corona__WEBPACK_IMPORTED_MODULE_18__["default"],
   name: "corona"
+}, {
+  path: "/prices",
+  component: _priceCalc_Main__WEBPACK_IMPORTED_MODULE_19__["default"],
+  name: "prices"
 }, {
   path: '/:notFound(.*)',
   redirect: '/'

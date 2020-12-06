@@ -17,6 +17,7 @@ import TeamDetail from "./views/TeamDetail"
 import Contact from "./views/Contact"
 import Bookings from "./views/Bookings"
 import Corona from "./views/Corona"
+import PriceCalc from "./priceCalc/Main"
 
 export const routes = [
     {
@@ -117,6 +118,11 @@ export const routes = [
         path: "/corona",
         component: Corona,
         name: "corona"
+    },
+    {
+        path: "/prices",
+        component: PriceCalc,
+        name: "prices"
     },
     {
         path: '/:notFound(.*)', redirect: '/'

@@ -20,7 +20,7 @@
         </div>
       </div>
       <div v-if="!level.id" class="section">
-        <p>At Jakata we have stylists from <strong>Graduate Stylist</strong> level up to <strong>Advanced Senior</strong>. The cost with each level reflects how much experience they have.
+        <p>At Paul Kemp Hairdressing we have stylists from <strong>Graduate Stylist</strong> level up to <strong>Advanced Senior</strong>. The cost with each level reflects how much experience they have.
           A Graduate stylist has 2-3 years experience, a Stylist 3-5 years experience, a Senior Stylist 5+ years experience.</p>
         <p>Our <strong>Junior stylists</strong> are based at our training Academy <strong>Base Hairdressing</strong> if you're looking for our most affordable option.</p>
         <p>All of our Senior Stylists have the <strong>Schwarzkopf Colour Masters</strong> qualification.
