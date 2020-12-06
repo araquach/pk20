@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Vuelidate from 'vuelidate'
 import App from './App.vue'
 import { routes } from "./routes"
+import { store } from './store'
 import VueMoment from "vue-moment"
 
 import Buefy from 'buefy'
@@ -36,5 +37,6 @@ const router = new VueRouter({
 new Vue({
     el: '#app',
     router,
+    store,
     render: h => h(App)
 })
