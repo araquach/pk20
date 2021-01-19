@@ -10,7 +10,7 @@ We have opened our online appointment registration form for you again to ensure 
 
 Any existing appointments booked in will be contacted along with everyone who registers...
 
-[Register for your appointment here >](https://www.paulkemphairdressing.com/bookings)  
+[Register for your appointment here >](/bookings)
 
 **We look forward to seeing you all soon, hope everyone is taking care 🤎**
 
