@@ -4,7 +4,6 @@ import App from './App.vue'
 import router from "./router"
 import { store } from './store/store'
 import VueMoment from "vue-moment"
-
 import Buefy from 'buefy'
 
 Vue.use(Buefy)
@@ -16,6 +15,12 @@ window.axios = require('axios')
 Vue.filter('textLimit', function (text, length) {
     return text.substring(0, length)
 })
+
+Vue.filter("toCurrency",  amount => Number(amount).toLocaleString('en-GB',
+    {
+        style: 'currency',
+        currency: 'GBP'
+    }))
 
 new Vue({
     el: '#app',
