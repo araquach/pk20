@@ -47,6 +47,7 @@
                     <option value="Izzy">Izzy</option>
                     <option value="Kellie">Kellie</option>
                     <option value="Jo">Jo</option>
+                    <option value="Michelle">Michelle</option>
                     <option value="Brad">Brad</option>
                     <option value="Abi">Abi</option>
                     <option value="David">David</option>
