@@ -21429,8 +21429,6 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   transition: opacity 0.1s;
 }
 
-/* General */
-
 html {
   background-color: #FFF;
 }
@@ -21722,6 +21720,10 @@ p {
 }
 
 /* Price Page */
+
+#prices {
+  padding: 3rem 0 10rem 0;
+}
 
 #price-page {
   background-color: #FFF;
