@@ -1085,6 +1085,45 @@ a.has-text-finish-add-on:focus {
   background-color: #849bc4 !important;
 }
 
+.has-text-PK {
+  color: #372218 !important;
+}
+
+a.has-text-PK:hover,
+a.has-text-PK:focus {
+  color: #130c09 !important;
+}
+
+.has-background-PK {
+  background-color: #372218 !important;
+}
+
+.has-text-Jakata {
+  color: #29335f !important;
+}
+
+a.has-text-Jakata:hover,
+a.has-text-Jakata:focus {
+  color: #1a203b !important;
+}
+
+.has-background-Jakata {
+  background-color: #29335f !important;
+}
+
+.has-text-Base {
+  color: #373738 !important;
+}
+
+a.has-text-Base:hover,
+a.has-text-Base:focus {
+  color: #1e1e1e !important;
+}
+
+.has-background-Base {
+  background-color: #373738 !important;
+}
+
 .has-text-black-bis {
   color: #121212 !important;
 }
@@ -3659,6 +3698,375 @@ fieldset[disabled] .button.is-finish-add-on.is-inverted.is-outlined {
   color: white;
 }
 
+.button.is-PK {
+  background-color: #372218;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-PK:hover,
+.button.is-PK.is-hovered {
+  background-color: #2e1d14;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-PK:focus,
+.button.is-PK.is-focused {
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-PK:focus:not(:active),
+.button.is-PK.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(55, 34, 24, 0.25);
+}
+
+.button.is-PK:active,
+.button.is-PK.is-active {
+  background-color: #251710;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-PK[disabled],
+fieldset[disabled] .button.is-PK {
+  background-color: #372218;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.button.is-PK.is-inverted {
+  background-color: white;
+  color: #372218;
+}
+
+.button.is-PK.is-inverted:hover,
+.button.is-PK.is-inverted.is-hovered {
+  background-color: #f2f2f2;
+}
+
+.button.is-PK.is-inverted[disabled],
+fieldset[disabled] .button.is-PK.is-inverted {
+  background-color: white;
+  border-color: transparent;
+  box-shadow: none;
+  color: #372218;
+}
+
+.button.is-PK.is-loading::after {
+  border-color: transparent transparent white white !important;
+}
+
+.button.is-PK.is-outlined {
+  background-color: transparent;
+  border-color: #372218;
+  color: #372218;
+}
+
+.button.is-PK.is-outlined:hover,
+.button.is-PK.is-outlined.is-hovered,
+.button.is-PK.is-outlined:focus,
+.button.is-PK.is-outlined.is-focused {
+  background-color: #372218;
+  border-color: #372218;
+  color: white;
+}
+
+.button.is-PK.is-outlined.is-loading::after {
+  border-color: transparent transparent #372218 #372218 !important;
+}
+
+.button.is-PK.is-outlined.is-loading:hover::after,
+.button.is-PK.is-outlined.is-loading.is-hovered::after,
+.button.is-PK.is-outlined.is-loading:focus::after,
+.button.is-PK.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent white white !important;
+}
+
+.button.is-PK.is-outlined[disabled],
+fieldset[disabled] .button.is-PK.is-outlined {
+  background-color: transparent;
+  border-color: #372218;
+  box-shadow: none;
+  color: #372218;
+}
+
+.button.is-PK.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.button.is-PK.is-inverted.is-outlined:hover,
+.button.is-PK.is-inverted.is-outlined.is-hovered,
+.button.is-PK.is-inverted.is-outlined:focus,
+.button.is-PK.is-inverted.is-outlined.is-focused {
+  background-color: white;
+  color: #372218;
+}
+
+.button.is-PK.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-PK.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-PK.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-PK.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #372218 #372218 !important;
+}
+
+.button.is-PK.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-PK.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: white;
+  box-shadow: none;
+  color: white;
+}
+
+.button.is-Jakata {
+  background-color: #29335f;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Jakata:hover,
+.button.is-Jakata.is-hovered {
+  background-color: #252e56;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Jakata:focus,
+.button.is-Jakata.is-focused {
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Jakata:focus:not(:active),
+.button.is-Jakata.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(41, 51, 95, 0.25);
+}
+
+.button.is-Jakata:active,
+.button.is-Jakata.is-active {
+  background-color: #21294d;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Jakata[disabled],
+fieldset[disabled] .button.is-Jakata {
+  background-color: #29335f;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.button.is-Jakata.is-inverted {
+  background-color: white;
+  color: #29335f;
+}
+
+.button.is-Jakata.is-inverted:hover,
+.button.is-Jakata.is-inverted.is-hovered {
+  background-color: #f2f2f2;
+}
+
+.button.is-Jakata.is-inverted[disabled],
+fieldset[disabled] .button.is-Jakata.is-inverted {
+  background-color: white;
+  border-color: transparent;
+  box-shadow: none;
+  color: #29335f;
+}
+
+.button.is-Jakata.is-loading::after {
+  border-color: transparent transparent white white !important;
+}
+
+.button.is-Jakata.is-outlined {
+  background-color: transparent;
+  border-color: #29335f;
+  color: #29335f;
+}
+
+.button.is-Jakata.is-outlined:hover,
+.button.is-Jakata.is-outlined.is-hovered,
+.button.is-Jakata.is-outlined:focus,
+.button.is-Jakata.is-outlined.is-focused {
+  background-color: #29335f;
+  border-color: #29335f;
+  color: white;
+}
+
+.button.is-Jakata.is-outlined.is-loading::after {
+  border-color: transparent transparent #29335f #29335f !important;
+}
+
+.button.is-Jakata.is-outlined.is-loading:hover::after,
+.button.is-Jakata.is-outlined.is-loading.is-hovered::after,
+.button.is-Jakata.is-outlined.is-loading:focus::after,
+.button.is-Jakata.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent white white !important;
+}
+
+.button.is-Jakata.is-outlined[disabled],
+fieldset[disabled] .button.is-Jakata.is-outlined {
+  background-color: transparent;
+  border-color: #29335f;
+  box-shadow: none;
+  color: #29335f;
+}
+
+.button.is-Jakata.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.button.is-Jakata.is-inverted.is-outlined:hover,
+.button.is-Jakata.is-inverted.is-outlined.is-hovered,
+.button.is-Jakata.is-inverted.is-outlined:focus,
+.button.is-Jakata.is-inverted.is-outlined.is-focused {
+  background-color: white;
+  color: #29335f;
+}
+
+.button.is-Jakata.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-Jakata.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-Jakata.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-Jakata.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #29335f #29335f !important;
+}
+
+.button.is-Jakata.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-Jakata.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: white;
+  box-shadow: none;
+  color: white;
+}
+
+.button.is-Base {
+  background-color: #373738;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Base:hover,
+.button.is-Base.is-hovered {
+  background-color: #313132;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Base:focus,
+.button.is-Base.is-focused {
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Base:focus:not(:active),
+.button.is-Base.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(55, 55, 56, 0.25);
+}
+
+.button.is-Base:active,
+.button.is-Base.is-active {
+  background-color: #2a2a2b;
+  border-color: transparent;
+  color: white;
+}
+
+.button.is-Base[disabled],
+fieldset[disabled] .button.is-Base {
+  background-color: #373738;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.button.is-Base.is-inverted {
+  background-color: white;
+  color: #373738;
+}
+
+.button.is-Base.is-inverted:hover,
+.button.is-Base.is-inverted.is-hovered {
+  background-color: #f2f2f2;
+}
+
+.button.is-Base.is-inverted[disabled],
+fieldset[disabled] .button.is-Base.is-inverted {
+  background-color: white;
+  border-color: transparent;
+  box-shadow: none;
+  color: #373738;
+}
+
+.button.is-Base.is-loading::after {
+  border-color: transparent transparent white white !important;
+}
+
+.button.is-Base.is-outlined {
+  background-color: transparent;
+  border-color: #373738;
+  color: #373738;
+}
+
+.button.is-Base.is-outlined:hover,
+.button.is-Base.is-outlined.is-hovered,
+.button.is-Base.is-outlined:focus,
+.button.is-Base.is-outlined.is-focused {
+  background-color: #373738;
+  border-color: #373738;
+  color: white;
+}
+
+.button.is-Base.is-outlined.is-loading::after {
+  border-color: transparent transparent #373738 #373738 !important;
+}
+
+.button.is-Base.is-outlined.is-loading:hover::after,
+.button.is-Base.is-outlined.is-loading.is-hovered::after,
+.button.is-Base.is-outlined.is-loading:focus::after,
+.button.is-Base.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent white white !important;
+}
+
+.button.is-Base.is-outlined[disabled],
+fieldset[disabled] .button.is-Base.is-outlined {
+  background-color: transparent;
+  border-color: #373738;
+  box-shadow: none;
+  color: #373738;
+}
+
+.button.is-Base.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.button.is-Base.is-inverted.is-outlined:hover,
+.button.is-Base.is-inverted.is-outlined.is-hovered,
+.button.is-Base.is-inverted.is-outlined:focus,
+.button.is-Base.is-inverted.is-outlined.is-focused {
+  background-color: white;
+  color: #373738;
+}
+
+.button.is-Base.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-Base.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-Base.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-Base.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #373738 #373738 !important;
+}
+
+.button.is-Base.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-Base.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: white;
+  box-shadow: none;
+  color: white;
+}
+
 .button.is-small {
   border-radius: 2px;
   font-size: 0.75rem;
@@ -4357,6 +4765,21 @@ fieldset[disabled] .button {
   color: white;
 }
 
+.notification.is-PK {
+  background-color: #372218;
+  color: white;
+}
+
+.notification.is-Jakata {
+  background-color: #29335f;
+  color: white;
+}
+
+.notification.is-Base {
+  background-color: #373738;
+  color: white;
+}
+
 .progress {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -4642,6 +5065,54 @@ fieldset[disabled] .button {
   background-image: linear-gradient(to right, #849bc4 30%, #ededed 30%);
 }
 
+.progress.is-PK::-webkit-progress-value {
+  background-color: #372218;
+}
+
+.progress.is-PK::-moz-progress-bar {
+  background-color: #372218;
+}
+
+.progress.is-PK::-ms-fill {
+  background-color: #372218;
+}
+
+.progress.is-PK:indeterminate {
+  background-image: linear-gradient(to right, #372218 30%, #ededed 30%);
+}
+
+.progress.is-Jakata::-webkit-progress-value {
+  background-color: #29335f;
+}
+
+.progress.is-Jakata::-moz-progress-bar {
+  background-color: #29335f;
+}
+
+.progress.is-Jakata::-ms-fill {
+  background-color: #29335f;
+}
+
+.progress.is-Jakata:indeterminate {
+  background-image: linear-gradient(to right, #29335f 30%, #ededed 30%);
+}
+
+.progress.is-Base::-webkit-progress-value {
+  background-color: #373738;
+}
+
+.progress.is-Base::-moz-progress-bar {
+  background-color: #373738;
+}
+
+.progress.is-Base::-ms-fill {
+  background-color: #373738;
+}
+
+.progress.is-Base:indeterminate {
+  background-image: linear-gradient(to right, #373738 30%, #ededed 30%);
+}
+
 .progress:indeterminate {
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
@@ -4820,6 +5291,27 @@ fieldset[disabled] .button {
 .table th.is-finish-add-on {
   background-color: #849bc4;
   border-color: #849bc4;
+  color: white;
+}
+
+.table td.is-PK,
+.table th.is-PK {
+  background-color: #372218;
+  border-color: #372218;
+  color: white;
+}
+
+.table td.is-Jakata,
+.table th.is-Jakata {
+  background-color: #29335f;
+  border-color: #29335f;
+  color: white;
+}
+
+.table td.is-Base,
+.table th.is-Base {
+  background-color: #373738;
+  border-color: #373738;
   color: white;
 }
 
@@ -5131,6 +5623,21 @@ fieldset[disabled] .button {
 
 .tag:not(body).is-finish-add-on {
   background-color: #849bc4;
+  color: white;
+}
+
+.tag:not(body).is-PK {
+  background-color: #372218;
+  color: white;
+}
+
+.tag:not(body).is-Jakata {
+  background-color: #29335f;
+  color: white;
+}
+
+.tag:not(body).is-Base {
+  background-color: #373738;
   color: white;
 }
 
@@ -5848,6 +6355,69 @@ fieldset[disabled] .taginput .taginput-container.is-focusable:-ms-input-placehol
   box-shadow: 0 0 0 0.125em rgba(132, 155, 196, 0.25);
 }
 
+.is-PK.textarea,
+.is-PK.input,
+.taginput .is-PK.taginput-container.is-focusable {
+  border-color: #372218;
+}
+
+.is-PK.textarea:focus,
+.is-PK.input:focus,
+.taginput .is-PK.taginput-container.is-focusable:focus,
+.is-PK.is-focused.textarea,
+.is-PK.is-focused.input,
+.taginput .is-PK.is-focused.taginput-container.is-focusable,
+.is-PK.textarea:active,
+.is-PK.input:active,
+.taginput .is-PK.taginput-container.is-focusable:active,
+.is-PK.is-active.textarea,
+.is-PK.is-active.input,
+.taginput .is-PK.is-active.taginput-container.is-focusable {
+  box-shadow: 0 0 0 0.125em rgba(55, 34, 24, 0.25);
+}
+
+.is-Jakata.textarea,
+.is-Jakata.input,
+.taginput .is-Jakata.taginput-container.is-focusable {
+  border-color: #29335f;
+}
+
+.is-Jakata.textarea:focus,
+.is-Jakata.input:focus,
+.taginput .is-Jakata.taginput-container.is-focusable:focus,
+.is-Jakata.is-focused.textarea,
+.is-Jakata.is-focused.input,
+.taginput .is-Jakata.is-focused.taginput-container.is-focusable,
+.is-Jakata.textarea:active,
+.is-Jakata.input:active,
+.taginput .is-Jakata.taginput-container.is-focusable:active,
+.is-Jakata.is-active.textarea,
+.is-Jakata.is-active.input,
+.taginput .is-Jakata.is-active.taginput-container.is-focusable {
+  box-shadow: 0 0 0 0.125em rgba(41, 51, 95, 0.25);
+}
+
+.is-Base.textarea,
+.is-Base.input,
+.taginput .is-Base.taginput-container.is-focusable {
+  border-color: #373738;
+}
+
+.is-Base.textarea:focus,
+.is-Base.input:focus,
+.taginput .is-Base.taginput-container.is-focusable:focus,
+.is-Base.is-focused.textarea,
+.is-Base.is-focused.input,
+.taginput .is-Base.is-focused.taginput-container.is-focusable,
+.is-Base.textarea:active,
+.is-Base.input:active,
+.taginput .is-Base.taginput-container.is-focusable:active,
+.is-Base.is-active.textarea,
+.is-Base.is-active.input,
+.taginput .is-Base.is-active.taginput-container.is-focusable {
+  box-shadow: 0 0 0 0.125em rgba(55, 55, 56, 0.25);
+}
+
 .is-small.textarea,
 .is-small.input,
 .taginput .is-small.taginput-container.is-focusable {
@@ -6322,6 +6892,66 @@ fieldset[disabled] .select select:hover {
 .select.is-finish-add-on select:active,
 .select.is-finish-add-on select.is-active {
   box-shadow: 0 0 0 0.125em rgba(132, 155, 196, 0.25);
+}
+
+.select.is-PK:not(:hover)::after {
+  border-color: #372218;
+}
+
+.select.is-PK select {
+  border-color: #372218;
+}
+
+.select.is-PK select:hover,
+.select.is-PK select.is-hovered {
+  border-color: #251710;
+}
+
+.select.is-PK select:focus,
+.select.is-PK select.is-focused,
+.select.is-PK select:active,
+.select.is-PK select.is-active {
+  box-shadow: 0 0 0 0.125em rgba(55, 34, 24, 0.25);
+}
+
+.select.is-Jakata:not(:hover)::after {
+  border-color: #29335f;
+}
+
+.select.is-Jakata select {
+  border-color: #29335f;
+}
+
+.select.is-Jakata select:hover,
+.select.is-Jakata select.is-hovered {
+  border-color: #21294d;
+}
+
+.select.is-Jakata select:focus,
+.select.is-Jakata select.is-focused,
+.select.is-Jakata select:active,
+.select.is-Jakata select.is-active {
+  box-shadow: 0 0 0 0.125em rgba(41, 51, 95, 0.25);
+}
+
+.select.is-Base:not(:hover)::after {
+  border-color: #373738;
+}
+
+.select.is-Base select {
+  border-color: #373738;
+}
+
+.select.is-Base select:hover,
+.select.is-Base select.is-hovered {
+  border-color: #2a2a2b;
+}
+
+.select.is-Base select:focus,
+.select.is-Base select.is-focused,
+.select.is-Base select:active,
+.select.is-Base select.is-active {
+  box-shadow: 0 0 0 0.125em rgba(55, 55, 56, 0.25);
 }
 
 .select.is-small {
@@ -6808,6 +7438,87 @@ fieldset[disabled] .select select:hover {
   color: white;
 }
 
+.file.is-PK .file-cta {
+  background-color: #372218;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-PK:hover .file-cta,
+.file.is-PK.is-hovered .file-cta {
+  background-color: #2e1d14;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-PK:focus .file-cta,
+.file.is-PK.is-focused .file-cta {
+  border-color: transparent;
+  box-shadow: 0 0 0.5em rgba(55, 34, 24, 0.25);
+  color: white;
+}
+
+.file.is-PK:active .file-cta,
+.file.is-PK.is-active .file-cta {
+  background-color: #251710;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-Jakata .file-cta {
+  background-color: #29335f;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-Jakata:hover .file-cta,
+.file.is-Jakata.is-hovered .file-cta {
+  background-color: #252e56;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-Jakata:focus .file-cta,
+.file.is-Jakata.is-focused .file-cta {
+  border-color: transparent;
+  box-shadow: 0 0 0.5em rgba(41, 51, 95, 0.25);
+  color: white;
+}
+
+.file.is-Jakata:active .file-cta,
+.file.is-Jakata.is-active .file-cta {
+  background-color: #21294d;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-Base .file-cta {
+  background-color: #373738;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-Base:hover .file-cta,
+.file.is-Base.is-hovered .file-cta {
+  background-color: #313132;
+  border-color: transparent;
+  color: white;
+}
+
+.file.is-Base:focus .file-cta,
+.file.is-Base.is-focused .file-cta {
+  border-color: transparent;
+  box-shadow: 0 0 0.5em rgba(55, 55, 56, 0.25);
+  color: white;
+}
+
+.file.is-Base:active .file-cta,
+.file.is-Base.is-active .file-cta {
+  background-color: #2a2a2b;
+  border-color: transparent;
+  color: white;
+}
+
 .file.is-small {
   font-size: 0.75rem;
 }
@@ -7084,6 +7795,18 @@ fieldset[disabled] .select select:hover {
 
 .help.is-finish-add-on {
   color: #849bc4;
+}
+
+.help.is-PK {
+  color: #372218;
+}
+
+.help.is-Jakata {
+  color: #29335f;
+}
+
+.help.is-Base {
+  color: #373738;
 }
 
 .field:not(:last-child) {
@@ -8185,6 +8908,45 @@ a.list-item {
 
 .message.is-finish-add-on .message-body {
   border-color: #849bc4;
+}
+
+.message.is-PK {
+  background-color: #fcf9f8;
+}
+
+.message.is-PK .message-header {
+  background-color: #372218;
+  color: white;
+}
+
+.message.is-PK .message-body {
+  border-color: #372218;
+}
+
+.message.is-Jakata {
+  background-color: #f8f9fc;
+}
+
+.message.is-Jakata .message-header {
+  background-color: #29335f;
+  color: white;
+}
+
+.message.is-Jakata .message-body {
+  border-color: #29335f;
+}
+
+.message.is-Base {
+  background-color: #fafafa;
+}
+
+.message.is-Base .message-header {
+  background-color: #373738;
+  color: white;
+}
+
+.message.is-Base .message-body {
+  border-color: #373738;
 }
 
 .message-header {
@@ -9454,6 +10216,216 @@ a.list-item {
   }
 }
 
+.navbar.is-PK {
+  background-color: #372218;
+  color: white;
+}
+
+.navbar.is-PK .navbar-brand > .navbar-item,
+.navbar.is-PK .navbar-brand .navbar-link {
+  color: white;
+}
+
+.navbar.is-PK .navbar-brand > a.navbar-item:focus,
+.navbar.is-PK .navbar-brand > a.navbar-item:hover,
+.navbar.is-PK .navbar-brand > a.navbar-item.is-active,
+.navbar.is-PK .navbar-brand .navbar-link:focus,
+.navbar.is-PK .navbar-brand .navbar-link:hover,
+.navbar.is-PK .navbar-brand .navbar-link.is-active {
+  background-color: #251710;
+  color: white;
+}
+
+.navbar.is-PK .navbar-brand .navbar-link::after {
+  border-color: white;
+}
+
+.navbar.is-PK .navbar-burger {
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar.is-PK .navbar-start > .navbar-item,
+  .navbar.is-PK .navbar-start .navbar-link,
+  .navbar.is-PK .navbar-end > .navbar-item,
+  .navbar.is-PK .navbar-end .navbar-link {
+    color: white;
+  }
+
+  .navbar.is-PK .navbar-start > a.navbar-item:focus,
+  .navbar.is-PK .navbar-start > a.navbar-item:hover,
+  .navbar.is-PK .navbar-start > a.navbar-item.is-active,
+  .navbar.is-PK .navbar-start .navbar-link:focus,
+  .navbar.is-PK .navbar-start .navbar-link:hover,
+  .navbar.is-PK .navbar-start .navbar-link.is-active,
+  .navbar.is-PK .navbar-end > a.navbar-item:focus,
+  .navbar.is-PK .navbar-end > a.navbar-item:hover,
+  .navbar.is-PK .navbar-end > a.navbar-item.is-active,
+  .navbar.is-PK .navbar-end .navbar-link:focus,
+  .navbar.is-PK .navbar-end .navbar-link:hover,
+  .navbar.is-PK .navbar-end .navbar-link.is-active {
+    background-color: #251710;
+    color: white;
+  }
+
+  .navbar.is-PK .navbar-start .navbar-link::after,
+  .navbar.is-PK .navbar-end .navbar-link::after {
+    border-color: white;
+  }
+
+  .navbar.is-PK .navbar-item.has-dropdown:focus .navbar-link,
+  .navbar.is-PK .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar.is-PK .navbar-item.has-dropdown.is-active .navbar-link {
+    background-color: #251710;
+    color: white;
+  }
+
+  .navbar.is-PK .navbar-dropdown a.navbar-item.is-active {
+    background-color: #372218;
+    color: white;
+  }
+}
+
+.navbar.is-Jakata {
+  background-color: #29335f;
+  color: white;
+}
+
+.navbar.is-Jakata .navbar-brand > .navbar-item,
+.navbar.is-Jakata .navbar-brand .navbar-link {
+  color: white;
+}
+
+.navbar.is-Jakata .navbar-brand > a.navbar-item:focus,
+.navbar.is-Jakata .navbar-brand > a.navbar-item:hover,
+.navbar.is-Jakata .navbar-brand > a.navbar-item.is-active,
+.navbar.is-Jakata .navbar-brand .navbar-link:focus,
+.navbar.is-Jakata .navbar-brand .navbar-link:hover,
+.navbar.is-Jakata .navbar-brand .navbar-link.is-active {
+  background-color: #21294d;
+  color: white;
+}
+
+.navbar.is-Jakata .navbar-brand .navbar-link::after {
+  border-color: white;
+}
+
+.navbar.is-Jakata .navbar-burger {
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar.is-Jakata .navbar-start > .navbar-item,
+  .navbar.is-Jakata .navbar-start .navbar-link,
+  .navbar.is-Jakata .navbar-end > .navbar-item,
+  .navbar.is-Jakata .navbar-end .navbar-link {
+    color: white;
+  }
+
+  .navbar.is-Jakata .navbar-start > a.navbar-item:focus,
+  .navbar.is-Jakata .navbar-start > a.navbar-item:hover,
+  .navbar.is-Jakata .navbar-start > a.navbar-item.is-active,
+  .navbar.is-Jakata .navbar-start .navbar-link:focus,
+  .navbar.is-Jakata .navbar-start .navbar-link:hover,
+  .navbar.is-Jakata .navbar-start .navbar-link.is-active,
+  .navbar.is-Jakata .navbar-end > a.navbar-item:focus,
+  .navbar.is-Jakata .navbar-end > a.navbar-item:hover,
+  .navbar.is-Jakata .navbar-end > a.navbar-item.is-active,
+  .navbar.is-Jakata .navbar-end .navbar-link:focus,
+  .navbar.is-Jakata .navbar-end .navbar-link:hover,
+  .navbar.is-Jakata .navbar-end .navbar-link.is-active {
+    background-color: #21294d;
+    color: white;
+  }
+
+  .navbar.is-Jakata .navbar-start .navbar-link::after,
+  .navbar.is-Jakata .navbar-end .navbar-link::after {
+    border-color: white;
+  }
+
+  .navbar.is-Jakata .navbar-item.has-dropdown:focus .navbar-link,
+  .navbar.is-Jakata .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar.is-Jakata .navbar-item.has-dropdown.is-active .navbar-link {
+    background-color: #21294d;
+    color: white;
+  }
+
+  .navbar.is-Jakata .navbar-dropdown a.navbar-item.is-active {
+    background-color: #29335f;
+    color: white;
+  }
+}
+
+.navbar.is-Base {
+  background-color: #373738;
+  color: white;
+}
+
+.navbar.is-Base .navbar-brand > .navbar-item,
+.navbar.is-Base .navbar-brand .navbar-link {
+  color: white;
+}
+
+.navbar.is-Base .navbar-brand > a.navbar-item:focus,
+.navbar.is-Base .navbar-brand > a.navbar-item:hover,
+.navbar.is-Base .navbar-brand > a.navbar-item.is-active,
+.navbar.is-Base .navbar-brand .navbar-link:focus,
+.navbar.is-Base .navbar-brand .navbar-link:hover,
+.navbar.is-Base .navbar-brand .navbar-link.is-active {
+  background-color: #2a2a2b;
+  color: white;
+}
+
+.navbar.is-Base .navbar-brand .navbar-link::after {
+  border-color: white;
+}
+
+.navbar.is-Base .navbar-burger {
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar.is-Base .navbar-start > .navbar-item,
+  .navbar.is-Base .navbar-start .navbar-link,
+  .navbar.is-Base .navbar-end > .navbar-item,
+  .navbar.is-Base .navbar-end .navbar-link {
+    color: white;
+  }
+
+  .navbar.is-Base .navbar-start > a.navbar-item:focus,
+  .navbar.is-Base .navbar-start > a.navbar-item:hover,
+  .navbar.is-Base .navbar-start > a.navbar-item.is-active,
+  .navbar.is-Base .navbar-start .navbar-link:focus,
+  .navbar.is-Base .navbar-start .navbar-link:hover,
+  .navbar.is-Base .navbar-start .navbar-link.is-active,
+  .navbar.is-Base .navbar-end > a.navbar-item:focus,
+  .navbar.is-Base .navbar-end > a.navbar-item:hover,
+  .navbar.is-Base .navbar-end > a.navbar-item.is-active,
+  .navbar.is-Base .navbar-end .navbar-link:focus,
+  .navbar.is-Base .navbar-end .navbar-link:hover,
+  .navbar.is-Base .navbar-end .navbar-link.is-active {
+    background-color: #2a2a2b;
+    color: white;
+  }
+
+  .navbar.is-Base .navbar-start .navbar-link::after,
+  .navbar.is-Base .navbar-end .navbar-link::after {
+    border-color: white;
+  }
+
+  .navbar.is-Base .navbar-item.has-dropdown:focus .navbar-link,
+  .navbar.is-Base .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar.is-Base .navbar-item.has-dropdown.is-active .navbar-link {
+    background-color: #2a2a2b;
+    color: white;
+  }
+
+  .navbar.is-Base .navbar-dropdown a.navbar-item.is-active {
+    background-color: #373738;
+    color: white;
+  }
+}
+
 .navbar > .container {
   align-items: stretch;
   display: flex;
@@ -10370,6 +11342,45 @@ a.navbar-item.is-active,
 
 .panel.is-finish-add-on .panel-block.is-active .panel-icon {
   color: #849bc4;
+}
+
+.panel.is-PK .panel-heading {
+  background-color: #372218;
+  color: white;
+}
+
+.panel.is-PK .panel-tabs a.is-active {
+  border-bottom-color: #372218;
+}
+
+.panel.is-PK .panel-block.is-active .panel-icon {
+  color: #372218;
+}
+
+.panel.is-Jakata .panel-heading {
+  background-color: #29335f;
+  color: white;
+}
+
+.panel.is-Jakata .panel-tabs a.is-active {
+  border-bottom-color: #29335f;
+}
+
+.panel.is-Jakata .panel-block.is-active .panel-icon {
+  color: #29335f;
+}
+
+.panel.is-Base .panel-heading {
+  background-color: #373738;
+  color: white;
+}
+
+.panel.is-Base .panel-tabs a.is-active {
+  border-bottom-color: #373738;
+}
+
+.panel.is-Base .panel-block.is-active .panel-icon {
+  color: #373738;
 }
 
 .panel-tabs:not(:last-child),
@@ -13580,6 +14591,258 @@ label.panel-block:hover {
   }
 }
 
+.hero.is-PK {
+  background-color: #372218;
+  color: white;
+}
+
+.hero.is-PK a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+.hero.is-PK strong {
+  color: inherit;
+}
+
+.hero.is-PK .title {
+  color: white;
+}
+
+.hero.is-PK .subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero.is-PK .subtitle a:not(.button),
+.hero.is-PK .subtitle strong {
+  color: white;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero.is-PK .navbar-menu {
+    background-color: #372218;
+  }
+}
+
+.hero.is-PK .navbar-item,
+.hero.is-PK .navbar-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero.is-PK a.navbar-item:hover,
+.hero.is-PK a.navbar-item.is-active,
+.hero.is-PK .navbar-link:hover,
+.hero.is-PK .navbar-link.is-active {
+  background-color: #251710;
+  color: white;
+}
+
+.hero.is-PK .tabs a {
+  color: white;
+  opacity: 0.9;
+}
+
+.hero.is-PK .tabs a:hover {
+  opacity: 1;
+}
+
+.hero.is-PK .tabs li.is-active a {
+  opacity: 1;
+}
+
+.hero.is-PK .tabs.is-boxed a,
+.hero.is-PK .tabs.is-toggle a {
+  color: white;
+}
+
+.hero.is-PK .tabs.is-boxed a:hover,
+.hero.is-PK .tabs.is-toggle a:hover {
+  background-color: rgba(10, 10, 10, 0.1);
+}
+
+.hero.is-PK .tabs.is-boxed li.is-active a,
+.hero.is-PK .tabs.is-boxed li.is-active a:hover,
+.hero.is-PK .tabs.is-toggle li.is-active a,
+.hero.is-PK .tabs.is-toggle li.is-active a:hover {
+  background-color: white;
+  border-color: white;
+  color: #372218;
+}
+
+.hero.is-PK.is-bold {
+  background-image: linear-gradient(141deg, #150907 0%, #372218 71%, #4b341d 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .hero.is-PK.is-bold .navbar-menu {
+    background-image: linear-gradient(141deg, #150907 0%, #372218 71%, #4b341d 100%);
+  }
+}
+
+.hero.is-Jakata {
+  background-color: #29335f;
+  color: white;
+}
+
+.hero.is-Jakata a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+.hero.is-Jakata strong {
+  color: inherit;
+}
+
+.hero.is-Jakata .title {
+  color: white;
+}
+
+.hero.is-Jakata .subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero.is-Jakata .subtitle a:not(.button),
+.hero.is-Jakata .subtitle strong {
+  color: white;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero.is-Jakata .navbar-menu {
+    background-color: #29335f;
+  }
+}
+
+.hero.is-Jakata .navbar-item,
+.hero.is-Jakata .navbar-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero.is-Jakata a.navbar-item:hover,
+.hero.is-Jakata a.navbar-item.is-active,
+.hero.is-Jakata .navbar-link:hover,
+.hero.is-Jakata .navbar-link.is-active {
+  background-color: #21294d;
+  color: white;
+}
+
+.hero.is-Jakata .tabs a {
+  color: white;
+  opacity: 0.9;
+}
+
+.hero.is-Jakata .tabs a:hover {
+  opacity: 1;
+}
+
+.hero.is-Jakata .tabs li.is-active a {
+  opacity: 1;
+}
+
+.hero.is-Jakata .tabs.is-boxed a,
+.hero.is-Jakata .tabs.is-toggle a {
+  color: white;
+}
+
+.hero.is-Jakata .tabs.is-boxed a:hover,
+.hero.is-Jakata .tabs.is-toggle a:hover {
+  background-color: rgba(10, 10, 10, 0.1);
+}
+
+.hero.is-Jakata .tabs.is-boxed li.is-active a,
+.hero.is-Jakata .tabs.is-boxed li.is-active a:hover,
+.hero.is-Jakata .tabs.is-toggle li.is-active a,
+.hero.is-Jakata .tabs.is-toggle li.is-active a:hover {
+  background-color: white;
+  border-color: white;
+  color: #29335f;
+}
+
+.hero.is-Jakata.is-bold {
+  background-image: linear-gradient(141deg, #152440 0%, #29335f 71%, #2d2e75 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .hero.is-Jakata.is-bold .navbar-menu {
+    background-image: linear-gradient(141deg, #152440 0%, #29335f 71%, #2d2e75 100%);
+  }
+}
+
+.hero.is-Base {
+  background-color: #373738;
+  color: white;
+}
+
+.hero.is-Base a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+.hero.is-Base strong {
+  color: inherit;
+}
+
+.hero.is-Base .title {
+  color: white;
+}
+
+.hero.is-Base .subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero.is-Base .subtitle a:not(.button),
+.hero.is-Base .subtitle strong {
+  color: white;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero.is-Base .navbar-menu {
+    background-color: #373738;
+  }
+}
+
+.hero.is-Base .navbar-item,
+.hero.is-Base .navbar-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero.is-Base a.navbar-item:hover,
+.hero.is-Base a.navbar-item.is-active,
+.hero.is-Base .navbar-link:hover,
+.hero.is-Base .navbar-link.is-active {
+  background-color: #2a2a2b;
+  color: white;
+}
+
+.hero.is-Base .tabs a {
+  color: white;
+  opacity: 0.9;
+}
+
+.hero.is-Base .tabs a:hover {
+  opacity: 1;
+}
+
+.hero.is-Base .tabs li.is-active a {
+  opacity: 1;
+}
+
+.hero.is-Base .tabs.is-boxed a,
+.hero.is-Base .tabs.is-toggle a {
+  color: white;
+}
+
+.hero.is-Base .tabs.is-boxed a:hover,
+.hero.is-Base .tabs.is-toggle a:hover {
+  background-color: rgba(10, 10, 10, 0.1);
+}
+
+.hero.is-Base .tabs.is-boxed li.is-active a,
+.hero.is-Base .tabs.is-boxed li.is-active a:hover,
+.hero.is-Base .tabs.is-toggle li.is-active a,
+.hero.is-Base .tabs.is-toggle li.is-active a:hover {
+  background-color: white;
+  border-color: white;
+  color: #373738;
+}
+
+.hero.is-Base.is-bold {
+  background-image: linear-gradient(141deg, #1b1c21 0%, #373738 71%, #424048 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .hero.is-Base.is-bold .navbar-menu {
+    background-image: linear-gradient(141deg, #1b1c21 0%, #373738 71%, #424048 100%);
+  }
+}
+
 .hero.is-small .hero-body {
   padding: 1.5rem;
 }
@@ -14378,6 +15641,21 @@ label.panel-block:hover {
   border-color: #849bc4;
 }
 
+.b-checkbox.checkbox input[type=checkbox]:checked + .check.is-PK {
+  background: #372218 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:white' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #372218;
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked + .check.is-Jakata {
+  background: #29335f url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:white' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #29335f;
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked + .check.is-Base {
+  background: #373738 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:white' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #373738;
+}
+
 .b-checkbox.checkbox input[type=checkbox]:indeterminate + .check {
   background: #372218 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
   border-color: #372218;
@@ -14463,6 +15741,21 @@ label.panel-block:hover {
   border-color: #849bc4;
 }
 
+.b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-PK {
+  background: #372218 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:white' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #372218;
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-Jakata {
+  background: #29335f url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:white' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #29335f;
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-Base {
+  background: #373738 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:white' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #373738;
+}
+
 .b-checkbox.checkbox input[type=checkbox]:focus + .check {
   box-shadow: 0 0 0.5em rgba(122, 122, 122, 0.8);
 }
@@ -14533,6 +15826,18 @@ label.panel-block:hover {
 
 .b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-finish-add-on {
   box-shadow: 0 0 0.5em rgba(132, 155, 196, 0.8);
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-PK {
+  box-shadow: 0 0 0.5em rgba(55, 34, 24, 0.8);
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-Jakata {
+  box-shadow: 0 0 0.5em rgba(41, 51, 95, 0.8);
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-Base {
+  box-shadow: 0 0 0.5em rgba(55, 55, 56, 0.8);
 }
 
 .b-checkbox.checkbox .control-label {
@@ -14613,6 +15918,18 @@ label.panel-block:hover {
 
 .b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-finish-add-on {
   border-color: #849bc4;
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-PK {
+  border-color: #372218;
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-Jakata {
+  border-color: #29335f;
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-Base {
+  border-color: #373738;
 }
 
 .b-checkbox.checkbox.is-small {
@@ -14948,6 +16265,63 @@ label.panel-block:hover {
 
 .b-clockpicker.is-finish-add-on .b-clockpicker-face-number.active {
   background-color: #849bc4;
+  color: white;
+}
+
+.b-clockpicker.is-PK .card-header {
+  background-color: #372218;
+  color: white;
+}
+
+.b-clockpicker.is-PK .b-clockpicker-face:after {
+  background-color: #372218;
+}
+
+.b-clockpicker.is-PK .b-clockpicker-face-hand {
+  background-color: #372218;
+  border-color: #372218;
+}
+
+.b-clockpicker.is-PK .b-clockpicker-face-number.active {
+  background-color: #372218;
+  color: white;
+}
+
+.b-clockpicker.is-Jakata .card-header {
+  background-color: #29335f;
+  color: white;
+}
+
+.b-clockpicker.is-Jakata .b-clockpicker-face:after {
+  background-color: #29335f;
+}
+
+.b-clockpicker.is-Jakata .b-clockpicker-face-hand {
+  background-color: #29335f;
+  border-color: #29335f;
+}
+
+.b-clockpicker.is-Jakata .b-clockpicker-face-number.active {
+  background-color: #29335f;
+  color: white;
+}
+
+.b-clockpicker.is-Base .card-header {
+  background-color: #373738;
+  color: white;
+}
+
+.b-clockpicker.is-Base .b-clockpicker-face:after {
+  background-color: #373738;
+}
+
+.b-clockpicker.is-Base .b-clockpicker-face-hand {
+  background-color: #373738;
+  border-color: #373738;
+}
+
+.b-clockpicker.is-Base .b-clockpicker-face-number.active {
+  background-color: #373738;
   color: white;
 }
 
@@ -15497,6 +16871,18 @@ label.panel-block:hover {
 
 .datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-finish-add-on {
   background-color: #849bc4;
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-PK {
+  background-color: #372218;
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-Jakata {
+  background-color: #29335f;
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-Base {
+  background-color: #373738;
 }
 
 .datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event.dots .event {
@@ -16242,6 +17628,21 @@ label.panel-block:hover {
   background: #849bc4;
 }
 
+.notices .toast.is-PK {
+  color: white;
+  background: #372218;
+}
+
+.notices .toast.is-Jakata {
+  color: white;
+  background: #29335f;
+}
+
+.notices .toast.is-Base {
+  color: white;
+  background: #373738;
+}
+
 .notices .snackbar {
   display: inline-flex;
   align-items: center;
@@ -16344,6 +17745,18 @@ label.panel-block:hover {
 
 .notices .snackbar .action.is-finish-add-on .button {
   color: #849bc4;
+}
+
+.notices .snackbar .action.is-PK .button {
+  color: #372218;
+}
+
+.notices .snackbar .action.is-Jakata .button {
+  color: #29335f;
+}
+
+.notices .snackbar .action.is-Base .button {
+  color: #373738;
 }
 
 @media screen and (max-width: 768px) {
@@ -16655,6 +18068,18 @@ label.panel-block:hover {
   background: #849bc4;
 }
 
+.b-radio.radio input[type=radio] + .check.is-PK:before {
+  background: #372218;
+}
+
+.b-radio.radio input[type=radio] + .check.is-Jakata:before {
+  background: #29335f;
+}
+
+.b-radio.radio input[type=radio] + .check.is-Base:before {
+  background: #373738;
+}
+
 .b-radio.radio input[type=radio]:checked + .check {
   border-color: #372218;
 }
@@ -16721,6 +18146,18 @@ label.panel-block:hover {
 
 .b-radio.radio input[type=radio]:checked + .check.is-finish-add-on {
   border-color: #849bc4;
+}
+
+.b-radio.radio input[type=radio]:checked + .check.is-PK {
+  border-color: #372218;
+}
+
+.b-radio.radio input[type=radio]:checked + .check.is-Jakata {
+  border-color: #29335f;
+}
+
+.b-radio.radio input[type=radio]:checked + .check.is-Base {
+  border-color: #373738;
 }
 
 .b-radio.radio input[type=radio]:checked + .check:before {
@@ -16797,6 +18234,18 @@ label.panel-block:hover {
 
 .b-radio.radio input[type=radio]:focus:checked + .check.is-finish-add-on {
   box-shadow: 0 0 0.5em rgba(132, 155, 196, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-PK {
+  box-shadow: 0 0 0.5em rgba(55, 34, 24, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-Jakata {
+  box-shadow: 0 0 0.5em rgba(41, 51, 95, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-Base {
+  box-shadow: 0 0 0.5em rgba(55, 55, 56, 0.8);
 }
 
 .b-radio.radio .control-label {
@@ -16877,6 +18326,18 @@ label.panel-block:hover {
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-finish-add-on {
   border-color: #849bc4;
+}
+
+.b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-PK {
+  border-color: #372218;
+}
+
+.b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-Jakata {
+  border-color: #29335f;
+}
+
+.b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-Base {
+  border-color: #373738;
 }
 
 .b-radio.radio.is-small {
@@ -17136,6 +18597,18 @@ label.panel-block:hover {
 
 .b-sidebar .sidebar-content.is-finish-add-on {
   background-color: #849bc4;
+}
+
+.b-sidebar .sidebar-content.is-PK {
+  background-color: #372218;
+}
+
+.b-sidebar .sidebar-content.is-Jakata {
+  background-color: #29335f;
+}
+
+.b-sidebar .sidebar-content.is-Base {
+  background-color: #373738;
 }
 
 .b-sidebar .sidebar-content.is-fixed {
@@ -17464,6 +18937,18 @@ label.panel-block:hover {
 
 .b-slider.is-finish-add-on .b-slider-fill {
   background: #849bc4 !important;
+}
+
+.b-slider.is-PK .b-slider-fill {
+  background: #372218 !important;
+}
+
+.b-slider.is-Jakata .b-slider-fill {
+  background: #29335f !important;
+}
+
+.b-slider.is-Base .b-slider-fill {
+  background: #373738 !important;
 }
 
 .b-slider .b-slider-tick {
@@ -17968,6 +19453,90 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-finish-add-on.is-previous::before,
 .b-steps .steps .step-items .step-item.is-finish-add-on.is-previous::after {
+  background-position: left bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-PK::before,
+.b-steps .steps .step-items .step-item.is-PK::after {
+  background: linear-gradient(to left, #dbdbdb 50%, #372218 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-PK.is-active .step-marker {
+  background-color: white;
+  border-color: #372218;
+  color: #372218;
+}
+
+.b-steps .steps .step-items .step-item.is-PK.is-active::before,
+.b-steps .steps .step-items .step-item.is-PK.is-active::after {
+  background-position: left bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-PK.is-previous .step-marker {
+  color: white;
+  background-color: #372218;
+}
+
+.b-steps .steps .step-items .step-item.is-PK.is-previous::before,
+.b-steps .steps .step-items .step-item.is-PK.is-previous::after {
+  background-position: left bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-Jakata::before,
+.b-steps .steps .step-items .step-item.is-Jakata::after {
+  background: linear-gradient(to left, #dbdbdb 50%, #29335f 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-Jakata.is-active .step-marker {
+  background-color: white;
+  border-color: #29335f;
+  color: #29335f;
+}
+
+.b-steps .steps .step-items .step-item.is-Jakata.is-active::before,
+.b-steps .steps .step-items .step-item.is-Jakata.is-active::after {
+  background-position: left bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-Jakata.is-previous .step-marker {
+  color: white;
+  background-color: #29335f;
+}
+
+.b-steps .steps .step-items .step-item.is-Jakata.is-previous::before,
+.b-steps .steps .step-items .step-item.is-Jakata.is-previous::after {
+  background-position: left bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-Base::before,
+.b-steps .steps .step-items .step-item.is-Base::after {
+  background: linear-gradient(to left, #dbdbdb 50%, #373738 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-Base.is-active .step-marker {
+  background-color: white;
+  border-color: #373738;
+  color: #373738;
+}
+
+.b-steps .steps .step-items .step-item.is-Base.is-active::before,
+.b-steps .steps .step-items .step-item.is-Base.is-active::after {
+  background-position: left bottom;
+}
+
+.b-steps .steps .step-items .step-item.is-Base.is-previous .step-marker {
+  color: white;
+  background-color: #373738;
+}
+
+.b-steps .steps .step-items .step-item.is-Base.is-previous::before,
+.b-steps .steps .step-items .step-item.is-Base.is-previous::after {
   background-position: left bottom;
 }
 
@@ -18502,6 +20071,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   background-position: left bottom;
 }
 
+.b-steps.is-vertical > .steps .step-items .step-item.is-PK::before,
+.b-steps.is-vertical > .steps .step-items .step-item.is-PK::after {
+  background: linear-gradient(to top, #dbdbdb 50%, #372218 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+
+.b-steps.is-vertical > .steps .step-items .step-item.is-Jakata::before,
+.b-steps.is-vertical > .steps .step-items .step-item.is-Jakata::after {
+  background: linear-gradient(to top, #dbdbdb 50%, #29335f 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+
+.b-steps.is-vertical > .steps .step-items .step-item.is-Base::before,
+.b-steps.is-vertical > .steps .step-items .step-item.is-Base::after {
+  background: linear-gradient(to top, #dbdbdb 50%, #373738 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+
 .b-steps.is-vertical > .steps .step-items .step-item:not(:first-child)::before,
 .b-steps.is-vertical > .steps .step-items .step-item:only-child::before {
   height: 100%;
@@ -18792,6 +20382,39 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   background: "pink";
 }
 
+.switch input[type=checkbox] + .check.is-PK-passive,
+.switch input[type=checkbox] + .check:hover {
+  background: #372218;
+}
+
+.switch input[type=checkbox] + .check.input[type=checkbox] + .switch input[type=checkbox] + .check.check,
+.switch .taginput input[type=checkbox] + .check[type=checkbox].taginput-container.is-focusable + .switch input[type=checkbox] + .check.check,
+.taginput .switch input[type=checkbox] + .check[type=checkbox].taginput-container.is-focusable + .switch input[type=checkbox] + .check.check {
+  background: "pink";
+}
+
+.switch input[type=checkbox] + .check.is-Jakata-passive,
+.switch input[type=checkbox] + .check:hover {
+  background: #29335f;
+}
+
+.switch input[type=checkbox] + .check.input[type=checkbox] + .switch input[type=checkbox] + .check.check,
+.switch .taginput input[type=checkbox] + .check[type=checkbox].taginput-container.is-focusable + .switch input[type=checkbox] + .check.check,
+.taginput .switch input[type=checkbox] + .check[type=checkbox].taginput-container.is-focusable + .switch input[type=checkbox] + .check.check {
+  background: "pink";
+}
+
+.switch input[type=checkbox] + .check.is-Base-passive,
+.switch input[type=checkbox] + .check:hover {
+  background: #373738;
+}
+
+.switch input[type=checkbox] + .check.input[type=checkbox] + .switch input[type=checkbox] + .check.check,
+.switch .taginput input[type=checkbox] + .check[type=checkbox].taginput-container.is-focusable + .switch input[type=checkbox] + .check.check,
+.taginput .switch input[type=checkbox] + .check[type=checkbox].taginput-container.is-focusable + .switch input[type=checkbox] + .check.check {
+  background: "pink";
+}
+
 .switch input[type=checkbox] + .check:before {
   content: "";
   display: block;
@@ -18876,6 +20499,18 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch input[type=checkbox]:checked + .check.is-finish-add-on {
   background: #849bc4;
+}
+
+.switch input[type=checkbox]:checked + .check.is-PK {
+  background: #372218;
+}
+
+.switch input[type=checkbox]:checked + .check.is-Jakata {
+  background: #29335f;
+}
+
+.switch input[type=checkbox]:checked + .check.is-Base {
+  background: #373738;
 }
 
 .switch input[type=checkbox]:checked + .check:before {
@@ -18976,6 +20611,21 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   box-shadow: 0 0 0.5em rgba(132, 155, 196, 0.8);
 }
 
+.switch input[type=checkbox]:focus + .check.is-PK-passive,
+.switch input[type=checkbox]:active + .check.is-PK-passive {
+  box-shadow: 0 0 0.5em rgba(55, 34, 24, 0.8);
+}
+
+.switch input[type=checkbox]:focus + .check.is-Jakata-passive,
+.switch input[type=checkbox]:active + .check.is-Jakata-passive {
+  box-shadow: 0 0 0.5em rgba(41, 51, 95, 0.8);
+}
+
+.switch input[type=checkbox]:focus + .check.is-Base-passive,
+.switch input[type=checkbox]:active + .check.is-Base-passive {
+  box-shadow: 0 0 0.5em rgba(55, 55, 56, 0.8);
+}
+
 .switch input[type=checkbox]:focus:checked + .check,
 .switch input[type=checkbox]:active:checked + .check {
   box-shadow: 0 0 0.5em rgba(55, 34, 24, 0.8);
@@ -19061,6 +20711,21 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   box-shadow: 0 0 0.5em rgba(132, 155, 196, 0.8);
 }
 
+.switch input[type=checkbox]:focus:checked + .check.is-PK,
+.switch input[type=checkbox]:active:checked + .check.is-PK {
+  box-shadow: 0 0 0.5em rgba(55, 34, 24, 0.8);
+}
+
+.switch input[type=checkbox]:focus:checked + .check.is-Jakata,
+.switch input[type=checkbox]:active:checked + .check.is-Jakata {
+  box-shadow: 0 0 0.5em rgba(41, 51, 95, 0.8);
+}
+
+.switch input[type=checkbox]:focus:checked + .check.is-Base,
+.switch input[type=checkbox]:active:checked + .check.is-Base {
+  box-shadow: 0 0 0.5em rgba(55, 55, 56, 0.8);
+}
+
 .switch .control-label {
   padding-left: 0.5em;
 }
@@ -19133,6 +20798,18 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   background: rgba(132, 155, 196, 0.9);
 }
 
+.switch:hover input[type=checkbox] + .check.is-PK-passive {
+  background: rgba(55, 34, 24, 0.9);
+}
+
+.switch:hover input[type=checkbox] + .check.is-Jakata-passive {
+  background: rgba(41, 51, 95, 0.9);
+}
+
+.switch:hover input[type=checkbox] + .check.is-Base-passive {
+  background: rgba(55, 55, 56, 0.9);
+}
+
 .switch:hover input[type=checkbox]:checked + .check {
   background: rgba(55, 34, 24, 0.9);
 }
@@ -19199,6 +20876,18 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch:hover input[type=checkbox]:checked + .check.is-finish-add-on {
   background: rgba(132, 155, 196, 0.9);
+}
+
+.switch:hover input[type=checkbox]:checked + .check.is-PK {
+  background: rgba(55, 34, 24, 0.9);
+}
+
+.switch:hover input[type=checkbox]:checked + .check.is-Jakata {
+  background: rgba(41, 51, 95, 0.9);
+}
+
+.switch:hover input[type=checkbox]:checked + .check.is-Base {
+  background: rgba(55, 55, 56, 0.9);
 }
 
 .switch.is-rounded input[type=checkbox] + .check {
@@ -19411,6 +21100,42 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   border-color: rgba(132, 155, 196, 0.9);
 }
 
+.switch.is-outlined input[type=checkbox] + .check.is-PK-passive {
+  border: 0.1rem solid rgba(55, 34, 24, 0.9);
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-PK-passive:before {
+  background: #372218;
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-PK-passive:hover {
+  border-color: rgba(55, 34, 24, 0.9);
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-Jakata-passive {
+  border: 0.1rem solid rgba(41, 51, 95, 0.9);
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-Jakata-passive:before {
+  background: #29335f;
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-Jakata-passive:hover {
+  border-color: rgba(41, 51, 95, 0.9);
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-Base-passive {
+  border: 0.1rem solid rgba(55, 55, 56, 0.9);
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-Base-passive:before {
+  background: #373738;
+}
+
+.switch.is-outlined input[type=checkbox] + .check.is-Base-passive:hover {
+  border-color: rgba(55, 55, 56, 0.9);
+}
+
 .switch.is-outlined input[type=checkbox] + .check:before {
   background: #D0D1CD;
 }
@@ -19563,6 +21288,33 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   background: #849bc4;
 }
 
+.switch.is-outlined input[type=checkbox]:checked + .check.is-PK {
+  background: transparent;
+  border-color: #372218;
+}
+
+.switch.is-outlined input[type=checkbox]:checked + .check.is-PK:before {
+  background: #372218;
+}
+
+.switch.is-outlined input[type=checkbox]:checked + .check.is-Jakata {
+  background: transparent;
+  border-color: #29335f;
+}
+
+.switch.is-outlined input[type=checkbox]:checked + .check.is-Jakata:before {
+  background: #29335f;
+}
+
+.switch.is-outlined input[type=checkbox]:checked + .check.is-Base {
+  background: transparent;
+  border-color: #373738;
+}
+
+.switch.is-outlined input[type=checkbox]:checked + .check.is-Base:before {
+  background: #373738;
+}
+
 .switch.is-outlined input[type=checkbox]:checked + .check:before {
   background: #372218;
 }
@@ -19639,6 +21391,18 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch.is-outlined:hover input[type=checkbox]:checked + .check.is-finish-add-on {
   border-color: rgba(132, 155, 196, 0.9);
+}
+
+.switch.is-outlined:hover input[type=checkbox]:checked + .check.is-PK {
+  border-color: rgba(55, 34, 24, 0.9);
+}
+
+.switch.is-outlined:hover input[type=checkbox]:checked + .check.is-Jakata {
+  border-color: rgba(41, 51, 95, 0.9);
+}
+
+.switch.is-outlined:hover input[type=checkbox]:checked + .check.is-Base {
+  border-color: rgba(55, 55, 56, 0.9);
 }
 
 .switch.is-small {
@@ -20262,6 +22026,36 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   background-color: #627fb3;
 }
 
+.tag .delete.is-PK,
+.tag.is-delete.is-PK {
+  background: #372218;
+}
+
+.tag .delete.is-PK:hover,
+.tag.is-delete.is-PK:hover {
+  background-color: #130c09;
+}
+
+.tag .delete.is-Jakata,
+.tag.is-delete.is-Jakata {
+  background: #29335f;
+}
+
+.tag .delete.is-Jakata:hover,
+.tag.is-delete.is-Jakata:hover {
+  background-color: #1a203b;
+}
+
+.tag .delete.is-Base,
+.tag.is-delete.is-Base {
+  background: #373738;
+}
+
+.tag .delete.is-Base:hover,
+.tag.is-delete.is-Base:hover {
+  background-color: #1e1e1e;
+}
+
 .taginput .taginput-container {
   display: flex;
 }
@@ -20567,6 +22361,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   bottom: calc(100% + 2px);
 }
 
+.b-tooltip.is-top.is-PK:before {
+  border-top: 5px solid #372218;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  bottom: calc(100% + 2px);
+}
+
+.b-tooltip.is-top.is-Jakata:before {
+  border-top: 5px solid #29335f;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  bottom: calc(100% + 2px);
+}
+
+.b-tooltip.is-top.is-Base:before {
+  border-top: 5px solid #373738;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  bottom: calc(100% + 2px);
+}
+
 .b-tooltip.is-top.is-multiline.is-small:after {
   width: 180px;
 }
@@ -20696,6 +22511,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 .b-tooltip.is-right.is-finish-add-on:before {
   border-top: 5px solid transparent;
   border-right: 5px solid #849bc4;
+  border-bottom: 5px solid transparent;
+  left: calc(100% + 2px);
+}
+
+.b-tooltip.is-right.is-PK:before {
+  border-top: 5px solid transparent;
+  border-right: 5px solid #372218;
+  border-bottom: 5px solid transparent;
+  left: calc(100% + 2px);
+}
+
+.b-tooltip.is-right.is-Jakata:before {
+  border-top: 5px solid transparent;
+  border-right: 5px solid #29335f;
+  border-bottom: 5px solid transparent;
+  left: calc(100% + 2px);
+}
+
+.b-tooltip.is-right.is-Base:before {
+  border-top: 5px solid transparent;
+  border-right: 5px solid #373738;
   border-bottom: 5px solid transparent;
   left: calc(100% + 2px);
 }
@@ -20833,6 +22669,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   top: calc(100% + 2px);
 }
 
+.b-tooltip.is-bottom.is-PK:before {
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #372218;
+  border-left: 5px solid transparent;
+  top: calc(100% + 2px);
+}
+
+.b-tooltip.is-bottom.is-Jakata:before {
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #29335f;
+  border-left: 5px solid transparent;
+  top: calc(100% + 2px);
+}
+
+.b-tooltip.is-bottom.is-Base:before {
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #373738;
+  border-left: 5px solid transparent;
+  top: calc(100% + 2px);
+}
+
 .b-tooltip.is-bottom.is-multiline.is-small:after {
   width: 180px;
 }
@@ -20966,6 +22823,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   right: calc(100% + 2px);
 }
 
+.b-tooltip.is-left.is-PK:before {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #372218;
+  right: calc(100% + 2px);
+}
+
+.b-tooltip.is-left.is-Jakata:before {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #29335f;
+  right: calc(100% + 2px);
+}
+
+.b-tooltip.is-left.is-Base:before {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #373738;
+  right: calc(100% + 2px);
+}
+
 .b-tooltip.is-left.is-multiline.is-small:after {
   width: 180px;
 }
@@ -21087,6 +22965,21 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-tooltip.is-finish-add-on:after {
   background: #849bc4;
+  color: white;
+}
+
+.b-tooltip.is-PK:after {
+  background: #372218;
+  color: white;
+}
+
+.b-tooltip.is-Jakata:after {
+  background: #29335f;
+  color: white;
+}
+
+.b-tooltip.is-Base:after {
+  background: #373738;
   color: white;
 }
 
@@ -21264,6 +23157,24 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 .upload .upload-draggable.is-hovered.is-finish-add-on {
   border-color: #849bc4;
   background: rgba(132, 155, 196, 0.05);
+}
+
+.upload .upload-draggable:hover.is-PK,
+.upload .upload-draggable.is-hovered.is-PK {
+  border-color: #372218;
+  background: rgba(55, 34, 24, 0.05);
+}
+
+.upload .upload-draggable:hover.is-Jakata,
+.upload .upload-draggable.is-hovered.is-Jakata {
+  border-color: #29335f;
+  background: rgba(41, 51, 95, 0.05);
+}
+
+.upload .upload-draggable:hover.is-Base,
+.upload .upload-draggable.is-hovered.is-Base {
+  border-color: #373738;
+  background: rgba(55, 55, 56, 0.05);
 }
 
 .upload .upload-draggable.is-expanded {

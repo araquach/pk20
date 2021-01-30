@@ -22809,7 +22809,17 @@ __webpack_require__.r(__webpack_exports__);
   computed: {
     ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])({
       salon: state => state.calc.salon
-    })
+    }),
+
+    cardStyle() {
+      if (this.s.id === 1) {
+        return 'has-background-Jakata'
+      } else if(this.s.id === 2) {
+        return 'has-background-PK'
+      } else {
+        return 'has-background-Base'
+      }
+    }
   }
 });
 
@@ -25742,7 +25752,7 @@ var render = function() {
               _c(
                 "button",
                 {
-                  staticClass: "button is-colour",
+                  staticClass: "button is-level",
                   on: {
                     click: function($event) {
                       _vm.UPDATE_SELECTOR("StylistSelector")
@@ -25764,7 +25774,7 @@ var render = function() {
               _c(
                 "button",
                 {
-                  staticClass: "button is-colour",
+                  staticClass: "button is-level",
                   on: {
                     click: function($event) {
                       _vm.UPDATE_SELECTOR("LevelSelector")
@@ -25843,26 +25853,30 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "card-content" }, [
-                      _c("div", { staticClass: "media" }, [
-                        _c("div", { staticClass: "media-content" }, [
-                          _c(
-                            "p",
-                            {
-                              staticClass:
-                                "title is-6 has-text-white has-text-centered"
-                            },
-                            [
-                              _vm._v(
-                                _vm._s(stylist.first_name) +
-                                  " " +
-                                  _vm._s(stylist.last_name)
-                              )
-                            ]
-                          )
+                    _c(
+                      "div",
+                      { staticClass: "card-content", class: _vm.cardStyle },
+                      [
+                        _c("div", { staticClass: "media" }, [
+                          _c("div", { staticClass: "media-content" }, [
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "title is-6 has-text-white has-text-centered"
+                              },
+                              [
+                                _vm._v(
+                                  _vm._s(stylist.first_name) +
+                                    " " +
+                                    _vm._s(stylist.last_name)
+                                )
+                              ]
+                            )
+                          ])
                         ])
-                      ])
-                    ])
+                      ]
+                    )
                   ])
                 ])
               ]
