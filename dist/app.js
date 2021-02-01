@@ -1206,6 +1206,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _views_endpoint_TotalsByLevel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../views/endpoint/TotalsByLevel */ "./node_modules/araquach-price-calc/views/endpoint/TotalsByLevel.vue");
 /* harmony import */ var _views_endpoint_TotalsByPrice__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/endpoint/TotalsByPrice */ "./node_modules/araquach-price-calc/views/endpoint/TotalsByPrice.vue");
 /* harmony import */ var _views_Finish__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../views/Finish */ "./node_modules/araquach-price-calc/views/Finish.vue");
+/* harmony import */ var _store_store__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../store/store */ "./node_modules/araquach-price-calc/store/store.js");
+
 
 
 
@@ -1228,27 +1230,62 @@ __webpack_require__.r(__webpack_exports__);
     {
         path: '/prices/calculator',
         name: 'calculator',
-        component: _views_Calculator__WEBPACK_IMPORTED_MODULE_1__["default"]
+        component: _views_Calculator__WEBPACK_IMPORTED_MODULE_1__["default"],
+        beforeEnter: (to, from, next) => {
+            if(_store_store__WEBPACK_IMPORTED_MODULE_7__["default"].state.calc.calculator) {
+                next()
+            } else {
+                next({name: 'prices'})
+            }
+        }
     },
     {
         path: '/prices/total-by-price',
         name: 'totals-by-price',
-        component: _views_endpoint_TotalsByPrice__WEBPACK_IMPORTED_MODULE_5__["default"]
+        component: _views_endpoint_TotalsByPrice__WEBPACK_IMPORTED_MODULE_5__["default"],
+        beforeEnter: (to, from, next) => {
+            if(_store_store__WEBPACK_IMPORTED_MODULE_7__["default"].state.calc.calculator) {
+                next()
+            } else {
+                next({name: 'prices'})
+            }
+        }
     },
     {
         path: '/prices/total-by-level',
         name: 'totals-by-level',
-        component: _views_endpoint_TotalsByLevel__WEBPACK_IMPORTED_MODULE_4__["default"]
+        component: _views_endpoint_TotalsByLevel__WEBPACK_IMPORTED_MODULE_4__["default"],
+        beforeEnter: (to, from, next) => {
+            if(_store_store__WEBPACK_IMPORTED_MODULE_7__["default"].state.calc.calculator) {
+                next()
+            } else {
+                next({name: 'prices'})
+            }
+        }
     },
     {
         path: '/prices/total-by-stylist',
         name: 'totals-by-stylist',
-        component: _views_endpoint_TotalsByStylist__WEBPACK_IMPORTED_MODULE_3__["default"]
+        component: _views_endpoint_TotalsByStylist__WEBPACK_IMPORTED_MODULE_3__["default"],
+        beforeEnter: (to, from, next) => {
+            if(_store_store__WEBPACK_IMPORTED_MODULE_7__["default"].state.calc.calculator) {
+                next()
+            } else {
+                next({name: 'prices'})
+            }
+        }
     },
     {
         path: '/prices/finish',
         name: 'finish',
-        component: _views_Finish__WEBPACK_IMPORTED_MODULE_6__["default"]
+        component: _views_Finish__WEBPACK_IMPORTED_MODULE_6__["default"],
+        beforeEnter: (to, from, next) => {
+            if(_store_store__WEBPACK_IMPORTED_MODULE_7__["default"].state.calc.calculator) {
+                next()
+            } else {
+                next({name: 'prices'})
+            }
+        }
     }
 ]);
 
@@ -1570,6 +1607,36 @@ const getters = {
 }
 
 
+
+/***/ }),
+
+/***/ "./node_modules/araquach-price-calc/store/store.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/araquach-price-calc/store/store.js ***!
+  \*********************************************************/
+/*! exports provided: store, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "store", function() { return store; });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _modules_calc__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/calc */ "./node_modules/araquach-price-calc/store/modules/calc.js");
+
+
+
+
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__["default"])
+
+const store = new vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store({
+    modules: {
+        calc: _modules_calc__WEBPACK_IMPORTED_MODULE_2__
+    }
+})
+
+/* harmony default export */ __webpack_exports__["default"] = (store);
 
 /***/ }),
 
@@ -4357,6 +4424,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuelidate/lib/validators */ "./node_modules/vuelidate/lib/validators/index.js");
 /* harmony import */ var vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__);
+//
 //
 //
 //
@@ -21468,7 +21536,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 
@@ -21476,19 +21543,14 @@ __webpack_require__.r(__webpack_exports__);
 
     data() {
       return {
-        isOpen: true,
-        activeItem: null
+        isOpen: true
       }
     },
 
     methods: {
       ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])([
           'SELECT_LEVEL'
-      ]),
-
-      selectItem(i) {
-        this.activeItem = i
-      }
+      ])
     },
 
     computed: {
@@ -21584,7 +21646,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 
@@ -21592,7 +21653,6 @@ __webpack_require__.r(__webpack_exports__);
   data() {
     return {
       isOpen: true,
-      activeItem: null
     }
   },
 
@@ -21615,11 +21675,7 @@ __webpack_require__.r(__webpack_exports__);
         'UPDATE_SALON',
         'SELECT_STYLIST',
         'SELECT_LEVEL'
-    ]),
-
-    selectItem(i) {
-      this.activeItem = i
-    }
+    ])
   }
 });
 
@@ -21682,15 +21738,8 @@ __webpack_require__.r(__webpack_exports__);
 
   data() {
     return {
-      isOpen: true,
-      activeItem: null
+      isOpen: true
     }
-  },
-
-  methods: {
-    selectItem(i) {
-      this.activeItem = i
-    },
   },
 
   computed: {
@@ -21797,22 +21846,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data() {
     return {
-      isOpen: true,
-      activeItem: null
+      isOpen: true
     }
-  },
-
-  methods: {
-    selectItem(i) {
-      this.activeItem = i
-    },
   },
 
   computed: {
@@ -21894,15 +21935,8 @@ __webpack_require__.r(__webpack_exports__);
 
   data() {
     return {
-      isOpen: true,
-      activeItem: null
+      isOpen: true
     }
-  },
-
-  methods: {
-    selectItem(i) {
-      this.activeItem = i
-    },
   },
 
   computed: {
@@ -21972,15 +22006,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data() {
     return {
-      isOpen: true,
-      activeItem: null
+      isOpen: true
     }
-  },
-
-  methods: {
-    selectItem(i) {
-      this.activeItem = i
-    },
   },
 
   computed: {
@@ -22045,15 +22072,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data() {
     return {
-      isOpen: true,
-      activeItem: null
+      isOpen: true
     }
-  },
-
-  methods: {
-    selectItem(i) {
-      this.activeItem = i
-    },
   },
 
   computed: {
@@ -22120,15 +22140,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data() {
     return {
-      isOpen: true,
-      activeItem: null
+      isOpen: true
     }
-  },
-
-  methods: {
-    selectItem(i) {
-      this.activeItem = i
-    },
   },
 
   computed: {
@@ -22200,15 +22213,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data() {
     return {
-      isOpen: true,
-      activeItem: null
+      isOpen: true
     }
-  },
-
-  methods: {
-    selectItem(i) {
-      this.activeItem = i
-    },
   },
 
   computed: {
@@ -22287,7 +22293,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   computed: {
     ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])({
-      level: state => state.calc.level
+      level: state => state.calc.level,
+      levels: state => state.calc.levels
     }),
 
     ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])(['allSelected', 'totalCost']),
@@ -23144,23 +23151,12 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "modal-card", staticStyle: { width: "auto" } },
+    {
+      staticClass: "price-calc modal-card is-dark",
+      staticStyle: { width: "auto" }
+    },
     [
-      _c("header", { staticClass: "modal-card-head" }, [
-        _c("p", { staticClass: "modal-card-title" }, [
-          _vm._v("Your chosen stylist")
-        ]),
-        _vm._v(" "),
-        _c("button", {
-          staticClass: "delete",
-          attrs: { type: "button" },
-          on: {
-            click: function($event) {
-              return _vm.$emit("close")
-            }
-          }
-        })
-      ]),
+      _vm._m(0),
       _vm._v(" "),
       _c("section", { staticClass: "modal-card-body" }, [
         _c("div", { staticClass: "columns" }, [
@@ -23231,7 +23227,18 @@ var render = function() {
     ]
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("header", { staticClass: "modal-card-head" }, [
+      _c("p", { staticClass: "modal-card-title" }, [
+        _vm._v("Your chosen stylist")
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -23533,11 +23540,10 @@ var render = function() {
                   "button",
                   {
                     staticClass: "button is-small is-level is-outlined",
-                    class: { activeLevel: i === _vm.level.id - 1 },
+                    class: { activeLevel: _vm.level.id === l.id },
                     on: {
                       click: function($event) {
-                        _vm.SELECT_LEVEL(l)
-                        _vm.selectItem(i)
+                        return _vm.SELECT_LEVEL(l)
                       }
                     }
                   },
@@ -23767,30 +23773,29 @@ var render = function() {
                 _c(
                   "div",
                   { staticClass: "columns is-multiline is-mobile" },
-                  _vm._l(_vm.salonStylists, function(stylist, i) {
+                  _vm._l(_vm.salonStylists, function(s, i) {
                     return _c("div", { staticClass: "column" }, [
                       _c(
                         "button",
                         {
                           key: i,
                           staticClass: "button is-small is-level is-outlined",
-                          class: { activeStylist: i === _vm.activeItem },
+                          class: { activeStylist: _vm.stylist.id === s.id },
                           on: {
                             click: function($event) {
                               _vm.SELECT_LEVEL(
                                 _vm.levels.filter(function(l) {
-                                  return l.id === stylist.level
+                                  return l.id === s.level
                                 })[0]
                               )
-                              _vm.SELECT_STYLIST(stylist)
-                              _vm.selectItem(i)
+                              _vm.SELECT_STYLIST(s)
                             }
                           }
                         },
                         [
                           _vm._v(
                             "\n            " +
-                              _vm._s(stylist.first_name) +
+                              _vm._s(s.first_name) +
                               "\n          "
                           )
                         ]
@@ -23916,7 +23921,10 @@ var render = function() {
               return _c("div", { staticClass: "column" }, [
                 _c("div", {
                   staticClass: "button is-small is-colour-add-on is-outlined",
-                  class: { activeSelectedColourAddOn: i === _vm.activeItem },
+                  class: {
+                    activeSelectedColourAddOn:
+                      service.id === _vm.selectedColourAddOn.id
+                  },
                   domProps: { textContent: _vm._s(service.service) },
                   on: {
                     click: function($event) {
@@ -23925,7 +23933,6 @@ var render = function() {
                         service
                       )
                       _vm.isOpen = false
-                      _vm.selectItem(i)
                     }
                   }
                 })
@@ -24208,7 +24215,10 @@ var render = function() {
                       return _c("div", { key: i, staticClass: "column" }, [
                         _c("button", {
                           staticClass: "button is-small is-outlined is-colour",
-                          class: { activeSelectedColour: i === _vm.activeItem },
+                          class: {
+                            activeSelectedColour:
+                              service.id === _vm.selectedColour.id
+                          },
                           domProps: { textContent: _vm._s(service.service) },
                           on: {
                             click: function($event) {
@@ -24217,7 +24227,6 @@ var render = function() {
                                 service
                               )
                               _vm.isOpen = false
-                              _vm.selectItem(i)
                             }
                           }
                         })
@@ -24357,7 +24366,10 @@ var render = function() {
               return _c("div", { key: i, staticClass: "column" }, [
                 _c("div", {
                   staticClass: "button is-small is-finish-add-on is-outlined",
-                  class: { activeSelectedFinishAddOn: i === _vm.activeItem },
+                  class: {
+                    activeSelectedFinishAddOn:
+                      service.id === _vm.selectedFinishAddOn.id
+                  },
                   domProps: { textContent: _vm._s(service.service) },
                   on: {
                     click: function($event) {
@@ -24366,7 +24378,6 @@ var render = function() {
                         service
                       )
                       _vm.isOpen = false
-                      _vm.selectItem(i)
                     }
                   }
                 })
@@ -24486,13 +24497,14 @@ var render = function() {
               return _c("div", { key: i, staticClass: "column" }, [
                 _c("div", {
                   staticClass: "button is-small is-finish is-outlined",
-                  class: { activeSelectedFinish: i === _vm.activeItem },
+                  class: {
+                    activeSelectedFinish: service.id === _vm.selectedFinish.id
+                  },
                   domProps: { textContent: _vm._s(service.service) },
                   on: {
                     click: function($event) {
                       _vm.$store.commit("UPDATE_SELECTED_FINISH", service)
                       _vm.isOpen = false
-                      _vm.selectItem(i)
                     }
                   }
                 })
@@ -24588,13 +24600,15 @@ var render = function() {
               return _c("div", { key: i, staticClass: "column" }, [
                 _c("div", {
                   staticClass: "button is-small is-finish is-outlined",
-                  class: { activeSelectedFinish: i === _vm.activeItem },
+                  class: {
+                    activeSelectedFinish:
+                      service.id === _vm.selectedMensColour.id
+                  },
                   domProps: { textContent: _vm._s(service.service) },
                   on: {
                     click: function($event) {
                       _vm.$store.commit("UPDATE_SELECTED_MENS_COLOUR", service)
                       _vm.isOpen = false
-                      _vm.selectItem(i)
                     }
                   }
                 })
@@ -24692,13 +24706,14 @@ var render = function() {
               return _c("div", { key: i, staticClass: "column" }, [
                 _c("div", {
                   staticClass: "button is-small is-finish is-outlined",
-                  class: { activeSelectedFinish: i === _vm.activeItem },
+                  class: {
+                    activeSelectedFinish: service.id === _vm.selectedMensCut.id
+                  },
                   domProps: { textContent: _vm._s(service.service) },
                   on: {
                     click: function($event) {
                       _vm.$store.commit("UPDATE_SELECTED_MENS_CUT", service)
                       _vm.isOpen = false
-                      _vm.selectItem(i)
                     }
                   }
                 })
@@ -24830,13 +24845,15 @@ var render = function() {
               return _c("div", { staticClass: "column" }, [
                 _c("div", {
                   staticClass: "button is-small is-treatment is-outlined",
-                  class: { activeSelectedTreatment: i === _vm.activeItem },
+                  class: {
+                    activeSelectedTreatment:
+                      service.id === _vm.selectedTreatment.id
+                  },
                   domProps: { textContent: _vm._s(service.service) },
                   on: {
                     click: function($event) {
                       _vm.$store.commit("UPDATE_SELECTED_TREATMENT", service)
                       _vm.isOpen = false
-                      _vm.selectItem(i)
                     }
                   }
                 })
@@ -24938,7 +24955,9 @@ var render = function() {
                   {
                     staticClass: "button is-warning is-small",
                     class: [
-                      _vm.level.id > 0 && _vm.level.id < 7 ? "" : "disabled"
+                      _vm.level.id > 0 && _vm.level.id < _vm.levels.length
+                        ? ""
+                        : "disabled"
                     ],
                     on: { click: _vm.DECREASE_LEVEL }
                   },
@@ -25842,7 +25861,7 @@ var render = function() {
                 }
               },
               [
-                _c("div", { staticClass: "card has-background-colour" }, [
+                _c("div", { staticClass: "card", class: _vm.cardStyle }, [
                   _c("div", { staticClass: "card-image" }, [
                     _c("figure", { staticClass: "image is-square" }, [
                       _c("img", {
@@ -27289,6 +27308,10 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("option", { attrs: { value: "Jo" } }, [
                                   _vm._v("Jo")
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "Michelle" } }, [
+                                  _vm._v("Michelle")
                                 ]),
                                 _vm._v(" "),
                                 _c("option", { attrs: { value: "Brad" } }, [

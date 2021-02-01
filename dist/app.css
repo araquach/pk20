@@ -23195,10 +23195,6 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   }
 }
 
-.price-calc {
-  /* transition styling */
-}
-
 .price-calc p {
   margin-bottom: 0.8rem;
 }
@@ -23330,14 +23326,10 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   margin-bottom: 2rem;
 }
 
-.price-calc .fade-enter,
-.price-calc .fade-leave-active {
-  opacity: 0;
-}
-
-.price-calc .fade-enter-active,
-.price-calc .fade-leave-active {
-  transition: opacity 0.1s;
+@media screen and (max-width: 768px) {
+  .price-calc .modal-card-foot {
+    padding-bottom: 5rem;
+  }
 }
 
 html {
