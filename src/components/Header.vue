@@ -18,9 +18,9 @@
           <b-navbar-item tag="router-link" :to="{ name: 'team' }">
             Team
           </b-navbar-item>
-          <b-navbar-item tag="router-link" :to="{ name: 'offers' }">
-            Offers
-          </b-navbar-item>
+<!--          <b-navbar-item tag="router-link" :to="{ name: 'offers' }">-->
+<!--            Offers-->
+<!--          </b-navbar-item>-->
           <b-navbar-item tag="router-link" :to="{ name: 'blog' }">
             Blog
           </b-navbar-item>
