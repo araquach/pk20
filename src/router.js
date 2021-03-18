@@ -19,7 +19,8 @@ import TeamDetail from "./views/TeamDetail"
 import Contact from "./views/Contact"
 import Bookings from "./views/Bookings"
 import Corona from "./views/Corona"
-import calcRoutes from "araquach-price-calc/router/calcRoutes";
+import Reopening from "./views/Reopening"
+import calcRoutes from "araquach-price-calc/router/calcRoutes"
 
 Vue.use(Router)
 
@@ -134,6 +135,11 @@ const router = new Router({
             path: "/corona",
             component: Corona,
             name: "corona"
+        },
+        {
+            path: "/reopening",
+            component: Reopening,
+            name: "reopening"
         },
 
         ...calcRoutes,
