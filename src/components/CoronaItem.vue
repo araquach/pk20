@@ -1,5 +1,5 @@
 <template>
-  <div class="column">
+  <div class="column is-3">
     <router-link :to="{ name: 'reopening' }">
       <div class="card">
         <div class="card-image">
