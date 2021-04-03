@@ -21,6 +21,7 @@
       </div>
     </div>
     <div class="columns">
+      <CoronaItem class="section"/>
       <div v-for="(newsItem, id) in newsItems" class="section column">
         <router-link :to="{ name: 'blog-post', params: { slug: newsItem.slug } }">
           <div class="card">
@@ -48,10 +49,11 @@
 
 <script>
   import NewsItem from "../components/NewsItem"
+  import CoronaItem from "../components/CoronaItem"
   import ReviewFeed from "../components/reviewFeed/ReviewFeed"
 
   export default {
-    components: { NewsItem, ReviewFeed },
+    components: { NewsItem, ReviewFeed, CoronaItem },
 
     data() {
       return {
@@ -61,7 +63,7 @@
     },
 
     mounted() {
-      axios.get("/api/news-items").then(response => this.newsItems = response.data)
+      axios.get("/api/news-items").then(response => this.newsItems = response.data.slice(0, 3))
           .catch(error => {
             console.log(error)
           })
