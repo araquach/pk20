@@ -2,7 +2,7 @@
   <section id="corona" class="section corona-info hero is-fullheight">
     <div class="section columns">
       <div id="corona-copy" class="column is-7-desktop">
-        <h1 class="title is-1">We'll be back soon!</h1>
+        <h1 class="title is-1">Getting read for our big reopening!</h1>
         <h2 class="subtitle is-6">Updated 2nd April 2021</h2>
         <p><strong>With the end of lockdown in sight we're getting ready for our big reopening!</strong></p>
         <p>The team are gearing themselves up for another crazy few months of non-stop hairdressing - sorting out long overdue root re-growths and some seriously overgrown manes!</p>
