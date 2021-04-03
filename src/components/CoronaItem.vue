@@ -10,7 +10,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-content">
-              <h1 class="title is-5 is-size-4-mobile has-text-white">We'll be back soon!</h1>
+              <h1 class="title is-5 is-size-4-mobile has-text-white">Getting read for our big reopening!</h1>
             </div>
           </div>
           <div class="content is-size-7 is-size-5-mobile">
