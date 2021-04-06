@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="offers" class="section">
+    <section v-if="showOffers" id="offers" class="section">
       <div class="columns">
         <div class="column is-9">
           <h1 class="title is-2 has-text-primary">Latest Special Offers</h1>
@@ -43,5 +43,22 @@
       <br><br>
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
     </section>
+    <section v-else class="section hero is-fullheight">
+      <div class="columns">
+        <div class="column is-9">
+          <h1 class="title is-2 has-text-primary">There are no offers this month</h1>
+          <p>Check back soon!</p>
+        </div>
+      </div>
+    </section>
   </div> <!--end #offers-->
 </template>
+<script>
+  export default {
+    data() {
+      return {
+        showOffers: false
+      }
+    }
+  }
+</script>
