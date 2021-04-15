@@ -1,25 +1,24 @@
 <template>
   <section id="corona" class="section corona-info hero is-fullheight">
     <div class="section columns">
-      <div id="corona-copy" class="column is-7-desktop">
-        <h1 class="title is-1">We'll be back soon!</h1>
-        <h2 class="subtitle is-6">Updated 2nd April 2021</h2>
-        <p><strong>With the end of lockdown in sight we're getting ready for our big reopening!</strong></p>
-        <p>The team are gearing themselves up for another crazy few months of non-stop hairdressing - sorting out long overdue root re-growths and some seriously overgrown manes!</p>
-        <p>We have a reopening date of <strong>13th April</strong> - only a few weeks off now. It's not set in stone but we're fairly confident we'll be up and running on this date - we'll keep you updated.</p>
-        <p class="is-size-5">We're dealing with bookings in the fairest way possible, with all appointments that were missed due to lockdown contacted first followed by everyone who has registered. (If you haven't already registered do it here:
-          <a href="https://www.paulkemphairdressing.com/bookings">www.paulkemphairdressing.com/bookings</a>)</p>
-        <p>The process will take some time with stylists looking after their own bookings, but don't worry - <em>if you
-          had a booking or are on our list you can be assured you'll be getting a call before we reopen.</em></p>
-        <p>Please be aware that you'll receive your call from your stylists mobile number as they are not in work. Make sure you don't miss it, and check your voicemail.</p>
-        <p class="has-text-weight-bold">The guidelines remain the same as before we closed - at least initially. We'll keep you posted of any changes. You can see them here:
-          <a href="https://www.paulkemphairdressing.com/corona">Covid Guidelines</a></p>
-        <p class="has-text-danger">Please be aware our skin test procedure has been updated and the duration between tests has been reduced to 6 months from 12 months. Find out if you need a skin test here: </p>
-        <router-link class="is-size-5" to="/blog/allergy-alert-test">Allergy Alert Test Info ></router-link>
+      <div id="corona-copy" class="column is-7">
+        <h1 class="title is-1">We're back!</h1>
+        <h2 class="subtitle is-6">Updated 15th April 2021</h2>
+        <p><strong>It's been a long time coming but we're happy to say we're finally back open!</strong></p>
+        <p>We've had a full on two days of non-stop colouring and cutting with the whole team on form, doing what they love best!</p>
+        <p>We're loving catching up with all of our clients after so long and getting stuck into some major re-styles! Never seen so much hair dropping to the floor 😂.</p>
+        <p>The salon remains a COVID safe space and we're doing our best to keep it that way.</p>
+        <p>Our phone lines are remaining off for a week or two until we catch up - we're pretty much booked up until May now with only the odd gap for cut and blows and mens cuts.</p>
+        <p class="is-size-5">If you need to get in touch please leave a message on our voicemail or message us through Facebook messenger and we'll get back as soon as we possibly can.</p>
+        <a href="https://www.paulkemphairdressing.com/bookings">www.paulkemphairdressing.com/bookings</a>
         <br><br>
-        <p class="is-size-4">We can't wait to see you and make your hair look amazing again!<br>Take care and see you soon!</p>
+        <p>Again, please be patient for a response as the whole team are flat out for the next few weeks.</p>
+        <p><strong>Don't forget to use our skin test questionnaire to see if you need an update before your colour</strong></p>
+        <router-link to="/blog/allergy-alert-test">Allergy Alert Test Info ></router-link>
+        <br><br>
+        <p class="is-size-4">Can't wait to see you all soon!</p>
       </div>
-      <div class="column">
+      <div class="column ">
         <figure class="image is-hidden-mobile">
           <img src="/dist/img/corona/reopening.jpg">
         </figure>
