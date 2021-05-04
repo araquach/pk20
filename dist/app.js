@@ -2664,14 +2664,8 @@ __webpack_require__.r(__webpack_exports__);
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/views/Bookings.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuelidate/lib/validators */ "./node_modules/vuelidate/lib/validators/index.js");
 //
 //
 //
@@ -2692,152 +2686,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  data: function data() {
-    return {
-      showInfo: false,
-      first_name: '',
-      last_name: '',
-      mobile: '',
-      stylist: '',
-      time_slot: '',
-      salon: 2,
-      submitStatus: null,
-      error: null
-    };
-  },
-  validations: {
-    first_name: {
-      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required
-    },
-    last_name: {
-      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required
-    },
-    mobile: {
-      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required,
-      numeric: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.numeric
-    },
-    stylist: {
-      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required
-    },
-    time_slot: {
-      required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required
-    }
-  },
-  methods: {
-    submit: function submit() {
-      var _this = this;
-
-      console.log('submit!');
-      this.$v.$touch();
-
-      if (this.$v.$invalid) {
-        this.submitStatus = 'ERROR';
-      } else {
-        axios.post('/api/booking-request', {
-          first_name: this.first_name,
-          last_name: this.last_name,
-          mobile: this.mobile,
-          stylist: this.stylist,
-          time_slot: this.time_slot,
-          salon: this.salon
-        }).then(function (response) {
-          _this.submitStatus = 'OK';
-          _this.error = response.data.message;
-        })["catch"](function (e) {
-          console.error(e);
-        });
-      }
-    }
-  }
-});
 
 /***/ }),
 
@@ -25941,6 +25789,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Bookings_vue_vue_type_template_id_b3cf2f18___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Bookings.vue?vue&type=template&id=b3cf2f18& */ "./src/views/Bookings.vue?vue&type=template&id=b3cf2f18&");
 /* harmony import */ var _Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Bookings.vue?vue&type=script&lang=js& */ "./src/views/Bookings.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -26777,7 +26628,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Bookings.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/views/Bookings.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bookings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default())); 
 
 /***/ }),
 
@@ -32217,420 +32072,7 @@ var render = function() {
     "section",
     { staticClass: "section bookings-info hero is-fullheight is-dark" },
     [
-      _c("div", { staticClass: "columns" }, [
-        _c("div", { staticClass: "section column is-6" }, [
-          _c("h1", { staticClass: "title" }, [
-            _vm._v("Register for your appointment")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "is-size-5" }, [
-            _vm._v(
-              "Our phone lines and online bookings are remaining closed while we deal with our backlog of clients. Our usual systems will be switched back on within the next couple of weeks."
-            )
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Please note: our stylists are all pretty much fully booked until May, with only a few cut & Style and men's hair appointments remaining"
-            )
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "If you want to book an appointment, please register here and we'll contact you as soon as we can."
-            )
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "If you need to cancel or change your appointment please leave a message on our voicemail or contact us using Facebook Messenger"
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(0),
-          _vm._v(" "),
-          _c("div", [
-            _vm.submitStatus !== "OK"
-              ? _c(
-                  "form",
-                  {
-                    on: {
-                      submit: function($event) {
-                        $event.preventDefault()
-                        return _vm.submit($event)
-                      }
-                    }
-                  },
-                  [
-                    _c("div", { staticClass: "field" }, [
-                      _c("label", { staticClass: "label has-text-white" }, [
-                        _vm._v("First Name")
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "control" }, [
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model.trim",
-                              value: _vm.$v.first_name.$model,
-                              expression: "$v.first_name.$model",
-                              modifiers: { trim: true }
-                            }
-                          ],
-                          staticClass: "input",
-                          class: { "is-danger": _vm.$v.first_name.$error },
-                          attrs: { placeholder: "Your First Name" },
-                          domProps: { value: _vm.$v.first_name.$model },
-                          on: {
-                            input: function($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.$set(
-                                _vm.$v.first_name,
-                                "$model",
-                                $event.target.value.trim()
-                              )
-                            },
-                            blur: function($event) {
-                              return _vm.$forceUpdate()
-                            }
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _vm.submitStatus === "ERROR" &&
-                      !_vm.$v.first_name.required
-                        ? _c("div", { staticClass: "help is-danger" }, [
-                            _c("p", [_vm._v("Your first name is required")])
-                          ])
-                        : _vm._e()
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "field" }, [
-                      _c("label", { staticClass: "label has-text-white" }, [
-                        _vm._v("Last Name")
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "control" }, [
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model.trim",
-                              value: _vm.$v.last_name.$model,
-                              expression: "$v.last_name.$model",
-                              modifiers: { trim: true }
-                            }
-                          ],
-                          staticClass: "input",
-                          class: { "is-danger": _vm.$v.last_name.$error },
-                          attrs: { placeholder: "Your Last Name" },
-                          domProps: { value: _vm.$v.last_name.$model },
-                          on: {
-                            input: function($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.$set(
-                                _vm.$v.last_name,
-                                "$model",
-                                $event.target.value.trim()
-                              )
-                            },
-                            blur: function($event) {
-                              return _vm.$forceUpdate()
-                            }
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _vm.submitStatus === "ERROR" && !_vm.$v.last_name.required
-                        ? _c("div", { staticClass: "help is-danger" }, [
-                            _c("p", [_vm._v("Your last name is required")])
-                          ])
-                        : _vm._e()
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "field" }, [
-                      _c("label", { staticClass: "label has-text-white" }, [
-                        _vm._v("Mobile Number")
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "control" }, [
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model.trim",
-                              value: _vm.$v.mobile.$model,
-                              expression: "$v.mobile.$model",
-                              modifiers: { trim: true }
-                            }
-                          ],
-                          staticClass: "input",
-                          class: { "is-danger": _vm.$v.mobile.$error },
-                          attrs: { placeholder: "Your Mobile Number" },
-                          domProps: { value: _vm.$v.mobile.$model },
-                          on: {
-                            input: function($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.$set(
-                                _vm.$v.mobile,
-                                "$model",
-                                $event.target.value.trim()
-                              )
-                            },
-                            blur: function($event) {
-                              return _vm.$forceUpdate()
-                            }
-                          }
-                        }),
-                        _vm._v(" "),
-                        _vm.submitStatus === "ERROR" && !_vm.$v.mobile.required
-                          ? _c("div", { staticClass: "help is-danger" }, [
-                              _vm._v(
-                                "\n                Mobile number is required\n              "
-                              )
-                            ])
-                          : _vm._e(),
-                        _vm._v(" "),
-                        _vm.submitStatus === "ERROR" && !_vm.$v.mobile.numeric
-                          ? _c("div", { staticClass: "help is-danger" }, [
-                              _c("p", [
-                                _vm._v("Valid Mobile number is required")
-                              ])
-                            ])
-                          : _vm._e()
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "field" }, [
-                      _c("label", { staticClass: "label has-text-white" }, [
-                        _vm._v("Preferred Stylist")
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "control" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "select",
-                            class: { "is-danger": _vm.$v.stylist.$error }
-                          },
-                          [
-                            _c(
-                              "select",
-                              {
-                                directives: [
-                                  {
-                                    name: "model",
-                                    rawName: "v-model.trim",
-                                    value: _vm.$v.stylist.$model,
-                                    expression: "$v.stylist.$model",
-                                    modifiers: { trim: true }
-                                  }
-                                ],
-                                on: {
-                                  change: function($event) {
-                                    var $$selectedVal = Array.prototype.filter
-                                      .call($event.target.options, function(o) {
-                                        return o.selected
-                                      })
-                                      .map(function(o) {
-                                        var val =
-                                          "_value" in o ? o._value : o.value
-                                        return val
-                                      })
-                                    _vm.$set(
-                                      _vm.$v.stylist,
-                                      "$model",
-                                      $event.target.multiple
-                                        ? $$selectedVal
-                                        : $$selectedVal[0]
-                                    )
-                                  }
-                                }
-                              },
-                              [
-                                _c("option", { attrs: { value: "default" } }, [
-                                  _vm._v("Please select")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Izzy" } }, [
-                                  _vm._v("Izzy")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Kellie" } }, [
-                                  _vm._v("Kellie")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Jo" } }, [
-                                  _vm._v("Jo")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Michelle" } }, [
-                                  _vm._v("Michelle")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Brad" } }, [
-                                  _vm._v("Brad")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Abi" } }, [
-                                  _vm._v("Abi")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "David" } }, [
-                                  _vm._v("David")
-                                ]),
-                                _vm._v(" "),
-                                _c(
-                                  "option",
-                                  { attrs: { value: "PK Not Sure" } },
-                                  [_vm._v("Not Sure")]
-                                )
-                              ]
-                            )
-                          ]
-                        )
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _vm.submitStatus === "ERROR" && !_vm.$v.stylist.required
-                      ? _c("div", { staticClass: "help is-danger" }, [
-                          _vm._v(
-                            "\n            Preferred stylist is required\n          "
-                          )
-                        ])
-                      : _vm._e(),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "field" }, [
-                      _c("label", { staticClass: "label has-text-white" }, [
-                        _vm._v("Preferred Time Slot")
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "control" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "select",
-                            class: { "is-danger": _vm.$v.time_slot.$error }
-                          },
-                          [
-                            _c(
-                              "select",
-                              {
-                                directives: [
-                                  {
-                                    name: "model",
-                                    rawName: "v-model.trim",
-                                    value: _vm.$v.time_slot.$model,
-                                    expression: "$v.time_slot.$model",
-                                    modifiers: { trim: true }
-                                  }
-                                ],
-                                on: {
-                                  change: function($event) {
-                                    var $$selectedVal = Array.prototype.filter
-                                      .call($event.target.options, function(o) {
-                                        return o.selected
-                                      })
-                                      .map(function(o) {
-                                        var val =
-                                          "_value" in o ? o._value : o.value
-                                        return val
-                                      })
-                                    _vm.$set(
-                                      _vm.$v.time_slot,
-                                      "$model",
-                                      $event.target.multiple
-                                        ? $$selectedVal
-                                        : $$selectedVal[0]
-                                    )
-                                  }
-                                }
-                              },
-                              [
-                                _c("option", { attrs: { value: "default" } }, [
-                                  _vm._v("Please select")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Any Time" } }, [
-                                  _vm._v("Any Time")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Weekend" } }, [
-                                  _vm._v("Only Weekends")
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Evenings" } }, [
-                                  _vm._v("Only Evenings")
-                                ]),
-                                _vm._v(" "),
-                                _c(
-                                  "option",
-                                  { attrs: { value: "Weekend/Evenings" } },
-                                  [_vm._v("Weekend or Evenings")]
-                                )
-                              ]
-                            )
-                          ]
-                        )
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _vm.submitStatus === "ERROR" && !_vm.$v.time_slot.required
-                      ? _c("div", { staticClass: "help is-danger" }, [
-                          _vm._v(
-                            "\n            Preferred time slot is required\n          "
-                          )
-                        ])
-                      : _vm._e(),
-                    _vm._v(" "),
-                    _c("br"),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "field" }, [
-                      _c("div", { staticClass: "control" }, [
-                        _c(
-                          "button",
-                          {
-                            staticClass: "button is-white",
-                            attrs: {
-                              type: "submit",
-                              disabled: _vm.submitStatus === "PENDING"
-                            }
-                          },
-                          [_vm._v("Send")]
-                        )
-                      ])
-                    ])
-                  ]
-                )
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.submitStatus === "OK" && _vm.error
-              ? _c("div", { staticClass: "box" }, [
-                  _c("p", { staticClass: "is-size-4 has-text-primary" }, [
-                    _vm._v(_vm._s(_vm.error))
-                  ])
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.submitStatus === "OK" && !_vm.error
-              ? _c("div", { staticClass: "box" }, [
-                  _c("p", { staticClass: "is-size-4 has-text-primary" }, [
-                    _vm._v(
-                      "Thanks for registering! We'll be in touch as soon as we can to get you booked in."
-                    )
-                  ])
-                ])
-              : _vm._e()
-          ])
-        ])
-      ]),
+      _vm._m(0),
       _vm._v(" "),
       _c("div", { staticClass: "level is-mobile" }, [
         _c("div", { staticClass: "level-left" }, [
@@ -32658,11 +32100,25 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("p", { staticClass: "is-size-4" }, [
-      _c("strong", { staticClass: "has-text-white" }, [
-        _vm._v(
-          "Thanks for your patience and we look forward to seeing you soon!"
-        )
+    return _c("div", { staticClass: "columns" }, [
+      _c("div", { staticClass: "section column is-6" }, [
+        _c("h1", { staticClass: "title" }, [
+          _vm._v("Register for your appointment")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "is-size-4" }, [
+          _vm._v(
+            "Our phone lines, online booking and App are now back to normal"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "is-size-5" }, [
+          _vm._v(
+            "Please call 01925 242960 or use the 'Book Now' button above to make an appointment"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "is-size-5" }, [_vm._v("See you soon!")])
       ])
     ])
   }
