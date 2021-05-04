@@ -21,6 +21,7 @@ import Bookings from "./views/Bookings"
 import Corona from "./views/Corona"
 import Reopening from "./views/Reopening"
 import calcRoutes from "araquach-price-calc/router/calcRoutes"
+import Quote from "./views/quote/Quote"
 
 Vue.use(Router)
 
@@ -143,6 +144,13 @@ const router = new Router({
         },
 
         ...calcRoutes,
+
+        {
+            path: '/quote/:link',
+            name: 'quote',
+            component: Quote,
+            props: true
+        },
 
         {
             path: '/:notFound(.*)', redirect: '/'
