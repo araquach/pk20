@@ -11,7 +11,6 @@
           <b-navbar-item tag="router-link" :to="{ name: 'home' }">
             Home
           </b-navbar-item>
-          <a href="" ></a>
           <b-navbar-item tag="router-link" :to="{ name: 'salon' }">
             Salon
           </b-navbar-item>
@@ -25,9 +24,9 @@
             Blog
           </b-navbar-item>
           <b-navbar-dropdown label="More">
-            <b-navbar-item tag="router-link" :to="{ name: 'corona' }">
-              COVID Guidelines
-            </b-navbar-item>
+<!--            <b-navbar-item tag="router-link" :to="{ name: 'corona' }">-->
+<!--              COVID Guidelines-->
+<!--            </b-navbar-item>-->
             <b-navbar-item tag="router-link" :to="{ name: 'men' }">
               Men
             </b-navbar-item>
@@ -45,12 +44,12 @@
               <router-link class="button is-primary" :to="{ name: 'contact' }">
                 Contact Us
               </router-link>
-              <router-link class="button is-light" :to="{ name: 'bookings' }">
-                Book Now
-              </router-link>
-<!--              <a href="https://phorest.com/book/salons/paulkemp" class="button is-light">-->
-<!--                <strong>Book Now</strong>-->
-<!--              </a>-->
+<!--              <router-link class="button is-light" :to="{ name: 'bookings' }">-->
+<!--                Book Now-->
+<!--              </router-link>-->
+              <a href="https://phorest.com/book/salons/paulkemp" class="button is-light">
+                <strong>Book Now</strong>
+              </a>
             </div>
           </b-navbar-item>
         </template>
