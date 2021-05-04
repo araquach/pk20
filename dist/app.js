@@ -24697,7 +24697,7 @@ __webpack_require__.r(__webpack_exports__);
     return {
       showInfo: false,
       name: '',
-      mobile: '',
+      mobile: null,
       email: '',
       submitStatus: null
     }
@@ -28242,7 +28242,7 @@ var render = function() {
             on: {
               click: function($event) {
                 _vm.SELECT_STYLIST(_vm.staff)
-                _vm.$router.push("totals-by-stylist")
+                _vm.$router.push({ name: "totals-by-stylist" })
                 _vm.$emit("close")
               }
             }
@@ -30508,7 +30508,9 @@ var render = function() {
                       ])
                     : _vm._e(),
                   _vm._v(" "),
-                  _vm.submitStatus === "ERROR" && !_vm.$v.email.numeric
+                  _vm.submitStatus === "ERROR" &&
+                  _vm.$v.mobile.required &&
+                  !_vm.$v.email.numeric
                     ? _c("div", { staticClass: "help is-danger" }, [
                         _vm._v(
                           "\n            A valid mobile number is required\n          "
