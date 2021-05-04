@@ -4,7 +4,7 @@
       <div class="section column is-6">
         <h1 class="title">Register for your appointment</h1>
         <p class="is-size-4">Our phone lines, online booking and App are now back to normal</p>
-        <p class="is-size-5">Please call 01925 242960 or use the 'Book Now' button above to make an appointment</p>
+        <p class="is-size-5">Please call 01925 444488 or use the 'Book Now' button above to make an appointment</p>
         <p class="is-size-5">See you soon!</p>
       </div>
     </div>
