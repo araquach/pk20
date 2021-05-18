@@ -17,16 +17,20 @@
           <b-navbar-item tag="router-link" :to="{ name: 'team' }">
             Team
           </b-navbar-item>
+          <b-navbar-item tag="router-link" :to="{ name: 'prices' }">
+            Prices
+          </b-navbar-item>
 <!--          <b-navbar-item tag="router-link" :to="{ name: 'offers' }">-->
 <!--            Offers-->
 <!--          </b-navbar-item>-->
-          <b-navbar-item tag="router-link" :to="{ name: 'blog' }">
-            Blog
-          </b-navbar-item>
+
           <b-navbar-dropdown label="More">
 <!--            <b-navbar-item tag="router-link" :to="{ name: 'corona' }">-->
 <!--              COVID Guidelines-->
 <!--            </b-navbar-item>-->
+            <b-navbar-item tag="router-link" :to="{ name: 'blog' }">
+              Blog
+            </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'men' }">
               Men
             </b-navbar-item>

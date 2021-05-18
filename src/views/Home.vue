@@ -21,7 +21,6 @@
       </div>
     </div>
     <div class="columns">
-      <CoronaItem class="section"/>
       <div v-for="(newsItem, id) in newsItems" class="section column">
         <router-link :to="{ name: 'blog-post', params: { slug: newsItem.slug } }">
           <div class="card">
@@ -63,7 +62,7 @@
     },
 
     mounted() {
-      axios.get("/api/news-items").then(response => this.newsItems = response.data.slice(0, 3))
+      axios.get("/api/news-items").then(response => this.newsItems = response.data.slice(0, 4))
           .catch(error => {
             console.log(error)
           })
