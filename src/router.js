@@ -22,6 +22,7 @@ import Corona from "./views/Corona"
 import Reopening from "./views/Reopening"
 import calcRoutes from "araquach-price-calc/router/calcRoutes"
 import Quote from "./views/quote/Quote"
+import LinkTree from "./views/LinkTree"
 
 Vue.use(Router)
 
@@ -150,6 +151,11 @@ const router = new Router({
             name: 'quote',
             component: Quote,
             props: true
+        },
+        {
+            path: '/link-tree',
+            name: 'link-tree',
+            component: LinkTree
         },
 
         {

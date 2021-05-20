@@ -1,11 +1,15 @@
 <template>
   <div id="main">
     <div class="main container">
-      <Header/>
+      <div v-if="!isLinkTree">
+        <Header/>
+      </div>
       <transition name="fade" mode="out-in">
         <RouterView/>
       </transition>
-      <Footer/>
+      <div v-if="!isLinkTree">
+        <Footer/>
+      </div>
     </div>
   </div>
 </template>
@@ -16,6 +20,14 @@
 
   export default {
     components: {Footer, Header },
+
+    computed: {
+      isLinkTree() {
+        if (this.$route.name === 'link-tree') {
+          return true
+        }
+      }
+    },
 
     created() {
       this.$store.dispatch('loadSalons')

@@ -3,7 +3,7 @@
 
 $purple: #8A4D76;
 $orange: rgb(249,166,2);
-$brown: rgb(55,34,24);
+$brown: rgb(42, 26, 20);
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 
@@ -454,6 +454,22 @@ p {
   @include until($tablet) {
     background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url("/dist/img/bookings/bookings.jpg") right top no-repeat;
     background-size: cover;
+  }
+}
+
+#link-tree {
+  background: rgb(236,227,205);
+  background: linear-gradient(142deg, rgba(249,246,240,.7) 0%, rgba(236,227,205,.7) 100%), url("/dist/img/home/katharina.jpg");
+  p {
+    margin-bottom: 4rem;
+  }
+  .box {
+    border-radius: 40px;
+    background-color: rgb(50, 32, 18);
+    color: #FFF;
+  }
+  .social {
+    margin-top: 5rem;
   }
 }
 
