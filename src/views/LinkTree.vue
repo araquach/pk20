@@ -21,28 +21,28 @@
       <div class="columns social is-mobile">
         <div class="column is-2 is-offset-2">
           <figure class="image is-square">
-            <a href="https://www.instagram.com/jakatasalon1/">
+            <a href="https://www.instagram.com/paulkemphairdressing1">
               <img src="/dist/img/linktree/social/Insta2.svg" alt="Instagram">
             </a>
           </figure>
         </div>
         <div class="column is-2">
           <figure class="image is-square">
-            <a href="https://www.facebook.com/JakataSalon/">
+            <a href="https://www.facebook.com/PaulKempHairdressing">
               <img src="/dist/img/linktree/social/fb.svg" alt="Facebook">
             </a>
           </figure>
         </div>
         <div class="column is-2">
           <figure class="image is-square">
-            <a href="https://twitter.com/JakataSalon">
+            <a href="https://twitter.com/paulkemphair">
               <img src="/dist/img/linktree/social/twitter.svg" alt="Twitter">
             </a>
           </figure>
         </div>
         <div class="column is-2">
           <figure class="image is-square">
-            <a href="https://www.pinterest.co.uk/jakatasalon/">
+            <a href="https://www.pinterest.co.uk/PKHairdressing/">
               <img src="/dist/img/linktree/social/pinterest.svg" alt="Pinterest">
             </a>
           </figure>
