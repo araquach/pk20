@@ -18,6 +18,36 @@
       <router-link v-for="newsItem in newsItems" :key="newsItem.id" :to="{ name: 'blog-post', params: {slug: newsItem.slug} }" class="box">
         {{ newsItem.title }}
       </router-link>
+      <div class="columns social is-mobile">
+        <div class="column is-2 is-offset-2">
+          <figure class="image is-square">
+            <a href="https://www.instagram.com/jakatasalon1/">
+              <img src="/dist/img/linktree/social/Insta2.svg" alt="Instagram">
+            </a>
+          </figure>
+        </div>
+        <div class="column is-2">
+          <figure class="image is-square">
+            <a href="https://www.facebook.com/JakataSalon/">
+              <img src="/dist/img/linktree/social/fb.svg" alt="Facebook">
+            </a>
+          </figure>
+        </div>
+        <div class="column is-2">
+          <figure class="image is-square">
+            <a href="https://twitter.com/JakataSalon">
+              <img src="/dist/img/linktree/social/twitter.svg" alt="Twitter">
+            </a>
+          </figure>
+        </div>
+        <div class="column is-2">
+          <figure class="image is-square">
+            <a href="https://www.pinterest.co.uk/jakatasalon/">
+              <img src="/dist/img/linktree/social/pinterest.svg" alt="Pinterest">
+            </a>
+          </figure>
+        </div>
+      </div>
     </div>
   </div>
 </template>
