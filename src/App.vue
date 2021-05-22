@@ -31,6 +31,7 @@
 
     created() {
       this.$store.dispatch('loadSalons')
+      this.$store.dispatch('loadNewsItems')
       this.$store.commit('UPDATE_SALON', {
         id: 2,
         name: 'Paul Kemp Hairdressing',

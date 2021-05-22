@@ -15,7 +15,7 @@
       <router-link :to="{ name: 'recruitment' }" class="box">
         Want to join our team? Apply here
       </router-link>
-      <router-link v-for="newsItem in newsItems" :key="newsItem.id" :to="{ name: 'blog-post', params: {slug: newsItem.slug} }" class="box">
+      <router-link v-for="newsItem in linkTreeNews" :key="newsItem.id" :to="{ name: 'blog-post', params: {slug: newsItem.slug} }" class="box">
         {{ newsItem.title }}
       </router-link>
       <div class="columns social is-mobile">
@@ -52,18 +52,12 @@
   </div>
 </template>
 <script>
+import {mapGetters} from "vuex"
 export default {
-  data() {
-    return {
-      newsItems: []
-    }
-  },
-
-  mounted() {
-    axios.get("/api/news-items").then(response => this.newsItems = response.data.slice(0, 3))
-        .catch(error => {
-          console.log(error)
-        })
+  computed: {
+    ...mapGetters([
+        'linkTreeNews'
+    ])
   }
 }
 </script>

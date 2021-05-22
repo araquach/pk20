@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="columns">
-      <div v-for="(newsItem, id) in newsItems" class="section column">
+      <div v-for="(newsItem, id) in homeNewsItems" class="section column">
         <router-link :to="{ name: 'blog-post', params: { slug: newsItem.slug } }">
           <div class="card">
             <div class="card-image">
@@ -47,25 +47,24 @@
 </template>
 
 <script>
+  import {mapGetters} from "vuex"
   import NewsItem from "../components/NewsItem"
-  import CoronaItem from "../components/CoronaItem"
   import ReviewFeed from "../components/reviewFeed/ReviewFeed"
 
   export default {
-    components: { NewsItem, ReviewFeed, CoronaItem },
+    components: { NewsItem, ReviewFeed },
 
     data() {
       return {
-        newsItems: [],
         staffMember: ''
       }
     },
 
-    mounted() {
-      axios.get("/api/news-items").then(response => this.newsItems = response.data.slice(0, 4))
-          .catch(error => {
-            console.log(error)
-          })
+    computed: {
+      ...mapGetters([
+          'homeNewsItems'
+      ])
     }
+
   }
 </script>
