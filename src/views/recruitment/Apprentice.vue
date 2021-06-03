@@ -133,24 +133,13 @@
     },
 
     methods:{
-      info() {
-        return `Name: ${this.name}
-                  Role: ${this.role}
-                  Mobile: ${this.mobile}
-                  Email: ${this.email}
-                  Position: ${this.position}
-                  About yourself: ${this.about}
-                  Why hairdressing?: ${this.why_hair}
-                  Why Choose us?: ${this.why_us}
-                  `
-      },
-
       submit() {
         console.log('submit!')
         this.$v.$touch()
         if (this.$v.$invalid) {
           this.submitStatus = 'ERROR'
         } else {
+          this.submitStatus = 'PENDING'
           axios.post('/api/joinus', {
             name: this.name,
             mobile: this.mobile,
@@ -161,7 +150,6 @@
             why_us: this.why_us,
             salon: this.salon,
             role: this.role,
-            info: this.info()
           })
               .then(response => {
                 this.submitStatus = 'OK'
