@@ -1,16 +1,6 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/PuerkitoBio/goquery v1.5.1/go.mod h1:GsLWisAFVj4WgDibEWF4pvYnkVQBpKBKeU+7zCJoLcc=
 github.com/andybalholm/cascadia v1.1.0/go.mod h1:GsXiBklL0woXo1j/WYWtSYYC4ouU9PqHO0sqidkEA4Y=
-github.com/araquach/salonserver v1.1.50 h1:yhnXXL/tB/rQTVwbT5wnzJbByi7RNgEoe18Utqzaw6o=
-github.com/araquach/salonserver v1.1.50/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
-github.com/araquach/salonserver v1.1.51 h1:ZaohePbq97jnoiP1HSMd3USYRz0G6i7bWlr35mOJKW4=
-github.com/araquach/salonserver v1.1.51/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
-github.com/araquach/salonserver v1.1.52 h1:Rd/lVknaYvjkkbQNq3rv/wHZhy21Mp62ntbiv0LrfWw=
-github.com/araquach/salonserver v1.1.52/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
-github.com/araquach/salonserver v1.1.53 h1:tPVCvr8dILp73/yAzWlQsuEGT5kIxJ7Vtz0wA6QoBgM=
-github.com/araquach/salonserver v1.1.53/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
-github.com/araquach/salonserver v1.1.54 h1:garWizc3r+niq6RrFL6VxQ0xVo5qE6OFc8Xo18+/qo4=
-github.com/araquach/salonserver v1.1.54/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
 github.com/araquach/salonserver v1.1.55 h1:DoRta+UWfqIvftNUKI34LVud4FP1iXGGkpAi22WajOQ=
 github.com/araquach/salonserver v1.1.55/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
 github.com/cockroachdb/apd v1.1.0 h1:3LFP3629v+1aKXU5Q37mxmRxX/pIu1nijXydLShEq5I=
