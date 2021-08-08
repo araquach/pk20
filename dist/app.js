@@ -252,7 +252,7 @@ const mutations = {
     },
 
     DECREASE_LEVEL(state) {
-        if (state.level.id > 0 && state.level.id < 8) {
+        if (state.level.id > 0 && state.level.id < 9) {
             state.level = state.levels.filter(l => l.id === state.level.id +1)[0]
         }
     },
@@ -429,7 +429,14 @@ const getters = {
         }
     },
 
-
+    selectedSelector: state => {
+        if (state.selector === "LevelSelector") {
+            return "Level"
+        }
+        if (state.selector === "StylistSelector") {
+            return "Stylist"
+        }
+    }
 }
 
 
@@ -24827,6 +24834,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 
@@ -24844,9 +24856,9 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   validations: {
-    name: { required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required },
+    name: {required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required},
     mobile: {required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required, numeric: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.numeric},
-    email: { required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required, email: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.email }
+    email: {required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.required, email: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_0__.email}
   },
 
   computed: {
@@ -24874,7 +24886,8 @@ __webpack_require__.r(__webpack_exports__);
       'selectedFinishPrice',
       'selectedFinishAddOnPrice',
       'selectedMensColourPrice',
-      'selectedMensCutPrice'
+      'selectedMensCutPrice',
+      'selectedSelector'
     ]),
 
     stylistSalon() {
@@ -24884,14 +24897,14 @@ __webpack_require__.r(__webpack_exports__);
     classSwitch() {
       let className = 'has-text-primary';
 
-      if(this.salon.id === 1) {
+      if (this.salon.id === 1) {
         className = 'has-text-warning'
       }
       return className;
     }
   },
 
-  methods:{
+  methods: {
     quote() {
       const services = []
       if (this.selectedColour.id && this.selectedColourPrice > 0) {
@@ -24915,11 +24928,17 @@ __webpack_require__.r(__webpack_exports__);
       if (this.selectedMensCut.id && this.selectedMensCutPrice > 0) {
         services.push({"service": `${this.selectedMensCut.service}`, "price": this.selectedMensCutPrice})
       }
-      return {services, "total": this.totalCost, "regular": this.regular, "stylist": {"name": this.stylist.first_name + " " + this.stylist.last_name, "image": this.stylist.remote_image}, "salon": this.stylistSalon}
+      return {
+        services,
+        "total": this.totalCost,
+        "regular": this.regular,
+        "stylist": {"name": this.stylist.first_name + " " + this.stylist.last_name, "image": this.stylist.remote_image},
+        "salon": this.stylistSalon
+      }
     },
 
     createRandomLink() {
-      return (Math.floor(Math.random() * 10000) + 10000).toString().substring(1);
+      return (Math.floor(Math.random() * 100000) + 100000).toString().substring(1);
     },
 
     submit() {
@@ -24937,6 +24956,7 @@ __webpack_require__.r(__webpack_exports__);
           mobile: this.mobile,
           email: this.email,
           regular: this.regular,
+          selector: this.selectedSelector,
           quote: this.quote()
         })
             .then(response => {
@@ -25470,7 +25490,8 @@ __webpack_require__.r(__webpack_exports__);
     ]),
 
     thisStaff() {
-      return this.stylistsByLevel.filter(s => s.salon === this.salon.id)
+      const stylists = this.stylistsByLevel.filter(s => s.salon === this.salon.id)
+      return stylists.sort(() => Math.random() - 0.5)
     },
 
     hasStaff() {
@@ -25493,7 +25514,8 @@ __webpack_require__.r(__webpack_exports__);
     ]),
 
     otherStaff(id) {
-      return this.stylistsByLevel.filter(s => s.salon === id && this.salon.id !== id)
+      const stylists = this.stylistsByLevel.filter(s => s.salon === id && this.salon.id !== id)
+      return stylists.sort(() => Math.random() - 0.5)
     }
   }
 });
@@ -30660,7 +30682,7 @@ var render = function() {
         ? _c("p", { staticClass: "is-size-4" }, [
             _c("strong", [
               _vm._v(
-                "While it's your first visit to us we'll also send a great offer for you!"
+                "While it's your first visit to us we'll also send a great offer for\n      you!"
               )
             ])
           ])
@@ -30844,7 +30866,7 @@ var render = function() {
                         "button",
                         {
                           staticClass: "button is-primary",
-                          attrs: { type: "submit", disabled: _vm.loading }
+                          attrs: { disabled: _vm.loading, type: "submit" }
                         },
                         [_vm._v("Send")]
                       )
@@ -30866,7 +30888,7 @@ var render = function() {
         ? _c("div", [
             _c("p", { staticClass: "is-size-4", class: _vm.classSwitch }, [
               _vm._v(
-                "Great! You'll receive your estimated quote via email and text message very soon!"
+                "Great! You'll receive your estimated quote via email and text message\n        very soon!"
               )
             ])
           ])
