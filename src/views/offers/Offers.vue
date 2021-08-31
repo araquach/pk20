@@ -3,15 +3,15 @@
     <section v-if="showOffers" id="offers" class="section">
       <div class="columns">
         <div class="column is-9">
-          <h1 class="title is-2 has-text-primary">Latest Special Offers</h1>
+          <h1 class="title is-2 has-text-primary">Latest Offers</h1>
         </div>
       </div>
-      <router-link :to="{  name: 'abi-offer' }">
-        <div class="box">
-          <div class="columns">
-            <div class="column">
-              <img src="/dist/img/offer/abi.png" alt="Abi Clarke">
-            </div>
+<!--      <router-link :to="{  name: 'abi-offer' }">-->
+<!--        <div class="box">-->
+<!--          <div class="columns">-->
+<!--            <div class="column">-->
+<!--              <img src="/dist/img/offer/abi.png" alt="Abi Clarke">-->
+<!--            </div>-->
 <!--            <section class="column is-8">-->
 <!--              <h2 class="title is-3">25% off your first visit to Abi</h2>-->
 <!--              <p>Abi is an awesome stylist and a member of the GHD Style Squad!</p>-->
@@ -19,14 +19,14 @@
 <!--              <p>Click for more info ></p>-->
 <!--              <small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>-->
 <!--            </section>-->
-          </div>
-        </div>
-      </router-link>
+<!--          </div>-->
+<!--        </div>-->
+<!--      </router-link>-->
       <router-link :to="{ name: 'lauren-offer' }">
         <div class="box">
           <div class="columns">
             <div class="column">
-              <img src="/dist/img/offer/david.png" alt="David Randles">
+              <img src="/dist/img/offer/lauren.png" alt="Lauren Watson">
             </div>
             <section class="column is-8">
               <h2 class="title is-3">Special offer with Lauren</h2>
@@ -56,7 +56,7 @@
   export default {
     data() {
       return {
-        showOffers: false
+        showOffers: true
       }
     }
   }
