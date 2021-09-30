@@ -34,7 +34,7 @@
               <p class="is-size-4"><strong>25% off your first Visit</strong></p>
               <p>A Colour & Cut from just £50</p>
               <p>Find out more here ></p>
-              <small class="is-size-7">For New Clients - not with any other offer<br>Skin test required 48hrs before any colour service</small>
+              <small class="is-size-7">For New Clients to Lauren - not with any other offer<br>Skin test required 48hrs before any colour service</small>
             </section>
           </div>
         </div>
