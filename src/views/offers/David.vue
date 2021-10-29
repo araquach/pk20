@@ -20,9 +20,9 @@
         <div class="section">
           <p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas David comes up with then get 25% off your first visit to him</strong></p>
           <p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
-            or use our online booking (link at top of page)</p>
+            or book your consultation online (link at top of page)</p>
           <p>Just mention the offer at the time of your visit</p>
-          <p class="small">(Offer ends 30/08/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
+          <p class="small">(Offer ends {{ endDate }} - Skin Test required 48 hrs before any colour service for new clients)</p>
           <router-link :to="{ name: 'team-detail', params: { slug: 'david' } }" class="button is-primary">Find out more about David</router-link>
           <br><br>
 
@@ -34,3 +34,14 @@
     </div>
   </div>
 </template>
+<script>
+import { format, endOfMonth } from 'date-fns'
+export default {
+  computed: {
+    endDate() {
+      const today = new Date()
+      return format(endOfMonth(today), "dd/MM/yy")
+    }
+  }
+}
+</script>

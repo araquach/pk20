@@ -19,17 +19,24 @@
         <div class="section">
           <p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Brad comes up with then book in to get 25% off your visit!</strong></p>
           <p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
-            or use our online booking (link at top of page)</p>
+            or book your consultation online (link at top of page)</p>
           <p>Just mention the offer at the time of your visit</p>
-          <p class="small">(Offer ends 31/03/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
+          <p class="small">(Offer ends {{ endDate }} - Skin Test required 48 hrs before any colour service for new clients)</p>
           <router-link :to="{ name: 'team-detail', params: { slug: 'brad' } }" class="button is-primary">Find out more about Brad</router-link>
           <br><br>
-
-          <div id="fb-like">
-            <div class="fb-like" data-href="https://www.paulkemphairdressing.com/offers/brad" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+<script>
+import { format, endOfMonth } from 'date-fns'
+export default {
+  computed: {
+    endDate() {
+      const today = new Date()
+      return format(endOfMonth(today), "dd/MM/yy")
+    }
+  }
+}
+</script>
