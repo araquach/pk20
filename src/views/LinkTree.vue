@@ -9,6 +9,9 @@
       <router-link :to="{ name: 'team' }" class="box">
         Learn all about our amazing team members
       </router-link>
+      <router-link :to="{ name: 'gift-voucher' }" class="box">
+        Buy a Gift Voucher online
+      </router-link>
       <router-link :to="{ name: 'reviews', params: {slug: 'all'} }" class="box">
         Read all of our incredible client reviews
       </router-link>

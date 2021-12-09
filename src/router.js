@@ -149,6 +149,11 @@ const router = new Router({
             component: Reopening,
             name: "reopening"
         },
+        {
+            path: "/gift-voucher",
+            name: "gift-voucher",
+            beforeEnter() {location.href = 'https://gift-cards.phorest.com/salons/paulkemp'}
+        },
 
         ...calcRoutes,
 
