@@ -17,7 +17,7 @@
     <section v-else class="section hero is-fullheight">
       <div class="columns">
         <div class="column is-9">
-          <h1 class="title is-2 has-text-primary">There are no offers this month</h1>
+          <h1 class="title is-2 has-text-primary">New Special Offers Coming Soon!</h1>
           <p>Check back soon!</p>
         </div>
       </div>
@@ -44,7 +44,7 @@
     data() {
       return {
         showOffers: {
-          none: false,
+          none: true,
           david: false,
           brad: true,
           lauren: true,
