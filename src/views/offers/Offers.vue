@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section v-if="!showOffers.none" id="offers" class="section">
+    <section v-if="!hideOffers" id="offers" class="section">
       <div class="columns">
         <div class="column is-9">
           <h1 class="title is-2 has-text-primary">Special Offers this {{ showMonth }}</h1>
@@ -17,14 +17,15 @@
     <section v-else class="section hero is-fullheight">
       <div class="columns">
         <div class="column is-9">
-          <h1 class="title is-2 has-text-primary">New Special Offers Coming Soon!</h1>
-          <p>Check back soon!</p>
+          <h1 class="title is-2 has-text-primary">New Special Offers Coming...</h1>
+          <p class="is-size-4">Check back soon!</p>
         </div>
       </div>
     </section>
   </div>
 </template>
 <script>
+  import {mapState} from "vuex"
   import format from "date-fns/format"
   import davidOffer from "../../components/offers/David"
   import bradOffer from "../../components/offers/Brad"
@@ -44,7 +45,6 @@
     data() {
       return {
         showOffers: {
-          none: true,
           david: false,
           brad: true,
           lauren: true,
@@ -56,6 +56,10 @@
     },
 
     computed: {
+      ...mapState({
+        hideOffers: state => state.pk.hideOffers
+      }),
+
       showMonth() {
         return format(new Date(), "MMMM")
       }

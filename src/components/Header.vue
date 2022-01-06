@@ -20,7 +20,7 @@
           <b-navbar-item tag="router-link" :to="{ name: 'prices' }">
             Prices
           </b-navbar-item>
-          <b-navbar-item tag="router-link" :to="{ name: 'offers' }">
+          <b-navbar-item v-if="!hideOffers" tag="router-link" :to="{ name: 'offers' }">
             Offers
           </b-navbar-item>
 
@@ -62,5 +62,12 @@
   </header>
 </template>
 <script>
-
+  import {mapState} from "vuex"
+  export default {
+    computed: {
+      ...mapState({
+        hideOffers: state => state.pk.hideOffers
+      })
+    }
+  }
 </script>
