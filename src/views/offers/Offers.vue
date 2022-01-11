@@ -11,6 +11,8 @@
       <brad-offer v-if="showOffers.brad"/>
       <david-offer v-if="showOffers.david"/>
       <jo-offer v-if="showOffers.jo"/>
+      <david-lauren-offer v-if="showOffers.davidLauren"/>
+      <jo-brad-abi-offer v-if="showOffers.joBradAbi"/>
       <br><br>
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
     </section>
@@ -32,6 +34,8 @@
   import abiOffer from "../../components/offers/Abi"
   import laurenOffer from "../../components/offers/Lauren"
   import joOffer from "../../components/offers/Jo"
+  import davidLaurenOffer from "../../components/offers/DavidLauren"
+  import joBradAbiOffer from "../../components/offers/JoBradAbi"
 
   export default {
     components: {
@@ -39,17 +43,21 @@
       bradOffer,
       abiOffer,
       laurenOffer,
-      joOffer
+      joOffer,
+      davidLaurenOffer,
+      joBradAbiOffer
     },
 
     data() {
       return {
         showOffers: {
           david: false,
-          brad: true,
-          lauren: true,
+          brad: false,
+          lauren: false,
           jo: false,
-          abi: true
+          abi: false,
+          davidLauren: true,
+          joBradAbi: true
         }
 
       }

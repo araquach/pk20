@@ -18,13 +18,12 @@
   </router-link>
 </template>
 <script>
-import { format, endOfMonth } from 'date-fns'
+import {mapState} from "vuex"
 export default {
   computed: {
-    endDate() {
-      const today = new Date()
-      return format(endOfMonth(today), "dd/MM/yy")
-    }
+    ...mapState({
+      endDate: state => state.pk.endDate
+    })
   }
 }
 </script>
