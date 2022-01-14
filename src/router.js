@@ -9,6 +9,8 @@ import BradOffer from "./views/offers/Brad"
 import AbiOffer from "./views/offers/Abi"
 import DavidOffer from "./views/offers/David"
 import JoOffer from "./views/offers/Jo"
+import DavidLaurenOffer from "./views/offers/DavidLauren"
+import JoBradAbiOffer from "./views/offers/JoBradAbi"
 import LaurenOffer from "./views/offers/Lauren"
 import Recruitment from "./views/recruitment/Recruitment"
 import RecruitmentStylist from "./views/recruitment/Stylist"
@@ -90,6 +92,16 @@ const router = new Router({
             path: "/offers/lauren",
             component: LaurenOffer,
             name: "lauren-offer"
+        },
+        {
+            path: "/offers/jo-brad-abi",
+            component: JoBradAbiOffer,
+            name: "jo-brad-abi-offer"
+        },
+        {
+            path: "/offers/david-lauren",
+            component: DavidLaurenOffer,
+            name: "david-lauren-offer"
         },
         {
             path: "/recruitment",
