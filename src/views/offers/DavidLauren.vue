@@ -10,7 +10,7 @@
       </div>
     </div>
     <figure class="image">
-      <img src="/dist/img/offer/david-lauren.png" alt="David & Lauren Offers">
+      <img src="/dist/img/offer/david_lauren.png" alt="David & Lauren Offers">
     </figure>
     <div class="columns">
       <div class="column is-8">

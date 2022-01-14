@@ -3,7 +3,7 @@
     <div class="box">
       <div class="columns">
         <div class="column">
-          <img src="/dist/img/offer/jo-brad-abi.png" alt="Jo, Brad & Abi">
+          <img src="/dist/img/offer/jo_brad_abi.png" alt="Jo, Brad & Abi">
         </div>
         <section class="column is-8">
           <h2 class="title is-3">Special offer with Jo, Brad & Abi</h2>

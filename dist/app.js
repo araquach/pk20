@@ -25022,10 +25022,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 
 
 
@@ -31878,39 +31874,28 @@ var render = function() {
             ]
           ),
           _vm._v(" "),
-          _vm.level.id !== 1
-            ? _c(
-                "div",
-                { staticClass: "section columns is-multiline is-mobile" },
-                _vm._l(_vm.mensCutPrices, function(service, i) {
-                  return _c("div", { key: i, staticClass: "column" }, [
-                    _c("div", {
-                      staticClass: "button is-small is-finish is-outlined",
-                      class: {
-                        activeSelectedFinish:
-                          service.id === _vm.selectedMensCut.id
-                      },
-                      domProps: { textContent: _vm._s(service.service) },
-                      on: {
-                        click: function($event) {
-                          _vm.$store.commit("UPDATE_SELECTED_MENS_CUT", service)
-                          _vm.isOpen = false
-                        }
-                      }
-                    })
-                  ])
-                }),
-                0
-              )
-            : _c("div", { staticClass: "section" }, [
-                _c("p", { staticClass: "is-size-5" }, [
-                  _vm._v(
-                    "Unfortunately New Starters are not qualified to carry out this service.\n        "
-                  ),
-                  _c("br"),
-                  _vm._v("Please select a different level or stylist")
-                ])
+          _c(
+            "div",
+            { staticClass: "section columns is-multiline is-mobile" },
+            _vm._l(_vm.mensCutPrices, function(service, i) {
+              return _c("div", { key: i, staticClass: "column" }, [
+                _c("div", {
+                  staticClass: "button is-small is-finish is-outlined",
+                  class: {
+                    activeSelectedFinish: service.id === _vm.selectedMensCut.id
+                  },
+                  domProps: { textContent: _vm._s(service.service) },
+                  on: {
+                    click: function($event) {
+                      _vm.$store.commit("UPDATE_SELECTED_MENS_CUT", service)
+                      _vm.isOpen = false
+                    }
+                  }
+                })
               ])
+            }),
+            0
+          )
         ]
       )
     ],
@@ -34541,7 +34526,7 @@ var render = function() {
         _c("div", { staticClass: "column" }, [
           _c("img", {
             attrs: {
-              src: "/dist/img/offer/david-lauren.png",
+              src: "/dist/img/offer/david_lauren.png",
               alt: "David & Lauren"
             }
           })
@@ -34670,7 +34655,7 @@ var render = function() {
         _c("div", { staticClass: "column" }, [
           _c("img", {
             attrs: {
-              src: "/dist/img/offer/jo-brad-abi.png",
+              src: "/dist/img/offer/jo_brad_abi.png",
               alt: "Jo, Brad & Abi"
             }
           })
@@ -37232,7 +37217,7 @@ var staticRenderFns = [
     return _c("figure", { staticClass: "image" }, [
       _c("img", {
         attrs: {
-          src: "/dist/img/offer/david-lauren.png",
+          src: "/dist/img/offer/david_lauren.png",
           alt: "David & Lauren Offers"
         }
       })
@@ -37525,7 +37510,7 @@ var staticRenderFns = [
     return _c("figure", { staticClass: "image" }, [
       _c("img", {
         attrs: {
-          src: "/dist/img/offer/jo-brad-abi.png",
+          src: "/dist/img/offer/jo_brad_abi.png",
           alt: "Jo, Brad & Abi Offers"
         }
       })
