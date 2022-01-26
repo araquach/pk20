@@ -29,7 +29,7 @@
           <li>Tuesday: 9.00 - 17.00</li>
           <li>Wednesday: 11.00 - 20.00</li>
           <li>Thursday: 11.00 - 20.00</li>
-          <li>Friday: 9.00 - 18.00</li>
+          <li>Friday: 9.00 - 17.00</li>
           <li>Saturday: 8.30 - 16.30</li>
           <li>Sunday: Closed</li>
         </ul>
