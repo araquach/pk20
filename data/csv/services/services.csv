@@ -1,48 +1,47 @@
-id,cat1,cat2,service,price,product_price
-1,3,0,Toner,14.50,5
-2,3,0,Complex Toner,29,10
-3,3,0,Crazy Colour,15,10
-4,3,0,Colour in-between foils,10,5
-5,3,0,None,0,0
-6,2,1,Roots,29,5
-7,2,1,Full Head Colour Short,29,10
-8,2,1,Full Head Colour Mid,43.50,15
-9,2,1,Full Head Colour Long,58,20
-10,2,2,Full head Foils,58,20
-11,2,2,Half Head Foils,43.50,15
-12,2,2,T Section Foils,29,10
-13,2,2,Face Frame Foils,14.5,5
-14,2,2,Creative Foiling,58,20
-15,2,3,Balayage - natural hair,43.50,15
-16,2,3,Balayage - on coloured hair,58,20
-17,2,3,Balayage with root colour,58,20
-18,2,3,Galaxy Colour,87,30
-19,2,4,Full Head Bleach Short,29,10
-20,2,4,Full Head Bleach Mid,43.50,15
-21,2,4,Full Head Bleach Long,58,20
-22,2,5,Dark to Light Correction,87,30
-23,2,5,Light to Dark,58,20
-24,2,5,Other Correction Service,58,20
-25,2,0,None,0,0
-26,1,0,"Cut, Dry & Style",43.50,0
-27,1,0,Dry & Style,29,0
-28,1,1,Hair Up,29,0
-29,1,1,Hair Up - Advanced,43.50,0
-30,1,1,Hair Up - Specialist,58,0
-31,6,0,"Wash, Cut & Style",29,0
-32,6,0,Long Hair Cut & Style,43.50,0
-33,6,0,Express Cut,18,0
-34,6,1,Express Colour,14.50,5
-35,6,1,Full Head Colour Short,29,5
-36,6,1,Fashion Colour Mid,43.50,10
-37,6,1,Full Head Colour Long,43.50,15
-38,6,1,None,0,0
-39,4,0,Curly Blow Add-on,14.50,0
-40,4,0,Extra Styling Add-on,14.50,0
-41,4,0,Pin Curls,29,0
-42,4,0,None,0,0
-43,5,0,Olaplex Super Standalone,25,0
-44,5,0,Olaplex (with colour service),20,0
-45,5,0,K18,15,0
-46,5,0,Fibre Clinix,15,0
-46,5,0,None,0,0
+1,0,"Cut, Dry & Style",43.50,0
+1,0,Dry & Style,29,0
+1,1,Hair Up,29,0
+1,1,Hair Up - Advanced,43.50,0
+1,1,Hair Up - Specialist,58,0
+2,1,Roots,29,5
+2,1,Full Head Colour Short,29,10
+2,1,Full Head Colour Mid,43.50,15
+2,1,Full Head Colour Long,58,20
+2,2,Full head Foils,58,20
+2,2,Half Head Foils,43.50,15
+2,2,T Section Foils,29,10
+2,2,Face Frame Foils,14.5,5
+2,2,Creative Foiling,58,20
+2,3,Balayage - natural hair,43.50,15
+2,3,Balayage - on coloured hair,58,20
+2,3,Balayage with root colour,58,20
+2,3,Galaxy Colour,87,30
+2,4,Full Head Bleach Short,29,10
+2,4,Full Head Bleach Mid,43.50,15
+2,4,Full Head Bleach Long,58,20
+2,5,Dark to Light Correction,87,30
+2,5,Light to Dark,58,20
+2,5,Other Correction Service,58,20
+2,0,None,0,0
+3,0,Toner,7.25,2.50
+3,0,Complex Toner,15,5
+3,0,Crazy Colour,15,5
+3,0,Colour in-between foils,10,5
+3,0,None,0,0
+4,0,Curly Blow Add-on,14.50,0
+4,0,Extra Styling Add-on,14.50,0
+4,0,Pin Curls,29,0
+4,0,None,0,0
+5,0,Fibre Plex,5,0
+5,0,K18,15,0
+5,0,Olaplex,20,0
+5,1,Fibre Clinix,15,0
+5,1,None,0,0
+6,0,"Wash, Cut & Style",29,0
+6,0,Long Hair Cut & Style,43.50,0
+6,0,Express Cut,18,0
+6,1,Express Colour,14.50,5
+6,1,Full Head Colour Short,29,5
+6,1,Fashion Colour Mid,43.50,10
+6,1,Full Head Colour Long,43.50,15
+6,1,None,0,0
