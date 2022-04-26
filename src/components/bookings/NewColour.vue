@@ -10,7 +10,7 @@
       Cut, Dry & Style or Blow Dry where we have even more time to discuss your colour needs!</p>
     <p class="has-text-danger"><em>Please do not try and book a colour as we will not be able to carry out the service without the
       pre-consultation and skin test - the booking will be cancelled out.</em></p>
-    <p>If you're unsure, please call the salon during opening hours on 01925 242960</p>
-    <a href="https://phorest.com/book/salons/jakatasalon" class="button is-primary"><strong>Book Now</strong></a>
+    <p>If you're unsure, please call the salon during opening hours on 01925 444488</p>
+    <a href="https://phorest.com/book/salons/paulkemp" class="button is-primary"><strong>Book Now</strong></a>
   </div>
 </template>

@@ -6,6 +6,6 @@
     <p>We have a few different options in the cutting/styling section, please select the most appropriate.</p>
     <p><em>If you fall into any difficulties while using the system please call the salon on 01925 242960 and one of our
       team will get you booked in.</em></p>
-    <a href="https://phorest.com/book/salons/jakatasalon" class="button is-primary"><strong>Book Now</strong></a>
+    <a href="https://phorest.com/book/salons/paulkemp" class="button is-primary"><strong>Book Now</strong></a>
   </div>
 </template>
