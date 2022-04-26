@@ -146,11 +146,16 @@ const router = new Router({
             name: "contact"
         },
         {
-            path: "/bookings",
-            // component: Bookings,
-            name: "bookings",
-            beforeEnter() {location.href = 'https://phorest.com/book/salons/paulkemp'}
+            path: '/bookings',
+            name: 'bookings',
+            component: Bookings
         },
+        // {
+        //     path: "/bookings",
+        //     // component: Bookings,
+        //     name: "bookings",
+        //     beforeEnter() {location.href = 'https://phorest.com/book/salons/paulkemp'}
+        // },
         {
             path: "/corona",
             component: Corona,

@@ -1,22 +1,31 @@
 <template>
-  <section class="section bookings-info hero is-fullheight is-dark">
+  <section class="section hero is-fullheight">
     <div class="columns">
       <div class="section column is-6">
-        <h1 class="title">Register for your appointment</h1>
-        <p class="is-size-4">Our phone lines, online booking and App are now back to normal</p>
-        <p class="is-size-5">Please call 01925 444488 or use the 'Book Now' button above to make an appointment</p>
-        <p class="is-size-5">See you soon!</p>
-      </div>
-    </div>
-    <div class="level is-mobile">
-      <div class="level-left">
-        <div class="level-item">
-          <a @click="$router.go(-1)" class="button">back</a>
+        <h1 class="title is-3">Welcome to our online booking system</h1>
+        <div v-if="!client">
+          <p class="is-size-4">Are you a new client to the salon or an existing one?</p>
+          <button @click="client = 'new'" class="button">New Client</button>
+          <button @click="client = 'existing'" class="button">Existing Client</button>
         </div>
+        <OverviewRegular v-if="client === 'existing'"/>
+        <OverviewNew v-if="client === 'new'"/>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import OverviewNew from "../components/bookings/OverviewNew"
+import OverviewRegular from "../components/bookings/OverviewRegular"
+
+export default {
+  components: {OverviewNew, OverviewRegular},
+
+  data() {
+    return {
+      client: null
+    }
+  }
+}
 </script>

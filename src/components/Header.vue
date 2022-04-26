@@ -48,12 +48,9 @@
               <router-link class="button is-primary" :to="{ name: 'contact' }">
                 Contact Us
               </router-link>
-<!--              <router-link class="button is-light" :to="{ name: 'bookings' }">-->
-<!--                Book Now-->
-<!--              </router-link>-->
-              <a href="https://phorest.com/book/salons/paulkemp" class="button is-light">
-                <strong>Book Now</strong>
-              </a>
+              <router-link class="button is-light" :to="{name: 'bookings'}">
+                Book Now
+              </router-link>
             </div>
           </b-navbar-item>
         </template>
