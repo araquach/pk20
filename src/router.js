@@ -26,6 +26,7 @@ import Reopening from "./views/Reopening"
 import calcRoutes from "araquach-price-calc/router/calcRoutes"
 import Quote from "./views/quote/Quote"
 import LinkTree from "./views/LinkTree"
+import TopSpender from "./views/TopSpender"
 
 Vue.use(Router)
 
@@ -184,6 +185,11 @@ const router = new Router({
             path: '/link-tree',
             name: 'link-tree',
             component: LinkTree
+        },
+        {
+            path: '/special-gift',
+            name: 'top-spender',
+            component: TopSpender
         },
 
         {
