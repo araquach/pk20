@@ -112,7 +112,7 @@ __webpack_require__.r(__webpack_exports__);
     {
         path: '/prices/:stylist',
         name: 'stylist-prices',
-        component: _views_UnderConstruction__WEBPACK_IMPORTED_MODULE_1__.default,
+        component: _views_StylistPrices__WEBPACK_IMPORTED_MODULE_8__.default,
         params: true
     },
 ]);
@@ -4872,7 +4872,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_28__.default({
     name: 'link-tree',
     component: _views_LinkTree__WEBPACK_IMPORTED_MODULE_25__.default
   }, {
-    path: '/special-gift',
+    path: '/your-gift',
     name: 'top-spender',
     component: _views_TopSpender__WEBPACK_IMPORTED_MODULE_26__.default
   }, {

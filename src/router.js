@@ -187,7 +187,7 @@ const router = new Router({
             component: LinkTree
         },
         {
-            path: '/special-gift',
+            path: '/your-gift',
             name: 'top-spender',
             component: TopSpender
         },
