@@ -112,7 +112,7 @@ __webpack_require__.r(__webpack_exports__);
     {
         path: '/prices/:stylist',
         name: 'stylist-prices',
-        component: _views_StylistPrices__WEBPACK_IMPORTED_MODULE_8__.default,
+        component: _views_UnderConstruction__WEBPACK_IMPORTED_MODULE_1__.default,
         params: true
     },
 ]);
@@ -37856,7 +37856,7 @@ var staticRenderFns = [
       "section",
       { staticClass: "section top-spender hero is-fullheight" },
       [
-        _c("div", { staticClass: "columns is-vcentered" }, [
+        _c("div", { staticClass: "columns" }, [
           _c("div", { staticClass: "column is-7-desktop" }, [
             _c("h1", { staticClass: "title is-2" }, [
               _vm._v("A BIG thank you from the team")
@@ -37910,7 +37910,13 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "column" })
+          _c("div", { staticClass: "column" }, [
+            _c("figure", { staticClass: "image" }, [
+              _c("img", {
+                attrs: { src: "/dist/img/top_spender/sm1.jpg", alt: "" }
+              })
+            ])
+          ])
         ])
       ]
     )
