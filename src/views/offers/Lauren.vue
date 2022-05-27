@@ -12,7 +12,7 @@
     </div>
 
     <figure class="image">
-      <img alt="Lauren's Offer" src="/dist/img/offer/lauren_montage.png">
+      <img alt="Lauren's Offer" src="/dist/img/offer/lauren_2022.png">
     </figure>
 
     <div class="columns">
@@ -25,7 +25,7 @@
           <p>Just mention the offer at the time of your visit</p>
           <p class="small">(Offer ends {{ endDate }} - Skin Test required 48 hrs before any colour service - for new clients
             to Lauren)</p>
-          <router-link :to="{ name: 'team-detail', params: { slug: 'lauren' } }" class="button is-primary">Find out more
+          <router-link :to="{ name: 'team-detail', params: { slug: 'lauren-w' } }" class="button is-primary">Find out more
             about Lauren
           </router-link>
           <br><br>
