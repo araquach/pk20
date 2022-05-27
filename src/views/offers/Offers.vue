@@ -53,11 +53,11 @@
         showOffers: {
           david: false,
           brad: false,
-          lauren: false,
+          lauren: true,
           jo: false,
           abi: false,
-          davidLauren: true,
-          joBradAbi: true
+          davidLauren: false,
+          joBradAbi: false
         }
 
       }

@@ -4,8 +4,7 @@
       <div class="column is-8">
         <div class="top section">
           <h2 class="title is-2 is-size-4-mobile has-text-primary">Special introductory offer with Lauren</h2>
-          <p class="is-size-5">Lauren recently returned to PK after helping launch our Base Hair Academy</p>
-          <p>She's excited to rejoin her former team and is looking forward to building her client base</p>
+          <p class="is-size-5">Lauren is an amazing stylist looking to build her client base.</p>
           <p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great offer with
             her&hellip;</strong></p>
         </div>
