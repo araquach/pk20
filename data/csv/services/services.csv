@@ -16,7 +16,6 @@
 2,3,Balayage - natural hair,43.50,15,Balayage
 2,3,Balayage - on coloured hair,58,20,Balayage
 2,3,Balayage with root colour,58,20,Balayage
-2,3,Galaxy Colour,87,30,Balayage
 2,4,Short (crop),29,10,Full Head Bleach
 2,4,Mid (Above Shoulders),43.50,15,Full Head Bleach
 2,4,Long (Past Shoulders),58,20,Full Head Bleach
@@ -51,7 +50,7 @@
 5,2,Fibre Clinix,15,0,Treatments
 5,2,Olaplex Super Stand Alone,25,0,Treatments
 5,2,K18 Stand Alone,20,0,Treatments
-5,1,None,0,0,Treatments
+5,0,None,0,0,Treatments
 6,0,"Wash, Cut & Style",29,0,Mens
 6,0,Long Hair Cut & Style,43.50,0,Mens
 6,0,Express Cut,18,0,Mens
