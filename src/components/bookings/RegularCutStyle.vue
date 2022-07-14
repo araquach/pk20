@@ -4,7 +4,7 @@
     <p class="is-size-4">Our online system is currently in the process of getting updated. All cutting and styling services are available to book online, though you may see some changes to the layout.</p>
     <p>Colour services are currently not available to book.</p>
     <p>We have a few different options in the cutting/styling section, please select the most appropriate.</p>
-    <p><em>If you fall into any difficulties while using the system please call the salon on 01925 242960 and one of our
+    <p><em>If you fall into any difficulties while using the system please call the salon on 01925 444488 and one of our
       team will get you booked in.</em></p>
     <a href="https://phorest.com/book/salons/paulkemp" class="button is-primary"><strong>Book Now</strong></a>
   </div>

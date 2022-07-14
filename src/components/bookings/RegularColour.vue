@@ -9,6 +9,6 @@
     <p><em>Cutting and Styling services are all available to book online but <span class="has-text-danger">you will unfortunately not be able to book a
       colour service.</span></em></p>
     <p>We will keep you updated when the system is back up and running properly, thanks for your patience.</p>
-    <p class="has-text-primary is-size-4">Call 01925 444449 to make a booking</p>
+    <p class="has-text-primary is-size-4">Call 01925 444488 to make a booking</p>
   </div>
 </template>
