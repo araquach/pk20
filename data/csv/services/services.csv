@@ -13,9 +13,12 @@
 2,2,Top Parting,29,11,Foils
 2,2,Face Frame,14.5,5.50,Foils
 2,2,Creative Foiling,58,22,Foils
-2,3,Balayage - natural hair,43.50,16.50,Balayage
-2,3,Balayage - on coloured hair,58,22,Balayage
-2,3,Balayage with root colour,58,22,Balayage
+2,3,Uncoloured hair - above collar bone,43.50,23.75,Balayage (includes toner)
+2,3,On coloured hair - above collar bone,58,29.25,Balayage (includes toner)
+2,3,With root application - above collar bone,72.50,34.75,Balayage (includes toner)
+2,3,Uncoloured hair - below collar bone,58,29.25,Balayage (includes toner)
+2,3,On coloured hair - below collar bone,72.50,34.75,Balayage (includes toner)
+2,3,With root application - below collar bone,87,40.25,Balayage (includes toner)
 2,4,Short (crop),29,11,Full Head Bleach
 2,4,Mid (Above Shoulders),43.50,15.50,Full Head Bleach
 2,4,Long (Past Shoulders),58,22,Full Head Bleach
