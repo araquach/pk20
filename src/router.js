@@ -27,6 +27,7 @@ import calcRoutes from "araquach-price-calc/router/calcRoutes"
 import Quote from "./views/quote/Quote"
 import LinkTree from "./views/LinkTree"
 import TopSpender from "./views/TopSpender"
+import Leaver from "./views/Leaver"
 
 Vue.use(Router)
 
@@ -166,6 +167,11 @@ const router = new Router({
             path: "/reopening",
             component: Reopening,
             name: "reopening"
+        },
+        {
+            path: "/abi-leave"  ,
+            component: Leaver,
+            name: "leaver"
         },
         {
             path: "/gift-voucher",
