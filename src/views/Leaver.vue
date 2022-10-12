@@ -80,8 +80,8 @@
             </div>
           </div>
           <p class="is-size-4">We really appreciate your loyalty to the salon and we're confident one of these stylists will continue to deliver the exceptional service you received from Abi! </p>
-          <p class="is-size-5"><em>We look forward to seeing you in the salon soon and if you have any questions in the
-            meantime don't hesitate to call the salon on <strong>01925 444488</strong></em></p>
+          <p class="is-size-5"><em>We look forward to seeing you soon and if you have any questions in the
+            meantime don't hesitate to call us on <strong>01925 444488</strong></em></p>
         </section>
       </div>
       <div class="section column is-hidden-mobile">
