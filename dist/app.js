@@ -5274,25 +5274,112 @@ var staticRenderFns = [function () {
       id: "leaver"
     }
   }, [_c("div", {
-    staticClass: "columns is-marginless"
+    staticClass: "columns"
   }, [_c("div", {
     staticClass: "column is-8"
   }, [_c("section", {
-    staticClass: "section has-text-primary"
+    staticClass: "section has-text-primary is-size-5"
   }, [_c("h1", {
     staticClass: "title is-2 has-text-primary"
-  }, [_vm._v("Abi is moving on")]), _vm._v(" "), _c("p", {
+  }, [_vm._v("Abi is moving on")]), _vm._v(" "), _c("img", {
+    staticClass: "is-hidden-tablet",
+    attrs: {
+      src: "/dist/img/team/abi.jpg",
+      alt: "Abi Clarke"
+    }
+  }), _vm._v(" "), _c("p", {
     staticClass: "is-size-4"
-  }, [_vm._v("As a loyal clienty of Abi's we wanted to let you know that she has decided to move on from the PK team.")]), _vm._v(" "), _c("p", [_vm._v("After spending 6 years working in the salon she has made a decision to move away from hairdressing and try something new.")]), _vm._v(" "), _c("p", [_vm._v("The team wishes her luck in her new career and we'll all miss her. Her final day in the salon is Saturday 15th October.")]), _vm._v(" "), _c("p", [_vm._v("If you have an appointment booked with Abi, one of our team will be in touch soon to discuss the options.")]), _vm._v(" "), _c("p", [_vm._v("We have a whole host of amazing stylists in the salon and we're introducing a brand new team member too. Eve has recently worked her way up the ranks from our Base Academy and has a similar approach to Abi.")]), _vm._v(" "), _c("p", [_vm._v("Lauren is another great option")]), _vm._v(" "), _c("p", [_vm._v("Brad")]), _vm._v(" "), _c("p", [_vm._v("Don't overlook some of the stylists at our other amazing salon Jakata! Both Lauren Thompson and Abbi Green are at a similar level to Abi and would love to look after you hair needs!")])])]), _vm._v(" "), _c("div", {
+  }, [_vm._v("As a loyal client of Abi's we wanted to let you know that she has decided to move on\n          from the PK team.")]), _vm._v(" "), _c("p", [_vm._v("After spending 6 years working in the salon she has made a decision to move away from hairdressing and try\n          something new.")]), _vm._v(" "), _c("p", [_vm._v("The team wishes her luck in her new career and we'll all miss her. Her final day in the salon is "), _c("strong", [_vm._v("Saturday\n          15th October")]), _vm._v(".")]), _vm._v(" "), _c("p", [_vm._v("If you have an appointment booked with Abi, one of our team will be in touch soon to discuss the\n          options.")]), _vm._v(" "), _c("p", [_vm._v("We have a whole host of amazing stylists in the salon and we're introducing a brand new team member too. We\n          also have stylists of a similar level to Abi at our sister salon\n          "), _c("strong", [_vm._v("Jakata")]), _vm._v(".")]), _vm._v(" "), _c("div", {
+    staticClass: "columns"
+  }, [_c("div", {
     staticClass: "column"
   }, [_c("figure", {
     staticClass: "image"
+  }, [_c("h2", {
+    staticClass: "title is-5"
+  }, [_vm._v("Lauren Watson")]), _vm._v(" "), _c("img", {
+    attrs: {
+      src: "/dist/img/team/lauren_w.jpg",
+      alt: "Lauren"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "column is-9"
+  }, [_c("p", [_c("span", {
+    staticClass: "is-hidden-mobile"
+  }, [_c("br"), _c("br")]), _vm._v("Lauren is a long standing member of the PK team and has\n              recently been promoted. If you're looking for a stylist at a similar price point to Abi then Lauren\n              could be the perfect choice!")]), _vm._v(" "), _c("p")])]), _vm._v(" "), _c("div", {
+    staticClass: "columns"
+  }, [_c("div", {
+    staticClass: "column"
+  }, [_c("figure", {
+    staticClass: "image"
+  }, [_c("h2", {
+    staticClass: "title is-5"
+  }, [_vm._v("Brad Ryan")]), _vm._v(" "), _c("img", {
+    attrs: {
+      src: "/dist/img/team/brad.jpg",
+      alt: "Brad"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "column is-9"
+  }, [_c("p", [_c("span", {
+    staticClass: "is-hidden-mobile"
+  }, [_c("br"), _c("br")]), _vm._v("Brad is an incredible stylist and we know you'll love\n              what he does. He's a little more expensive than Abi but if you don't mind pushing your budget then he\n              could be the perfect choice for you.")]), _vm._v(" "), _c("p")])]), _vm._v(" "), _c("div", {
+    staticClass: "columns"
+  }, [_c("div", {
+    staticClass: "column"
+  }, [_c("figure", {
+    staticClass: "image"
+  }, [_c("h2", {
+    staticClass: "title is-5"
+  }, [_vm._v("Introducing Eve Simpson")]), _vm._v(" "), _c("img", {
+    attrs: {
+      src: "/dist/img/team/eve.jpg",
+      alt: "Eve"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "column is-9"
+  }, [_c("p", [_c("span", {
+    staticClass: "is-hidden-mobile"
+  }, [_c("br"), _c("br")]), _vm._v("Eve is the latest recruit to join the PK team. She's\n              worked her way up to Graduate stylist at our Base Academy and produces beautiful work. She shares a\n              similar approach to Abi and we know you'll love what she does. Her prices are a little cheaper too!\n            ")]), _vm._v(" "), _c("p")])]), _vm._v(" "), _c("div", {
+    staticClass: "columns"
+  }, [_c("div", {
+    staticClass: "column"
+  }, [_c("figure", {
+    staticClass: "image"
+  }, [_c("h2", {
+    staticClass: "title is-5"
+  }, [_vm._v("Lauren and Abbi")]), _vm._v(" "), _c("img", {
+    attrs: {
+      src: "/dist/img/team/jakata/lauren_t.jpg",
+      alt: "Lauren Thompson"
+    }
+  }), _vm._v(" "), _c("br"), _vm._v(" "), _c("img", {
+    attrs: {
+      src: "/dist/img/team/jakata/abbi_g.jpg",
+      alt: "Abbi Green"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "column is-9"
+  }, [_c("p", [_c("span", {
+    staticClass: "is-hidden-mobile"
+  }, [_c("br"), _c("br")]), _vm._v("Don't overlook some of the stylists at our other amazing\n              salon\n              "), _c("strong", [_vm._v("Jakata")]), _vm._v("! Both\n              "), _c("strong", [_vm._v("Lauren Thompson")]), _vm._v(" and "), _c("strong", [_vm._v("Abbi Green")]), _vm._v("\n              are at a similar level to Abi and would love to look after you hair needs - plus you'd get to experience\n              our other incredible salon!\n            ")]), _vm._v(" "), _c("p", {
+    staticClass: "is-size-4"
+  }, [_vm._v("To find out more about Jakata "), _c("a", {
+    attrs: {
+      href: "https://www.jakatasalon.co.uk"
+    }
+  }, [_vm._v("click here >")])])])]), _vm._v(" "), _c("p", {
+    staticClass: "is-size-4"
+  }, [_vm._v("We really appreciate your loyalty to the salon and we're confident one of these stylists will continue to deliver the exceptional service you received from Abi! ")]), _vm._v(" "), _c("p", {
+    staticClass: "is-size-5"
+  }, [_c("em", [_vm._v("We look forward to seeing you in the salon soon and if you have any questions in the\n          meantime don't hesitate to call the salon on "), _c("strong", [_vm._v("01925 444488")])])])])]), _vm._v(" "), _c("div", {
+    staticClass: "section column is-hidden-mobile"
   }, [_c("img", {
     attrs: {
       src: "/dist/img/team/abi.jpg",
       alt: "Abi Clarke"
     }
-  })])])])]);
+  })])])]);
 }];
 render._withStripped = true;
 
@@ -7906,7 +7993,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_29__["default"]({
     component: _views_Reopening__WEBPACK_IMPORTED_MODULE_22__["default"],
     name: "reopening"
   }, {
-    path: "/abi-leave",
+    path: "/abi-leaving",
     component: _views_Leaver__WEBPACK_IMPORTED_MODULE_27__["default"],
     name: "leaver"
   }, {

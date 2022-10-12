@@ -169,7 +169,7 @@ const router = new Router({
             name: "reopening"
         },
         {
-            path: "/abi-leave"  ,
+            path: "/abi-leaving"  ,
             component: Leaver,
             name: "leaver"
         },
