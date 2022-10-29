@@ -23,7 +23,7 @@
             or book your consultation online (link at top of page)</p>
           <p>Just mention the offer at the time of your visit</p>
           <p class="small">(Offer ends 30/11/22 - Skin Test required 48 hrs before any colour service - for new clients
-            to Lauren)</p>
+            to PK)</p>
           <router-link :to="{ name: 'prices'}" class="button is-primary">Use our quote generator to get an idea of prices</router-link>
           <br><br>
         </div>

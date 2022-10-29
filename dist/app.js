@@ -6968,7 +6968,7 @@ var render = function render() {
     staticClass: "section"
   }, [_vm._m(2), _vm._v(" "), _vm._m(3), _vm._v(" "), _c("p", [_vm._v("Just mention the offer at the time of your visit")]), _vm._v(" "), _c("p", {
     staticClass: "small"
-  }, [_vm._v("(Offer ends 30/11/22 - Skin Test required 48 hrs before any colour service - for new clients\n          to Lauren)")]), _vm._v(" "), _c("router-link", {
+  }, [_vm._v("(Offer ends 30/11/22 - Skin Test required 48 hrs before any colour service - for new clients\n          to PK)")]), _vm._v(" "), _c("router-link", {
     staticClass: "button is-primary",
     attrs: {
       to: {
