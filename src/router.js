@@ -5,6 +5,7 @@ import Blog from "./views/Blog"
 import BlogPost from "./views/BlogPost"
 import Men from "./views/Men"
 import Offers from "./views/offers/Offers"
+import GeneralOffer from "./views/offers/November"
 import BradOffer from "./views/offers/Brad"
 import AbiOffer from "./views/offers/Abi"
 import DavidOffer from "./views/offers/David"
@@ -69,6 +70,11 @@ const router = new Router({
             path: "/offers",
             component: Offers,
             name: "offers"
+        },
+        {
+            path: "/offers/general",
+            component: GeneralOffer,
+            name: "general-offer"
         },
         {
             path: "/offers/david",

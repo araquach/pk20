@@ -6,6 +6,7 @@
           <h1 class="title is-2 has-text-primary">Special Offers this {{ showMonth }}</h1>
         </div>
       </div>
+      <general-offer v-if="showOffers.general"/>
       <abi-offer v-if="showOffers.abi"/>
       <lauren-offer v-if="showOffers.lauren"/>
       <brad-offer v-if="showOffers.brad"/>
@@ -36,6 +37,7 @@
   import joOffer from "../../components/offers/Jo"
   import davidLaurenOffer from "../../components/offers/DavidLauren"
   import joBradAbiOffer from "../../components/offers/JoBradAbi"
+  import generalOffer from "../../components/offers/November"
 
   export default {
     components: {
@@ -45,15 +47,17 @@
       laurenOffer,
       joOffer,
       davidLaurenOffer,
-      joBradAbiOffer
+      joBradAbiOffer,
+      generalOffer
     },
 
     data() {
       return {
         showOffers: {
+          general: true,
           david: false,
           brad: false,
-          lauren: true,
+          lauren: false,
           jo: false,
           abi: false,
           davidLauren: false,
