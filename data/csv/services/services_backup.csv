@@ -1,0 +1,65 @@
+1,0,"Cut, Dry & Style",43.50,0,Cut/style
+1,0,Dry & Style,29,0,Cut/style
+1,1,Hair Up,29,0,Cut/style
+1,1,Hair Up - Advanced,43.50,0,Cut/style
+1,1,Hair Up - Specialist,58,0,Cut/style
+2,0,Roots,29,5.50,Basic Colour
+2,0,Roots & Refresh,43.50,11,Basic Colour
+2,1,Short (Crop),29,11,Full Head Colour
+2,1,Mid (Above shoulders),43.50,16.50,Full Head Colour
+2,1,Long (past shoulders),58,22,Full Head Colour
+2,2,Full head,58,22,Foils
+2,2,Half Head,43.50,16.50,Foils
+2,2,Top Parting,29,11,Foils
+2,2,Face Frame,14.5,5.50,Foils
+2,2,Creative Foiling,58,22,Foils
+2,3,Uncoloured hair - above collar bone,43.50,23.75,Balayage (includes toner)
+2,3,On coloured hair - above collar bone,58,29.25,Balayage (includes toner)
+2,3,With root application - above collar bone,72.50,34.75,Balayage (includes toner)
+2,3,Uncoloured hair - below collar bone,58,29.25,Balayage (includes toner)
+2,3,On coloured hair - below collar bone,72.50,34.75,Balayage (includes toner)
+2,3,With root application - below collar bone,87,40.25,Balayage (includes toner)
+2,4,Short (crop),29,11,Full Head Bleach
+2,4,Mid (Above Shoulders),43.50,15.50,Full Head Bleach
+2,4,Long (Past Shoulders),58,22,Full Head Bleach
+2,4,Roots (within 6 wk),29,11,Full Head Bleach
+2,4,Roots (Over 6wk),43.50,16.50,Full Head Bleach
+2,5,Short (crop),58,22,Vivids
+2,5,Mid (Above Shoulders),58,22,Vivids - wrong price
+2,5,Long (Past Shoulders),58,22,Vivids - wrong price
+2,5,Roots and Refresh,43.50,16.50,Vivids - wrong price
+2,6,Dark to Light Correction,87,33,Correction
+2,6,Light to Dark,58,22,Correction
+2,6,Other Correction Service,58,22,Correction
+2,0,None,0,0,Correction
+3,1,Toner,7.25,2.75,Colour Add-ons - Foils
+3,1,Complex Toner,15,5.50,Colour Add-ons - Foils
+3,1,Root Col Between Foils,15,5.50,Colour Add-ons - Foils
+3,1,Col Between foils (mid),14.50,5.50,Colour Add-ons - Foils
+3,1,Col Between foils (long),29,11,Colour Add-ons - Foils
+3,1,None,0,0,Colour Add-ons - Foils
+3,2,Toner,7.25,2.75,Colour Add-ons - Bleach
+3,2,Complex Toner,15,5.50,Colour Add-ons - Bleach
+3,3,Face Frame Foils,14.50,5.50,Colour Add-ons - FH Col
+3,3,Scattered Foils,29,11,Colour Add-ons - FH Col
+3,3,None,0,0,Colour Add-ons - FH Col
+4,0,Curly Blow Add-on,14.50,0,Styling Add-ons
+4,0,Extra Styling Add-on,14.50,0,Styling Add-ons
+4,0,Pin Curls,29,0,Styling Add-ons
+4,0,None,0,0,Styling Add-ons
+5,1,Fibre Plex,5,0,Plex Treatments
+5,1,K18,15,0,Plex Treatments
+5,1,Olaplex,20,0,Plex Treatments
+5,2,Fibre Clinix,15,0,Treatments
+5,2,Olaplex Super Stand Alone,25,0,Treatments
+5,2,K18 Stand Alone,20,0,Treatments
+5,2,Scalp Clinix,20,0,Treatments
+5,2,None,0,0,Treatments
+6,0,"Wash, Cut & Style",29,0,Mens
+6,0,Long Hair Cut & Style,43.50,0,Mens
+6,0,Express Cut,18,0,Mens
+6,1,Express Colour,14.50,5.50,Mens
+6,1,Full Head Colour Short,29,5.50,Mens
+6,1,Fashion Colour Mid,43.50,11,Mens
+6,1,Full Head Colour Long,43.50,16.50,Mens
+6,1,None,0,0,Mens
