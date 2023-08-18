@@ -16,7 +16,9 @@
         <p><strong>83 Sankey Street<br>
           Warrington<br>
           WA1 1SL</strong></p>
-        <p class="is-size-4"><strong>01925 444488</strong></p>
+        <p class="is-size-4"><strong>Call Us</strong></p>
+        <a id="phone-number-1" href="tel:01925444488" class="is-size-4 button is-small is-primary">01925 444488</a>
+        <br><br>
         <figure class="image">
           <img src="dist/img/contact/streetmap.gif" alt="Map">
         </figure>
@@ -38,7 +40,7 @@
     <div class="column is-7">
       <section class="section contact-form">
         <h2 class="title 2 has-text-primary">Enquiries &amp; Bookings</h2>
-        <p class="is-size-5">To book an appointment either call us on <strong>01925 444488</strong> during our opening hours or use our online booking system</p>
+        <p class="is-size-5">To book an appointment either call us on <a id="phone-number-2" href="tel:01925444488">01925 444488</a> during our opening hours or use our online booking system</p>
         <p>If you have never been to us before and you are wanting a colour or other technical service, we recommend booking in for a consultation with your chosen stylist first. We will also carry out a skin test (which is required within 48hrs of your appointment)</p>
         <a href="https://phorest.com/book/salons/paulkemp" class="button is-primary">Book Here</a>
         <br><br>
@@ -52,3 +54,5 @@
 
   </div>
 </template>
+<script setup>
+</script>
