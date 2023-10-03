@@ -13,6 +13,7 @@ import JoOffer from "./views/offers/Jo"
 import DavidLaurenOffer from "./views/offers/DavidLauren"
 import JoBradAbiOffer from "./views/offers/JoBradAbi"
 import LaurenOffer from "./views/offers/Lauren"
+import AutumnOffer from "./views/offers/Autumn"
 import Recruitment from "./views/recruitment/Recruitment"
 import RecruitmentStylist from "./views/recruitment/Stylist"
 import RecruitmentApprentice from "./views/recruitment/Apprentice"
@@ -110,6 +111,11 @@ const router = new Router({
             path: "/offers/david-lauren",
             component: DavidLaurenOffer,
             name: "david-lauren-offer"
+        },
+        {
+            path: "/offers/autumn",
+            component: AutumnOffer,
+            name: "autumn-offer"
         },
         {
             path: "/recruitment",
