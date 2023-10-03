@@ -20,7 +20,7 @@
           <router-link class="button is-primary" :to="{ name: 'team' }">Browse Stylists</router-link>
           <router-link class="button is-primary" :to="{ name: 'bookings' }">Book a Consultation</router-link>
           <br><br>
-          <p class="small">(Offer ends {{ endDate }} - Skin Test required 48 hrs before any colour service - offer exclusively for clients new to Paul Kemp Hairdressing - Quote offer code AUTUMN OFFER at time of booking to secure this discount</p>
+          <p class="small">Offer ends {{ endDate }} - Skin Test required 48 hrs before any colour service - offer exclusively for clients new to Paul Kemp Hairdressing - Quote offer code AUTUMN OFFER at time of booking to secure this discount</p>
           <br><br>
         </div>
       </div>
