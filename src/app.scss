@@ -25,6 +25,7 @@ $footer-background-colour: $primary;
 $section-padding-large: 4rem 4rem;
 
 @import "~araquach-price-calc/styles/light_colours";
+@import "overrides";
 @import "~bulma/bulma";
 @import "~buefy/src/scss/buefy";
 @import "~araquach-price-calc/styles/light";

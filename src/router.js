@@ -5,6 +5,7 @@ import Blog from "./views/Blog"
 import BlogPost from "./views/BlogPost"
 import Men from "./views/Men"
 import Offers from "./views/offers/Offers"
+import Refer from "./views/Refer"
 import GeneralOffer from "./views/offers/November"
 import BradOffer from "./views/offers/Brad"
 import EveOffer from "./views/offers/Eve"
@@ -71,6 +72,11 @@ const router = new Router({
             path: "/offers",
             component: Offers,
             name: "offers"
+        },
+        {
+            path: "/refer-a-friend",
+            component: Refer,
+            name: "refer"
         },
         {
             path: "/offers/general",
