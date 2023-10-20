@@ -1,9 +1,10 @@
 @charset "UTF-8";
 .title-new, .title-new-sub {
-  font-family: "bebas-neue-pro-expanded", sans-serif;
-  font-weight: 700;
+  font-family: "collier", sans-serif;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
+  letter-spacing: 0.4rem;
 }
 
 .title-new-sub {

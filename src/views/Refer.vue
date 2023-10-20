@@ -3,12 +3,12 @@
     <div class="section columns">
       <div class="column is-9-desktop">
         <h2 class="title-new is-1 is-4-mobile">Recommend your friends</h2>
-        <h2 class="title-new-sub is-3 is-size-4-mobile">Give £20 + Get £20</h2>
-        <p class="is-size-4">When you refer someone to <strong>Base Hairdressing</strong>, not only will your friend
+        <h2 class="title-new-sub is-3 is-size-4-mobile">Give £20 | Get £20</h2>
+        <p class="is-size-4">When you refer someone to <strong>Paul Kemp Hairdressing</strong>, not only will your friend
           receive <strong>£20 OFF</strong>, but you'll also receive <strong>£20 OFF</strong> for every friend who becomes a new client!</p>
         <br>
-        <figure class="image">
-          <img src="/dist/img/refer/refer_wide.png" alt="Refer a Friend">
+        <figure class="image is-paddingless">
+          <img src="/dist/img/refer/refer.png" alt="Refer a Friend">
         </figure>
         <br>
         <h2 class="title-new is-3">ALREADY HAVE AN ONLINE ACCOUNT?</h2>
@@ -25,16 +25,15 @@
           ensuring you use the <strong>same email and mobile number</strong> you already have registered with us at the
           salon.</p>
         <p class="is-size-5">Feel free to call us if you need check what email you have registered.</p>
-        <a class="button is-white" href="https://www.phorest.com/salon/basehairacademy/account/referrals-program">Get your referral link</a>
+        <a class="button is-primary" href="https://www.phorest.com/salon/paulkemp/account/referrals-program">Get your referral link</a>
         <br><br>
         <p class="is-size-4">Once your friend becomes our valued client, you will automatically receive <strong>your £20
           voucher</strong> via email.</p>
         <p class="is-size-5">Additionally, your voucher will be conveniently stored on your <strong>client card</strong> and in your
-          <strong>online booking</strong>
-          account, making sharing from any device effortless.</p>
+          <strong>online booking</strong>account, making redeeming it effortless.</p>
         <p class="is-size-5">Your voucher will remain valid for a generous <strong>12 weeks</strong> from the date of issue and your referred friend's
           voucher will remain valid for <strong>8 weeks</strong> from the date of issue.</p>
-        <p class="title-new-sub">Every Friend Referred is a Step Closer to Your Next Stunning Look for Less!</p>
+        <p class="title-new-sub is-5">Every Friend Referred is a Step Closer to Your Next Stunning Look for Less!</p>
       </div>
     </div>
   </section>

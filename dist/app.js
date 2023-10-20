@@ -103,18 +103,6 @@ __webpack_require__.r(__webpack_exports__);
         }
     },
     {
-        path: '/prices/finish/:status',
-        name: 'finish',
-        component: _views_Finish__WEBPACK_IMPORTED_MODULE_6__["default"],
-        beforeEnter: (to, from, next) => {
-            if(_store_store__WEBPACK_IMPORTED_MODULE_8__["default"].state.calc.calculator) {
-                next()
-            } else {
-                next({name: 'prices'})
-            }
-        }
-    },
-    {
         path: '/prices/:stylist',
         name: 'stylist-prices',
         component: _views_StylistPrices__WEBPACK_IMPORTED_MODULE_7__["default"],
@@ -4131,13 +4119,6 @@ var render = function render() {
     attrs: {
       tag: "router-link",
       to: {
-        name: "team"
-      }
-    }
-  }, [_vm._v("\n            Team\n          ")]), _vm._v(" "), _c("b-navbar-item", {
-    attrs: {
-      tag: "router-link",
-      to: {
         name: "prices"
       }
     }
@@ -4148,11 +4129,25 @@ var render = function render() {
         name: "offers"
       }
     }
-  }, [_vm._v("\n            Offers\n          ")]) : _vm._e(), _vm._v(" "), _c("b-navbar-dropdown", {
+  }, [_vm._v("\n            Offers\n          ")]) : _vm._e(), _vm._v(" "), _c("b-navbar-item", {
+    attrs: {
+      tag: "router-link",
+      to: {
+        name: "refer"
+      }
+    }
+  }, [_vm._v("\n            Referrals\n          ")]), _vm._v(" "), _c("b-navbar-dropdown", {
     attrs: {
       label: "More"
     }
   }, [_c("b-navbar-item", {
+    attrs: {
+      tag: "router-link",
+      to: {
+        name: "team"
+      }
+    }
+  }, [_vm._v("\n              Team\n            ")]), _vm._v(" "), _c("b-navbar-item", {
     attrs: {
       tag: "router-link",
       to: {
@@ -6016,13 +6011,13 @@ var staticRenderFns = [function () {
     staticClass: "title-new is-1 is-4-mobile"
   }, [_vm._v("Recommend your friends")]), _vm._v(" "), _c("h2", {
     staticClass: "title-new-sub is-3 is-size-4-mobile"
-  }, [_vm._v("Give £20 + Get £20")]), _vm._v(" "), _c("p", {
+  }, [_vm._v("Give £20 | Get £20")]), _vm._v(" "), _c("p", {
     staticClass: "is-size-4"
-  }, [_vm._v("When you refer someone to "), _c("strong", [_vm._v("Base Hairdressing")]), _vm._v(", not only will your friend\n        receive "), _c("strong", [_vm._v("£20 OFF")]), _vm._v(", but you'll also receive "), _c("strong", [_vm._v("£20 OFF")]), _vm._v(" for every friend who becomes a new client!")]), _vm._v(" "), _c("br"), _vm._v(" "), _c("figure", {
-    staticClass: "image"
+  }, [_vm._v("When you refer someone to "), _c("strong", [_vm._v("Paul Kemp Hairdressing")]), _vm._v(", not only will your friend\n        receive "), _c("strong", [_vm._v("£20 OFF")]), _vm._v(", but you'll also receive "), _c("strong", [_vm._v("£20 OFF")]), _vm._v(" for every friend who becomes a new client!")]), _vm._v(" "), _c("br"), _vm._v(" "), _c("figure", {
+    staticClass: "image is-paddingless"
   }, [_c("img", {
     attrs: {
-      src: "/dist/img/refer/refer_wide.png",
+      src: "/dist/img/refer/refer.png",
       alt: "Refer a Friend"
     }
   })]), _vm._v(" "), _c("br"), _vm._v(" "), _c("h2", {
@@ -6040,18 +6035,18 @@ var staticRenderFns = [function () {
   }, [_vm._v("If you don't already have an "), _c("strong", [_vm._v("online account")]), _vm._v(" with us you will need to\n        create one to access your referral link,\n        ensuring you use the "), _c("strong", [_vm._v("same email and mobile number")]), _vm._v(" you already have registered with us at the\n        salon.")]), _vm._v(" "), _c("p", {
     staticClass: "is-size-5"
   }, [_vm._v("Feel free to call us if you need check what email you have registered.")]), _vm._v(" "), _c("a", {
-    staticClass: "button is-white",
+    staticClass: "button is-primary",
     attrs: {
-      href: "https://www.phorest.com/salon/basehairacademy/account/referrals-program"
+      href: "https://www.phorest.com/salon/paulkemp/account/referrals-program"
     }
   }, [_vm._v("Get your referral link")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("p", {
     staticClass: "is-size-4"
   }, [_vm._v("Once your friend becomes our valued client, you will automatically receive "), _c("strong", [_vm._v("your £20\n        voucher")]), _vm._v(" via email.")]), _vm._v(" "), _c("p", {
     staticClass: "is-size-5"
-  }, [_vm._v("Additionally, your voucher will be conveniently stored on your "), _c("strong", [_vm._v("client card")]), _vm._v(" and in your\n        "), _c("strong", [_vm._v("online booking")]), _vm._v("\n        account, making sharing from any device effortless.")]), _vm._v(" "), _c("p", {
+  }, [_vm._v("Additionally, your voucher will be conveniently stored on your "), _c("strong", [_vm._v("client card")]), _vm._v(" and in your\n        "), _c("strong", [_vm._v("online booking")]), _vm._v("account, making redeeming it effortless.")]), _vm._v(" "), _c("p", {
     staticClass: "is-size-5"
   }, [_vm._v("Your voucher will remain valid for a generous "), _c("strong", [_vm._v("12 weeks")]), _vm._v(" from the date of issue and your referred friend's\n        voucher will remain valid for "), _c("strong", [_vm._v("8 weeks")]), _vm._v(" from the date of issue.")]), _vm._v(" "), _c("p", {
-    staticClass: "title-new-sub"
+    staticClass: "title-new-sub is-5"
   }, [_vm._v("Every Friend Referred is a Step Closer to Your Next Stunning Look for Less!")])])])]);
 }];
 render._withStripped = true;
@@ -29618,6 +29613,7 @@ __webpack_require__.r(__webpack_exports__);
     },
 
     submit() {
+      console.log('submit!')
       this.$v.$touch()
       if (this.$v.$invalid) {
         this.submitStatus = 'ERROR'
@@ -29638,7 +29634,6 @@ __webpack_require__.r(__webpack_exports__);
             .then(response => {
               this.submitStatus = 'OK'
               this.loading = false
-              this.$router.push({ path: '/prices/finish/submitted', replace: true });
             })
             .catch((e) => {
               console.error(e)
