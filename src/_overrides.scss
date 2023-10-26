@@ -15,3 +15,7 @@
   @extend .title-new; // This ensures .new-title inherits all of .title's styles
   font-weight: 200 !important;
 }
+
+.shop-box {
+  @extend .box
+}

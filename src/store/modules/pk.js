@@ -6,6 +6,7 @@ export const state = {
     hideOffers: false,
     endDate: "30/11/23",
     newsItems: [],
+    storeData: {}
 }
 
 export const getters = {
@@ -16,6 +17,10 @@ export const getters = {
 export const mutations = {
     SET_NEWS_ITEMS (state, newsItems) {
         state.newsItems = newsItems
+    },
+
+    SET_STORE_DATA (state, storeData) {
+        state.storeData = storeData
     }
 }
 
@@ -28,5 +33,14 @@ export const actions = {
                 commit('SET_NEWS_ITEMS', newsItems)
             })
 
+    },
+
+    loadStoreData ({ commit }) {
+        axios
+            .get('/api/store-data')
+            .then(response => response.data)
+            .then(storeData => {
+                commit('SET_STORE_DATA', storeData)
+            })
     }
 }

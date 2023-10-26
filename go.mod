@@ -4,4 +4,4 @@ go 1.14
 
 require github.com/araquach/salonserver v1.1.93
 
-//replace github.com/araquach/salonserver => ../salonserver
+replace github.com/araquach/salonserver => ../salonserver

@@ -31,6 +31,7 @@ import Quote from "./views/quote/Quote"
 import LinkTree from "./views/LinkTree"
 import TopSpender from "./views/TopSpender"
 import Leaver from "./views/Leaver"
+import OnlineStore from "./views/OnlineStore.vue";
 
 Vue.use(Router)
 
@@ -215,7 +216,11 @@ const router = new Router({
             name: 'top-spender',
             component: TopSpender
         },
-
+        {
+            path: '/online-store',
+            name: 'online-store',
+            component: OnlineStore
+        },
         {
             path: '/:notFound(.*)', redirect: '/'
         }

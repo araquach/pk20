@@ -146,6 +146,10 @@ p {
 /* Home Page */
 
 #home {
+  .blog-links {
+    padding: 1rem 1rem;
+  }
+
   background: url('/dist/img/home/katharina.jpg') no-repeat left top #f5f5f5;
   background-size: contain;
 
