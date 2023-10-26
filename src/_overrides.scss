@@ -5,10 +5,11 @@
   @extend .title; // This ensures .new-title inherits all of .title's styles
 
   // Now, specify the properties you want to change/override
-  font-family: "bebas-neue-pro-expanded", sans-serif;
-  font-weight: 700;
+  font-family: "collier", sans-serif;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
+  letter-spacing: .4rem;
 }
 
 .title-new-sub {
