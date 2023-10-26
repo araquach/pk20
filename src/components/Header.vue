@@ -4,7 +4,7 @@
       <b-navbar class="is-transparent">
         <template slot="brand">
           <b-navbar-item tag="router-link" :to="{ path: '/' }">
-            <img src="/dist/img/header/pk_logo_white.png">
+            <img src="/dist/img/header/pk_logo.svg" width="200">
           </b-navbar-item>
         </template>
         <template slot="start">

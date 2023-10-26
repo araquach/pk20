@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="section store-info">
       <p><strong>Welcome to The PK Haircare Shop</strong>, where excellence meets your everyday haircare needs. We take pride in
       offering a curated selection of only the finest professional haircare brands, including trusted names like
         <strong>GHD</strong>, <strong>Schwarzkopf</strong>,
@@ -65,5 +65,9 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* This ensures that the content inside is spaced out with the button at the bottom */
+}
+
+.store-info {
+  padding-top: 0;
 }
 </style>

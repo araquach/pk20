@@ -1,7 +1,10 @@
 <template>
   <b-carousel :indicator-inside="true">
     <b-carousel-item v-for="(item, i) in banners" :key="i">
-      <a :href="item.url"><b-image class="image" :src="`/dist/img/store/banners/${item.image}`"></b-image></a>
+      <a :href="item.url">
+        <b-image class="image is-hidden-tablet" :src="`/dist/img/store/banners/mobile/${item.image}`"></b-image>
+        <b-image class="image is-hidden-mobile" :src="`/dist/img/store/banners/desktop/${item.image}`"></b-image>
+      </a>
     </b-carousel-item>
   </b-carousel>
 </template>
