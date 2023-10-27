@@ -3,7 +3,7 @@
     <b-carousel-item v-for="(item, i) in banners" :key="i">
       <div class="image-container">
         <!-- Mobile image -->
-        <b-image class="image is-hidden-tablet-only" :src="`/dist/img/store/banners/mobile/${item.image}`"></b-image>
+        <b-image class="image is-hidden-tablet" :src="`/dist/img/store/banners/mobile/${item.image}`"></b-image>
 
         <!-- Clickable Area for Mobile: Adjust positioning as needed -->
         <a :href="item.url" class="clickable-region is-hidden-tablet-only"></a>
@@ -45,13 +45,4 @@ export default {
   cursor: pointer;
   z-index: 1; /* To ensure it's above the image */
 }
-
-.is-active .al img {
-  filter: grayscale(0%);
-}
-
-.al img {
-  filter: grayscale(100%);
-}
-
 </style>
