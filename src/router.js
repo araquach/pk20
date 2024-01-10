@@ -32,6 +32,7 @@ import LinkTree from "./views/LinkTree"
 import TopSpender from "./views/TopSpender"
 import Leaver from "./views/Leaver"
 import OnlineStore from "./views/OnlineStore.vue";
+import NewYear from "./views/offers/NewYear.vue";
 
 Vue.use(Router)
 
@@ -123,6 +124,11 @@ const router = new Router({
             path: "/offers/autumn",
             component: AutumnOffer,
             name: "autumn-offer"
+        },
+        {
+            path: "/offers/newyear",
+            component: NewYear,
+            name: "new-year-offer"
         },
         {
             path: "/recruitment",

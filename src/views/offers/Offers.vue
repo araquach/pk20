@@ -3,7 +3,7 @@
     <section v-if="!hideOffers" id="offers" class="section">
       <div class="columns">
         <div class="column is-9">
-          <h1 class="title is-2 has-text-primary">Autumn Offers</h1>
+          <h1 class="title is-2 has-text-primary">New Year Offers</h1>
         </div>
       </div>
       <general-offer v-if="showOffers.general"/>
@@ -15,6 +15,7 @@
       <david-lauren-offer v-if="showOffers.davidLauren"/>
       <jo-brad-abi-offer v-if="showOffers.joBradAbi"/>
       <autumn-offer v-if="showOffers.autumn"/>
+      <new-year v-if="showOffers.newYear"/>
       <br><br>
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250"
            data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
@@ -42,6 +43,7 @@ import davidLaurenOffer from "../../components/offers/DavidLauren"
 import joBradAbiOffer from "../../components/offers/JoBradAbi"
 import generalOffer from "../../components/offers/November"
 import autumnOffer from "../../components/offers/Autumn.vue"
+import newYear from "../../components/offers/NewYear.vue"
 
 export default {
   components: {
@@ -54,7 +56,8 @@ export default {
     davidLaurenOffer,
     joBradAbiOffer,
     generalOffer,
-    autumnOffer
+    autumnOffer,
+    newYear
   },
 
   data() {
@@ -68,7 +71,8 @@ export default {
         eve: false,
         davidLauren: false,
         joBradAbi: false,
-        autumn: true
+        autumn: false,
+        newYear: true
       }
 
     }
