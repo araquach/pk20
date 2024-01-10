@@ -22,7 +22,7 @@
             <a href="https://phorest.com/book/salons/paulkemp#/service-category?id=0P2QrXkTppoqXslH0K5ttQ"
                class="button is-primary">Book a FREE Consultation</a>
           </div>
-          <p class="is-size-7">(Select Lauren from the dropdown)</p>
+          <p class="is-size-7">(Select any of the above stylists from the dropdown)</p>
           <p class="is-size-5"><strong>or call 01925 444488 to book</strong></p>
           <p>Just mention the offer at the time of your visit</p>
           <p class="is-size-5"><strong>Offer Code: PK NEW YEAR</strong></p>
