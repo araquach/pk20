@@ -27,10 +27,16 @@
           <p class="is-size-5"><strong>or call 01925 444488 to book</strong></p>
 
           <div class="box has-background-primary has-text-white">
-            <p class="is-size-4">If you're looking for a more affordable option then check out the offers at our hair academy -
-              <strong class="has-text-white">Base Hairdressing</strong></p>
-            <div class="buttons">
-              <a class="button is-white" href="https://www.basehairdressing.com/sms/newyear">Base Offers</a>
+            <div class="columns is-vcentered is-flex-tablet">
+              <div class="column is-3">
+                <img src="/dist/img/logos/base_logo.svg" alt="" width="170">
+              </div>
+              <div class="column">
+                <p class="is-size-5">If you're looking for a more affordable option then check out the offers at our hair academy</p>
+                <div class="buttons is-flex is-justify-content-flex-end">
+                  <a class="button is-small is-white" href="https://www.basehairdressing.com/sms/newyear">Base Offers</a>
+                </div>
+              </div>
             </div>
           </div>
 
