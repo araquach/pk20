@@ -25,6 +25,15 @@
           </div>
           <p class="is-size-7">(Select any of the above stylists from the dropdown)</p>
           <p class="is-size-5"><strong>or call 01925 444488 to book</strong></p>
+
+          <div class="box has-background-primary has-text-white">
+            <p class="is-size-4">If you're looking for a more affordable option then check out the offers at our hair academy -
+              <strong class="has-text-white">Base Hairdressing</strong></p>
+            <div class="buttons">
+              <a class="button is-white" href="https://www.basehairdressing.com/sms/newyear">Base Offers</a>
+            </div>
+          </div>
+
           <p>Just mention the offer at the time of your visit</p>
           <p class="is-size-5"><strong>Offer Code: PK NEW YEAR</strong></p>
           <p class="small">(Offer valid until 29.02.2024 - Cannot be used in conjunction with any other offer - Skin Test required 48 hrs before any colour service - Quote PK NEW YEAR at time of booking to secure this discount)</p>
