@@ -3,7 +3,7 @@
     <div class="columns">
       <div class="column is-8">
         <div class="top section">
-          <h2 class="title is-2 is-size-4-mobile has-text-primary">New Year Offer</h2>
+          <h2 class="title is-2 has-text-primary">New Year Offer</h2>
           <p class="is-size-4">£20 off all hair cuts when you book in as a new client for a colour this January and February.</p>
           <p class="is-size-5"><strong>New clients get new hair and money off at Paul Kemp Hairdressing.</strong></p>
         </div>
