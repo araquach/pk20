@@ -33,6 +33,7 @@ import TopSpender from "./views/TopSpender"
 import Leaver from "./views/Leaver"
 import OnlineStore from "./views/OnlineStore.vue";
 import NewYear from "./views/offers/NewYear.vue";
+import NewYearSMS from "./views/offers/sms/NewYear.vue"
 
 Vue.use(Router)
 
@@ -129,6 +130,11 @@ const router = new Router({
             path: "/offers/newyear",
             component: NewYear,
             name: "new-year-offer"
+        },
+        {
+            path: "/sms/newyear",
+            component: NewYearSMS,
+            name: "new-year-sms-offer"
         },
         {
             path: "/recruitment",
