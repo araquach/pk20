@@ -49,7 +49,7 @@
       <div class="column is-2">
         <figure class="image is-square">
           <a href="https://www.pinterest.co.uk/PKHairdressing/">
-            <img src="/dist/img/linktree/social/pinterest.svg" alt="Pinterest">
+            <img src="/dist/img/linktree/social/pinterest2.svg" alt="Pinterest">
           </a>
         </figure>
       </div>

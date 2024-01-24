@@ -12,12 +12,15 @@
   letter-spacing: .4rem;
 }
 
+
 .title-new-mid {
-  .title-new-mid {
-    @extend .title-new; // This ensures .new-title inherits all of .title's styles
-    font-weight: 400 !important;
-  }
+  @extend .title; // This ensures .new-title inherits all of .title's styles
+  font-family: "bebas-neue-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
 }
+
 
 .title-new-sub {
   @extend .title-new; // This ensures .new-title inherits all of .title's styles
