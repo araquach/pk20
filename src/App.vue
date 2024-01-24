@@ -23,7 +23,7 @@
 
     computed: {
       isLinkTree() {
-        if (this.$route.name === 'link-tree') {
+        if (this.$route.name === 'link-tree' || this.$route.name === 'links') {
           return true
         }
       }

@@ -474,16 +474,46 @@ p {
   background: rgb(236,227,205);
   background: linear-gradient(142deg, rgba(249,246,240,.7) 0%, rgba(236,227,205,.7) 100%), url("/dist/img/home/katharina.jpg");
   background-size: cover;
+  .lt-title {
+    letter-spacing: .5rem
+  }
+
+  a.lt-refer {
+    background-color: #c2b19c;
+  }
+
+  a.lt-bookings {
+    background-color: #c67e50;
+  }
+
+  a.lt-quote {
+    background-color: #a0bb8a;
+  }
+
+  a.lt-join-us {
+    background-color: #c6a497;
+  }
+
+  a.lt-models {
+    background-color: #b2935b;
+  }
+
+  a.lt-shop {
+    background-color: #d69177;
+  }
+
+  a.lt-blog {
+    background-color: #4c6d56;
+  }
+
   p {
     margin-bottom: 4rem;
   }
   .box {
-    border-radius: 40px;
-    background-color: rgb(50, 32, 18);
-    color: #FFF;
+    border-radius: 10px;
   }
-  .social {
-    margin-top: 5rem;
+  .link-tree-social {
+    padding-bottom: 5rem;
   }
 }
 
