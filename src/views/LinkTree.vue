@@ -1,7 +1,9 @@
 <template>
   <div id="link-tree" class="has-text-centered">
     <div class="pt-5">
-      <img src="/dist/img/linktree/pk_logo.svg" alt="Base Hairdressing" width="200">
+     <router-link :to="{name: 'home'}">
+       <img src="/dist/img/linktree/pk_logo.svg" alt="Base Hairdressing" width="200">
+     </router-link>
     </div>
     <div class="section columns is-centered is-mobile">
       <div class="column is-9 has-text-centered is-size-5">
@@ -63,3 +65,5 @@
     </div>
   </div>
 </template>
+<script setup>
+</script>
