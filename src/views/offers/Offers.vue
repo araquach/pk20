@@ -16,6 +16,7 @@
       <jo-brad-abi-offer v-if="showOffers.joBradAbi"/>
       <autumn-offer v-if="showOffers.autumn"/>
       <new-year v-if="showOffers.newYear"/>
+      <extensions v-if="showOffers.extensions"/>
       <br><br>
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250"
            data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
@@ -44,6 +45,7 @@ import joBradAbiOffer from "../../components/offers/JoBradAbi"
 import generalOffer from "../../components/offers/November"
 import autumnOffer from "../../components/offers/Autumn.vue"
 import newYear from "../../components/offers/NewYear.vue"
+import extensions from "../../components/offers/Extensions.vue";
 
 export default {
   components: {
@@ -57,7 +59,8 @@ export default {
     joBradAbiOffer,
     generalOffer,
     autumnOffer,
-    newYear
+    newYear,
+    extensions
   },
 
   data() {
@@ -72,7 +75,8 @@ export default {
         davidLauren: false,
         joBradAbi: false,
         autumn: false,
-        newYear: true
+        newYear: true,
+        extensions: true
       }
 
     }

@@ -34,6 +34,7 @@ import Leaver from "./views/Leaver"
 import OnlineStore from "./views/OnlineStore.vue";
 import NewYear from "./views/offers/NewYear.vue";
 import NewYearSMS from "./views/offers/sms/NewYear.vue"
+import Extensions from "./views/offers/Extensions.vue";
 
 Vue.use(Router)
 
@@ -125,6 +126,11 @@ const router = new Router({
             path: "/offers/autumn",
             component: AutumnOffer,
             name: "autumn-offer"
+        },
+        {
+            path: "/offers/extensions",
+            component: Extensions,
+            name: "extensions-offer"
         },
         {
             path: "/offers/newyear",

@@ -23,7 +23,7 @@
                class="button is-primary">Book a FREE Consultation</a>
           </div>
           <p class="is-size-7">(Select any of the above stylists from the dropdown)</p>
-          <p class="is-size-5"><strong>Prefer to Book by Phone? Call Us on 01925 242960!</strong></p>
+          <p class="is-size-5"><strong>Prefer to Book by Phone? Call Us on 01925 444488!</strong></p>
           <div class="box has-background-primary has-text-white">
             <div class="columns is-vcentered is-flex-tablet">
               <div class="column is-3">
