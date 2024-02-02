@@ -28,7 +28,7 @@
         <router-link :to="{ name: 'online-shop' }" class="box lt-shop">
           <span class="title-new-mid">THE PK SHOP</span>
         </router-link>
-        <router-link :to="{ name: 'blog-info' }" class="box lt-blog">
+        <router-link :to="{ name: 'blog' }" class="box lt-blog">
           <span class="title-new-mid">THE PK BLOG</span>
         </router-link>
       </div>
