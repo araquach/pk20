@@ -10,6 +10,7 @@ Vue.use(Buefy)
 Vue.use(Vuelidate)
 Vue.use(VueMoment)
 
+
 window.axios = require('axios')
 
 Vue.filter('textLimit', function (text, length) {
