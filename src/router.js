@@ -34,6 +34,8 @@ import Leaver from "./views/Leaver"
 import OnlineStore from "./views/OnlineStore.vue";
 import NewYear from "./views/offers/NewYear.vue";
 import NewYearSMS from "./views/offers/sms/NewYear.vue"
+import Spring from "./views/offers/Spring.vue";
+import SpringSMS from "./views/offers/sms/Spring.vue"
 import Extensions from "./views/offers/Extensions.vue";
 
 Vue.use(Router)
@@ -141,6 +143,16 @@ const router = new Router({
             path: "/sms/newyear",
             component: NewYearSMS,
             name: "new-year-sms-offer"
+        },
+        {
+            path: "/offers/spring",
+            component: Spring,
+            name: "spring-offer"
+        },
+        {
+            path: "/sms/spring",
+            component: SpringSMS,
+            name: "spring-sms-offer"
         },
         {
             path: "/recruitment",

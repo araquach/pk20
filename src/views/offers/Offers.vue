@@ -3,7 +3,7 @@
     <section v-if="!hideOffers" id="offers" class="section">
       <div class="columns">
         <div class="column is-9">
-          <h1 class="title is-2 has-text-primary">New Year Offers</h1>
+          <h1 class="title is-2 has-text-primary">Latest Offers</h1>
         </div>
       </div>
       <general-offer v-if="showOffers.general"/>
@@ -16,6 +16,7 @@
       <jo-brad-abi-offer v-if="showOffers.joBradAbi"/>
       <autumn-offer v-if="showOffers.autumn"/>
       <new-year v-if="showOffers.newYear"/>
+      <spring v-if="showOffers.spring"/>
       <extensions v-if="showOffers.extensions"/>
       <br><br>
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250"
@@ -45,6 +46,7 @@ import joBradAbiOffer from "../../components/offers/JoBradAbi"
 import generalOffer from "../../components/offers/November"
 import autumnOffer from "../../components/offers/Autumn.vue"
 import newYear from "../../components/offers/NewYear.vue"
+import spring from "../../components/offers/Spring.vue"
 import extensions from "../../components/offers/Extensions.vue";
 
 export default {
@@ -60,6 +62,7 @@ export default {
     generalOffer,
     autumnOffer,
     newYear,
+    spring,
     extensions
   },
 
@@ -75,7 +78,8 @@ export default {
         davidLauren: false,
         joBradAbi: false,
         autumn: false,
-        newYear: true,
+        newYear: false,
+        spring: true,
         extensions: true
       }
 
