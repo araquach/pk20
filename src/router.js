@@ -218,7 +218,7 @@ const router = new Router({
             name: "reopening"
         },
         {
-            path: "/abi-leaving"  ,
+            path: "/brad-leaving"  ,
             component: Leaver,
             name: "leaver"
         },
