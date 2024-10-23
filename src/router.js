@@ -37,6 +37,7 @@ import NewYearSMS from "./views/offers/sms/NewYear.vue"
 import Spring from "./views/offers/Spring.vue";
 import SpringSMS from "./views/offers/sms/Spring.vue"
 import Extensions from "./views/offers/Extensions.vue";
+import AutumnWinter from "./views/offers/winter24/AutumnWinter.vue";
 
 Vue.use(Router)
 
@@ -148,6 +149,11 @@ const router = new Router({
             path: "/offers/spring",
             component: Spring,
             name: "spring-offer"
+        },
+        {
+            path: "/offers/pk25",
+            component: AutumnWinter,
+            name: "autumn-winter-offer"
         },
         {
             path: "/sms/spring",

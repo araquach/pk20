@@ -18,6 +18,7 @@
       <new-year v-if="showOffers.newYear"/>
       <spring v-if="showOffers.spring"/>
       <extensions v-if="showOffers.extensions"/>
+      <autumnWinter v-if="showOffers.autumnWinter"/>
       <br><br>
       <div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250"
            data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
@@ -47,7 +48,8 @@ import generalOffer from "../../components/offers/November"
 import autumnOffer from "../../components/offers/Autumn.vue"
 import newYear from "../../components/offers/NewYear.vue"
 import spring from "../../components/offers/Spring.vue"
-import extensions from "../../components/offers/Extensions.vue";
+import extensions from "../../components/offers/Extensions.vue"
+import autumnWinter from "../../components/offers/winter24/AutumnWinter.vue"
 
 export default {
   components: {
@@ -63,7 +65,8 @@ export default {
     autumnOffer,
     newYear,
     spring,
-    extensions
+    extensions,
+    autumnWinter
   },
 
   data() {
@@ -79,8 +82,9 @@ export default {
         joBradAbi: false,
         autumn: false,
         newYear: false,
-        spring: true,
-        extensions: true
+        spring: false,
+        extensions: false,
+        autumnWinter: true
       }
 
     }
