@@ -18,6 +18,7 @@ import AutumnOffer from "./views/offers/Autumn"
 import Recruitment from "./views/recruitment/Recruitment"
 import RecruitmentStylist from "./views/recruitment/Stylist"
 import RecruitmentApprentice from "./views/recruitment/Apprentice"
+import RecruitmentSaturday from "./views/recruitment/Saturday"
 import Reviews from "./views/Reviews"
 import Salon from "./views/Salon"
 import Team from "./views/Team"
@@ -174,6 +175,11 @@ const router = new Router({
             path: "/recruitment/apprentice",
             component: RecruitmentApprentice,
             name: "recruitment-apprentice"
+        },
+        {
+            path: "/recruitment/saturday",
+            component: RecruitmentSaturday,
+            name: "recruitment-saturday"
         },
         {
             path: "/reviews/:slug",
