@@ -117,7 +117,7 @@
         why_hair: '',
         why_us: '',
         salon: 2,
-        role: "Apprentice",
+        role: "apprentice",
         submitStatus: null
       }
     },

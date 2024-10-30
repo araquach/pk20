@@ -117,7 +117,7 @@ export default {
       why_hair: '',
       why_us: '',
       salon: 2,
-      role: "Stylist",
+      role: "stylist",
       submitStatus: null
     }
   },
