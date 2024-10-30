@@ -114,7 +114,7 @@ export default {
       why_hair: '',
       why_us: '',
       salon: 2,
-      role: "Saturday",
+      role: 'Saturday',
       submitStatus: null
     }
   },
