@@ -97,6 +97,7 @@
           </form>
           <div v-if="submitStatus === 'OK'" class="box">
             <p class="is-size-4 has-text-primary">Thanks for applying! We'll be in touch when a position becomes available</p>
+            <p class="is-size-5 has-text-primary">If you're considering our other salons too (Jakata and Base Hairdressing) there's no need to apply again as we're all connected and this application covers all 3 salons!</p>
           </div>
         </div>
       </div>
@@ -117,7 +118,7 @@
         why_hair: '',
         why_us: '',
         salon: 2,
-        role: "apprentice",
+        role: "Apprentice",
         submitStatus: null
       }
     },
