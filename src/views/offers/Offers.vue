@@ -84,7 +84,7 @@ export default {
         newYear: false,
         spring: false,
         extensions: false,
-        autumnWinter: true
+        autumnWinter: false
       }
 
     }

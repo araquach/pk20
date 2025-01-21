@@ -15,6 +15,7 @@ import DavidLaurenOffer from "./views/offers/DavidLauren"
 import JoBradAbiOffer from "./views/offers/JoBradAbi"
 import LaurenOffer from "./views/offers/Lauren"
 import AutumnOffer from "./views/offers/Autumn"
+import Feb25 from "./views/offers/feb25/Feb25.vue";
 import Recruitment from "./views/recruitment/Recruitment"
 import RecruitmentStylist from "./views/recruitment/Stylist"
 import RecruitmentApprentice from "./views/recruitment/Apprentice"
@@ -78,7 +79,7 @@ const router = new Router({
         },
         {
             path: "/offers",
-            component: Offers,
+            component: Feb25,
             name: "offers"
         },
         {
