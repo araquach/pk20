@@ -27,7 +27,7 @@
           <p class="is-size-5"><strong>Book in for a FREE consultation with any of our stylists to take advantage of this amazing offer!</strong></p>
           <p class="is-size-4">Limited slots available, so don’t miss out!</p>
           <router-link class="button is-primary" :to="{ name: 'team' }">Browse Stylists</router-link>
-          <router-link class="button is-primary" :to="{ name: 'bookings' }">Book a Consultation</router-link>
+          <a class="button is-primary" href="https://www.phorest.com/salon/paulkemp/book/service-selection?showSpecialOffers=false">Book a Consultation</a>
           <br><br>
           <p class="small">25% off when you book with one of our stylists. – Offer valid until {{ endDate }} – Cannot be used in conjunction with any other offer – Skin Test required 48 hrs before any colour service – Offer exclusively for new clients – Choose your stylist level based on style and budget – Quote NEWCLIENT25 at the time of booking to secure this discount.</p>
           <br><br>
