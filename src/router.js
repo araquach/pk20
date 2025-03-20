@@ -40,6 +40,7 @@ import Spring from "./views/offers/Spring.vue";
 import SpringSMS from "./views/offers/sms/Spring.vue"
 import Extensions from "./views/offers/Extensions.vue";
 import AutumnWinter from "./views/offers/winter24/AutumnWinter.vue";
+import PriceIncrease from "./views/PriceIncrease.vue";
 
 Vue.use(Router)
 
@@ -268,6 +269,11 @@ const router = new Router({
             path: '/online-shop',
             name: 'online-shop',
             component: OnlineStore
+        },
+        {
+            path: '/new-prices',
+            name: 'price-increase',
+            component: PriceIncrease
         },
         {
             path: '/:notFound(.*)', redirect: '/'
