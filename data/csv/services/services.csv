@@ -1,66 +1,65 @@
-,,Service,Price,Product Cost,Cat,Mins
-1,0,Dry & Style,33.00,0,Cut/style,30
-1,1,Hair Up,33.00,0,Cut/style,30
-1,0,"Cut, Dry & Style",49.50,0,Cut/style,45
-1,1,Hair Up - Advanced,49.50,0,Cut/style,45
-1,1,Hair Up - Specialist,66.00,0,Cut/style,60
-2,0,None,0,0,Correction,0
-2,2,Face Frame,22.00,9.4,Foils,20
-2,0,Roots,33.00,18.8,Basic Colour,30
-2,1,Short (Crop),33.00,18.8,Full Head Colour,30
-2,2,Top Parting,33.00,18.8,Foils,30
-2,4,Short (crop),33.00,18.8,Full Head Bleach,30
-2,4,Roots (within 6 wk),33.00,18.8,Full Head Bleach,30
-2,0,Roots & Refresh,49.50,24,Basic Colour,45
-2,1,Mid (Above shoulders),49.50,24,Full Head Colour,45
-2,2,Half Head,49.50,24,Foils,45
-2,3,Uncoloured hair - above collar bone,49.50,28,Balayage (includes toner),45
-2,4,Roots (Over 6wk),49.50,24,Full Head Bleach,45
-2,5,Roots and Refresh,49.50,32,Vivids - wrong price,45
-2,1,Long (past shoulders),66.00,32,Full Head Colour,60
-2,2,Full head,66.00,32,Foils,60
-2,2,Creative Foiling,66.00,24,Foils,60
-2,3,On coloured hair - above collar bone,66.00,32,Balayage (includes toner),60
-2,3,Uncoloured hair - below collar bone,66.00,32,Balayage (includes toner),60
-2,4,Long (Past Shoulders),66.00,32,Full Head Bleach,60
-2,5,Short (crop),66.00,32,Vivids,60
-2,5,Mid (Above Shoulders),66.00,32,Vivids - wrong price,60
-2,6,Light to Dark,66.00,32,Correction,60
-2,6,Other Correction Service,66.00,32,Correction,60
-2,3,With root application - above collar bone,81.40,32,Balayage (includes toner),90
-2,3,On coloured hair - below collar bone,81.40,46.25,Balayage (includes toner),90
-2,3,With root application - below collar bone,112.20,46.25,Balayage (includes toner),120?
-2,5,Long (Past Shoulders),112.20,32,Vivids - wrong price,120?
-2,6,Dark to Light Correction,112.20,32,Correction,120?
-2,4,Mid (Above Shoulders),56.25,24,Full Head Bleach,45?
-3,1,None,0,0,Colour Add-ons - Foils,0
-3,3,None,0,0,Colour Add-ons - FH Col,0
-3,1,Complex Toner,15.40,8,Colour Add-ons - Foils,15
-3,1,Root Col Between Foils,15.40,8,Colour Add-ons - Foils,15
-3,1,Col Between foils (mid),15.40,16,Colour Add-ons - Foils,15
-3,2,Toner,7.25,4,Colour Add-ons - Bleach,15
-3,2,Complex Toner,15.40,8,Colour Add-ons - Bleach,15
-3,3,Face Frame Foils,15.40,8,Colour Add-ons - FH Col,15
-3,1,Col Between foils (long),33.00,24,Colour Add-ons - Foils,30
-3,3,Scattered Foils,33.00,18.8,Colour Add-ons - FH Col,30
-3,1,Toner,7.25,4,Colour Add-ons - Foils,15
-4,0,None,0,0,Styling Add-ons,0
-4,0,Curly Blow Add-on,15.40,0,Styling Add-ons,15
-4,0,Extra Styling Add-on,15.40,0,Styling Add-ons,15
-4,0,Pin Curls,33.00,0,Styling Add-ons,30
-5,1,Fibre Plex,5,0,Plex Treatments,0
-5,1,K18,15,0,Plex Treatments,0
-5,2,Fibre Clinix,15,0,Treatments,0
-5,2,Olaplex Super Stand Alone,25,0,Treatments,0
-5,2,K18 Stand Alone,20,0,Treatments,0
-5,2,Scalp Clinix,20,0,Treatments,0
-5,2,None,0,0,Treatments,0
-5,1,Olaplex,20,0,Plex Treatments,15
-6,1,None,0,0,Mens,0
-6,1,Express Colour,15.40,8,Mens,15
-6,0,Express Cut,22.00,0,Mens,20
-6,0,"Wash, Cut & Style",33.00,0,Mens,30
-6,1,Full Head Colour Short,33.00,8,Mens,30
-6,0,Long Hair Cut & Style,49.50,0,Mens,45
-6,1,Fashion Colour Mid,49.50,18.8,Mens,45
-6,1,Full Head Colour Long,66.00,37.6,Mens,60
+1,0,Dry & Style,33.00,0,Cut/style
+1,0,"Cut, Dry & Style",49.50,0,Cut/style
+1,1,Hair Up,33.00,0,Cut/style
+1,1,Hair Up - Advanced,49.50,0,Cut/style
+1,1,Hair Up - Specialist,66.00,0,Cut/style
+2,0,None,0,0,Correction
+2,0,Roots,33.00,18.8,Basic Colour
+2,0,Roots & Refresh,49.50,24,Basic Colour
+2,1,Short (Crop),33.00,18.8,Full Head Colour
+2,1,Mid (Above shoulders),49.50,24,Full Head Colour
+2,1,Long (past shoulders),66.00,32,Full Head Colour
+2,2,Face Frame,22.00,9.4,Foils
+2,2,Top Parting,33.00,18.8,Foils
+2,2,Half Head,49.50,24,Foils
+2,2,Full head,66.00,32,Foils
+2,2,Creative Foiling,66.00,24,Foils
+2,3,Uncoloured hair - above collar bone,49.50,28,Balayage (includes toner)
+2,3,On coloured hair - above collar bone,66.00,32,Balayage (includes toner)
+2,3,Uncoloured hair - below collar bone,66.00,32,Balayage (includes toner)
+2,3,With root application - above collar bone,81.40,32,Balayage (includes toner)
+2,3,On coloured hair - below collar bone,81.40,46.25,Balayage (includes toner)
+2,3,With root application - below collar bone,112.20,46.25,Balayage (includes toner)
+2,4,Short (crop),33.00,18.8,Full Head Bleach
+2,4,Roots (within 6 wk),33.00,18.8,Full Head Bleach
+2,4,Roots (Over 6wk),49.50,24,Full Head Bleach
+2,4,Long (Past Shoulders),66.00,32,Full Head Bleach
+2,4,Mid (Above Shoulders),56.25,24,Full Head Bleach
+2,5,Roots and Refresh,49.50,32,Vivids - wrong price
+2,5,Short (crop),66.00,32,Vivids
+2,5,Mid (Above Shoulders),66.00,32,Vivids - wrong price
+2,5,Long (Past Shoulders),112.20,32,Vivids - wrong price
+2,6,Light to Dark,66.00,32,Correction
+2,6,Other Correction Service,66.00,32,Correction
+2,6,Dark to Light Correction,112.20,32,Correction
+3,1,None,0,0,Colour Add-ons - Foils
+3,1,Complex Toner,15.40,8,Colour Add-ons - Foils
+3,1,Root Col Between Foils,15.40,8,Colour Add-ons - Foils
+3,1,Col Between foils (mid),15.40,16,Colour Add-ons - Foils
+3,1,Col Between foils (long),33.00,24,Colour Add-ons - Foils
+3,1,Toner,7.25,4,Colour Add-ons - Foils
+3,2,Toner,7.25,4,Colour Add-ons - Bleach
+3,2,Complex Toner,15.40,8,Colour Add-ons - Bleach
+3,3,None,0,0,Colour Add-ons - FH Col
+3,3,Face Frame Foils,15.40,8,Colour Add-ons - FH Col
+3,3,Scattered Foils,33.00,18.8,Colour Add-ons - FH Col
+4,0,None,0,0,Styling Add-ons
+4,0,Curly Blow Add-on,15.40,0,Styling Add-ons
+4,0,Extra Styling Add-on,15.40,0,Styling Add-ons
+4,0,Pin Curls,33.00,0,Styling Add-ons
+5,1,Fibre Plex,5,0,Plex Treatments
+5,1,K18,15,0,Plex Treatments
+5,1,Olaplex,20,0,Plex Treatments
+5,2,Fibre Clinix,15,0,Treatments
+5,2,Olaplex Super Stand Alone,25,0,Treatments
+5,2,K18 Stand Alone,20,0,Treatments
+5,2,Scalp Clinix,20,0,Treatments
+5,2,None,0,0,Treatments
+6,0,Express Cut,22.00,0,Mens
+6,0,"Wash, Cut & Style",33.00,0,Mens
+6,0,Long Hair Cut & Style,49.50,0,Mens
+6,1,None,0,0,Mens
+6,1,Express Colour,15.40,8,Mens
+6,1,Full Head Colour Short,33.00,8,Mens
+6,1,Fashion Colour Mid,49.50,18.8,Mens
+6,1,Full Head Colour Long,66.00,37.6,Mens
