@@ -10,10 +10,11 @@
           <p class="is-size-5">Whether you’re after a precision cut, creative colouring, or a full transformation, we’ve got the perfect stylist for you!</p>
           <h3 class="title is-3 has-text-primary mt-6">Average Colour & Cut price for...</h3>
           <ul class="is-size-5">
-            <li class="mb-3">Advanced Senior Stylist: <strong>£160</strong> (£120 inc discount)</li>
-            <li class="mb-3">Senior Stylist: <strong>£150</strong> (£113 inc discount))</li>
-            <li class="mb-3">Stylist: <strong>£130</strong> (£98 inc discount)</li>
-            <li>New Stylist: <strong>£110</strong> (£83 inc discount)</li>
+            <li class="mb-3">Advanced Senior Stylist: <strong>£170</strong> (£130 inc discount)</li>
+            <li class="mb-3">Senior Stylist: <strong>£160</strong> (£120 inc discount))</li>
+            <li class="mb-3">Advanced Stylist: <strong>£140</strong> (£105 inc discount)</li>
+            <li class="mb-3">Stylist: <strong>£120</strong> (£90 inc discount)</li>
+            <li>Graduate Stylist: <strong>£100</strong> (£75 inc discount)</li>
           </ul>
         </div>
       </div>
