@@ -20,7 +20,7 @@
       </div>
     </div>
     <figure class="image">
-      <img src="/dist/img/offer/feb25_wide.png" alt="New Client Offer">
+      <img src="/dist/img/offer/july25_wide.png" alt="New Client Offer">
     </figure>
     <div class="columns">
       <div class="column is-8">
