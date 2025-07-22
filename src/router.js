@@ -41,6 +41,7 @@ import SpringSMS from "./views/offers/sms/Spring.vue"
 import Extensions from "./views/offers/Extensions.vue";
 import AutumnWinter from "./views/offers/winter24/AutumnWinter.vue";
 import PriceIncrease from "./views/PriceIncrease.vue";
+import Policies from "./views/Policies.vue";
 
 Vue.use(Router)
 
@@ -269,6 +270,11 @@ const router = new Router({
             path: '/online-shop',
             name: 'online-shop',
             component: OnlineStore
+        },
+        {
+            path: '/policies',
+            name: 'policies',
+            component: Policies
         },
         {
             path: '/new-prices',

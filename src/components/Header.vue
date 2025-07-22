@@ -26,6 +26,9 @@
           </b-navbar-item>
 
           <b-navbar-dropdown label="More">
+            <b-navbar-item tag="router-link" :to="{ name: 'policies' }">
+              Policies
+            </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'online-shop' }">
               Online Shop
             </b-navbar-item>
