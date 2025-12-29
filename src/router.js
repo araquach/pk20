@@ -43,6 +43,7 @@ import AutumnWinter from "./views/offers/winter24/AutumnWinter.vue";
 import PriceIncrease from "./views/PriceIncrease.vue";
 import Policies from "./views/Policies.vue";
 import Oct25 from "./views/offers/Oct25.vue";
+import Refurb from "./views/Refurb.vue";
 
 Vue.use(Router)
 
@@ -281,6 +282,11 @@ const router = new Router({
             path: '/new-prices',
             name: 'price-increase',
             component: PriceIncrease
+        },
+        {
+            path: '/refurb',
+            name: 'refurb',
+            component: Refurb
         },
         {
             path: '/:notFound(.*)', redirect: '/'
