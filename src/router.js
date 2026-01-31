@@ -8,6 +8,7 @@ import Offers from "./views/offers/Offers"
 import Refer from "./views/Refer"
 import GraduateOffer from "./views/offers/categories/Graduate.vue"
 import StylistOffer from "./views/offers/categories/Stylist.vue"
+import BeckyBlowdry from "./views/offers/BeckyBlowdry"
 import GeneralOffer from "./views/offers/November"
 import BradOffer from "./views/offers/Brad"
 import EveOffer from "./views/offers/Eve"
@@ -46,6 +47,7 @@ import PriceIncrease from "./views/PriceIncrease.vue";
 import Policies from "./views/Policies.vue";
 import Oct25 from "./views/offers/Oct25.vue";
 import Refurb from "./views/Refurb.vue";
+import BeckyBlowdryLink from "./components/offers/BeckyBlowdryLink.vue";
 
 Vue.use(Router)
 
@@ -102,6 +104,11 @@ const router = new Router({
             path: "/offers/stylist",
             component: StylistOffer,
             name: "stylist-offer"
+        },
+        {
+            path: "/offers/beckyblowdry",
+            component: BeckyBlowdry,
+            name: "becky-blowdry-offer"
         },
         {
             path: "/offers/general",

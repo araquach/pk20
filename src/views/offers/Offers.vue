@@ -9,6 +9,7 @@
       <general-offer v-if="showOffers.general"/>
       <graduate-offer v-if="showOffers.graduate"/>
       <stylist-offer v-if="showOffers.stylist"/>
+      <becky-blowdry-offer v-if="showOffers.beckyBlowdry"/>
       <new-year v-if="showOffers.newYear"/>
       <extensions v-if="showOffers.extensions"/>
       <br><br>
@@ -30,6 +31,7 @@ import {mapState} from "vuex"
 import format from "date-fns/format"
 import generalOffer from "../../components/offers/Oct25.vue"
 import graduateOffer from "../../components/offers/categories/GraduateLink.vue";
+import beckyBlowdryOffer from "../../components/offers/BeckyBlowdryLink.vue";
 import stylistOffer from "../../components/offers/categories/StylistLink.vue";
 import newYear from "../../components/offers/NewYear.vue"
 import extensions from "../../components/offers/Extensions.vue"
@@ -39,6 +41,7 @@ export default {
     generalOffer,
     graduateOffer,
     stylistOffer,
+    beckyBlowdryOffer,
     newYear,
     extensions
   },
@@ -48,6 +51,7 @@ export default {
       showOffers: {
         general: false,
         graduate: true,
+        beckyBlowdry: true,
         stylist: true,
         newYear: false,
         extensions: false,
