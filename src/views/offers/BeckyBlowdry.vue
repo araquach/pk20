@@ -33,7 +33,7 @@
           </ul>
           <div class="buttons">
             <a href="https://phorest.com/book/salons/paulkemp#/service-category?id=c2Xu6QWmnm2TbJc2aSwzpw"
-               class="button is-primary">Book a FREE Consultation</a>
+               class="button is-primary">Book Now</a>
           </div>
           <p class="is-size-4"><strong>Prefer to Book by Phone? Call Us on 01925 444488</strong></p>
           <p>Just mention the offer at the time of your visit</p>
