@@ -4,7 +4,7 @@ const today = new Date()
 
 export const state = {
     hideOffers: false,
-    endDate: "31/10/25",
+    endDate: "31/03/26",
     newsItems: [],
     storeData: {}
 }

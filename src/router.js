@@ -6,6 +6,8 @@ import BlogPost from "./views/BlogPost"
 import Men from "./views/Men"
 import Offers from "./views/offers/Offers"
 import Refer from "./views/Refer"
+import GraduateOffer from "./views/offers/categories/Graduate.vue"
+import StylistOffer from "./views/offers/categories/Stylist.vue"
 import GeneralOffer from "./views/offers/November"
 import BradOffer from "./views/offers/Brad"
 import EveOffer from "./views/offers/Eve"
@@ -82,14 +84,24 @@ const router = new Router({
             name: "men"
         },
         {
-            path: "/offers",
-            component: Oct25,
-            name: "offers"
-        },
-        {
             path: "/refer-a-friend",
             component: Refer,
             name: "refer"
+        },
+        {
+            path: "/offers",
+            component: Offers,
+            name: "offers"
+        },
+        {
+            path: "/offers/graduatestylist",
+            component: GraduateOffer,
+            name: "graduate-offer"
+        },
+        {
+            path: "/offers/stylist",
+            component: StylistOffer,
+            name: "stylist-offer"
         },
         {
             path: "/offers/general",
