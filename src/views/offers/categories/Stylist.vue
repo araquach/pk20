@@ -24,7 +24,7 @@
           <p class="is-size-5"><strong>Book a full colour, cut and blowdry with one of our experienced stylists at a special first visit price, available for a limited time for new clients. </strong></p>
           <h2 class="title is-4 mb-1">Full Colour, Cut and Blowdry</h2>
           <p class="is-size-4">£100 with a Stylist (usually £140)</p>
-          <p class="is-size 4 mb-2"><strong>You can check out her work here:</strong></p>
+          <p class="is-size 4 mb-2"><strong>You can check out their work here:</strong></p>
           <a href="https://www.instagram.com/weavebyeve" class="is-size-4 has-text-primary">Eve: @weavebyeve</a>
           <br>
           <a href="https://www.instagram.com/laurenw_hairr" class="is-size-4 has-text-primary">Lauren: @laurenw_hairr</a>
