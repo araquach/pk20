@@ -7,7 +7,7 @@
         </div>
         <section class="column is-8">
           <h2 class="title is-3">Stylist Colour & Cut Package</h2>
-          <p class="is-size-4">Special Offer with Lauren & Eve</p>
+          <p class="is-size-4">Special Offer with Lauren</p>
           <p>Anyone new to <strong>Paul Kemp Hairdressing</strong> can take advantage of this offer for a limited time</p>
           <p class="is-size-4">Find out more here ></p>
         </section>
