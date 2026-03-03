@@ -4,7 +4,7 @@
       <div id="refurb-copy" class="column is-7">
         <h1 class="title is-2">Paul Kemp Hairdressing Temporary Closure</h1>
         <h2 class="subtitle is-3">For a full refit and rebrand</h2>
-        <p class="is-size-4"><strong>The Paul Kemp Hairdressing premises will be temporarily closed from 23rd December 2025 until 5th March 2026 for a full refit
+        <p class="is-size-4"><strong>The Paul Kemp Hairdressing premises will be temporarily closed from 23rd December 2025 until 10th March 2026 for a full refit
           and rebrand.</strong></p>
         <p class="is-size-5">We’re taking this time to rebuild the space, upgrade the experience and come back with something that feels fresh, modern and completely new - along with a brand new salon name!</p>
         <h2 class="title is-3">Where your appointment will take place</h2>
