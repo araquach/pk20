@@ -3,7 +3,19 @@ github.com/PuerkitoBio/goquery v1.5.1/go.mod h1:GsLWisAFVj4WgDibEWF4pvYnkVQBpKBK
 github.com/andybalholm/cascadia v1.1.0/go.mod h1:GsXiBklL0woXo1j/WYWtSYYC4ouU9PqHO0sqidkEA4Y=
 github.com/araquach/salonserver v1.2.1 h1:+3cWdBEjyD+6mbh3ViSsX/t+o+CvpIzaPV8pu3m7TmU=
 github.com/araquach/salonserver v1.2.1/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
+github.com/araquach/salonserver v1.2.2 h1:PbHJlUbHJehve/izmhuQYbdLNadhSI7pSQHO/1FJRkc=
+github.com/araquach/salonserver v1.2.2/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
+github.com/araquach/salonserver v1.2.3 h1:d13G9qEAWjPtw6jmOo6s7CJHxroD0M2szZHkvk0cSpI=
+github.com/araquach/salonserver v1.2.3/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
+github.com/araquach/salonserver v1.2.4 h1:3PjRu5FHGbUqvg2Jo/NuK9+XcfGCDRQw7HxDe591hx4=
+github.com/araquach/salonserver v1.2.4/go.mod h1:3kgj5hCcYzKNiTutuxlXv/XJwvO1GGp7++et/Hnqg2A=
+github.com/araquach/salonserver v1.2.5 h1:1zt4UYaTLpZCZYxao2OhcMEjKdAlPw6NM96IfUX88fg=
+github.com/araquach/salonserver v1.2.5/go.mod h1:qjVsIsYAwFuKfQ+SN4eehylQX3sAAwQKJjwm+DlbmOE=
 github.com/araquach/salonserver v1.2.6/go.mod h1:qjVsIsYAwFuKfQ+SN4eehylQX3sAAwQKJjwm+DlbmOE=
+github.com/araquach/salonserver v1.2.7 h1:qqBb1D5s17VvsCTWMioSrJxSliaYoE71VrNaVFFArW0=
+github.com/araquach/salonserver v1.2.7/go.mod h1:qjVsIsYAwFuKfQ+SN4eehylQX3sAAwQKJjwm+DlbmOE=
+github.com/araquach/salonserver v1.2.8 h1:OPcvpDkoNIO3+Hen/hT8r38n+GDVghOf+MPzxtjgpw8=
+github.com/araquach/salonserver v1.2.8/go.mod h1:qjVsIsYAwFuKfQ+SN4eehylQX3sAAwQKJjwm+DlbmOE=
 github.com/cockroachdb/apd v1.1.0 h1:3LFP3629v+1aKXU5Q37mxmRxX/pIu1nijXydLShEq5I=
 github.com/cockroachdb/apd v1.1.0/go.mod h1:8Sl8LxpKi29FqWXR16WEFZRNSz3SoPzUzeMeY4+DwBQ=
 github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e/go.mod h1:F5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=
@@ -32,6 +44,7 @@ github.com/gofrs/uuid v3.2.0+incompatible h1:y12jRkkFxsd7GpqdSZ+/KCs/fJbqpEXSGd4
 github.com/gofrs/uuid v3.2.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
 github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe h1:lXe2qZdvpiX5WZkZR4hgp4KJVfY3nMkvmwbVkpv1rVY=
 github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe/go.mod h1:8vg3r2VgvsThLBIFL93Qb5yWzgyZWhEmBwUJWevAkK0=
+github.com/gomarkdown/markdown v0.0.0-20250311123330-531bef5e742b h1:EY/KpStFl60qA17CptGXhwfZ+k1sFNJIUNR8DdbcuUk=
 github.com/gomarkdown/markdown v0.0.0-20250311123330-531bef5e742b/go.mod h1:JDGcbDT52eL4fju3sZ4TeHGsQwhG9nbDV21aMyhwPoA=
 github.com/google/renameio v0.1.0/go.mod h1:KWCgfxg9yswjAJkECMjeO8J8rahYeXnNhOm40UhjYkI=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=

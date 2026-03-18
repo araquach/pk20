@@ -322,6 +322,11 @@ p {
   background-size: cover;
 }
 
+.sloane-image {
+  background: url('/dist/img/sloane/sloane_background.jpg') no-repeat top center;
+  background-size: cover;
+}
+
 /* Price Page */
 
 #prices {
@@ -525,5 +530,12 @@ p {
 
 .fade-enter-active, .fade-leave-active {
   transition: opacity .3s;
+}
+
+@media(max-width: $tablet) {
+  .columns.is-reversed-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+  }
 }
 

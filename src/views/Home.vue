@@ -73,7 +73,7 @@
 
   }
 </script>
-<style>
+<style scoped>
 .sloane-logo {
   width: 70%;
 

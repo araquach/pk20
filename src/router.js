@@ -48,6 +48,7 @@ import Policies from "./views/Policies.vue";
 import Oct25 from "./views/offers/Oct25.vue";
 import Refurb from "./views/Refurb.vue";
 import BeckyBlowdryLink from "./components/offers/BeckyBlowdryLink.vue";
+import Rebrand from "./views/Rebrand.vue";
 
 Vue.use(Router)
 
@@ -306,6 +307,11 @@ const router = new Router({
             path: '/refurb',
             name: 'refurb',
             component: Refurb
+        },
+        {
+            path: '/rebrand',
+            name: 'rebrand',
+            component: Rebrand
         },
         {
             path: '/:notFound(.*)', redirect: '/'
