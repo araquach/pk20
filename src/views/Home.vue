@@ -17,7 +17,7 @@
           <p>While the name and environment are changing, the heart of what we do remains exactly the same: exceptional hair, thoughtful service, and the talented team you trust.</p>
           <p><em>Over the coming months you’ll see the new identity gradually introduced as we transition into this next phase. For now, simply enjoy the refreshed space and the same great experience you’ve always had with us.</em></p>
           <div class="buttons is-right">
-            <router-link :to="{ name: 'rebrand'}" class="button is-primary">Find out more</router-link>
+            <router-link :to="{ name: 'rebrand'}" class="button is-primary is-size-4-mobile">Find out more</router-link>
           </div>
           <section id="feedback-feed-container">
             <div id="feedback_feed" class="box">
@@ -79,6 +79,12 @@
 <style scoped>
 .sloane-logo {
   width: 70%;
-
 }
+
+@media screen and (max-width: 768px) {
+  .buttons.is-right {
+    justify-content: center !important;
+  }
+}
+
 </style>
