@@ -1,8 +1,8 @@
 <template>
   <div id="sloane">
-    <section class="hero is-medium is-primary sloane-image">
+    <section class="hero is-medium sloane-image">
       <div class="hero-body p-5 pr-6">
-        <img src="/dist/img/sloane/sloane_hero.svg" class="sloane-logo-hero is-pulled-right m-0" alt="Sloane The Salon">
+        <img src="/dist/img/sloane/sloane_hero.svg" class="sloane-logo-hero is-pulled-right" alt="Sloane The Salon">
       </div>
     </section>
     <div class="section columns pb-0">
@@ -15,12 +15,19 @@
         <p><strong>Sloane</strong> is simply the next step for the salon you already know. The refurbishment gave us an opportunity to refresh the environment and gradually evolve the brand to match the level of experience we want every client to have when they visit.</p>
       </div>
       <div class="column is-5">
-        <p>images</p>
+        <figure class="image is-4by3 mb-5 mt-5">
+          <img src="/dist/img/sloane/whole_salon.jpg" alt="Sloane The Salon">
+        </figure>
+        <figure class="image is-4by3">
+          <img src="/dist/img/sloane/montage_pic_1.jpg" alt="Sloane The Salon">
+        </figure>
       </div>
     </div>
     <div class="section columns is-reversed-mobile pt-0 pb-0">
       <div class="column is-5">
-        <p>images</p>
+        <figure class="image is-4by3">
+          <img src="/dist/img/sloane/montage_pic_2.jpg" alt="Sloane The Salon">
+        </figure>
       </div>
       <div class="column is-7">
         <h2 class="title is-4">A refreshed salon experience</h2>
@@ -36,19 +43,10 @@
         <p class="is-size-5">Sloane is simply the next chapter of the salon — and we’re grateful to have you with us as it evolves.</p>
       </div>
       <div class="column is-5">
-        <p>images</p>
+        <figure class="image is-4by3">
+          <img src="/dist/img/sloane/montage_pic_3.jpg" alt="Sloane The Salon">
+        </figure>
       </div>
     </div>
   </div>
 </template>
-<style scoped>
-.sloane-logo-hero {
-  width: 35%;
-}
-
-.sloane-logo {
-  width: 50%;
-}
-</style>
-<script setup lang="ts">
-</script>

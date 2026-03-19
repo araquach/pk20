@@ -322,8 +322,23 @@ p {
   background-size: cover;
 }
 
+.sloane-logo-hero {
+  width: 30%;
+  @include until($tablet) {
+    width: 40%;
+    margin: 1rem .5rem;
+  }
+  @include from($tablet) {
+    margin: 3rem;
+  }
+}
+
+.sloane-logo {
+  width: 50%;
+}
+
 .sloane-image {
-  background: url('/dist/img/sloane/sloane_background.jpg') no-repeat top center;
+  background: url('/dist/img/sloane/header_image.jpg') no-repeat center left;
   background-size: cover;
 }
 
