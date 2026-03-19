@@ -10,7 +10,9 @@
         <h2 class="title is-3">A new look - A new name</h2>
         <p class="is-size-5">If you’ve visited us on Sankey Street before, you’ll notice something a little different the next time you walk through the door.</p>
         <p>After many years as <strong>Paul Kemp Hairdressing</strong>, our newly refurbished salon is beginning its next chapter -  along with a new name:</p>
-        <img src="/dist/img/logos/sloane_logo.png" class="sloane-logo mb-5 mt-4" alt="Sloane The Salon">
+        <div class="has-text-centered-mobile">
+          <img src="/dist/img/logos/sloane_logo.png" class="sloane-logo mb-5 mt-4" alt="Sloane The Salon">
+        </div>
         <p>While the space and identity are evolving, the most important things remain exactly the same — the stylists you trust, the care you receive, and the quality of hairdressing you expect every time you visit.</p>
         <p><strong>Sloane</strong> is simply the next step for the salon you already know. The refurbishment gave us an opportunity to refresh the environment and gradually evolve the brand to match the level of experience we want every client to have when they visit.</p>
       </div>
@@ -50,3 +52,5 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+</script>

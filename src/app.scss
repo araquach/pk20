@@ -335,6 +335,9 @@ p {
 
 .sloane-logo {
   width: 50%;
+  @include until($tablet) {
+    width: 70%;
+  }
 }
 
 .sloane-image {
