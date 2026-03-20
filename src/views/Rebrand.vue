@@ -21,14 +21,14 @@
           <img src="/dist/img/sloane/whole_salon.jpg" alt="Sloane The Salon">
         </figure>
         <figure class="image is-4by3">
-          <img src="/dist/img/sloane/montage_pic_1.jpg" alt="Sloane The Salon">
+          <img src="/dist/img/sloane/montage_pic_01.jpg" alt="Sloane The Salon">
         </figure>
       </div>
     </div>
     <div class="section columns is-reversed-mobile pt-0 pb-0">
       <div class="column is-5">
         <figure class="image is-4by3">
-          <img src="/dist/img/sloane/montage_pic_2.jpg" alt="Sloane The Salon">
+          <img src="/dist/img/sloane/montage_pic_02.jpg" alt="Sloane The Salon">
         </figure>
       </div>
       <div class="column is-7">
@@ -46,7 +46,7 @@
       </div>
       <div class="column is-5">
         <figure class="image is-4by3">
-          <img src="/dist/img/sloane/montage_pic_3.jpg" alt="Sloane The Salon">
+          <img src="/dist/img/sloane/montage_pic_03.jpg" alt="Sloane The Salon">
         </figure>
       </div>
     </div>
