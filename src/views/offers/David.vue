@@ -5,7 +5,7 @@
         <div class="top section">
           <h2 class="title is-2 is-size-4-mobile has-text-primary">Special introductory offer with David</h2>
           <p class="is-size-5">David joined the team earlier this year after completing his training at the Andrew Collinge Graduates Academy in Liverpool.</p>
-          <p>He's fully settled into the PK team and is creating some stunning looks!</p>
+          <p>He's fully settled into the Sloane team and is creating some stunning looks!</p>
           <p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great offer with him&hellip;</strong></p>
         </div>
       </div>

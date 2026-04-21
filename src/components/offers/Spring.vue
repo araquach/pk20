@@ -8,7 +8,7 @@
         <section class="column is-8">
           <h2 class="title is-3">Spring Offer</h2>
           <p class="is-size-4"><strong>Treat yourself to some girl therapy this spring and take advantage of our exclusive new client offer</strong></p>
-          <p class="is-size-5">New clients get new hair and money off at Paul Kemp Hairdressing</p>
+          <p class="is-size-5">New clients get new hair and money off at Sloane The Salon</p>
           <p class="is-size-4">Find out more here ></p>
         </section>
       </div>

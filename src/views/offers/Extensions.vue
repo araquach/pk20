@@ -25,7 +25,7 @@
           <p class="is-size-5"><strong>Prefer to Book by Phone? Call Us on 01925 444488!</strong></p>
           <p>Just mention the offer at the time of your visit</p>
           <p class="is-size-5"><strong>Offer Code: PK EXT</strong></p>
-          <p class="small">Offer Valid until 30.03.2024 - Cannot be used in conjunction with any other offer - Skin Test required 48hrs before any colour service  - offer exclusively for anyone new to hair extensions at Paul Kemp Hairdressing - Quote PK EXT at the time of booking to secure this discount</p>
+          <p class="small">Offer Valid until 30.03.2024 - Cannot be used in conjunction with any other offer - Skin Test required 48hrs before any colour service  - offer exclusively for anyone new to hair extensions at Sloane The Salon - Quote PK EXT at the time of booking to secure this discount</p>
           <br><br>
         </div>
       </div>

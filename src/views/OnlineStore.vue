@@ -18,11 +18,11 @@
       </div>
     </div>
     <div class="section store-info">
-      <p><strong>Welcome to The PK Haircare Shop</strong>, where excellence meets your everyday haircare needs. We take pride in
+      <p><strong>Welcome to The Sloane Haircare Shop</strong>, where excellence meets your everyday haircare needs. We take pride in
       offering a curated selection of only the finest professional haircare brands, including trusted names like
         <strong>GHD</strong>, <strong>Schwarzkopf</strong>,
         <strong>Olaplex</strong>, and <strong>Kevin Murphy</strong>.</p>
-      <p>At <strong>Paul Kemp Hairdressing</strong>, we believe that your hair deserves the very best. That's why we exclusively stock
+      <p>At <strong>Sloane The Salon</strong>, we believe that your hair deserves the very best. That's why we exclusively stock
         brands that we use in the salon and are known for their exceptional performance and results. Step into our
         online shop and experience a world of <strong>premium haircare</strong>, carefully selected to help you achieve the vibrant, healthy
         locks you deserve!</p>

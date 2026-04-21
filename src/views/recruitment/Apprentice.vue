@@ -5,8 +5,8 @@
         <div>
           <h2 class="title is-2 has-text-white">Join the team</h2>
           <h3 class="subtitle is-4 has-text-white">Apprentice Position</h3>
-          <p><strong class="has-text-white is-size-5">At Paul Kemp Hairdressing all of our training is carried out in-house, you gain maximum exposure to observe skilled stylists whilst gaining valuable hands-on experience.</strong></p>
-          <p><em>Our aim is to train and develop our apprentices to the highest level, in the shortest possible time. This requires the highest level of commitment from you. If you have the passion to do whatever it takes to be a top stylist then Paul Kemp Hairdressing can help you to get there!</em></p>
+          <p><strong class="has-text-white is-size-5">At Sloane The Salon all of our training is carried out in-house, you gain maximum exposure to observe skilled stylists whilst gaining valuable hands-on experience.</strong></p>
+          <p><em>Our aim is to train and develop our apprentices to the highest level, in the shortest possible time. This requires the highest level of commitment from you. If you have the passion to do whatever it takes to be a top stylist then Sloane The Salon can help you to get there!</em></p>
           <p>Please complete ALL sections of the form before submitting your application.</p>
           <p>We will contact you as soon as a position becomes available.</p>
           <form v-if="submitStatus !== 'OK'" @submit.prevent="submit">
@@ -79,9 +79,9 @@
               Why hairdressing required
             </div>
             <div class="field">
-              <label class="label has-text-white">Tell us why you want to join the PK team</label>
+              <label class="label has-text-white">Tell us why you want to join the Sloane team</label>
               <div class="control">
-                <textarea class="textarea" :class="{ 'is-danger': $v.why_us.$error }" v-model.trim="$v.why_us.$model" placeholder="Why do you want to join PK?"/>
+                <textarea class="textarea" :class="{ 'is-danger': $v.why_us.$error }" v-model.trim="$v.why_us.$model" placeholder="Why do you want to join Sloane?"/>
               </div>
             </div>
             <div class="help is-danger" v-if="submitStatus === 'ERROR' && !$v.why_us.required">

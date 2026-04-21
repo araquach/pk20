@@ -4,11 +4,11 @@
       <div class="column is-9-desktop">
         <h2 class="title-new is-1 is-4-mobile">Recommend your friends</h2>
         <h2 class="title-new-sub is-3 is-size-4-mobile">Give £20 | Get £20</h2>
-        <p class="is-size-4">When you refer someone to <strong>Paul Kemp Hairdressing</strong>, not only will your friend
+        <p class="is-size-4">When you refer someone to <strong>Sloane The Salon</strong>, not only will your friend
           receive <strong>£20 OFF</strong>, but you'll also receive <strong>£20 OFF</strong> for every friend who becomes a new client!</p>
         <br>
         <figure class="image is-paddingless">
-          <img src="/dist/img/refer/refer.png" alt="Refer a Friend">
+          <img src="/dist/img/refer/recommendations.png" alt="Refer a Friend">
         </figure>
         <br>
         <h2 class="title-new is-3">ALREADY HAVE AN ONLINE ACCOUNT?</h2>

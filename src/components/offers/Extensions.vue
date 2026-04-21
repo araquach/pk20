@@ -8,7 +8,7 @@
         <section class="column is-8">
           <h2 class="title is-3">Extensions Offer</h2>
           <p class="is-size-4"><strong>Treat yourself to the thick long hair you’ve always wanted this year and take advantage of our exclusive new extensions offer.</strong></p>
-          <p class="is-size-5">Anyone new to hair extensions at Paul Kemp Hairdressing gets 20% off their first ever fitting!</p>
+          <p class="is-size-5">Anyone new to hair extensions at Sloane The Salon gets 20% off their first ever fitting!</p>
           <p class="is-size-4">Find out more here ></p>
         </section>
       </div>

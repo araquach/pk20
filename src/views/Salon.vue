@@ -18,34 +18,34 @@
       <div class="tile is-parent is-vertical">
         <div class="tile is-child">
           <figure class="image is-240x160">
-            <img src="/dist/img/salon/salon_shot_1.jpg" alt="The PK Salon">
+            <img src="/dist/img/salon/salon_shot_1.jpg" alt="The Sloane Salon">
           </figure>
         </div>
         <div class="tile is-child">
           <figure class="image is-240x160">
-            <img src="dist/img/salon/salon_shot_2.jpg" alt="The PK Salon">
+            <img src="dist/img/salon/salon_shot_2.jpg" alt="The Sloane Salon">
           </figure>
         </div>
         <div class="tile is-child">
           <figure class="image is-240x160">
-            <img src="/dist/img/salon/salon_shot_3.jpg" alt="The PK Salon">
+            <img src="/dist/img/salon/salon_shot_3.jpg" alt="The Sloane Salon">
           </figure>
         </div>
       </div>
       <div class="tile is-parent is-vertical">
         <div class="tile is-child">
           <figure class="image is-240x160">
-            <img src="/dist/img/salon/salon_shot_4.jpg" alt="The PK Salon">
+            <img src="/dist/img/salon/salon_shot_4.jpg" alt="The Sloane Salon">
           </figure>
         </div>
         <div class="tile is-child">
           <figure class="image is-240x160">
-            <img src="/dist/img/salon/salon_shot_5.jpg" alt="The PK Salon">
+            <img src="/dist/img/salon/salon_shot_5.jpg" alt="The Sloane Salon">
           </figure>
         </div>
         <div class="tile is-child">
           <figure class="image is-240x160">
-            <img src="/dist/img/salon/salon_shot_6.jpg" alt="The PK Salon">
+            <img src="/dist/img/salon/salon_shot_6.jpg" alt="The Sloane Salon">
           </figure>
         </div>
       </div>

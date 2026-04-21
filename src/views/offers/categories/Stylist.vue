@@ -5,7 +5,7 @@
         <div class="top section">
           <h2 class="title is-2 is-size-4-mobile has-text-primary mb-3">Beautiful Results, Expertly Delivered</h2>
           <h2 class="title is-4 is-size-6-mobile has-text-primary">Full colour, Cut & Blowdry for £100 with Lauren</h2>
-          <p class="is-size-4">Whether you’re new to Paul Kemp Hairdressing or visiting us for the first time, this offer is designed to introduce you to our more advanced stylist team with clear, all inclusive pricing on your first appointment.</p>
+          <p class="is-size-4">Whether you’re new to Sloane The Salon or visiting us for the first time, this offer is designed to introduce you to our more advanced stylist team with clear, all inclusive pricing on your first appointment.</p>
           <p class="is-size-5">Enjoy a complete colour service with expert consultation, precision cutting and a polished finish, perfect if you’re looking for high level results with no surprises on price.</p>
         </div>
       </div>
@@ -36,7 +36,7 @@
           <ul class="mb-4">
             <li>Expert colour and cutting from our senior team</li>
             <li>Clear, all inclusive pricing for your first visit</li>
-            <li>A confident introduction to Paul Kemp Hairdressing</li>
+            <li>A confident introduction to Sloane The Salon</li>
           </ul>
           <p class="mb-5"><em>If you're looking for a more affordable option <router-link :to="{name: 'graduate-offer'}" class="has-text-primary"><strong>click here</strong></router-link></em></p>
           <div class="buttons">

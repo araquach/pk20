@@ -5,7 +5,7 @@
         <div class="top section">
           <h2 class="title is-2 is-size-4-mobile has-text-primary mb-3">Refined Colour, Confidently Delivered</h2>
           <h2 class="title is-4 is-size-6-mobile has-text-primary">Full colour, cut & blowdry for £80 — exceptional quality for new clients</h2>
-          <p class="is-size-4">This offer is perfect for new clients who want high quality results with excellent value on their first visit to Paul Kemp Hairdressing. </p>
+          <p class="is-size-4">This offer is perfect for new clients who want high quality results with excellent value on their first visit to Sloane The Salon. </p>
           <p class="is-size-5">Our Graduate Stylist Becky has recently completed advanced training and continues to refine her craft within the salon, delivering professional results with confidence and care.</p>
         </div>
       </div>

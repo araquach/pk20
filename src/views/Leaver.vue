@@ -6,7 +6,7 @@
           <h1 class="title is-2 has-text-primary">Brad has moved on</h1>
           <img src="/dist/img/team/brad.jpg" alt="Brad" class="is-hidden-tablet">
           <p class="is-size-4">As a valued client of Brad, we wanted to let you know that he has decided to move on from
-            the PK team.</p>
+            the Sloane team.</p>
           <p>After spending six years working in the salon, he has made the decision to step away from hairdressing and
             has enrolled in a Fashion Degree.</p>
           <p>The team wishes him every success in his new venture, and he will be greatly missed. His final day in the
@@ -20,7 +20,7 @@
           <p>Don't overlook our incredible Academy - <strong>Base Hairdressing</strong> where we have an array of upcoming hairdressing talent along with our head of training Layla!</p>
 
           <p class="is-size-4">To see the full array of stylists on offer visit our team page | <a
-              href="https://www.paulkemphairdressing.com/team">The PK Team</a> |</p>
+              href="https://www.paulkemphairdressing.com/team">The Sloane Team</a> |</p>
           <p class="is-size-4">Don't forget about our amazing stylists over at <strong>Jakata</strong> | <a
               href="https://www.jakatasalon.co.uk/team">The Jakata Team</a> |</p>
           <p class="is-size-4">Along with our crew at <strong>Base Hairdressing</strong> | <a href="https://www.basehairdressing.com/team"> The Base Team</a> |</p>

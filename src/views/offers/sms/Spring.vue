@@ -6,7 +6,7 @@
           <h2 class="title is-2 has-text-primary">Celebrate the start of Spring with a Fresh Look!</h2>
           <p class="is-size-3">We've Missed You and Can't Wait to Welcome You Back!</p>
           <p class="is-size-4">Enjoy an Exclusive £20 Discount on All Haircuts with Any Colour Service!</p>
-          <p class="is-size-5"><strong>Make Your March and April Shine with a New Look at Paul Kemp Hairdressing.</strong></p>
+          <p class="is-size-5"><strong>Make Your March and April Shine with a New Look at Sloane The Salon.</strong></p>
         </div>
       </div>
     </div>

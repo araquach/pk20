@@ -4,7 +4,7 @@
       <div class="column is-8">
         <div class="top section">
           <h2 class="title is-2 is-size-4-mobile has-text-primary mb-3">A Little Hair Reset with Becky</h2>
-          <p class="is-size-4">Whether you’re new to Paul Kemp Hairdressing or already a client of Becky’s, this offer is designed to keep your hair healthy, glossy and feeling it’s best between colour or cut appointments.</p>
+          <p class="is-size-4">Whether you’re new to Sloane The Salon or already a client of Becky’s, this offer is designed to keep your hair healthy, glossy and feeling it’s best between colour or cut appointments.</p>
         </div>
       </div>
     </div>

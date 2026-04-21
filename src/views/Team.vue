@@ -1,6 +1,6 @@
 <template>
   <div id="team" class="section">
-    <h1 class="title is-3">The PK Team</h1>
+    <h1 class="title is-3">The Sloane Team</h1>
     <p>Click on a team member to read their profile</p>
     <div class="columns is-multiline">
       <div v-for="(tm, id) in teamMembers" class="column is-4">

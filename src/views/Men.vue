@@ -8,7 +8,7 @@
       <div class="tile is-parent is-5">
         <div class="tile is-child">
           <h2 class="title 2 has-text-primary">Men's Hairdressing</h2>
-          <p>At <strong>Paul Kemp Hairdressing</strong> we have a team of experts in men's hairdressing on hand. Whatever your fashion tastes and style, we'll work your hair exactly how you want it.</p>
+          <p>At <strong>Sloane The Salon</strong> we have a team of experts in men's hairdressing on hand. Whatever your fashion tastes and style, we'll work your hair exactly how you want it.</p>
           <p>The team constantly stay up to date with latest cutting &amp; styling techniques through Tigi and Schwarzkopf's innovative training courses and inspiration sessions.</p>
           <p>Call us to book in with one of our male hair experts, or drop into the salon for a free consultation.</p>
           <p class="offer">Prices start from around &pound;20 for a Wash, Cut &amp; Style</p>

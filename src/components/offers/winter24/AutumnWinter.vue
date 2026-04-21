@@ -9,7 +9,7 @@
           <h2 class="title is-3">Special Autumn Offer</h2>
           <p class="is-size-4">Treat yourself to the hair you’ve always wanted this year and take advantage of our exclusive <strong>new client
             offer</strong>.</p>
-          <p>Anyone new to <strong>Paul Kemp Hairdressing</strong> gets <strong>25% off</strong> their first ever appointment!</p>
+          <p>Anyone new to <strong>Sloane The Salon</strong> gets <strong>25% off</strong> their first ever appointment!</p>
           <p class="is-size-4">Find out more here ></p>
         </section>
       </div>

@@ -29,10 +29,10 @@
           <span class="title-new-mid">MODEL SIGNUP</span>
         </a>
         <router-link :to="{ name: 'online-shop' }" class="box lt-shop">
-          <span class="title-new-mid">THE PK SHOP</span>
+          <span class="title-new-mid">THE SLOANE SHOP</span>
         </router-link>
         <router-link :to="{ name: 'blog' }" class="box lt-blog">
-          <span class="title-new-mid">THE PK BLOG</span>
+          <span class="title-new-mid">THE SLOANE BLOG</span>
         </router-link>
       </div>
     </div>

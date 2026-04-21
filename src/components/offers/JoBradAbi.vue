@@ -11,7 +11,7 @@
           <p class="is-size-4"><strong>25% off your first Visit</strong></p>
           <p>A Colour & Cut from just £85</p>
           <p>Find out more here ></p>
-          <small class="is-size-7">For New Clients to PK - not with any other offer - offer ends {{ endDate }}<br>Skin test required 48hrs before any colour service</small>
+          <small class="is-size-7">For New Clients to Sloane - not with any other offer - offer ends {{ endDate }}<br>Skin test required 48hrs before any colour service</small>
         </section>
       </div>
     </div>

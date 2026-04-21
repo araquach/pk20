@@ -19,7 +19,7 @@
           <p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
             or book your consultation online (link at top of page)</p>
           <p>Just mention the offer at the time of your visit</p>
-          <p class="small">(Offer ends {{ endDate }} - Skin Test required 48 hrs before any colour service - for new clients to PK)</p>
+          <p class="small">(Offer ends {{ endDate }} - Skin Test required 48 hrs before any colour service - for new clients to Sloane)</p>
           <router-link :to="{ name: 'team-detail', params: { slug: 'david' } }" class="button is-primary">Find out more about David</router-link>
           <router-link :to="{ name: 'team-detail', params: { slug: 'lauren-w' } }" class="button is-primary">Find out more about Lauren</router-link>
           <br><br>

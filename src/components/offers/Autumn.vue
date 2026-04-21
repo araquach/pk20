@@ -7,7 +7,7 @@
         </div>
         <section class="column is-8">
           <h2 class="title is-3">25% OFF Autumn Appointments</h2>
-          <h3>for new clients at Paul Kemp Hairdressing</h3>
+          <h3>for new clients at Sloane The Salon</h3>
           <p class="is-size-4">Offering all first-time clients the opportunity to <strong>step into Autumn</strong> with confidence!</p>
           <p class="is-size-5">Find out more here ></p>
         </section>

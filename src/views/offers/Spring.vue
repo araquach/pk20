@@ -5,7 +5,7 @@
         <div class="top section">
           <h2 class="title is-2 has-text-primary">Celebrate the start of Spring with a Fresh Look!</h2>
           <p class="is-size-4"><strong>New Clients Exclusive: </strong>Enjoy £20 off all haircuts when you book a colour service this March and April!</p>
-          <p class="is-size-4"><strong>Start the new season with a fresh look at Paul Kemp Hairdressing!</strong></p>
+          <p class="is-size-4"><strong>Start the new season with a fresh look at Sloane The Salon!</strong></p>
         </div>
       </div>
     </div>
@@ -39,8 +39,8 @@
             </div>
           </div>
           <p>Just mention the offer at the time of your visit</p>
-          <p class="is-size-5"><strong>Offer Code: PK SPRING OFFER</strong></p>
-          <p class="small">(Offer valid until {{ endDate }} - Cannot be used in conjunction with any other offer - Skin Test required 48 hrs before any colour service - offer exclusively for clients new to Paul Kemp Hairdressing - Quote PK SPRING OFFER at time of booking to secure this discount)</p>
+          <p class="is-size-5"><strong>Offer Code: Sloane SPRING OFFER</strong></p>
+          <p class="small">(Offer valid until {{ endDate }} - Cannot be used in conjunction with any other offer - Skin Test required 48 hrs before any colour service - offer exclusively for clients new to Sloane The Salon - Quote PK SPRING OFFER at time of booking to secure this discount)</p>
           <br><br>
         </div>
       </div>

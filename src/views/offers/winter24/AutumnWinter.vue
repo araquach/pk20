@@ -26,7 +26,7 @@
           </div>
           <p class="is-size-4"><strong>Alternatively Call <strong>01925 444488</strong> to book</strong></p>
           <p>Just mention the offer at the time of your visit</p>
-          <p class="small">(Offer ends {{ endDate }} - Cannot be used in conjunction with any other offer - Only redeemable on staff available to book with online - Skin Test required 48hrs before any colour service  - offer exclusively for anyone new to Paul Kemp Hairdressing - Quote PK25 at the time of booking to secure this discount )</p>
+          <p class="small">(Offer ends {{ endDate }} - Cannot be used in conjunction with any other offer - Only redeemable on staff available to book with online - Skin Test required 48hrs before any colour service  - offer exclusively for anyone new to Sloane The Salon - Quote SLOANE25 at the time of booking to secure this discount )</p>
           <br><br>
         </div>
       </div>
