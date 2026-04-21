@@ -2,7 +2,7 @@
   <div id="link-tree" class="has-text-centered">
     <div class="pt-5">
      <router-link :to="{name: 'home'}">
-       <img src="/dist/img/linktree/pk_logo.svg" alt="Base Hairdressing" width="200">
+       <img src="/dist/img/linktree/sloane_logo.svg" alt="Sloane The Salon" width="200">
      </router-link>
     </div>
     <div class="section columns is-centered is-mobile">
@@ -39,14 +39,14 @@
     <div class="columns link-tree-social is-mobile is-centered">
       <div class="column is-2 is-1-mobile">
         <figure class="image is-square">
-          <a href="https://www.instagram.com/paulkemphairdressing1/">
+          <a href="https://www.instagram.com/sloane_the_salon/">
             <img src="/dist/img/linktree/social/instagram.svg" alt="Instagram">
           </a>
         </figure>
       </div>
       <div class="column is-2">
         <figure class="image is-square">
-          <a href="https://www.facebook.com/PaulKempHairdressing/">
+          <a href="https://www.facebook.com/SloaneTheSalon/">
             <img src="/dist/img/linktree/social/facebook.svg" alt="Facebook">
           </a>
         </figure>

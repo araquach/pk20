@@ -2,12 +2,12 @@
   <footer class="footer">
     <div class="social columns is-mobile">
       <div class="column">
-        <a href="https://www.facebook.com/PaulKempHairdressing">
+        <a href="https://www.facebook.com/SloaneTheSalon">
           <img src="/dist/img/footer/social/facebook.png">
         </a>
       </div>
       <div class="column">
-        <a href="https://www.instagram.com/paulkemphairdressing1">
+        <a href="https://www.instagram.com/sloane_the_salon">
           <img src="/dist/img/footer/social/instagram.png">
         </a>
       </div>
