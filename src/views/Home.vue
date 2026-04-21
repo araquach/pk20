@@ -8,7 +8,7 @@
       <div class="column is-5 is-offset-7">
         <section class="section is-size-5-mobile">
           <h2 class="title 2 has-text-primary has-text-centered">A New Chapter</h2>
-          <p>After many years as Sloane The Salon, our Sankey Street salon is entering an exciting new chapter.</p>
+          <p>After many years as Paul Kemp Hairdressing, our Sankey Street salon has entered an exciting new chapter.</p>
           <p>Following a complete refurbishment of the space, we’re introducing</p>
           <div class="has-text-centered mb-3">
             <img src="/dist/img/logos/sloane_logo.png" class="sloane-logo" alt="Sloane The Salon">
