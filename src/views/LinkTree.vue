@@ -28,9 +28,9 @@
         <a href="https://www.basehairdressing.com/models" class="box lt-models">
           <span class="title-new-mid">MODEL SIGNUP</span>
         </a>
-        <router-link :to="{ name: 'online-shop' }" class="box lt-shop">
-          <span class="title-new-mid">THE SLOANE SHOP</span>
-        </router-link>
+<!--        <router-link :to="{ name: 'online-shop' }" class="box lt-shop">-->
+<!--          <span class="title-new-mid">THE SLOANE SHOP</span>-->
+<!--        </router-link>-->
         <router-link :to="{ name: 'blog' }" class="box lt-blog">
           <span class="title-new-mid">THE SLOANE BLOG</span>
         </router-link>

@@ -288,11 +288,11 @@ const router = new Router({
             name: 'top-spender',
             component: TopSpender
         },
-        {
-            path: '/online-shop',
-            name: 'online-shop',
-            component: OnlineStore
-        },
+        // {
+        //     path: '/online-shop',
+        //     name: 'online-shop',
+        //     component: OnlineStore
+        // },
         {
             path: '/policies',
             name: 'policies',
