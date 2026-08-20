@@ -38,9 +38,9 @@
             <b-navbar-item tag="router-link" :to="{ name: 'blog' }">
               Blog
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ name: 'men' }">
-              Men
-            </b-navbar-item>
+<!--            <b-navbar-item tag="router-link" :to="{ name: 'men' }">-->
+<!--              Men-->
+<!--            </b-navbar-item>-->
             <b-navbar-item tag="router-link" :to="{ name: 'reviews', params: { slug: 'all' } }">
               Reviews
             </b-navbar-item>

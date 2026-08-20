@@ -81,11 +81,11 @@ const router = new Router({
             component: BlogPost,
             props: true
         },
-        {
-            path: "/men",
-            component: Men,
-            name: "men"
-        },
+        // {
+        //     path: "/men",
+        //     component: Men,
+        //     name: "men"
+        // },
         {
             path: "/refer-a-friend",
             component: Refer,
