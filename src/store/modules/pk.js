@@ -3,8 +3,8 @@ import axios from 'axios'
 const today = new Date()
 
 export const state = {
-    hideOffers: true,
-    endDate: "30/04/26",
+    hideOffers: false,
+    endDate: "31/10/26",
     newsItems: [],
     storeData: {}
 }

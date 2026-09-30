@@ -49,6 +49,7 @@ import Oct25 from "./views/offers/Oct25.vue";
 import Refurb from "./views/Refurb.vue";
 import BeckyBlowdryLink from "./components/offers/BeckyBlowdryLink.vue";
 import Rebrand from "./views/Rebrand.vue";
+import Oct26 from "./views/offers/oct26/Oct26.vue";
 
 Vue.use(Router)
 
@@ -93,7 +94,7 @@ const router = new Router({
         },
         {
             path: "/offers",
-            component: Offers,
+            component: Oct26,
             name: "offers"
         },
         {
