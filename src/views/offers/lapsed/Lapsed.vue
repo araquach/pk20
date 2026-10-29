@@ -3,8 +3,8 @@
     <div class="columns">
       <div class="column is-8">
         <div class="top section">
-          <h2 class="title is-2 is-size-4-mobile has-text-primary mb-3">A New Look. A Fresh Start.</h2>
-          <h2 class="title is-3 is-size-3-mobile has-text-primary mb-4">Paul Kemp has become Sloane The Salon - and we'd love to welcome you back.</h2>
+          <h2 class="title is-2 is-size-3-mobile has-text-primary mb-3">A New Look. A Fresh Start.</h2>
+          <h2 class="title is-3 is-size-4-mobile has-text-primary mb-4">Paul Kemp has become Sloane The Salon - and we'd love to welcome you back.</h2>
           <p class="is-size-4">We've completely transformed the salon, creating a beautiful new space with the same passion for exceptional hairdressing.</p>
           <p class="is-size-4">To celebrate our new chapter, we're treating you to <strong>25% off</strong> your next appointment this November.</p>
         </div>
@@ -16,6 +16,11 @@
     <div class="columns">
       <div class="column is-8">
         <div class="section">
+          <h2 class="title is-4">Looking to book a Cut and Style or Blowdry only?</h2>
+          <div class="buttons">
+            <a href="https://www.phorest.com/salon/paulkemp/book/service-selection?showSpecialOffers=false"
+               class="button is-primary">Book Here</a>
+          </div>
           <h2 class="title is-4">Planning a colour appointment?</h2>
           <p class="is-size-5"><strong>As it's been a little while since your last visit, we may need to update your skin test before your colour service. You can arrange this with our team.</strong></p>
           <div class="buttons">
