@@ -150,7 +150,7 @@ p {
     padding: 1rem 1rem;
   }
 
-  background: url('/dist/img/home/katharina.jpg') no-repeat left top #f5f5f5;
+  background: url('/dist/img/home/enya.jpg') no-repeat left top #f5f5f5;
   background-size: contain;
 
   @include until($tablet) {
@@ -168,7 +168,7 @@ p {
 }
 
 .home-image-mobile {
-  background: url('/dist/img/home/katharina.jpg') no-repeat left top #f5f5f5;
+  background: url('/dist/img/home/enya_mobile.jpg') no-repeat center top #f5f5f5;
   background-size: cover;
 }
 
