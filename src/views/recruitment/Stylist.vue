@@ -10,6 +10,11 @@
           <p>Please complete ALL sections of the form before submitting your application.</p>
           <p>We will contact you as soon as a position becomes available.</p>
           <form v-if="submitStatus !== 'OK'" @submit.prevent="submit">
+            <div class="recruitment-honeypot" aria-hidden="true">
+              <label for="recruitment-website">Leave this field empty</label>
+              <textarea id="recruitment-website" name="website" v-model="website" tabindex="-1" autocomplete="off" data-lpignore="true" data-1p-ignore="true"></textarea>
+            </div>
+            <p v-if="errorMessage" class="help is-danger" role="alert">{{ errorMessage }}</p>
             <div class="field">
               <label class="label has-text-white">Full Name</label>
               <div class="control">
@@ -26,7 +31,7 @@
                 <div class="help is-danger" v-if="submitStatus === 'ERROR' && !$v.mobile.required">
                   Mobile number is required
                 </div>
-                <div class="help is-danger" v-if="submitStatus === 'ERROR' && !$v.mobile.numeric">
+                <div class="help is-danger" v-if="submitStatus === 'ERROR' && !$v.mobile.phone">
                   <p>Valid Mobile number is required</p>
                 </div>
               </div>
@@ -57,7 +62,7 @@
                 </div>
               </div>
             </div>
-            <div class="help is-danger" v-if="submitStatus === 'ERROR' && !$v.position.required">
+            <div class="help is-danger" v-if="submitStatus === 'ERROR' && $v.position.$invalid">
               Position is required
             </div>
             <div class="field">
@@ -105,7 +110,10 @@
   </div>
 </template>
 <script>
-import {required, numeric, email} from 'vuelidate/lib/validators'
+import {required, email, minLength, maxLength} from 'vuelidate/lib/validators'
+
+const phone = value => /^[+0-9() .-]+$/.test(value) && (value.match(/[0-9]/g) || []).length >= 10 && (value.match(/[0-9]/g) || []).length <= 15
+const answer = value => /[^\d\s\p{P}\p{S}]/u.test(value || '')
 export default {
   data() {
     return {
@@ -113,35 +121,40 @@ export default {
       name: '',
       mobile: '',
       email: '',
-      position: '',
+      position: 'default',
       about: '',
       why_hair: '',
       why_us: '',
       salon: 2,
       role: "Stylist",
+      website: '',
+      errorMessage: '',
       submitStatus: null
     }
   },
 
   validations: {
-    name: { required },
-    mobile: { required, numeric },
-    email: { required, email },
-    position: { required },
-    about: { required },
-    why_hair: { required },
-    why_us: { required }
+    name: {required, minLength: minLength(2), maxLength: maxLength(100)},
+    mobile: {required, phone, maxLength: maxLength(30)},
+    email: {required, email, maxLength: maxLength(254)},
+    position: {required, allowed: value => ['less than one year', '1 - 3 years', '3 - 5 years', '5 plus years'].includes(value)},
+    about: {required, minLength: minLength(10), maxLength: maxLength(5000), answer},
+    why_hair: {required, minLength: minLength(10), maxLength: maxLength(5000), answer},
+    why_us: {required, minLength: minLength(10), maxLength: maxLength(5000), answer}
   },
 
   methods:{
     submit() {
-      console.log('submit!')
+      if (this.submitStatus === 'PENDING') return
+      this.errorMessage = ''
       this.$v.$touch()
       if (this.$v.$invalid) {
         this.submitStatus = 'ERROR'
+        this.errorMessage = 'Please check your details, select a position and give each written answer at least 10 characters (maximum 5,000).'
       } else {
         this.submitStatus = 'PENDING'
         axios.post('/api/joinus', {
+          website: this.website,
           name: this.name,
           mobile: this.mobile,
           email: this.email,
@@ -151,15 +164,27 @@ export default {
           why_us: this.why_us,
           salon: this.salon,
           role: this.role
-        })
+        }, { timeout: 30000 })
             .then(response => {
               this.submitStatus = 'OK'
             })
             .catch((e) => {
-              console.error(e)
+              this.submitStatus = 'ERROR'
+              this.errorMessage = e.response && e.response.status === 429
+                ? 'Too many attempts. Please wait a while before trying again.'
+                : (e.response && e.response.data && e.response.data.message) || 'We could not confirm your application. Please try again shortly, or contact us if the problem continues.'
             })
       }
     }
   }
 }
 </script>
+<style scoped>
+.recruitment-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+</style>
