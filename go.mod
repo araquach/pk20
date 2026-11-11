@@ -2,7 +2,7 @@ module github.com/araquach/pk20
 
 go 1.26.0
 
-require github.com/araquach/salonserver v1.3.3
+require github.com/araquach/salonserver v1.3.4
 
 require (
 	filippo.io/edwards25519 v1.2.0 // indirect
